@@ -86,14 +86,14 @@
 <h2 class="h3">.thumbnail</h2>
 
 <div class="row"><div class="col-sm-6 col-sm-push-3">
-<img class="thumbnail img-responsive" src="../../theme/ratio_3_2/img/main_image_3.jpg" />
+<img class="thumbnail img-responsive" src="../theme/ratio_3_2/img/main_image_3.jpg" />
 </div></div>
 
 <textarea class="form-control" rows="5" cols="100" readonly="readonly"><img class="thumbnail img-responsive" src="画像のURL" /></textarea>
 
 <div class="row"><div class="col-sm-6 col-sm-push-3">
 <div class="thumbnail">
-<img class="img-responsive" src="../../theme/ratio_3_2/img/main_image_3.jpg" />
+<img class="img-responsive" src="../theme/ratio_3_2/img/main_image_3.jpg" />
 <div class="caption">
 <p class="mb0">説明文です説明文です説明文です説明文です説明文です説明文です</p>
 </div>

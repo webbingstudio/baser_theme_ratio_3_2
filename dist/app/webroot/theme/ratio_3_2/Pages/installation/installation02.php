@@ -10,7 +10,7 @@
 <div class="alert alert-danger">このページの情報の入力が終わるまでは、ウェブサイトを公開しないでください（URLをブログに掲載する、Twitterでつぶやくなど）。<br />
 「baserCMSの公式サイトと同じ内容を掲載している」と検索サイトに判断され、評価が下がってしまうかもしれません。</div>
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_siteconfig_01.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_siteconfig_01.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg" /></div>
 
 <h3>基本項目</h3>
 

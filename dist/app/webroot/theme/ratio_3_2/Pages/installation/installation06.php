@@ -11,7 +11,7 @@
 <p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。<br />
 一覧に「ヘッダ::サブメニュー」というエリアがあるので、クリックして編集画面へ移動してください。</p>
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_sns.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_sns.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg" /></div>
 
 <h3>「アイコンメニュー」ウィジェットについて</h3>
 

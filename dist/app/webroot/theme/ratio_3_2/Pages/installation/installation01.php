@@ -4,7 +4,7 @@
 <?php $this->BcBaser->setPageEditLink(13) ?>
 <!-- BaserPageTagEnd -->
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_install.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_install.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ一覧」へ移動し、「ratio_3_2」テーマを有効にしてください。</p>
 

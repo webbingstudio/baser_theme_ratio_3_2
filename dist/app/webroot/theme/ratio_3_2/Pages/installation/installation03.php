@@ -12,7 +12,7 @@
 
 <p><strong>[baserCMSを設置したURL]admin/mail/mail_configs/form</strong></p>
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_form_01.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_form_01.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg" /></div>
 
 <p>メールの署名の設定画面になります。最低限「署名：WEBサイト名」「署名：WEBサイトURL」は入力してください。<br />
 その他の項目は、店舗があるか、電話の問い合わせを受け付けるかによって任意で入力してください。</p>

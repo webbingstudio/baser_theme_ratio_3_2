@@ -30,23 +30,23 @@
 <div class="pt2">
 <div class="row">
 <div class="col-sm-6 col-md-6 col-lg-4">
-<p><a class="btn btn-block btn-primary" href="/about/about02">不要な機能をカット </a></p>
+<p><a class="btn btn-block btn-primary" href="../about/about02">不要な機能をカット </a></p>
 </div>
 
 <div class="col-sm-6 col-md-6 col-lg-4">
-<p><a class="btn btn-block btn-primary" href="/about/about03">画像素材の比率を統一 </a></p>
+<p><a class="btn btn-block btn-primary" href="../about/about03">画像素材の比率を統一 </a></p>
 </div>
 
 <div class="col-sm-6 col-md-6 col-lg-4">
-<p><a class="btn btn-block btn-primary" href="/about/about04">多数のウィジェットエリア </a></p>
+<p><a class="btn btn-block btn-primary" href="../about/about04">多数のウィジェットエリア </a></p>
 </div>
 
 <div class="col-sm-6 col-md-6 col-lg-4">
-<p><a class="btn btn-block btn-primary" href="/about/about05">フレームワークの採用 </a></p>
+<p><a class="btn btn-block btn-primary" href="../about/about05">フレームワークの採用 </a></p>
 </div>
 
 <div class="col-sm-6 col-md-6 col-lg-4">
-<p><a class="btn btn-block btn-primary" href="/about/about06">説明書の添付 </a></p>
+<p><a class="btn btn-block btn-primary" href="../about/about06">説明書の添付 </a></p>
 </div>
 </div>
 </div>

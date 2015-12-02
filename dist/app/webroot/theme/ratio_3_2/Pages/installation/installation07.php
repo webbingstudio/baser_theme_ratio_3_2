@@ -8,7 +8,7 @@
 
 <div class="row">
 <div class="col-sm-4">
-<div class="thumbnail"><img align="" alt="ratio_3_2_widget_01.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_widget_01.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg" /></div>
 </div>
 
 <div class="col-sm-8">

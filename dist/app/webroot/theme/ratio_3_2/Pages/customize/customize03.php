@@ -4,7 +4,7 @@
 <?php $this->BcBaser->setPageEditLink(32) ?>
 <!-- BaserPageTagEnd -->
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_mainimg.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_mainimg.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg" /></div>
 
 <p>メイン画像によっては、上に乗っている文字の位置や色が合わないことがあります。<br />
 スタイルシートの知識があれば、管理画面から調整することができます。</p>

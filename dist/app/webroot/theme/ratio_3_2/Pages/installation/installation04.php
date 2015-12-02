@@ -4,7 +4,7 @@
 <?php $this->BcBaser->setPageEditLink(18) ?>
 <!-- BaserPageTagEnd -->
 
-<div class="thumbnail"><img align="" alt="ratio_3_2_color.jpg" class="img-responsive" src="../../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg" /></div>
+<div class="thumbnail"><img align="" alt="ratio_3_2_color.jpg" class="img-responsive" src="../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ設定」へ移動してください。<br />
 4色の「テーマカラー」を設定できます。ここを変更して保存すると、サイト全体のカラーリングを変えることができます。</p>
