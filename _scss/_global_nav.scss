@@ -1,0 +1,81 @@
+/*
+-------------------------
+
+
+global-nav
+-------------------------
+*/
+.global-nav {
+  position: relative;
+  background-color: $bg-inverse-color;
+  box-shadow: none;
+}
+
+.global-nav .nav-pills {
+  margin: 7px 0;
+}
+
+.global-nav .nav-pills > li > a,
+.global-nav .nav-pills > li > span {
+  margin: 0;
+  font-size: 12px;
+  border-radius: 0;
+}
+
+.global-nav .nav-pills > li + li {
+  margin-left: 0;
+}
+
+.global-nav .nav-pills > li > a {
+  padding: .8em 0 .7em;
+}
+
+.global-nav .nav-pills > li > a,
+.global-nav .nav-pills > li > a:visited {
+  color: $text-inverse-color;
+  background-color: transparent;
+}
+
+.global-nav .nav-pills > li > a:focus,
+.global-nav .nav-pills > li > a:hover {
+  color: $text-inverse-color;
+  background-color: $globalnav-bg-hover-color;
+}
+
+.global-nav .nav-pills > li.active > a,
+.global-nav .nav-pills > li.active > a:focus,
+.global-nav .nav-pills > li.active > a:hover {
+  color: $text-inverse-color;
+  background-color: $globalnav-bg-active-color;
+}
+
+@media (max-width:767px) {
+
+  .global-nav .nav-pills {
+    border-top: 1px solid $globalnav-border-color;
+  }
+
+  .global-nav .nav-pills > li {
+    float: left;
+    width: 50%;
+    border-bottom: 1px solid $globalnav-border-color;
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .global-nav .nav-pills {
+    margin: 0;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .global-nav .nav-pills > li > a {
+    font-size: 14px;
+  }
+
+}
+

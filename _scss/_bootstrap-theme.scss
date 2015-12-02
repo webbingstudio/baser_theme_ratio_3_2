@@ -1,0 +1,1375 @@
+/*
+
+lead
+-------------------------
+*/
+.lead {
+  margin-bottom: 2em;
+  font-size: 110%;
+  line-height: 1.75;
+}
+
+@media (min-width:768px) {
+
+  .lead {
+    font-size: 125%;
+  }
+
+}
+/*
+-------------------------
+
+
+alert
+-------------------------
+*/
+.alert {
+  margin: 2em 0;
+  border: 0 none;
+}
+/*
+-------------------------
+
+
+well
+-------------------------
+*/
+.well {
+  margin: 2em 0;
+  padding: 20px 15px;
+  background-color: $bg-hover-color;
+  border: 0 none;
+  box-shadow: none;
+}
+
+@media (min-width: 992px) {
+
+  .well {
+    padding: 30px;
+  }
+  
+}
+/*
+-------------------------
+
+
+btn
+-------------------------
+*/
+.btn {
+  padding: .5em 1em .4em;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover,
+.btn.active,
+.btn:active,
+.btn.active.focus,
+.btn.active:focus,
+.btn.active:hover,
+.btn:active.focus,
+.btn:active:focus,
+.btn:active:hover,
+.open>.dropdown-toggle.btn.focus,
+.open>.dropdown-toggle.btn:focus,
+.open>.dropdown-toggle.btn:hover {
+  box-shadow: none;
+  opacity: .7;
+}
+
+.btn-sm {
+  padding: .3em .5em .2em;
+}
+
+.btn-lg {
+  padding: .5em 2em;
+}
+/*
+-------------------------
+
+
+btn-default
+-------------------------
+*/
+.btn-default,
+.btn-default:visited {
+  background-color: $bg-default-color;
+  border-color: $border-dark-color;
+  color: $text-default-color;
+}
+
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:hover,
+.btn-default.active,
+.btn-default:active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+  background-color: $bg-default-color;
+  border-color: $border-dark-color;
+  color: $text-default-color;
+}
+/*
+-------------------------
+
+
+btn-primary
+-------------------------
+*/
+.btn-primary,
+.btn-primary:visited {
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+}
+/*
+-------------------------
+
+
+btn-success
+-------------------------
+*/
+.btn-success,
+.btn-success:visited {
+}
+
+.btn-success.focus,
+.btn-success:focus,
+.btn-success:hover,
+.btn-success.active,
+.btn-success:active,
+.btn-success.active.focus,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.btn-success:active.focus,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.open>.dropdown-toggle.btn-success.focus,
+.open>.dropdown-toggle.btn-success:focus,
+.open>.dropdown-toggle.btn-success:hover {
+}
+/*
+-------------------------
+
+
+btn-info
+-------------------------
+*/
+.btn-info,
+.btn-info:visited {
+}
+
+.btn-info.focus,
+.btn-info:focus,
+.btn-info:hover,
+.btn-info.active,
+.btn-info:active,
+.btn-info.active.focus,
+.btn-info.active:focus,
+.btn-info.active:hover,
+.btn-info:active.focus,
+.btn-info:active:focus,
+.btn-info:active:hover,
+.open>.dropdown-toggle.btn-info.focus,
+.open>.dropdown-toggle.btn-info:focus,
+.open>.dropdown-toggle.btn-info:hover {
+}
+/*
+-------------------------
+
+
+btn-warning
+-------------------------
+*/
+.btn-warning,
+.btn-warning:visited {
+}
+
+.btn-warning.focus,
+.btn-warning:focus,
+.btn-warning:hover,
+.btn-warning.active,
+.btn-warning:active,
+.btn-warning.active.focus,
+.btn-warning.active:focus,
+.btn-warning.active:hover,
+.btn-warning:active.focus,
+.btn-warning:active:focus,
+.btn-warning:active:hover,
+.open>.dropdown-toggle.btn-warning.focus,
+.open>.dropdown-toggle.btn-warning:focus,
+.open>.dropdown-toggle.btn-warning:hover {
+}
+/*
+-------------------------
+
+
+btn-danger
+-------------------------
+*/
+.btn-danger,
+.btn-danger:visited {
+}
+
+.btn-danger.focus,
+.btn-danger:focus,
+.btn-danger:hover,
+.btn-danger.active,
+.btn-danger:active,
+.btn-danger.active.focus,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.btn-danger:active.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover,
+.open>.dropdown-toggle.btn-danger.focus,
+.open>.dropdown-toggle.btn-danger:focus,
+.open>.dropdown-toggle.btn-danger:hover {
+}
+/*
+-------------------------
+
+
+label
+-------------------------
+*/
+.label {
+  position: relative;
+  top: -1px;
+  padding: .2em .5em;
+  color: $text-inverse-color;
+  font-size: 85%;
+  font-weight: normal;
+  line-height: 1.1 !important;
+}
+
+.label,
+.label:hover,
+.label[href],
+.label[href]:visited,
+.label[href]:hover,
+.label[href]:focus,
+.label[href]:active {
+  color: $text-inverse-color;
+  text-decoration: none;
+}
+
+.label a,
+.label a:visited,
+.label a:hover,
+.label a:focus,
+.label a:active {
+  color: $text-inverse-color;
+  text-decoration: none;
+}
+
+.label:focus,
+.label:hover {
+  opacity: .7;
+  text-decoration: none;
+}
+
+.label-default,
+.label-default:hover,
+.label-default[href]:visited,
+.label-default[href]:focus,
+.label-default[href]:hover {
+  color: $text-default-color;
+  background-color: $bg-default-color;
+  border: 1px solid $border-dark-color;
+}
+
+.label-default a,
+.label-default a:visited,
+.label-default a:hover,
+.label-default a:focus,
+.label-default a:active {
+  color: $text-default-color;
+}
+
+.label-primary {
+  background-color: $text-default-color;
+}
+
+.label-primary[href]:focus,
+.label-primary[href]:hover {
+  background-color: $text-default-color;
+}
+
+.label-info {
+  background-color: $bg-inverse-color;
+}
+
+.label-info[href]:focus,
+.label-info[href]:hover {
+  background-color: $bg-inverse-color;
+}
+/*
+-------------------------
+
+
+jumbotron
+-------------------------
+*/
+.jumbotron .h1,
+.jumbotron h1 {
+  top: 15%;
+  font-size: 22px;
+}
+
+.jumbotron img.jumbotron-object {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.jumbotron .jumbotron-caption {
+  bottom: 10%;
+  font-size: 12px;
+}
+
+@media (min-width: 480px) {
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    font-size: 48px;
+  }
+
+  .jumbotron .jumbotron-caption {
+    font-size: 14px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    font-size: 44px;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    font-size: 56px;
+  }
+
+  .jumbotron .jumbotron-caption {
+    font-size: 18px;
+  }
+  
+}
+
+.jumbotron {
+  display: block;
+  position: relative;
+  padding: 0;
+  border: 0;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+  padding: 0;
+}
+
+.jumbotron .h1,
+.jumbotron h1 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0 15px;
+  border: 0 none;
+  color: $text-inverse-color;
+  text-shadow: 0px 1px 6px rgba( 0, 0, 0, .75 );
+  line-height: 1.3;
+  z-index: 111;
+}
+
+.jumbotron .jumbotron-caption {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 7px 15px;
+  background: rgba( 0, 0, 0, .3 )  none;
+  border: 0 none;
+  color: $text-inverse-color;
+  line-height: 1.5;
+  z-index: 112;
+}
+
+a.jumbotron:hover img,
+a.jumbotron:focus img {
+  opacity: .7;
+}
+
+@media (min-width:768px) {
+
+  .jumbotron .h1,
+  .jumbotron h1 {
+    padding: 0 30px;
+  }
+
+  .jumbotron .jumbotron-caption {
+    padding: 15px 30px;
+  }
+  
+}
+/*
+-------------------------
+
+
+thumbnail
+-------------------------
+*/
+.thumbnail {
+  padding: 10px;
+  border: 1px solid $border-light-color;
+}
+
+a.thumbnail *,
+a.thumbnail:visited *,
+a.thumbnail:hover *,
+a.thumbnail:focus *,
+a.thumbnail:active * {
+  color: $text-default-color;
+}
+
+a.thumbnail .btn,
+a.thumbnail:visited .btn,
+a.thumbnail:hover .btn,
+a.thumbnail:focus .btn,
+a.thumbnail:active .btn,
+a.thumbnail .btn *,
+a.thumbnail:visited .btn *,
+a.thumbnail:hover .btn *,
+a.thumbnail:focus .btn *,
+a.thumbnail:active .btn * {
+  color: $text-inverse-color;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail:active {
+  text-decoration: none;
+  border-color: $border-light-color;
+}
+
+a.thumbnail:hover .thumbnail-caption,
+a.thumbnail:focus .thumbnail-caption {
+  text-decoration: underline;
+}
+
+a.thumbnail:hover img,
+a.thumbnail:focus img {
+  opacity: .7;
+}
+
+a.thumbnail:hover .thumbnail-more {
+  opacity: .7;
+}
+
+.thumbnail img.img-responsive {
+  position: relative;
+  z-index: 121;
+}
+
+.thumbnail .caption {
+  position: relative;
+  margin: 0;
+  padding: 10px 0 0;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.thumbnail .thumbnail-title {
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  margin: 0;
+  padding: .4em 0 .3em;
+  background: rgba( 255, 255, 255, .5 );
+  font-size: 15px;
+  line-height: 1.3;
+  z-index: 122;
+}
+
+.thumbnail-noimg .thumbnail-title {
+  position: static;
+  width: auto;
+  background: rgba( 0, 0, 0, .15 );
+}
+
+.thumbnail p {
+  margin: 0;
+  padding: 0 0 1em;
+}
+
+.thumbnail p.thumbnail-more {
+  margin: 0;
+  padding: 0;
+  z-index: 123;
+  text-align: right;
+}
+
+.thumbnail p.thumbnail-more .btn {
+  padding: .3em 1em .2em;
+  font-size: 10px;
+}
+
+.thumbnail p.thumbnail-more .btn .fa {
+  font-size: 120%;
+}
+
+@media (min-width:600px) {
+
+  .thumbnail .thumbnail-title {
+    font-size: 21px;
+  }
+
+  .thumbnail .caption {
+    font-size: 14px;
+  }
+
+  .thumbnail p.thumbnail-more .btn {
+    font-size: 13px;
+  }
+
+}
+/*
+-------------------------
+
+
+media
+-------------------------
+*/
+.media {
+  margin: 0;
+  padding: 0 0 15px;
+}
+
+.entry-summary .media,
+.widget .panel-body .media {
+  margin: 0 0 15px;
+  border-bottom: 1px solid $border-light-color;
+}
+
+.entry-summary .media:last-child,
+.entry-summary .media.last,
+.widget .panel-body .media:last-child,
+.widget .panel-body .media.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+}
+
+/* フィードではスタイルが効かないことがあるので!importantを付与 */
+
+.widget .panel-body .media.feed:last-child,
+.widget .panel-body .media.feed.last {
+  margin-bottom: 0 !important;
+  border-bottom: 0 none !important;
+}
+
+.col-sub .widget .panel-body .media {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.media:last-child {
+  padding-bottom: 0;
+}
+
+.media:first-child:last-child {
+  padding-bottom: 15px;
+}
+
+.media a {
+  position: relative;
+  display: block;
+}
+
+.media a,
+.media a:visited,
+.media a *,
+.media a:visited * {
+  color: $text-default-color;
+  text-decoration: none;
+}
+
+.media a:hover *,
+.media a:focus *,
+.media a:active * {
+  text-decoration: underline;
+}
+
+.media a:hover .media-object,
+.media a:focus .media-object,
+.media a:active .media-object {
+  opacity: .7;
+}
+
+.media .media-left,
+.media > .pull-left,
+.media-right,
+.media > .pull-right {
+  width: 25%;
+  min-width: 75px;
+}
+
+.media img.media-object {
+  width: 100%;
+  height: auto;
+  border: 1px solid $border-light-color;
+}
+
+.media .media-body {
+  position: relative;
+  padding-right: 30px;
+  font-size: 85%;
+  line-height: 1.3;
+  word-break: break-all;
+}
+
+.media .media-title {
+  margin: 0;
+  padding: 0 0 .2em;
+  font-weight: bold;
+  font-size: 110%;
+  line-height: 1.3;
+}
+
+.media .media-date {
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: 90%;
+}
+
+.media .media-excerpt {
+  margin: 0;
+}
+
+@media (min-width:600px) {
+
+  .media .media-body {
+    font-size: 100%;
+  }
+
+}
+
+
+@media (min-width:992px) {
+
+  .col-sub .media a:after {
+    display: none;
+  }
+
+  .col-sub .media .media-body {
+    padding-right: 0;
+  }
+
+  .col-sub .widget .panel-body .media .media-body {
+    font-size: 85%;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .media-left,
+  .media > .pull-left {
+    padding-right: 20px
+  }
+
+  .col-sub .widget .panel-body .media .media-left,
+  .col-sub .widget .panel-body .media > .pull-left {
+    padding-right: 10px
+  }
+
+  .media-right,
+  .media > .pull-right {
+    padding-left: 20px
+  }
+
+}
+/*
+-------------------------
+
+
+panel
+-------------------------
+*/
+.panel {
+  margin-bottom: 60px;
+  background-color: transparent;
+  border: 0 none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+.col-sub .panel {
+  margin-bottom: 30px;
+}
+
+.panel .panel-body {
+  padding: 30px 0;
+  border-bottom: 1px solid $border-light-color;
+}
+
+.panel > .list-group,
+.panel > .panel-collapse > .list-group {
+  border-bottom: 1px solid $border-light-color;
+}
+
+.col-sub .panel .panel-body {
+  padding: 15px;
+}
+
+.panel .panel-heading {
+  padding: 0 0 8px;
+  background-color: transparent;
+  border-bottom: 2px solid $border-dark-color;
+}
+
+.panel .panel-heading:before,
+.panel .panel-heading:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.panel .panel-heading:after {
+  clear: both;
+}
+
+.panel-primary > .panel-heading {
+  padding: 8px 15px;
+  background-color: $bg-inverse-color;
+  border-bottom: 0 none;
+  color: $text-inverse-color;
+}
+
+.panel .panel-title {
+  margin: 0;
+  float: left;
+  color: $text-default-color;
+  font-size: 20px;
+  line-height: 1.3;
+
+}
+
+.panel-primary .panel-title {
+  color: $text-inverse-color;
+}
+
+.panel .panel-link {
+  margin: 0;
+  padding-top: .2em;
+  float: right;
+}
+
+.panel .panel-link .btn {
+  padding: .3em 1em .2em;
+  line-height: 1.1;
+}
+
+.panel .panel-link .btn .fa {
+  margin-right: .3em;
+  font-size: 120%;
+}
+
+
+.col-sub .panel .panel-title {
+  font-size: 17px;
+}
+/*
+-------------------------
+
+
+panel > list-group
+-------------------------
+*/
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+a.list-group-item {
+  position: relative;
+  padding-right: 30px;
+}
+
+a.list-group-item,
+a.list-group-item:visited {
+  background-color: transparent;
+  color: $text-default-color;
+  text-decoration: none;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+a.list-group-item:active {
+  background-color: transparent;
+  color: $text-default-color;
+  text-decoration: underline;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:focus,
+a.list-group-item.active:hover {
+  background-color: $bg-hover-color;
+  border-color: $bg-hover-color;
+  color: $text-default-color;
+}
+
+/* panel-primaryではカラー設定を無視する */
+
+.panel-primary a.list-group-item,
+.panel-primary a.list-group-item:visited,
+.panel-primary a.list-group-item:focus,
+.panel-primary a.list-group-item:hover,
+.panel-primary a.list-group-item:active,
+.panel-primary a.list-group-item.active,
+.panel-primary a.list-group-item.active:focus,
+.panel-primary a.list-group-item.active:hover {
+  color: $text-default-color !important;
+}
+
+@media (min-width:992px) {
+
+  .col-main a.list-group-item {
+    padding-right: 45px;
+  }
+
+}
+/*
+-------------------------
+
+
+breadcrumb
+-------------------------
+*/
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0 none;
+  border-radius: 0;
+  font-size: 85%;
+}
+
+.breadcrumb > li > a,
+.breadcrumb > li > a:visited {
+  color: $text-light-color;
+}
+
+.breadcrumb > li.active {
+  color: $text-default-color;
+}
+/*
+-------------------------
+
+
+page-header
+-------------------------
+*/
+.page-header {
+  margin: 0 0 10px;
+  padding: 15px 0;
+  border-bottom: 3px solid $border-dark-color;
+}
+
+.page-header h1,
+.page-header .h1,
+.entry-contents .page-header h1,
+.entry-contents .page-header .h1 {
+  margin: 0;
+  padding: 0;
+  background: transparent none;
+  color: $text-default-color;
+  font-size: 180%;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.page-header small {
+  color: $text-default-color;
+  font-size: 60%;
+  margin-left: .5em;
+  opacity: .7;
+}
+
+.page-header .h1:before,
+.entry-contents .page-header .h1:before {
+  display: none;
+}
+
+@media (min-width:600px) {
+
+  .page-header h1,
+  .page-header .h1,
+  .entry-contents .page-header h1,
+  .entry-contents .page-header .h1 {
+    font-size: 220%;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .page-header h1,
+  .page-header .h1,
+  .entry-contents .page-header h1,
+  .entry-contents .page-header .h1 {
+    font-size: 240%;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+//reset font size( 240% / 115% )
+.entry-contents .page-header h1,
+.entry-contents .page-header .h1 {
+  font-size: 208.695652174%;
+}
+
+}
+/*
+-------------------------
+
+
+navbar
+-------------------------
+*/
+.navbar-default {
+  margin: 0;
+  background-color: $bg-default-color;
+  border-color: $navbar-border-default-color;
+  color: $navbar-text-default-color;
+  border-radius: 0;
+}
+
+.navbar-inverse {
+  background-color: $text-default-color;
+  border-color: $navbar-border-inverse-color;
+  color: $navbar-text-inverse-color;
+}
+
+.navbar-default a,
+.navbar-default a:visited,
+.navbar-default .navbar-text,
+.navbar-default .navbar-nav > li > a {
+  color: $navbar-text-soft-default-color;
+  text-decoration: underline;
+}
+
+.navbar-inverse a,
+.navbar-inverse a:visited,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-nav > li > a {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar-default a:focus,
+.navbar-default a:hover {
+  color: $navbar-text-default-color;
+}
+
+.navbar-inverse a:focus,
+.navbar-inverse a:hover {
+  color: $navbar-text-inverse-color;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: $navbar-text-default-color;
+  background-color: $navbar-bg-hover-default-color;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: $navbar-text-inverse-color;
+  background-color: $navbar-bg-hover-inverse-color;
+}
+
+.navbar-default a.btn,
+.navbar-default a.btn:visited,
+.navbar-default .navbar-nav > li > a.btn,
+.navbar-inverse a.btn,
+.navbar-inverse a.btn:visited,
+.navbar-inverse .navbar-nav > li > a.btn,
+.navbar-default a.btn:focus,
+.navbar-default a.btn:hover,
+.navbar-inverse a.btn:focus,
+.navbar-inverse a.btn:hover,
+.navbar-default .navbar-nav > li > a.btn:focus,
+.navbar-default .navbar-nav > li > a.btn:hover,
+.navbar-inverse .navbar-nav > li > a.btn:focus,
+.navbar-inverse .navbar-nav > li > a.btn:hover {
+  color: $text-inverse-color;
+  text-decoration: none;
+}
+
+.navbar-default a.btn-default,
+.navbar-default a.btn-default:visited,
+.navbar-default .navbar-nav > li > a.btn-default,
+.navbar-inverse a.btn-default,
+.navbar-inverse a.btn-default:visited,
+.navbar-inverse .navbar-nav > li > a.btn-default,
+.navbar-default a.btn-default:focus,
+.navbar-default a.btn-default:hover,
+.navbar-inverse a.btn-default:focus,
+.navbar-inverse a.btn-default:hover,
+.navbar-default .navbar-nav > li > a.btn-default:focus,
+.navbar-default .navbar-nav > li > a.btn-default:hover,
+.navbar-inverse .navbar-nav > li > a.btn-default:focus,
+.navbar-inverse .navbar-nav > li > a.btn-default:hover {
+  color: $text-default-color;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+@media (min-width:768px) {
+
+  .navbar .navbar-brand {
+    padding-right: 15px;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .navbar .navbar-brand {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: $navbar-text-default-color;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
+  color: $navbar-text-inverse-color;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: $navbar-text-default-color;
+  background-color: $navbar-bg-hover-default-color;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: $navbar-text-inverse-color;
+  background-color: $navbar-bg-hover-inverse-color;
+}
+
+.navbar .navbar-nav > .disabled > a,
+.navbar .navbar-nav > .disabled > a:focus,
+.navbar .navbar-nav > .disabled > a:hover {
+  background-color: transparent
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:focus,
+.navbar-default .navbar-nav > .disabled > a:hover {
+  color: $navbar-text-softer-default-color;
+}
+
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:focus,
+.navbar-inverse .navbar-nav > .disabled > a:hover {
+  color: $navbar-text-softer-inverse-color;
+}
+
+.navbar .navbar-toggle {
+  padding: .5em .5em .4em;
+  line-height: 1.1;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: $navbar-border-default-color;
+  color: $navbar-text-default-color;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: $navbar-border-inverse-color;
+  color: $navbar-text-inverse-color;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  color: $navbar-text-default-color;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  color: $navbar-text-inverse-color;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $navbar-text-default-color;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: $navbar-text-inverse-color;
+}
+
+.navbar .navbar-toggle .fa {
+  font-size: 18px;
+}
+
+@media (min-width:320px) {
+
+  .navbar .navbar-toggle .fa {
+    margin-right: 5px;
+  }
+
+}
+
+.navbar-default .navbar-toggle .fa {
+  color: $navbar-text-default-color;
+}
+
+.navbar-inverse .navbar-toggle .fa {
+  color: $navbar-text-inverse-color;
+}
+
+.navbar .navbar-toggle .navbar-toggle-text {
+  display: none;
+  position: relative;
+  top: -2px;
+  font-size: 11px;
+}
+
+@media (min-width:320px) {
+
+  .navbar .navbar-toggle .navbar-toggle-text {
+    display: inline;
+  }
+
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: $navbar-border-default-color;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: $navbar-border-inverse-color;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: $navbar-text-default-color;
+  background-color: $navbar-bg-hover-default-color;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: $navbar-text-inverse-color;
+  background-color: $navbar-bg-hover-inverse-color;
+}
+
+@media (max-width:767px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $navbar-text-default-color;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: $navbar-text-inverse-color;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu .divider {
+    background-color: $navbar-bg-hover-default-color;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: $navbar-bg-hover-inverse-color;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: $navbar-text-default-color;
+    background-color: $navbar-bg-hover-default-color;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: $navbar-text-inverse-color;
+    background-color: $navbar-bg-hover-inverse-color;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: $navbar-text-default-color;
+    background-color: $navbar-bg-hover-default-color;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: $navbar-text-inverse-color;
+    background-color: $navbar-bg-hover-inverse-color;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    color: $navbar-text-softer-default-color;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    color: $navbar-text-softer-inverse-color;
+  }
+
+}
+
+.navbar-default .navbar-link {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .navbar-link {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar-default .navbar-link:hover {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .navbar-link:hover {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar-default .btn-link {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .btn-link {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar-default .btn-link:focus,
+.navbar-default .btn-link:hover {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .btn-link:focus,
+.navbar-inverse .btn-link:hover {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar-default .btn-link[disabled]:focus,
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:focus,
+fieldset[disabled] .navbar-default .btn-link:hover {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .btn-link[disabled]:focus,
+.navbar-inverse .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:focus,
+fieldset[disabled] .navbar-inverse .btn-link:hover {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar .navbar-copyright {
+  margin: 0;
+  padding: 30px 0 60px;
+  text-align: center;
+}
+
+.navbar-default .navbar-copyright {
+  color: $navbar-text-soft-default-color;
+}
+
+.navbar-inverse .navbar-copyright {
+  color: $navbar-text-soft-inverse-color;
+}
+
+.navbar .navbar-copyright a,
+.navbar .navbar-copyright a:visited {
+  text-decoration: underline;
+}
+
+.navbar .navbar-copyright a:focus,
+.navbar .navbar-copyright a:hover {
+  text-decoration: none;
+}
+

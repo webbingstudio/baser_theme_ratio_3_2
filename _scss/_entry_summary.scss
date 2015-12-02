@@ -1,0 +1,33 @@
+/*
+-------------------------
+
+
+entry-summary
+-------------------------
+*/
+.entry-summary {
+  margin: 0 0 30px;
+}
+
+.entry-summary-header {
+  padding: 15px 0 30px;
+}
+
+.entry-summary-header .entry-summary-title {
+  margin: 0;
+  padding: .3em 15px;
+  background-color: $bg-lighter-color;
+  border: 0 none;
+  color: $text-default-color;
+  font-size: 125%;
+  font-weight: normal;
+}
+
+@media (min-width:992px) {
+
+.entry-summary-header .entry-summary-title {
+  font-size: 150%;
+}
+
+}
+

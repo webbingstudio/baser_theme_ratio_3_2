@@ -1,0 +1,93 @@
+/*
+-------------------------
+
+
+serial-nav
+-------------------------
+*/
+.serial-nav {
+  margin: 30px 0 45px;
+}
+
+.serial-nav .result {
+  margin: 0 0 1em;
+  text-align: center;
+}
+
+.serial-nav strong {
+  color: $text-default-color;
+}
+
+.serial-nav .pager {
+  margin: 0;
+  font-size: 85%;
+}
+
+.entry-contents .serial-nav ul.pager {
+  margin: 0;
+  padding: 0;
+}
+
+.serial-nav-single .pager {
+  text-align: left;
+}
+
+.serial-nav .pager li {
+  display: block;
+}
+
+.serial-nav-index .pager li.previous {
+  float: left;
+}
+
+.serial-nav-index .pager li.disabled {
+  display: none;
+}
+
+.serial-nav .pager li a {
+  position: relative;
+  line-height: 1.2;
+  padding: .8em 15px .8em 30px;
+}
+
+.serial-nav-index .pager li a {
+  width: 200px;
+}
+
+.serial-nav li.next a {
+  margin-bottom: 1em;
+  padding: .8em 30px .8em 15px;
+}
+
+.serial-nav li a,
+.serial-nav li a:visited,
+.serial-nav li a:hover,
+.serial-nav li a:focus,
+.serial-nav li a:active {
+  border: 1px solid $border-light-color;
+  color: $text-default-color;
+}
+
+.serial-nav li a:hover,
+.serial-nav li a:focus,
+.serial-nav li a:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media (min-width:992px) {
+
+  .serial-nav-index .pager li.next {
+    float: right;
+  }
+
+  .serial-nav-single .pager li a {
+    width: 49%;
+  }
+
+  .serial-nav li.next a {
+    margin-bottom: 0;
+  }
+
+}
+

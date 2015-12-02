@@ -1,0 +1,27 @@
+/*
+-------------------------
+
+
+section
+-------------------------
+*/
+.section {
+  padding: 30px 0;
+}
+
+@media (min-width:992px) {
+
+  .section {
+    padding: 45px 0;
+  }
+
+}
+
+.section-01 {
+  background-color: transparent;
+}
+
+.section-02 {
+  background-color: $bg-lighter-color;
+}
+

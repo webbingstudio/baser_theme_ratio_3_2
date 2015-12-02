@@ -1,0 +1,82 @@
+/*
+-------------------------
+
+
+form
+-------------------------
+*/
+.form-control-xsm {
+  width: 20%;
+  min-width: 3em;
+}
+
+.form-control-sm {
+  width: 25%;
+  min-width: 6em;
+}
+
+.form-control-md {
+  width: 50%;
+  min-width: 10em;
+}
+/*
+-------------------------
+
+
+baser-form
+-------------------------
+*/
+.baser-form {
+  padding: 0 0 30px;
+}
+
+.baser-form .baser-form-title {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding: .3em 15px;
+  background-color: $bg-lighter-color;
+  border: 0 none;
+  color: $text-default-color;
+  font-size: 125%;
+  font-weight: normal;
+}
+
+.baser-form .form-group {
+  margin-bottom: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid $border-light-color;
+}
+
+.baser-form .alert {
+  padding: .3em 15px;
+  margin: .5em 0 0;
+}
+
+.baser-form .auth-captcha {
+  text-align: center;
+}
+
+.baser-form .auth-captcha .alert {
+  display: inline-block;
+  text-align: center;
+}
+
+.baser-form .submit {
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+.baser-form .form-control {
+  display: inline;
+  margin-bottom: 5px;
+}
+
+.baser-form-confirm .control-label {
+  padding-top: 0;
+}
+
+.baser-form .control-body .checkbox {
+  display: inline-block;
+  padding-right: 1.5em;
+}
+

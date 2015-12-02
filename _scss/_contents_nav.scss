@@ -1,0 +1,85 @@
+/*
+-------------------------
+
+
+contents-nav
+-------------------------
+*/
+.contents-nav {
+  margin: 45px 0;
+}
+
+.contents-nav .pager {
+  text-align: left;
+}
+
+.contents-nav .pager li {
+  display: block;
+}
+
+.contents-nav .pager li a {
+  display: inline-block;
+  float: none;
+  line-height: 1.2;
+}
+
+.contents-nav li.next a {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  padding: 1em 30px .9em 15px;
+  margin-bottom: 1em;
+}
+
+.contents-nav li.next a:before {
+  color: $text-inverse-color;
+}
+
+.contents-nav li.next a,
+.contents-nav li.next a:visited,
+.contents-nav li.next a:hover,
+.contents-nav li.next a:focus,
+.contents-nav li.next a:active {
+  background: $bg-inverse-color;
+  border: 0 none;
+  color: $text-inverse-color;
+}
+
+.contents-nav li.next a:hover,
+.contents-nav li.next a:focus,
+.contents-nav li.next a:active {
+  text-decoration: none;
+  opacity: .7;
+}
+
+.contents-nav li.previous a {
+  border: 0 none;
+  padding: .5em 15px .4em;
+  font-size: 85%;
+}
+
+.contents-nav li.previous a:before {
+  color: $text-default-color;
+}
+
+.contents-nav li.previous a,
+.contents-nav li.previous a:visited {
+  background: transparent none;
+  color: $text-default-color;
+}
+
+.contents-nav li.previous a:hover,
+.contents-nav li.previous a:focus,
+.contents-nav li.previous a:active {
+  background: transparent none;
+  color: $text-default-color;
+  text-decoration: underline;
+}
+
+@media (min-width:768px) {
+
+  .contents-nav .pager {
+    text-align: center;
+  }
+
+}

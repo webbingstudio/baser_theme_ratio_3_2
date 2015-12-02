@@ -1,0 +1,15 @@
+/*
+-------------------------
+
+
+guide texts
+-------------------------
+*/
+.contents-nav li.next a:before {
+  content: "次のページ:　";
+}
+
+.contents-nav li.previous a:before {
+  content: "前のページ:　";
+}
+

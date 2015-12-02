@@ -1,0 +1,109 @@
+/*
+-------------------------
+
+
+arrows
+-------------------------
+*/
+/*
+
+arrow: common
+-------------------------
+*/
+.topicpath .breadcrumb>li+li:before,
+.media a:after,
+a.list-group-item:after,
+.widget-blog-categories-archives ul li a:after,
+.contents-nav li.next a:after,
+.serial-nav li a:after {
+  display: inline-block;
+  font: normal normal normal 100% / 1 FontAwesome;
+  font-size: inherit;
+  color: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+
+arrow: icon-right
+-------------------------
+*/
+.topicpath .breadcrumb>li+li:before,
+.media a:after,
+a.list-group-item:after,
+.widget-blog-categories-archives ul li a:after,
+.contents-nav li.next a:after,
+.serial-nav li a:after {
+  content: "\f105";
+}
+/*
+
+arrow: icon-left
+-------------------------
+*/
+.serial-nav li.previous a:after {
+  content: "\f104";
+}
+/*
+
+arrow: position-absolute
+-------------------------
+*/
+.media a:after,
+a.list-group-item:after,
+.widget-blog-categories-archives ul li a:after,
+.contents-nav li.next a:after,
+.serial-nav li a:after {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  font-size: 16px;
+  margin-top: -8px;
+}
+
+.contents-nav li.next a:after {
+  right: 10px;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.serial-nav li.previous a:after {
+  right: auto;
+  left: 5px;
+}
+/*
+
+arrow: color
+-------------------------
+*/
+.media a:after,
+a.list-group-item:after,
+.widget-blog-categories-archives ul li a:after,
+.contents-nav li.previous a:after,
+.serial-nav li a:after {
+  color: $text-light-color;
+}
+
+.contents-nav li.next a:after {
+  color: $text-inverse-color;
+}
+
+.topicpath .breadcrumb>li+li:before {
+  color: $text-default-color;
+  opacity: .3;
+}
+
+@media (min-width:992px) {
+
+  /* 本文枠内ではアイコンが大きくなる */
+  .col-main .media a:after,
+  .col-main a.list-group-item:after,
+  .col-main .widget-blog-categories-archives ul li a:after,
+  .col-main .serial-nav li a:after {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+}
+

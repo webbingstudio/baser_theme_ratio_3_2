@@ -1,0 +1,43 @@
+/*
+-------------------------
+
+
+radius
+-------------------------
+*/
+.btn,
+.alert,
+.well,
+.pop,
+.entry-eyecatch-inner,
+.thumbnail,
+.jumbotron,
+.topicpath,
+.contents-nav .pager li a,
+.serial-nav .pager li a,
+.entry-contents h2,
+.entry-contents .h2,
+.entry-contents h3,
+.entry-contents .h3,
+.entry-contents h4,
+.entry-contents .h4,
+.entry-contents h5,
+.entry-contents .h6,
+.entry-contents h6,
+.entry-contents .h6 {
+  border-radius: 3px;
+}
+
+.panel .panel-heading {
+  border-radius: 3px 3px 0 0;
+}
+
+.nav-pills>li>a,
+.nav-pills>li>span {
+  border-radius: 3px;
+}
+
+.label {
+  border-radius: 1em;
+}
+

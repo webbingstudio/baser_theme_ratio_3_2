@@ -1,0 +1,113 @@
+/*
+-------------------------
+
+
+widget
+-------------------------
+*/
+.panel.widget-blog-categories-archives .panel-body {
+  padding: 0;
+}
+
+.widget-blog-categories-archives ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.widget-blog-categories-archives ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.widget-blog-categories-archives ul li a {
+  display: block;
+  position: relative;
+  padding: .7em 30px .7em 15px;
+  border-top: 1px solid $border-light-color;
+}
+
+.widget-blog-categories-archives ul ul li a {
+  padding: .5em 30px;
+}
+
+@media (min-width:992px) {
+
+  .col-main .widget-blog-categories-archives ul li a {
+    padding-right: 45px;
+  }
+
+}
+
+
+.col-sub .widget .row-instagram {
+  margin: 0 -30px;
+}
+
+.widget .feed-instagram.thumbnail {
+  overflow: hidden;
+  position: relative;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.widget .feed-instagram.thumbnail img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.widget .feed-instagram.thumbnail:hover img,
+.widget .feed-instagram.thumbnail:focus img,
+.widget .feed-instagram.thumbnail:active img {
+  opacity: .7;
+}
+
+.widget .feed-instagram.thumbnail a,
+.widget .feed-instagram.thumbnail a:visited {
+  color: $text-inverse-color;
+  text-decoration: none;
+}
+
+.widget .feed-instagram.thumbnail p {
+  padding: 0;
+}
+
+.widget .feed-instagram.thumbnail p.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 1em 15px;
+  background-color: rgba(0,0,0,.7);
+  opacity: .9;
+}
+
+@media (min-width:600px) and (max-width:767px) {
+
+  .col-main .widget .row-instagram div[class*="col-"] {
+    width: 50%;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  /* サイドバーではInstagramの段組を無視する */
+  .col-sub .widget .row-instagram div[class*="col-"] {
+    width: 100%;
+  }
+
+}
+
+.widget-site-search input.form-control[type="text"] {
+  width: 200px;
+  height: 2.4em;
+}
+
+.widget-site-search .btn[type="submit"] {
+  height: 2.4em;
+}
+

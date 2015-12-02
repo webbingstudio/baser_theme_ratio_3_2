@@ -1,0 +1,44 @@
+/*
+-------------------------
+
+
+fonts
+-------------------------
+*/
+body,
+.baser-form .baser-form-title,
+.media .media-title,
+.panel .panel-title,
+.page-header small,
+.entry-summary-header .entry-summary-title,
+.entry .entry-title,
+.entry-contents h3,
+.entry-contents .h3,
+.entry-contents h4,
+.entry-contents .h4,
+.entry-contents h5,
+.entry-contents .h5,
+.entry-contents h6,
+.entry-contents .h6 {
+  font-family: $font-family-sans-serif;
+}
+
+.font-ja1 {
+  font-family: $font-family-sans-serif !important;
+}
+
+.jumbotron .h1,
+.jumbotron h1,
+.thumbnail .thumbnail-title,
+.page-header h1,
+.page-header .h1,
+.entry-contents h1,
+.entry-contents .h1,
+.entry-contents h2,
+.entry-contents .h2 {
+  font-family: $font-family-serif;
+}
+
+.font-ja2 {
+  font-family: $font-family-serif !important;
+}

@@ -1,0 +1,164 @@
+/*
+-------------------------
+
+
+mainvisual
+-------------------------
+*/
+.mainvisual {
+  margin: 0;
+  padding: 0 0 15px;
+}
+
+.mainvisual .pop {
+  background-color: #333333;
+}
+
+.mainvisual .mainvisual-col-01,
+.mainvisual .mainvisual-col-02 {
+  float: left;
+  padding: 0 15px;
+}
+
+.mainvisual .mainvisual-col-01 {
+  width: 100%;
+}
+
+.mainvisual .mainvisual-col-02 {
+  width: 100%;
+}
+
+.mainvisual .jumbotron {
+  margin: 0;
+  border-radius: 0;
+}
+
+.mainvisual .mainvisual-col-01 .jumbotron {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.mainvisual .thumbnail {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+
+.mainvisual .thumbnail .caption {
+  padding-top: 0;
+}
+
+.mainvisual a.thumbnail *,
+.mainvisual a.thumbnail:visited * {
+  color: #FFFFFF;
+}
+
+.mainvisual a.thumbnail-noimg .thumbnail-title,
+.mainvisual a.thumbnail-noimg:visited .thumbnail-title {
+  color: #333333;
+}
+
+.mainvisual a.thumbnail:hover,
+.mainvisual a.thumbnail:focus {
+  border: 0 none;
+  color: #FFFFFF;
+}
+
+.mainvisual a.thumbnail-noimg:hover .thumbnail-title,
+.mainvisual a.thumbnail-noimg:focus .thumbnail-title {
+  color: #333333;
+}
+
+.mainvisual .mainvisual-col-02 .thumbnail p {
+  padding: 15px;
+}
+
+.mainvisual .mainvisual-col-02 .thumbnail .thumbnail-title {
+  position: static;
+  bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: rgba( 255,255,255,.15 );
+}
+
+
+@media (max-width:991px) {
+
+  .mainvisual .mainvisual-col-02 .thumbnail img {
+    float: left;
+    width: 50%;
+    margin-right: 15px;
+  }
+
+}
+
+@media (max-width:599px) {
+
+  .mainvisual .mainvisual-col-02 .thumbnail img {
+    width: 150px;
+  }
+
+  .mainvisual .mainvisual-col-02 .thumbnail .thumbnail-title {
+    position: relative;
+    top: 30px;
+    z-index: 20;
+  }
+
+  .mainvisual .mainvisual-col-02 .thumbnail .thumbnail-caption {
+    clear: both;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .mainvisual .mainvisual-col-01 {
+    width: 578px;
+    padding: 0 0 0 15px;
+    border-right: 2px solid #FFFFFF;
+  }
+
+  .mainvisual .mainvisual-col-01 .jumbotron {
+    border-bottom: 0 none;
+  }
+
+
+  .mainvisual .mainvisual-col-02 {
+    width: 362px;
+    padding: 0 15px 0 0;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .mainvisual {
+    padding: 0 0 30px;
+  }
+
+  .mainvisual .mainvisual-col-01 {
+    width: 708px;
+    border-right: 4px solid #FFFFFF;
+  }
+
+  .mainvisual .mainvisual-col-02 {
+    width: 422px;
+  }
+
+  .mainvisual .thumbnail .thumbnail-title {
+    font-size: 24px;
+  }
+
+  .mainvisual .thumbnail .caption {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  .mainvisual .thumbnail p.thumbnail-more .btn {
+    padding: .5em 1em .4em;
+    font-size: 16px;
+  }
+
+}
