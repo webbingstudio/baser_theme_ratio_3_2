@@ -1,0 +1,7 @@
+"id","name","title","description","sender_1","sender_2","sender_name","subject_user","subject_admin","layout_template","form_template","mail_template","redirect_url","status","auth_captcha","widget_area","ssl_on","exclude_search","publish_begin","publish_end","created","modified"
+"1","contact","お問い合わせ","<p>当サイトへのお問い合わせは、こちらからお願いいたします。</p>
+
+<p><span class=""label label-danger"">必須</span> 印の項目は、必ずご入力ください。</p>
+
+<div class=""well"">送信後は、確認用のメールが自動送信されます。まれに「迷惑メール」として振り分けられることがございますので、事前にご了承ください。<br />
+ドメイン指定受信機能を有効にしている場合、事前に当サイトのドメインを許可してください。</div>","","","お問い合わせフォーム","お問い合わせありがとうございます","お問い合わせを受け付けました","default","default","mail_default","","1","1","","","","","","2015-06-26 20:34:08","2015-10-31 14:49:52"

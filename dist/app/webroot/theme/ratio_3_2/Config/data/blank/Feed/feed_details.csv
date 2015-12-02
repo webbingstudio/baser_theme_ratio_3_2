@@ -1,0 +1,4 @@
+"id","feed_config_id","name","url","category_filter","cache_time","created","modified"
+"1","1","Twitter ハッシュタグ #baserCMS","https://queryfeed.net/tw?q=%23baserCMS","","+30 minutes","2015-06-26 20:34:08","2015-10-28 10:45:08"
+"2","2","Instagram @webbinjp","http://rss.stagram.tk/feed.php?id=319186&username=webbinjp&rss","","+30 minutes","2015-10-17 14:48:50","2015-10-17 14:52:18"
+"3","3","baserCMSニュース","http://basercms.net/news/index.rss","","+30 minutes","2015-10-28 10:48:34","2015-10-28 11:23:05"

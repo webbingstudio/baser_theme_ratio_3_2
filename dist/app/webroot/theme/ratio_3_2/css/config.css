@@ -1,0 +1,322 @@
+/**
+ * テーマ設定用CSS
+ * 呼出箇所：全てのページ
+ */
+
+
+/* layout */
+
+.col-sub {
+	border-top-color: SUB;
+}
+
+@media (min-width:992px) {
+
+	.col-sub {
+		border-left-color: SUB;
+	}
+
+}
+
+
+/* list arrow */
+.media a:after,
+a.list-group-item:after,
+.widget-blog-categories-archives ul li a:after,
+.contents-nav li.previous a:after,
+.serial-nav li a:after {
+	color: MAIN;
+}
+
+
+/* section */
+
+.section-02 {
+	background-color: SUB;
+}
+.section-03 {
+	background-color: MAIN;
+}
+
+
+/* well */
+
+.well {
+	background-color: SUB;
+}
+
+
+/* link */
+a,
+a:visited,
+.media a .media-title,
+.media a:visited .media-title {
+	color: LINK;
+}
+
+a:hover,
+a:focus,
+a:active,
+.media a:hover .media-title,
+.media a:focus .media-title,
+.media a:active .media-title {
+	color: HOVER;
+}
+
+
+
+/* btn-default */
+
+.btn-default,
+.btn-default:visited {
+	border-color: MAIN;
+}
+
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:hover,
+.btn-default.active,
+.btn-default:active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+	border-color: MAIN;
+}
+
+
+/* btn-primary */
+
+.btn-primary,
+.btn-primary:visited {
+	background-color: LINK;
+	border-color: LINK;
+	color: #FFFFFF;
+}
+
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+	background-color: LINK;
+	border-color: LINK;
+	color: #FFFFFF;
+}
+
+
+/* btn-info */
+
+.btn-info,
+.btn-info:visited {
+	background-color: MAIN;
+	border-color: MAIN;
+	color: #FFFFFF;
+}
+
+.btn-info.focus,
+.btn-info:focus,
+.btn-info:hover,
+.btn-info.active,
+.btn-info:active,
+.btn-info.active.focus,
+.btn-info.active:focus,
+.btn-info.active:hover,
+.btn-info:active.focus,
+.btn-info:active:focus,
+.btn-info:active:hover,
+.open>.dropdown-toggle.btn-info.focus,
+.open>.dropdown-toggle.btn-info:focus,
+.open>.dropdown-toggle.btn-info:hover {
+	background-color: MAIN;
+	border-color: MAIN;
+	color: #FFFFFF;
+}
+
+
+/* btn-link */
+
+.btn-link,
+.btn-link:visited {
+	color: LINK;
+}
+
+.btn-link.focus,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link.active,
+.btn-link:active,
+.btn-link.active.focus,
+.btn-link.active:focus,
+.btn-link.active:hover,
+.btn-link:active.focus,
+.btn-link:active:focus,
+.btn-link:active:hover,
+.open>.dropdown-toggle.btn-link.focus,
+.open>.dropdown-toggle.btn-link:focus,
+.open>.dropdown-toggle.btn-link:hover {
+	color: HOVER;
+}
+
+
+/* baser-form */
+
+.baser-form .baser-form-title {
+	background-color: SUB;
+}
+
+
+/* label */
+
+.label-default,
+.label-default a,
+.label-default a:visited,
+.label-default a:hover,
+.label-default a:focus,
+.label-default a:active,
+.label-default,
+.label-default[href]:focus,
+.label-default[href]:hover {
+	border-color: MAIN;
+}
+
+.label-primary,
+.label-primary[href]:focus,
+.label-primary[href]:hover {
+	background-color: LINK;
+}
+
+.label-info,
+.label-info[href]:focus,
+.label-info[href]:hover {
+	background-color: MAIN;
+}
+
+
+/* panel */
+
+.panel-default > .panel-heading {
+	border-color: MAIN;
+}
+
+.panel-primary > .panel-heading {
+	background-color: MAIN;
+}
+
+a.list-group-item,
+a.list-group-item:visited {
+	color: LINK;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+a.list-group-item:active {
+	color: HOVER;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:focus,
+a.list-group-item.active:hover {
+	background-color: SUB;
+	border-color: SUB;
+	color: LINK;
+}
+
+
+/* topicpath */
+
+.topicpath ol.breadcrumb > li > a,
+.topicpath ol.breadcrumb > li > a:visited {
+	color: LINK;
+}
+
+.topicpath ol.breadcrumb > li > a:hover,
+.topicpath ol.breadcrumb > li > a:focus,
+.topicpath ol.breadcrumb > li > a:active {
+	color: HOVER;
+}
+
+
+/* contents-nav */
+
+.contents-nav li.next a,
+.contents-nav li.next a:visited,
+.contents-nav li.next a:hover,
+.contents-nav li.next a:focus,
+.contents-nav li.next a:active {
+	background: MAIN;
+}
+
+
+/* serial-nav */
+
+.serial-nav strong {
+	color: MAIN;
+}
+
+
+/* page-header */
+
+.page-header {
+	border-bottom-color: MAIN;
+}
+
+
+/* entry-summary */
+
+.entry-summary-header .entry-summary-title {
+	background-color: SUB;
+}
+
+
+/* entry-contents */
+
+.entry-contents hr {
+	border-top-color: SUB;
+}
+
+.entry-contents h3,
+.entry-contents .h3 {
+	background-color: SUB;
+}
+
+.entry-contents h4:before,
+.entry-contents .h4:before {
+	background-color: MAIN;
+}
+
+.entry-contents h5,
+.entry-contents .h5 {
+	color: MAIN;
+}
+
+
+/* global-nav */
+
+.global-nav {
+	background-color: MAIN;
+}
+
+
+/* mainvisual */
+
+.mainvisual .pop {
+	background-color: MAIN;
+}
+
+
+

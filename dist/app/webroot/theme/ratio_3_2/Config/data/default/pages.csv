@@ -1,0 +1,1055 @@
+"id","sort","name","title","description","contents","page_category_id","status","url","draft","author_id","publish_begin","publish_end","exclude_search","code","unlinked_mobile","unlinked_smartphone","modified","created"
+"1","1","index","baserCMSテーマ ratio_3_2","ratio_3_2テーマは、個人事業主・小規模店舗向けに、不要な機能を取り払い、コンテンツと更新の負荷軽減を考慮したテーマです。テーマ内のすべての画像が3：2で統一されています。","<div class=""mainvisual"">
+<div class=""container"">
+<div class=""pop"">
+<div class=""row"">
+<div class=""mainvisual-col-01""><?php $this->Ratio32->get_main_image( array( 'num' => 1, 'type' => 'jumbotron', 'h' => 'h1' ) ); ?></div>
+
+<div class=""mainvisual-col-02""><?php $this->Ratio32->get_main_image( array( 'num' => 2, 'type' => 'thumbnail' ) ); ?></div>
+<!-- /.row --></div>
+<!-- /.pop --></div>
+<!-- /.container --></div>
+<!-- /.mainvisual --></div>
+
+<div class=""pickup"">
+<div class=""container"">
+<div class=""pop"">
+<div class=""row"">
+<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 3, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
+
+<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 4, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
+
+<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 5, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
+<!-- /.row --></div>
+<!-- /.pop --></div>
+<!-- /.container --></div>
+<!-- /.pickup --></div>","","1","/index","","1","","","","<style>
+/* メインビジュアルの文字の体裁 */
+
+.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+    top: 15%;
+    font-size: 22px;
+}
+
+.mainvisual .jumbotron .jumbotron-caption {
+    bottom: 10%;
+    font-size: 12px;
+}
+
+@media (min-width: 480px) {
+
+.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+    font-size: 32px;
+}
+    
+}
+
+@media (min-width: 600px) {
+
+.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+    font-size: 48px;
+}
+
+.mainvisual .jumbotron .jumbotron-caption {
+    font-size: 14px;
+}
+    
+}
+
+@media (min-width: 992px) {
+
+.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+    font-size: 44px;
+}
+
+}
+
+@media (min-width:1200px) {
+
+.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+    font-size: 56px;
+}
+
+.mainvisual .jumbotron .jumbotron-caption {
+    font-size: 18px;
+}
+    
+}
+
+</style>","","","2015-10-29 18:19:52","2015-06-26 20:34:06"
+"2","2","index","テーマ「ratio_3_2」とは","baserCMSテーマ「ratio_3_2」の解説ページです。","<h2 class=""mt0"">美しいだけのテーマに、さよならを。</h2>
+
+<p>「<strong>ratio_3_2</strong>」は、個人事業主・小規模店舗向けに、不要な機能を取り払い、重要な機能の自由度を強化したテーマです。<br />
+コンテンツ作成・更新の、負荷軽減を考慮しています。</p>
+
+<p>頑張ってCMSを設置し、美しいデザインのテーマを導入しても、ウェブサイトを公開できない人が後を絶ちません。その原因は、やる気だけではありません。</p>
+
+<p>配布されているテーマを利用するだけでは&hellip;</p>
+
+<div class=""well"">
+<ul>
+	<li><span class=""text-danger"">どんな写真素材を配置したらよいか</span>がわからない</li>
+	<li><span class=""text-danger"">必要な項目を追加する方法</span>がわからない</li>
+	<li><span class=""text-danger"">不要なパーツを取り除く方法</span>がわからない</li>
+	<li><span class=""text-danger"">作ろうとしているサイトに適した配色を決める方法</span>がわからない</li>
+	<li><span class=""text-danger"">内容に合わせてカスタマイズする方法</span>がわからない</li>
+</ul>
+</div>
+
+<p>&hellip;のです。</p>
+
+<p>「<strong>ratio_3_2</strong>」は、そういった問題をできる限り解消するため、さまざまな工夫を行っています。</p>
+
+<div class=""pt2"">
+<div class=""row"">
+<div class=""col-sm-6 col-md-6 col-lg-4"">
+<p><a class=""btn btn-block btn-primary"" href=""/about/about02"">不要な機能をカット </a></p>
+</div>
+
+<div class=""col-sm-6 col-md-6 col-lg-4"">
+<p><a class=""btn btn-block btn-primary"" href=""/about/about03"">画像素材の比率を統一 </a></p>
+</div>
+
+<div class=""col-sm-6 col-md-6 col-lg-4"">
+<p><a class=""btn btn-block btn-primary"" href=""/about/about04"">多数のウィジェットエリア </a></p>
+</div>
+
+<div class=""col-sm-6 col-md-6 col-lg-4"">
+<p><a class=""btn btn-block btn-primary"" href=""/about/about05"">フレームワークの採用 </a></p>
+</div>
+
+<div class=""col-sm-6 col-md-6 col-lg-4"">
+<p><a class=""btn btn-block btn-primary"" href=""/about/about06"">説明書の添付 </a></p>
+</div>
+</div>
+</div>","4","1","/about/index","","1","","","","","","","2015-11-01 17:10:28","2015-06-26 20:34:06"
+"3","3","index","0. 素材を用意する","ratio_3_2テーマの導入手順です。","<h2 class=""mt0"">「ratio_3_2」の世界へようこそ！</h2>
+
+<p>baserCMSは、無事インストールできましたか？<br />
+さっそくウェブサイトを作りはじめましょう、と言いたいところですが&hellip;<br />
+<strong>ウェブサイトには最低限、どんな情報が必要か、わかっていますか？</strong></p>
+
+<p>まずはブラウザを閉じて、以下の素材の調達をはじめましょう。</p>
+
+<h3>ウェブサイトの基本情報</h3>
+
+<h4>ウェブサイトの名前</h4>
+
+<p>企業名・店舗名・団体名など。</p>
+
+<h4>ウェブサイトのロゴ</h4>
+
+<p>このテーマは文字あり・マークだけ・ロゴなし、どれでも構いません。<strong>高さ70ピクセル位の画像</strong>を用意してください。</p>
+
+<h4>メールアドレス・住所・電話番号</h4>
+
+<p><strong>ウェブサイトに連絡先は必須です。</strong>店舗なら、地図を表示するための正確な住所も必要です。</p>
+
+<h3>検索サイトに関する情報</h3>
+
+<h4>ウェブサイトの正式な名前</h4>
+
+<p>ウェブサイト名の前に、よく検索される言葉を2・3個、半角スペースでつなげます。<br />
+たとえば作者のウェビングスタジオのサイトでは、「愛知 北海道 CMS カスタマイズ 復旧なら ウェビングスタジオ」となっています（2015年11月現在）。</p>
+
+<h4>ウェブサイトの説明文</h4>
+
+<p>ウェブサイト名で検索したときに、表示される説明文を決めます。こちらにもよく検索されそうな言葉を含めてください。<br />
+一般に、120文字前後が良いと言われています。</p>
+
+<p>なお、baserCMSには「キーワード」を設定する項目がありますが、現在はほとんど検索サイトでは参照されていないため、空欄で構いません。</p>
+
+<h3>SNSのアカウント情報</h3>
+
+<p>SNS（ソーシャルネットワーキングサービス）のアカウントはありますか？</p>
+
+<p><span class=""text-danger"">ひとつもない！？</span><br />
+<strong>Twitter・Instagram・LINE@・YouTubeチャンネル</strong>のどれかを、今すぐ用意しましょう！</p>
+
+<p>専門職ならTwitter、若い人との交流が多いならLINE@、きれいな写真や動画をたくさん配信できるなら、InstagramやYouTubeがおすすめです。<br />
+アカウントを取得したら、<strong>メインページのURL</strong>をコピーして、控えてください。</p>
+
+<h3>キャッチコピー</h3>
+
+<h4>ウェブサイトの最も重要な写真</h4>
+
+<p>最低、2枚だけでも用意しましょう。<br />
+これから調達する場合は、どんな写真にするかだけでも考えましょう。有料（ここ大事）の写真素材、店舗の外観・内装、看板メニューのアップ、ステージの写真、スタッフの笑顔など。</p>
+
+<h4>写真の見出し・添える説明文</h4>
+
+<p>このテーマは、それぞれの写真に「見出し」と「説明文」が必要です。特定のページへ移動させることもできます。<br />
+自分の店舗・団体の「強み」を表す「決めゼリフ」を考えておきましょう。</p>
+
+<hr />
+<p>素材集めって、大変ですね。<br />
+だいたい集まったら、「ratio_3_2」テーマの初期設定に入りましょう。</p>","3","1","/installation/index","","1","","","","","","","2015-11-01 17:17:30","2015-06-26 20:34:06"
+"6","6","index","","","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">メインメニュー</span> </div>
+<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<span style=""color:#8ABE08"">■</span>
+<?php $this->BcBaser->link(""ニュースリリース"",array(""controller""=>""news"",""action""=>""index"")) ?>
+<br />
+<span style=""color:#8ABE08"">■</span>
+<?php $this->BcBaser->link(""お問い合わせ"",array(""controller""=>""contact"",""action""=>""index"")) ?>
+<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">NEWS RELEASE</span> </div>
+<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<?php $this->BcBaser->blogPosts('news', 5) ?> <div>&nbsp;</div>
+<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">baserCMS NEWS</span> </div>
+<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<?php $this->BcBaser->feed(1) ?>","1","1","/mobile/index","","1","","","","","","","","2015-06-26 20:34:06"
+"12","14","index","通常文のサンプル","","<p>一般的なHTMLのサンプルです。<br />
+ページは見出し2、ブログは見出し3から書きはじめてください。</p>
+
+<p><strong>baserCMSの仕様で、CKEditorをオンにするとHTMLのコードが崩れてしまうことがあります。HTMLの知識があり、ページを細かく編集したい場合は、オフにしておくことをお勧めします。</strong></p>
+
+<p>段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。</p>
+
+<h2>見出し２</h2>
+
+<ul>
+	<li>リスト１</li>
+	<li>リスト２</li>
+	<li>リスト３</li>
+</ul>
+
+<h3>見出し３</h3>
+
+<ol>
+	<li>連番リスト１</li>
+	<li>連番リスト２</li>
+	<li>連番リスト３</li>
+</ol>
+
+<h4>見出し４</h4>
+
+<p><strong>太字文章が入ります。太字文章が入ります。太字文章が入ります。太字文章が入ります。</strong></p>
+
+<h5>見出し５</h5>
+
+<p><em>斜体文章が入ります。斜体文章が入ります。斜体文章が入ります。斜体文章が入ります。</em></p>
+
+<h6>見出し６</h6>
+
+<p><u>下線付文章が入ります。下線付文章が入ります。下線付文章が入ります。下線付文章が入ります。</u></p>
+
+<table>
+	<thead>
+		<tr>
+			<th scope=""col"">表見出し</th>
+			<th scope=""col"">表見出し</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>表の文章が入ります。</td>
+			<td>表の文章が入ります。</td>
+		</tr>
+		<tr>
+			<td>表の文章が入ります。</td>
+			<td>表の文章が入ります。</td>
+		</tr>
+	</tbody>
+</table>","6","1","/sample/index","","1","","","","","","","2015-10-31 17:03:34","2015-06-27 12:40:09"
+"13","12","installation01","1. テーマの初期データを読み込む","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" /></div>
+
+<p>管理画面の「テーマ管理 &gt; テーマ一覧」へ移動し、「ratio_3_2」テーマを有効にしてください。</p>
+
+<p>このテーマは、ふたつの初期データを持っています。<br />
+「default」には、テーマの紹介やこの導入手順が書かれています。テーマをいろいろと試してみたいときに読み込んでください。<br />
+もう作成するサイトが決まっている場合は、余分なデータが入っていない<strong>「blank」</strong>を読み込んでください。</p>
+
+<h2>「default」で使用されている画像を読み込む</h2>
+
+<p>「default」にはメイン画像・ブログ記事のアイキャッチ画像・解説用の画像が含まれていますが、テーマ設定から読み込むことはできません。</p>
+
+<p>「default」の内容を全て確認したい場合は、テーマ内の「files」フォルダに含まれている、「blog」「theme_configs」「uploads」ディレクトリを、下記ディレクトリにコピーしてください。</p>
+
+<p><strong>[baserCMSを設置したディレクトリ]app/webroot/files</strong></p>
+
+<p>同名のフォルダがある場合は、念のためダウンロードするなどで、バックアップを取ってください。</p>","3","1","/installation/installation01","","1","","","","","","","2015-11-01 17:03:41","2015-06-27 15:36:22"
+"14","13","index","見出しの上を詰める・段落の下を空ける","","<p>このテーマは、「見出し」を利用すると、上に空白ができます。<br />
+このため、ページの先頭に見出しを作ると、大見出しとの間が空いてしまいます。</p>
+
+<p>また、書いている文章の内容によっては、間を大きく開けたり、左を一文字分ずらしたくなることもあります。<br />
+このテーマは、余白を調整するCSSクラスを設けています。</p>
+
+<h2>見出しの上を詰める</h2>
+
+<p>CKEditorを利用している場合は、「ソース」ボタンを押してHTMLソースコードを表示してください。<br />
+見出し2であれば、以下のようになっているはずです。</p>
+
+<pre>
+<code>&lt;h2&gt;この見出しの上を詰めたい&lt;/h2&gt;</code></pre>
+
+<p>これに、以下のとおりクラスを追加してください。強制的に上の余白をゼロにします。</p>
+
+<pre>
+<code>&lt;h2<strong class=""text-danger""> class=&quot;mt0&quot;</strong>&gt;この見出しの上を詰めたい&lt;/h2&gt;</code></pre>
+
+<h2>下を大きく開ける</h2>
+
+<p>下を大きく開けたい段落を探してください。</p>
+
+<pre>
+<code>&lt;p&gt;この段落の下を空けたい&lt;/p&gt;</code></pre>
+
+<p>これに、以下のとおりクラスを追加してください。この例では、約3行分の空白ができます。</p>
+
+<pre>
+<code>&lt;p<strong class=""text-danger""> class=&quot;mt3&quot;</strong>&gt;この段落の下を空けたい&lt;/p&gt;</code></pre>
+
+<p>数字は、05 / 1 / 15 / 2 / 25 / 3 ... と変更すると、0.5文字～6文字まで調整できます。</p>
+
+<pre>
+<code>&lt;p<strong class=""text-danger""> class=&quot;mt45&quot;</strong>&gt;下を4.5行分空けたい&lt;/p&gt;</code></pre>
+
+<h2>左を一文字分ずらす</h2>
+
+<p>左をずらしたい範囲を、&lt;div&gt;～&lt;/div&gt;で囲んでください。</p>
+
+<pre>
+<code>&lt;div&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+<p>これに、以下のとおりクラスを追加してください。</p>
+
+<pre>
+<code>&lt;div<strong class=""text-danger""> class=&quot;pl1&quot;</strong>&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+<div class=""alert alert-danger"">divタグはCKEditorでは見ることができないので、慎重に編集してください。<br />
+また、左右余白は、大きくしすぎるとスマートフォンで読みにくくなってしまいます。</div>","5","1","/customize/index","","1","","","","","","","2015-11-01 19:10:12","2015-06-27 15:36:53"
+"16","15","installation02","2. サイト基本設定を入力する","","<p>続いて、管理画面の「システム設定 &gt; サイト基本設定」へ移動してください。<br />
+運用に必須の情報を、作成するサイトの内容に合わせていきます。</p>
+
+<div class=""alert alert-danger"">このページの情報の入力が終わるまでは、ウェブサイトを公開しないでください（URLをブログに掲載する、Twitterでつぶやくなど）。<br />
+「baserCMSの公式サイトと同じ内容を掲載している」と検索サイトに判断され、評価が下がってしまうかもしれません。</div>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" /></div>
+
+<h3>基本項目</h3>
+
+<p>基本項目の内容は、baserCMSの内容になっています。自分のウェブサイトにあった内容に書き換えてください。</p>
+
+<h4>WEBサイト名</h4>
+
+<p>先ほど決めた「正式なウェブサイト名」を入力してください。</p>
+
+<h4>WEBサイトタイトル</h4>
+
+<p>先ほど決めた「ウェブサイト名」を入力してください。これは、トップページ以外のタイトルの最後にも表示されます。</p>
+
+<h4>サイト基本キーワード</h4>
+
+<p>空欄で構いません。</p>
+
+<h4>サイト基本説明文</h4>
+
+<p>先ほど決めた、ウェブサイトの説明文を入力してください。</p>
+
+<h3>オプション</h3>
+
+<p>「オプション」ボタンをクリックして細かい設定を開き、以下の項目を編集してください。</p>
+
+<h4>GoogleMaps住所</h4>
+
+<p>GoogleMapsの地図を出すことができます。店舗がある場合は、できるだけ正確な住所を書いてください。郵便番号は不要です。</p>
+
+<h4>モバイル・スマートフォン</h4>
+
+<p><strong>いずれも、「対応する」のチェックを外してください。</strong><br />
+このテーマは、端末の画面サイズによって最適な表示を提供します（レスポンシブウェブデザイン）。このため、モバイル用のテンプレートは利用していません。</p>
+
+<p>すべて入力したら、画面下の「<strong>保存</strong>」ボタンを押してください。<br />
+なお、baserCMSは「保存」ボタンはすべて、画面の下にあります。押し忘れないようにしましょう。</p>","3","1","/installation/installation02","","1","","","","","","","2015-11-01 17:21:10","2015-10-17 15:55:41"
+"17","16","installation03","3. メールフォームの基本設定を入力する","","<p>メールフォームから問い合わせをすると、たいていは、返信メールにサイト名や連絡先が書かれています。この設定を行います。<br />
+メールフォームが不要な場合は、設定の必要はありません。</p>
+
+<p>管理画面の「メールフォーム管理 &gt; メールプラグイン基本設定」へ移動してください。<br />
+このページは、とてもわかりにくい場所にあります。以下のURLに、直接アクセスしてください。</p>
+
+<p><strong>[baserCMSを設置したURL]admin/mail/mail_configs/form</strong></p>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" /></div>
+
+<p>メールの署名の設定画面になります。最低限「署名：WEBサイト名」「署名：WEBサイトURL」は入力してください。<br />
+その他の項目は、店舗があるか、電話の問い合わせを受け付けるかによって任意で入力してください。</p>
+
+<hr />
+<p>眠くなってきましたね&hellip;<br />
+起きてください！次はちょっと楽しいですよ！テーマカラーの設定です。</p>","3","1","/installation/installation03","","1","","","","","","","2015-11-01 14:33:52","2015-10-17 15:57:11"
+"18","17","installation04","4. テーマカラーを設定する","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" /></div>
+
+<p>管理画面の「テーマ管理 &gt; テーマ設定」へ移動してください。<br />
+4色の「テーマカラー」を設定できます。ここを変更して保存すると、サイト全体のカラーリングを変えることができます。</p>
+
+<h2>各色の説明</h2>
+
+<h3>メイン</h3>
+
+<p>ページ上部のメインメニュー、大見出しの下線、各ページの「次のページへ」ボタンなど、サイト内で最もよく使われている色です。ロゴがある場合は、ロゴ色を少し薄めにするとちょうど良いです。<br />
+ロゴがない場合は、サイトの雰囲気に合わせましょう。<span style=""color:#0066cc;"">清潔な雰囲気なら青系</span>、<span style=""color:#A52A2A;"">カフェなら茶系</span>、<span style=""color:#339933;"">医療系なら緑系</span>がよく利用されます。</p>
+
+<h3>サブ</h3>
+
+<p>サイト内でとても大きな範囲を占める、背景色です。<strong>できるだけ薄い色にしてください。</strong>メインカラーをさらに薄くした色でも良いですが、思いつかないときは<span style=""background-color:#eeeeee;"">グレー（eeeeee）</span>、<span style=""background-color:#ece9e3;"">ライトベージュ（ece9e3）</span>が無難です。</p>
+
+<h3>テキストリンク</h3>
+
+<p>リンクの色です。新着情報リストの見出し、<strong>お問い合わせフォームの送信ボタン</strong>にも利用されています。明らかにリンクとわかる濃い目の色がよいですが、<span style=""color:#FF0000;"">真っ赤</span>のような強すぎる色、文字色と同じ色は避けましょう。どこを押したら移動できるかわからなくなります。<br />
+思いつかないときはロゴカラーや<span style=""color:#0044cc;"">Google検索のリンク色（0044CC）</span>でも良いですが、メインカラーが青系であれば<span style=""color:#008000;"">グリーン</span>や<span style=""color:#FF8C00;"">オレンジ</span>、茶系なら<span style=""color:#cc3333;"">暗い赤</span>もバランスが良いです。</p>
+
+<h3>テキストホバー</h3>
+
+<p>リンクにカーソルを置いたときだけに使われています。テキストリンクと同じか、やや明るくした色にしてください。</p>
+
+<hr />
+<p>設定したら「保存」ボタンを押して、公開ページを確認してください。色が変わっているはずです。<br />
+雰囲気が合わない場合は少しずつ調整していきましょう。</p>
+
+<h2>ヘッダ・フッタの色について</h2>
+
+<p>ヘッダとフッタの色は白に変更できますが、管理画面内ではできません。手順は「カスタマイズ」のページをごらんください。</p>
+
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ヘッダ・フッタを白にする</a></p>","3","1","/installation/installation04","","1","","","","","","","2015-11-01 14:32:03","2015-10-17 15:58:08"
+"19","18","installation05","5.メイン画像を差し替える","","<p>続いて、「テーマ管理 &gt; テーマ設定」画面のまま、ロゴとメイン画像を差し替えていきます。この内容はそのまま、トップページの内容として反映されます。</p>
+
+<h2>ロゴの設定</h2>
+
+<p>用意したロゴをアップロードしてください。クリックしたときにトップページに戻るようにしたい場合は、「リンク先URL」に、ウェブサイトのトップページのURLを入力してください。</p>
+
+<h3 class=""h4"">ロゴに文字が含まれているとき</h3>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" /></div>
+
+<p>「説明文」は空欄にしてください。</p>
+
+<h3 class=""h4"">ロゴに文字が含まれていないとき</h3>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" /></div>
+
+<p>「説明文」とロゴ画像&rsquo;の両方を設定してください。</p>
+
+<h3 class=""h4"">ロゴがないとき</h3>
+
+<p>既存のロゴ画像を削除し、「説明文」のみ入力してください。</p>
+
+<h2>メイン画像の設定</h2>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" /></div>
+
+<p>用意した写真素材をアップロードし、説明文に考えておいた見出しと説明文を入力してください。任意のページへ誘導したい場合は、リンク先URLを入力してください。</p>
+
+<p>このとき、<strong>「|」（半角パイプ）で区切ると、左側が見出し、右側が説明文となります。</strong><br />
+また、<strong>半角スペースをふたつ続けると、途中改行します。</strong></p>
+
+<p>※パイプ区切りがない場合は、見出しのみとなります。<br />
+※見出しは10文字程度まで表示できます。</p>
+
+<h3>写真素材が足りない場合</h3>
+
+<p>メイン画像3・メイン画像4・メイン画像5は、見出しと説明文だけでも表示できます。既存画像を削除してください。</p>
+
+<h3>メイン画像の文字位置、文字色を変えたい場合</h3>
+
+<p>一枚目の画像によっては、文字の配置がしっくりこないことがあります。修正手順は「カスタマイズ」のページをごらんください。</p>
+
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">メイン画像1の文字体裁を変える</a></p>","3","1","/installation/installation05","","1","","","","","","","2015-11-01 18:23:05","2015-10-17 15:58:42"
+"20","19","installation06","6. SNSアイコンを設定する","","<p>このテーマは、ヘッダに「お問い合わせアイコン」「SNSアイコン」を表示することができます。ここを作成するサイトに合わせて修正していきましょう。</p>
+
+<h2>ウィジェット編集画面へ移動する</h2>
+
+<p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。<br />
+一覧に「ヘッダ::サブメニュー」というエリアがあるので、クリックして編集画面へ移動してください。</p>
+
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" /></div>
+
+<h3>「アイコンメニュー」ウィジェットについて</h3>
+
+<p>「ヘッダ::サブメニュー」は、アイコンの編集専用のエリアです。以下の3つのウィジェットが登録されています。</p>
+
+<h4>アイコンメニュー</h4>
+
+<p>対応しているすべてのSNSアイコンが入っています。通常はこちらを利用します。「default」データでは、このウィジェットの「利用する」にチェックが入っています。</p>
+
+<h4>アイコンメニュー（メールのみ）</h4>
+
+<p>SNSを利用する予定がない場合は、こちらを利用します。「blank」データでは、このウィジェットの「利用する」にチェックが入っています。</p>
+
+<h4>アイコンメニュー（バックアップ）</h4>
+
+<p>公開後にSNSアイコンを追加するときのために、アイコンメニューの初期状態を複製を残しています。<strong>通常は「利用する」のチェックは外したままにしておき、削除はしないでください。</strong></p>
+
+<h3>アイコンメニューを編集する</h3>
+
+<p>利用するアイコンメニューの内容を、以下のとおり編集してください。</p>
+
+<h4>メール</h4>
+
+<p>先頭に書かれています。お問い合わせフォームが「contact」ではないときのみ、リンク先（赤太字）を修正してください。</p>
+
+<pre>
+<code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">/contact</strong>&quot; class=&quot;btn btn-round btn-mail&quot;&gt;
+&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;お問い合わせ&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;</code></pre>
+
+<p>※ひとつ下のフォルダにbaserCMSを設置したときも、ここのリンクがつながっていません。「http://」からはじまる完全URLに修正してください。</p>
+
+<h4>メール以外</h4>
+
+<p>1セットずつ、改行で区切って書かれています。利用していないサービスは、<strong>&lt;li&gt;～&lt;/li&gt;を削除してください。</strong>利用している場合は、各サービスのリンク先（赤太字）を、誘導したいアカウントのトップページURLに修正してください。<br />
+Twitterの場合は、以下のとおりになります。</p>
+
+<pre>
+<code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">[TwitterのURL]</strong>&quot; class=&quot;btn btn-round btn-twitter&quot;&gt;
+&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Twitter&lt;/span&gt;
+&lt;/a&gt;&lt;/li&gt;</code></pre>","3","1","/installation/installation06","","1","","","","","","","2015-11-01 17:50:39","2015-10-17 15:59:30"
+"21","20","installation07","7. ウィジェットとフィードを設定する","","<h2 class=""mt0"">ウィジェットの表示設定をする</h2>
+
+<div class=""row"">
+<div class=""col-sm-4"">
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_widget_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg"" /></div>
+</div>
+
+<div class=""col-sm-8"">
+<p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。</p>
+
+<p>このテーマには、多数のウィジェットエリアがあります。クリックしてそれぞれの編集画面へ移動し、バナー広告・コールトゥアクションなど、編集が必要なウィジェットは内容を変更してください。</p>
+
+<p>また、必要ないパーツがあれば「利用する」のチェックを外してください。</p>
+</div>
+</div>
+
+<div class=""alert alert-danger"">ウィジェット（特にテキスト・PHPテンプレート）の削除はしないでください。元に戻せません。</div>
+
+<h3>任意のウィジェット</h3>
+
+<p>以下のウィジェットエリアは、利用しなくても問題ありません。「blank」データではすべてのウィジェットが非表示となっています。</p>
+
+<h4>ホーム::下段</h4>
+
+<h4>ホーム以外::下段</h4>
+
+<p>下段では、背景に色が付き、PCでは幅広く表示されます。地図などを強調したいときにおすすめですが、スマートフォンではかなり下の方に表示されます。</p>
+
+<h4>ホーム以外::本文上</h4>
+
+<p>重要なお知らせがあるときに、ここにテキストウィジェットを追加するのがおすすめです。</p>
+
+<h3>フィードリーダーウィジェットについて</h3>
+
+<p>このテーマでは、「フィードリーダー」プラグインに対応したウィジェットが登録されています。</p>
+
+<p>3つの「フィード設定」が登録されており、<strong>「1」はTwitter、「2」はInstagram、「3」は外部フィード</strong>を読み込む前提となっています。<br />
+利用する場合は、表示したいエリアの該当ウィジェットの「利用する」のチェックを外してください。</p>
+
+<p>初期状態では、baserCMSとウェビングスタジオのアカウントが読み込まれています。変更する方法は「カスタマイズ」のページを参照ください。</p>
+
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">フィードリーダーを利用する</a></p>","3","1","/installation/installation07","","1","","","","","","","2015-11-01 18:25:47","2015-10-17 16:00:26"
+"22","21","installation08","8. 固定ページを追加して公開する","","<h2 class=""mt0"">サイトならではの情報を提供する</h2>
+
+<p>サイト公開に必要な設定は完了しました。お疲れさまでした！</p>
+
+<p>&hellip;しかし、今のままでは、<strong>このウェブサイトならではの情報が何もありません。</strong></p>
+
+<div class=""well"">
+<ul>
+	<li>自慢のお店、商品をどう紹介しますか？</li>
+	<li>診察時間は、何時から何時までですか？休診日はいつですか？</li>
+	<li>あなたのこれまでの作品の写真、印刷物のスキャン、当日のステージスナップはありますか？</li>
+	<li>他の競合よりも、あなたの会社に問い合わせるとよい「理由」はなんですか？</li>
+	<li>団体は何を目的としていて、どのような活動をしてきたのですか？</li>
+</ul>
+</div>
+
+<p>ここで書くことが思いつかず、そのまま力尽きてしまう人が多いのです｡･ﾟ･(ﾉД`)･ﾟ･。</p>
+
+<p>同じ業種のサイトを訪問して、掲載すべき内容を調べましょう！<br />
+過去の実績を整理しましょう！<br />
+店舗・スタッフ・料理の写真を集めましょう！</p>
+
+<h2>ページを作るのが無理そうなときは&hellip;</h2>
+
+<p>最近はスマートフォンの普及もあり、トップページだけですべての内容を紹介するウェブサイトも増えました。<br />
+このテーマは、<strong>HTML編集の知識があり、どうしても情報が少ない場合は、トップページだけでも公開できます。</strong>カテゴリーなしの「index」のページを加筆・編集してください。</p>
+
+<p>HTMLの編集が苦手な場合、きちんと情報を提供したい場合は、がんばって新しい固定ページを作りましょう。</p>
+
+<p class=""text-center"">&nbsp;</p>","3","1","/installation/installation08","","1","","","","","","","2015-11-01 19:44:38","2015-10-17 16:01:04"
+"24","23","bootstrap","bootstrapのサンプル","","<p>CSSフレームワーク「bootstrap3」の、このテーマのデザインに対応しているパーツのサンプルです。<br />
+詳しい利用方法は下記を参照ください。</p>
+
+<ul>
+<li><a href=""http://getbootstrap.com/css/"" target=""_blank"">http://getbootstrap.com/css/</a></li>
+<li><a href=""http://getbootstrap.com/components/"" target=""_blank"">http://getbootstrap.com/components/</a></li>
+</ul>
+
+<p class=""text-danger"">対応していないパーツのデザインを変更する場合は、テーマファイルの /css/style.css に追記してください。</p>
+
+
+<h2 class=""h3"">.page-header</h2>
+
+<p>コンテンツヘッダに利用されています。下のラインにテーマのメインカラーが反映されます。</p>
+
+<div class=""page-header"">
+<h1>ページの見出しです<small>添え字です</small></h1>
+</div>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""page-header"">
+<h1>ページの見出しです<small>添え字です</small></h1>
+</div></textarea>
+
+
+
+<h2 class=""h3"">.btn</h2>
+
+<p>default・primary・info・linkが対応しています。</p>
+
+<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br>
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br>
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。<br>
+<strong>link:</strong> フォームボタンなどに使用すると、通常のリンクと同じ見た目になります。
+</p>
+
+<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button><button class=""btn btn-lg btn-primary"" type=""button"">Primary</button><button class=""btn btn-lg btn-success"" type=""button"">Success</button><button class=""btn btn-lg btn-info"" type=""button"">Info</button><button class=""btn btn-lg btn-warning"" type=""button"">Warning</button><button class=""btn btn-lg btn-danger"" type=""button"">Danger</button><button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+
+<p><button class=""btn btn-default"" type=""button"">Default</button><button class=""btn btn-primary"" type=""button"">Primary</button><button class=""btn btn-success"" type=""button"">Success</button><button class=""btn btn-info"" type=""button"">Info</button><button class=""btn btn-warning"" type=""button"">Warning</button><button class=""btn btn-danger"" type=""button"">Danger</button><button class=""btn btn-link"" type=""button"">Link</button></p>
+
+<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button><button class=""btn btn-sm btn-primary"" type=""button"">Primary</button><button class=""btn btn-sm btn-success"" type=""button"">Success</button><button class=""btn btn-sm btn-info"" type=""button"">Info</button><button class=""btn btn-sm btn-warning"" type=""button"">Warning</button><button class=""btn btn-sm btn-danger"" type=""button"">Danger</button><button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><p><button class=""btn btn-lg btn-default"" type=""button"">Default</button><button class=""btn btn-lg btn-primary"" type=""button"">Primary</button><button class=""btn btn-lg btn-success"" type=""button"">Success</button><button class=""btn btn-lg btn-info"" type=""button"">Info</button><button class=""btn btn-lg btn-warning"" type=""button"">Warning</button><button class=""btn btn-lg btn-danger"" type=""button"">Danger</button><button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+
+<p><button class=""btn btn-default"" type=""button"">Default</button><button class=""btn btn-primary"" type=""button"">Primary</button><button class=""btn btn-success"" type=""button"">Success</button><button class=""btn btn-info"" type=""button"">Info</button><button class=""btn btn-warning"" type=""button"">Warning</button><button class=""btn btn-danger"" type=""button"">Danger</button><button class=""btn btn-link"" type=""button"">Link</button></p>
+
+<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button><button class=""btn btn-sm btn-primary"" type=""button"">Primary</button><button class=""btn btn-sm btn-success"" type=""button"">Success</button><button class=""btn btn-sm btn-info"" type=""button"">Info</button><button class=""btn btn-sm btn-warning"" type=""button"">Warning</button><button class=""btn btn-sm btn-danger"" type=""button"">Danger</button><button class=""btn btn-sm btn-link"" type=""button"">Link</button></p></textarea>
+
+
+
+<h2 class=""h3"">.label</h2>
+
+<p>default・primary・infoが対応しています。</p>
+
+<p>
+<strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br>
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br>
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。
+</p>
+
+<p>
+<span class=""label label-default"">Default</span>
+　<span class=""label label-primary"">Prmary</span>
+　<span class=""label label-success"">Success</span>
+　<span class=""label label-info"">Info</span>
+　<span class=""label label-warning"">Warning</span>
+　<span class=""label label-danger"">Danger</span>
+</p>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><p>
+<span class=""label label-default"">Default</span>
+　<span class=""label label-primary"">Prmary</span>
+　<span class=""label label-success"">Success</span>
+　<span class=""label label-info"">Info</span>
+　<span class=""label label-warning"">Warning</span>
+　<span class=""label label-danger"">Danger</span>
+</p></textarea>
+
+
+
+<h2 class=""h3"">.thumbnail</h2>
+
+<div class=""row""><div class=""col-sm-6 col-sm-push-3"">
+<img class=""thumbnail img-responsive"" src=""../../theme/ratio_3_2/img/main_image_3.jpg"" />
+</div></div>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><img class=""thumbnail img-responsive"" src=""画像のURL"" /></textarea>
+
+<div class=""row""><div class=""col-sm-6 col-sm-push-3"">
+<div class=""thumbnail"">
+<img class=""img-responsive"" src=""../../theme/ratio_3_2/img/main_image_3.jpg"" />
+<div class=""caption"">
+<p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
+</div>
+</div>
+</div></div>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""thumbnail"">
+<img class=""img-responsive"" src=""画像のURL"" />
+<div class=""caption"">
+<p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
+</div>
+</div>
+</textarea>
+
+
+<h2 class=""h3"">.alert</h2>
+
+<p>フォームに利用されています。テーマのカラー設定は反映されません。別途スタイルを追加してください。</p>
+
+<div class=""alert alert-success""><strong>Well done!</strong> You successfully read this important alert message.</div>
+
+<div class=""alert alert-info""><strong>Heads up!</strong> This alert needs your attention, but it&#39;s not super important.</div>
+
+<div class=""alert alert-warning""><strong>Warning!</strong> Best check yo self, you&#39;re not looking too good.</div>
+
+<div class=""alert alert-danger""><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""alert alert-success""><strong>Well done!</strong> You successfully read this important alert message.</div>
+
+<div class=""alert alert-info""><strong>Heads up!</strong> This alert needs your attention, but it&#39;s not super important.</div>
+
+<div class=""alert alert-warning""><strong>Warning!</strong> Best check yo self, you&#39;re not looking too good.</div>
+
+<div class=""alert alert-danger""><strong>Oh snap!</strong> Change a few things up and try submitting again.</div></textarea>
+
+
+
+<h2 class=""h3"">.well</h2>
+
+<p>背景色にテーマのサブカラーが反映されます。</p>
+
+<div class=""well"">
+<p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。</p>
+</div>
+
+<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""well"">
+<p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。</p>
+</div></textarea>
+
+
+<h2 class=""h3"">.table</h2>
+
+<p>利用できますが、テーマのカラー設定は反映されません。別途スタイルを追加してください。</p>
+
+<table class=""table"">
+<caption>下線のみの表</caption>
+<thead>
+<tr>
+<th>thead/th</th>
+<th>thead/th</th>
+<th>thead/th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+</tbody>
+</table>
+
+<table class=""table table-borderd"">
+<caption>全体に罫線がある表</caption>
+<thead>
+<tr>
+<th>thead/th</th>
+<th>thead/th</th>
+<th>thead/th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+</tbody>
+</table>
+
+<table class=""table table-condensed"">
+<caption>ちょっとスリムな表</caption>
+<thead>
+<tr>
+<th>thead/th</th>
+<th>thead/th</th>
+<th>thead/th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+</tbody>
+</table>
+
+<table class=""table table-responsive"">
+<caption>レスポンシブ対応の表</caption>
+<thead>
+<tr>
+<th>thead/th</th>
+<th>thead/th</th>
+<th>thead/th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+<tr>
+<th>tbody/th</th>
+<td>tbody/td</td>
+<td>tbody/td</td>
+</tr>
+</tbody>
+</table>","6","1","/sample/bootstrap","","1","","","","","","","2015-10-31 16:42:18","2015-10-25 17:16:29"
+"26","25","about02","不要な機能をカット","","<h2 class=""mt0"">スライドショー、最後まで見ますか？</h2>
+
+<p>ほとんどのCMS用テーマには「スライドショー」があります。<strong>かっこよくて人気があるから</strong>です。<br />
+ですが、スマートフォンの小さな画面での訪問が多くなった今、よほど魅力的な写真を使用しない限り、スライドショーの二枚目以降はほとんど意味を成さなくなっています。</p>
+
+<p>このテーマでは、テーマ設定の「メイン画像」は、タイル状に表示されます。<br />
+1枚目が最も大きく、2枚目～5枚目は、小さめに表示されます。</p>
+
+<p>良い写真を用意できないときは、最低限1・2枚目だけでも公開できます。もっと大切な、<strong>中身＝コンテンツの作成</strong>に集中しましょう。</p>
+
+<p>※トップページの修正が必要です</p>
+
+<h2>ブログコメント、ちゃんと管理できますか？</h2>
+
+<p><strong>このテーマは、ブログコメントに対応していません。</strong><br />
+SNSが普及し、各記事にコメントが投稿されるのは、有名人ブログくらいです。また、コメント機能は不快なスパムやフィッシングサイトへの誘導に利用される危険性の方が高く、一般の人には管理しきれません。</p>
+
+<p>小規模のウェブサイトではむしろ、不要な機能と言えます。交流はSNSを積極的に使っていきましょう。</p>
+
+<h2>重要な要素はしっかりと。</h2>
+
+<p>「ratio_3_2」では、時代に合わない機能を廃する代わりに、ウェブサイトの効果的な運用に必要な要素を充実させています。</p>
+
+<ul>
+	<li>ページとブログの「前後ページ」デザインの差別化</li>
+	<li>各種SNSアイコン・ブログ記事のシェアボタン追加</li>
+	<li>OGP・Twitterカードへの対応</li>
+	<li>入力しやすいメールフォーム画面</li>
+	<li>メールフォームの送信メール、注意文の文言を再考</li>
+</ul>","4","1","/about/about02","","1","","","","","","","2015-10-31 18:22:25","2015-10-31 17:50:44"
+"27","26","about03","画像素材の比率を統一","","<h2 class=""mt0"">写真の切り抜き、いりません。</h2>
+
+<p>デザイン性の高いテーマのほとんどは、「場所ごとに写真が自動で切り抜かれる」ことが多いです。<br />
+ですが、比率によっては顔が切れてしまったり、建物が全部入りきらなかったり&hellip;<br />
+写真が得意な人でない限り、切り抜かれたあとも想定した素材を用意するのは、難しいものです。</p>
+
+<p>「ratio_3_2」は、テーマ内のすべての画像（メイン画像・ブログ記事のアイキャッチ画像）の写真比率が「3：2」であることを前提としています。</p>
+
+<p>3：2は、デジタル一眼レフカメラで撮影した画像の原寸比率です。配布・販売されている画像素材も、ほとんどが3：2となっています。<br />
+用意した画像をアップロードするだけで、イメージ通りのウェブサイトを作ることができます。</p>
+
+<p>&hellip;もちろん、明らかな失敗写真を直すことはできません（；&omega;；｀ ﾌﾞﾜｯ<br />
+撮り直すか、オンラインの写真加工ツールを使ってみましょう。</p>","4","1","/about/about03","","1","","","","","","","2015-10-31 18:44:16","2015-10-31 18:03:20"
+"29","28","about04","多数のウィジェットエリア","","<h2 class=""mt0"">ウィジェットを組み合わせて、簡単カスタマイズ。</h2>
+
+<p>baserCMSには、ブログの新着情報や、広告バナーなどのパーツを簡単に掲載できる「<strong>ウィジェット</strong>」という機能があります。</p>
+
+<p>通常は、サイドメニューだけに使用されているウィジェットですが、この「ratio_3_2」ではメインメニューや本文の上下にも使うことができます。<br />
+<strong>トップページ後半は、すべてウィジェットエリアになっている</strong>ため、ブログの新着や外部フィードなどのパーツを好きな場所に移動できます。<br />
+また、今の所不要なパーツは「非表示」にして、内容を消さずに非表示にしておくことも簡単にできます。</p>
+
+<p>使い方によっては、最近よく見るウェブサイトのように、ページ先頭に一時的なお知らせを掲載したり、ページ下部に大きな地図や「お問い合わせはこちら」を掲載することもできます。</p>
+
+<h2>三種類のフィード</h2>
+
+<p>baserCMSのフィードは一種類のみですが、このテーマはTwitter・Instagramでは独自のレイアウトで表示することができます。</p>
+
+<p>※利用には、外部サービスとの連携が必要です。詳しくは「カスタマイズ」のページを参照ください。</p>
+
+<h2>Google Adsenceの広告もOK！</h2>
+
+<p>端末の画面サイズによってレイアウトが変わる「レスポンシブデザイン」テーマの多くには、大きな欠点があります。<br />
+サイドメニューの幅も伸び縮みするので、<strong>タブレットや小型のネットブックでは、Google Adsenseなどの自動広告がはみ出してしまう</strong>のです。<br />
+これは、日本で利用できる多くの自動広告バナーが、幅を伸縮させることができないためです。</p>
+
+<p>「ratio_3_2」のサイドメニューは、どんな画面幅でも、300ピクセル以下になることはありません。<br />
+幅300ピクセルの「レクタングル広告」がぴったり収まります。</p>","4","1","/about/about04","","1","","","","","","","2015-11-01 17:06:15","2015-10-31 18:18:39"
+"30","29","about05","フレームワークの採用","","<h2 class=""mt0"">もちろん、プロのWeb制作者にも。</h2>
+
+<p>作者のウェビングスタジオは、CMSを組み込んだウェブサイトの制作・カスタマイズを請け負っています。</p>
+
+<p><a href=""http://webbingstudio.com/"">http://webbingstudio.com/</a></p>
+
+<p>この「ratio_3_2」テーマも実際の制作と同様のクォリティで制作し、世界標準のWeb制作フレームワーク「bootstrap3」と、使いやすいアイコンセット「font awesome」を組み込んでいます。</p>
+
+<p>ゼロから制作したい場合は、テーマ内の「style.css」「config.css」を空にすると、bootstrapの初期状態に戻すことができます。</p>
+
+<p>スライドショー・タブ・アイコンなど、テーマにはないパーツを追加したい場合は、公式サイトのドキュメントを参照ください。</p>
+
+<p>bootstrap 3公式サイト<br />
+<a href=""http://getbootstrap.com/"">http://getbootstrap.com/</a></p>
+
+<p>Font Awesome公式サイト<br />
+<a href=""http://fortawesome.github.io/Font-Awesome/"">http://fortawesome.github.io/Font-Awesome/</a></p>
+
+<h2>隠し機能、あります。</h2>
+
+<p>このテーマでは、bootstrap3以外にも、さまざまなCSSの補助クラスや、PHPの補助関数を追加しています。<br />
+「カスタマイズ」のページで、よく使う機能の一部をご紹介しています。参照ください。</p>","4","1","/about/about05","","1","","","","","","","2015-11-01 17:07:17","2015-10-31 18:33:22"
+"31","30","customize02","ヘッダ・フッタを白にする","","<p>このテーマは、ヘッダ・フッタの色をそれぞれ「白」「黒」に変えることができます。<br />
+テーマファイルの直接編集が必要となります。心配な場合は必ずコピーを作成してください。</p>
+
+<p>テーマファイル内のConfig/bootstrap.phpをテキストエディタで開いてください。<br />
+先頭に以下のように書かれています。</p>
+
+<pre>
+// カラー（白系:white 黒系:black）
+define(&#39;RATIO32_HEAD_COLOR&#39;, &#39;black&#39;);
+define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
+
+<p>&#39;black&#39;を&#39;white&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ白に変わります。</p>
+
+<div class=""well"">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>","5","1","/customize/customize02","","1","","","","","","","2015-11-01 19:17:10","2015-11-01 19:16:52"
+"32","31","customize03","メイン画像1の文字体裁を変える","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" /></div>
+
+<p>メイン画像によっては、上に乗っている文字の位置や色が合わないことがあります。<br />
+スタイルシートの知識があれば、管理画面から調整することができます。</p>
+
+<h2>位置を変える</h2>
+
+<p>管理画面の固定ページ一覧から、トップページ（カテゴリーなしの「index」ページ）の編集画面へ移動してください。<br />
+ページ下部の「オプション」をクリックすると、「コード」欄に文字位置のスタイルシート定義が書かれています。</p>
+
+<p>文字サイズを変える場合は「font-size」を、文字位置を変える場合は「top」「bottom」の数字を変更してください。「width」や「left」を追加すると左右を空けることもできます。<br />
+なお、「top」「bottom」「width」は必ず、<strong>パーセント単位</strong>としてください。画面が伸縮したときにずれてしまいます。</p>
+
+<h2>色を変える</h2>
+
+<p>「コード」欄に以下のように追記すると、文字が白黒反転します。</p>
+
+<pre>
+<code>.mainvisual .jumbotron .h1,
+.mainvisual .jumbotron h1 {
+&nbsp;&nbsp; &nbsp;color: #333333;
+&nbsp;&nbsp; &nbsp;text-shadow: 0px 1px 6px rgba( 255, 255, 255, .75 );
+}
+
+.mainvisual .jumbotron:visited .h1,
+.mainvisual .jumbotron:hover .h1,
+.mainvisual .jumbotron:focus .h1,
+.mainvisual .jumbotron:active .h1,
+.mainvisual .jumbotron:visited h1,
+.mainvisual .jumbotron:hover h1,
+.mainvisual .jumbotron:focus h1,
+.mainvisual .jumbotron:active h1 {
+&nbsp;&nbsp; &nbsp;color: #333333;
+}
+
+.mainvisual .jumbotron .jumbotron-caption {
+&nbsp;&nbsp; &nbsp;background: rgba( 255, 255, 255, .3 );
+&nbsp;&nbsp; &nbsp;color: #333333;
+}
+
+.mainvisual .jumbotron:visited .jumbotron-caption,
+.mainvisual .jumbotron:hover .jumbotron-caption,
+.mainvisual .jumbotron:focus .jumbotron-caption,
+.mainvisual .jumbotron:active .jumbotron-caption {
+&nbsp;&nbsp; &nbsp;color: #333333;
+}</code></pre>","5","1","/customize/customize03","","1","","","","","","","2015-11-01 19:43:30","2015-11-01 19:18:18"
+"33","32","customize04","フィードリーダーを利用する","","<p>このテーマでは、三種類の体裁のフィードを表示することができます。</p>
+
+<p class=""h4"">Twitter用</p>
+
+<p>つぶやき・つぶやいたアカウントID・投稿日時が表示されます。</p>
+
+<p class=""h4"">Instagram用</p>
+
+<p>写真と文章が表示されます。</p>
+
+<h2 class=""h4"">その他のフィード用</h2>
+
+<p>タイトル・概要・投稿日が表示されます。</p>
+
+<h2>Twitter・InstagramのフィードURLを取得する</h2>
+
+<p>TwitterとInstagramのRSSフィードを取得するには、外部サービスを利用する必要があります。</p>
+
+<p>下記のサービスで、アカウント用のRSSフィードを作成し、URLを控えてください。</p>
+
+<p>Queryfeed<br />
+<a href=""https://queryfeed.net/"">https://queryfeed.net/</a></p>
+
+<p>RSS.Stagram!!!<br />
+<a href=""http://rss.stagram.tk/"">http://rss.stagram.tk/</a></p>
+
+<h2>フィードURLを登録する</h2>
+
+<p>管理画面の「フィード管理 &gt; フィード設定一覧」から、各サービスのフィード設定を選択してください。</p>
+
+<p>TwitterにはbaserCMS、Instagramにはウェビングスタジオのフィードが登録されています。<br />
+これを、ご利用のフィードURLに書き換えてください。</p>
+
+<h2>フィードウィジェットを表示する</h2>
+
+<p>管理画面の「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動し、表示したい箇所のフィードウィジェットの「利用する」にチェックを入れてください。</p>
+
+<div class=""alert alert-danger"">「Queryfeed」「RSS.Stagram!!!」は外部サービスです。予告なくサービスが終了する可能性があり、その場合はフィードが正常に表示されなくなりますので、事前にご了承ください。</div>","5","1","/customize/customize04","","1","","","","","","","2015-11-01 20:07:26","2015-11-01 20:04:37"
+"34","33","customize05","画面幅いっぱいに内容を表示する","","<p>このテーマは、ページ本文に幅の上限を設けています。<br />
+帯状に背景色を変える、画像をいっぱいに表示する場合は、以下のようにカスタマイズすると制限を解除できます。</p>
+
+<div class=""alert alert-danger"">HTML・CSSと、baserCMSのテーマ編集の知識が必要となります。</div>
+
+<h2>すべてのページで解除する</h2>
+
+<p>通常は、テーマファイル内の「<strong>Layout/default.php</strong>」が、基本レイアウトとして読み込まれています。<br />
+このファイル名を「<strong>Layout/col1_full.php</strong>」と入れ替えると、すべてのページの制限が解除されます。</p>
+
+<p>幅を制限すべき箇所は、都度&lt;div class=&quot;container&quot;&gt;～&lt;/div&gt;を本文に記述してください。</p>
+
+<h2>特定カテゴリーのみ解除する</h2>
+
+<p>カテゴリーの作成時に、読み込むテンプレートで「<strong>col1_full</strong>」を選択すると、そのカテゴリー内のみ制限が解除されます。<br />
+制限を設けたままで、サイドメニューがない「<strong>col1</strong>」というテンプレートも選択できます。</p>","5","1","/customize/customize05","","1","","","","","","","2015-11-01 20:17:03","2015-11-01 20:16:14"
+"35","34","about06","説明書の添付","","<p>この「default」データ内の解説を複製した、PDF版のマニュアルを同梱しています。</p>
+
+<p>テーマ内の下記の場所から、FTPソフトなどでダウンロードしてください。</p>
+
+<p><strong>[baserCMSを設置したディレクトリ]app/webroot/theme/ratio_3_2/ratio_3_2_manual.pdf</strong></p>","4","1","/about/about06","","1","","","","","","","2015-11-01 20:39:36","2015-11-01 20:39:36"
