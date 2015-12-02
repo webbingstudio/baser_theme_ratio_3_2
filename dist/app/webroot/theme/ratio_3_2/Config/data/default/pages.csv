@@ -108,23 +108,23 @@
 <div class=""pt2"">
 <div class=""row"">
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""/about/about02"">不要な機能をカット </a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about02"">不要な機能をカット </a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""/about/about03"">画像素材の比率を統一 </a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about03"">画像素材の比率を統一 </a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""/about/about04"">多数のウィジェットエリア </a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about04"">多数のウィジェットエリア </a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""/about/about05"">フレームワークの採用 </a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about05"">フレームワークの採用 </a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""/about/about06"">説明書の添付 </a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about06"">説明書の添付 </a></p>
 </div>
 </div>
 </div>","4","1","/about/index","","1","","","","","","","2015-11-01 17:10:28","2015-06-26 20:34:06"
@@ -258,7 +258,7 @@
 		</tr>
 	</tbody>
 </table>","6","1","/sample/index","","1","","","","","","","2015-10-31 17:03:34","2015-06-27 12:40:09"
-"13","12","installation01","1. テーマの初期データを読み込む","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" /></div>
+"13","12","installation01","1. テーマの初期データを読み込む","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ一覧」へ移動し、「ratio_3_2」テーマを有効にしてください。</p>
 
@@ -339,7 +339,7 @@
 <div class=""alert alert-danger"">このページの情報の入力が終わるまでは、ウェブサイトを公開しないでください（URLをブログに掲載する、Twitterでつぶやくなど）。<br />
 「baserCMSの公式サイトと同じ内容を掲載している」と検索サイトに判断され、評価が下がってしまうかもしれません。</div>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" /></div>
 
 <h3>基本項目</h3>
 
@@ -384,7 +384,7 @@
 
 <p><strong>[baserCMSを設置したURL]admin/mail/mail_configs/form</strong></p>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" /></div>
 
 <p>メールの署名の設定画面になります。最低限「署名：WEBサイト名」「署名：WEBサイトURL」は入力してください。<br />
 その他の項目は、店舗があるか、電話の問い合わせを受け付けるかによって任意で入力してください。</p>
@@ -392,7 +392,7 @@
 <hr />
 <p>眠くなってきましたね&hellip;<br />
 起きてください！次はちょっと楽しいですよ！テーマカラーの設定です。</p>","3","1","/installation/installation03","","1","","","","","","","2015-11-01 14:33:52","2015-10-17 15:57:11"
-"18","17","installation04","4. テーマカラーを設定する","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" /></div>
+"18","17","installation04","4. テーマカラーを設定する","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ設定」へ移動してください。<br />
 4色の「テーマカラー」を設定できます。ここを変更して保存すると、サイト全体のカラーリングを変えることができます。</p>
@@ -434,13 +434,13 @@
 
 <h3 class=""h4"">ロゴに文字が含まれているとき</h3>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" /></div>
 
 <p>「説明文」は空欄にしてください。</p>
 
 <h3 class=""h4"">ロゴに文字が含まれていないとき</h3>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" /></div>
 
 <p>「説明文」とロゴ画像&rsquo;の両方を設定してください。</p>
 
@@ -450,7 +450,7 @@
 
 <h2>メイン画像の設定</h2>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" /></div>
 
 <p>用意した写真素材をアップロードし、説明文に考えておいた見出しと説明文を入力してください。任意のページへ誘導したい場合は、リンク先URLを入力してください。</p>
 
@@ -476,7 +476,7 @@
 <p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。<br />
 一覧に「ヘッダ::サブメニュー」というエリアがあるので、クリックして編集画面へ移動してください。</p>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" /></div>
 
 <h3>「アイコンメニュー」ウィジェットについて</h3>
 
@@ -522,7 +522,7 @@ Twitterの場合は、以下のとおりになります。</p>
 
 <div class=""row"">
 <div class=""col-sm-4"">
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_widget_01.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_widget_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg"" /></div>
 </div>
 
 <div class=""col-sm-8"">
@@ -672,14 +672,14 @@ Twitterの場合は、以下のとおりになります。</p>
 <h2 class=""h3"">.thumbnail</h2>
 
 <div class=""row""><div class=""col-sm-6 col-sm-push-3"">
-<img class=""thumbnail img-responsive"" src=""../../theme/ratio_3_2/img/main_image_3.jpg"" />
+<img class=""thumbnail img-responsive"" src=""../theme/ratio_3_2/img/main_image_3.jpg"" />
 </div></div>
 
 <textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><img class=""thumbnail img-responsive"" src=""画像のURL"" /></textarea>
 
 <div class=""row""><div class=""col-sm-6 col-sm-push-3"">
 <div class=""thumbnail"">
-<img class=""img-responsive"" src=""../../theme/ratio_3_2/img/main_image_3.jpg"" />
+<img class=""img-responsive"" src=""../theme/ratio_3_2/img/main_image_3.jpg"" />
 <div class=""caption"">
 <p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
 </div>
@@ -948,7 +948,7 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 <p>&#39;black&#39;を&#39;white&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ白に変わります。</p>
 
 <div class=""well"">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>","5","1","/customize/customize02","","1","","","","","","","2015-11-01 19:17:10","2015-11-01 19:16:52"
-"32","31","customize03","メイン画像1の文字体裁を変える","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""../../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" /></div>
+"32","31","customize03","メイン画像1の文字体裁を変える","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" /></div>
 
 <p>メイン画像によっては、上に乗っている文字の位置や色が合わないことがあります。<br />
 スタイルシートの知識があれば、管理画面から調整することができます。</p>
