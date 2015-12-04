@@ -2650,6 +2650,7 @@ mainvisual
 
 .mainvisual .mainvisual-col-02 .thumbnail p {
   padding: 15px;
+  color: #FFFFFF;
 }
 
 .mainvisual .mainvisual-col-02 .thumbnail .thumbnail-title {
@@ -2657,6 +2658,7 @@ mainvisual
   bottom: 0;
   padding-left: 15px;
   padding-right: 15px;
+  color: #FFFFFF;
   background: rgba(255, 255, 255, 0.15);
 }
 
