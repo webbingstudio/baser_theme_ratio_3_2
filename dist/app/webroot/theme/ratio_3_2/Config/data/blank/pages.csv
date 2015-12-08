@@ -24,8 +24,6 @@
 <!-- /.pop --></div>
 <!-- /.container --></div>
 <!-- /.pickup --></div>","","1","/index","","1","","","","<style>
-/* メインビジュアルの文字の体裁 */
-
 .mainvisual .jumbotron .h1,
 .mainvisual .jumbotron h1 {
     top: 15%;
