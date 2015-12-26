@@ -59,18 +59,24 @@ if ( $this->BcBaser->isHome() ):
 			<div class="row-2col">
 				<div class="col-main">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: home middle-left No.3
+						$this->Ratio32->widget_edit_link(3);
 						$this->BcBaser->widgetArea(3);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 				<!-- /.col-main --></div>
 				<div class="col-sub">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: home middle-right No.4
+						$this->Ratio32->widget_edit_link(4);
 						$this->BcBaser->widgetArea(4);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 				<!-- /.col-sub --></div>
 			<!-- /.row-2col --></div>
@@ -94,7 +100,12 @@ if ( $this->BcBaser->isHome() ):
 		<div class="section section-02">
 			<div class="container">
 
-				<?php $this->BcBaser->widgetArea(5); ?>
+				<div class="widget-area-wrapper">
+				<?php
+					$this->Ratio32->widget_edit_link(5);
+					$this->BcBaser->widgetArea(5);
+				?>
+				<!-- /.widget-area-wrapper --></div>
 
 			<!-- /.container --></div>
 		<!-- /.section section-02 --></div>
@@ -110,10 +121,13 @@ if ( $this->BcBaser->isHome() ):
 			<div class="row-2col">
 				<div class="col-main">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: common top No.6
+						$this->Ratio32->widget_edit_link(6);
 						$this->BcBaser->widgetArea(6);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 					<?php $this->BcBaser->flash() ?>
 					<?php if ( $this->BcBaser->isCategoryTop() ) : ?>
@@ -145,10 +159,13 @@ if ( $this->BcBaser->isHome() ):
 				<!-- /.col-main --></div>
 				<div class="col-sub">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: default sidebar No.1
+						$this->Ratio32->widget_edit_link(1);
 						$this->BcBaser->widgetArea();
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 				<!-- /.col-sub --></div>
 			<!-- /.row-2col --></div>
@@ -173,7 +190,12 @@ if ( $this->BcBaser->isHome() ):
 		<div class="section section-02">
 			<div class="container">
 
-				<?php $this->BcBaser->widgetArea(7); ?>
+				<div class="widget-area-wrapper">
+				<?php
+					$this->Ratio32->widget_edit_link(7);
+					$this->BcBaser->widgetArea(7);
+				?>
+				<!-- /.widget-area-wrapper --></div>
 
 			<!-- /.container --></div>
 		<!-- /.section section-02 --></div>

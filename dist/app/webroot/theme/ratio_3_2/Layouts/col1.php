@@ -45,10 +45,13 @@
 	<div class="section section-01">
 		<div class="container">
 
+			<div class="widget-area-wrapper">
 			<?php
 				// widget: common top No.6
+				$this->Ratio32->widget_edit_link(6);
 				$this->BcBaser->widgetArea(6);
 			?>
+			<!-- /.widget-area-wrapper --></div>
 
 			<?php $this->BcBaser->flash() ?>
 			<?php if ( $this->BcBaser->isCategoryTop() ) : ?>
@@ -93,7 +96,12 @@
 		<div class="section section-02">
 			<div class="container">
 
-				<?php $this->BcBaser->widgetArea(7); ?>
+				<div class="widget-area-wrapper">
+				<?php
+					$this->Ratio32->widget_edit_link(7);
+					$this->BcBaser->widgetArea(7);
+				?>
+				<!-- /.widget-area-wrapper --></div>
 
 			<!-- /.container --></div>
 		<!-- /.section section-02 --></div>

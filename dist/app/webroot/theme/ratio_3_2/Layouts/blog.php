@@ -48,26 +48,35 @@
 			<div class="row-2col">
 				<div class="col-main">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: common top No.6
+						$this->Ratio32->widget_edit_link(6);
 						$this->BcBaser->widgetArea(6);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 					<?php $this->BcBaser->flash() ?>
 					<?php $this->BcBaser->content() ?>
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: common bottom No.7
+						$this->Ratio32->widget_edit_link(7);
 						$this->BcBaser->widgetArea(7);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 				<!-- /.col-main --></div>
 				<div class="col-sub">
 
+					<div class="widget-area-wrapper">
 					<?php
 						// widget: blog sidebar No.2
+						$this->Ratio32->widget_edit_link(2);
 						$this->BcBaser->widgetArea(2);
 					?>
+					<!-- /.widget-area-wrapper --></div>
 
 				<!-- /.col-sub --></div>
 			<!-- /.row-2col --></div>
