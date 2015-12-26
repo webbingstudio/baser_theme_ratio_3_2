@@ -256,7 +256,7 @@
 		</tr>
 	</tbody>
 </table>","6","1","/sample/index","","1","","","","","","","2015-10-31 17:03:34","2015-06-27 12:40:09"
-"13","12","installation01","1. テーマの初期データを読み込む","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" /></div>
+"13","12","installation01","1. テーマの初期データを読み込む","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" width=""760"" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ一覧」へ移動し、「ratio_3_2」テーマを有効にしてください。</p>
 
@@ -264,31 +264,14 @@
 「default」には、テーマの紹介やこの導入手順が書かれています。テーマをいろいろと試してみたいときに読み込んでください。<br />
 もう作成するサイトが決まっている場合は、余分なデータが入っていない<strong>「blank」</strong>を読み込んでください。</p>
 
-<h2>「default」データで使用されている画像について</h2>
+<h2>初期データで使用されている画像について</h2>
 
-<p>ページ内の画像は、「スマートURL」がオフになっていると表示されません。<br />
-以下のいずれかの手順で修正してください。</p>
+<p>ページ内の画像や、サイドメニューの「べっしーのバナー」は、baserCMSがドメインのルートディレクトリ以外に設置していると表示されません。<br />
+管理画面の「固定ページ管理」「ウィジェット管理」で、画像が表示されていないimg要素のsrc属性の「サーバーパス」を、設置したサイトでリンクがつながるよう変更してください。</p>
 
-<h3>1）スマートURLをオンにする</h3>
-
-<p>管理画面の「システム設定 &gt; サイト基本設定」で、「スマートURL」をオンにした後、「サーバーキャッシュ削除」を行うか、ページを何度か再読み込みしてください。</p>
-
-<h3>2）img要素のパスを変更する</h3>
-
-<p>画像が表示されていないimg要素のsrc属性の「相対パス」を一階層深くなるよう変更してください。</p>
-
-<p>例：<br />
-../theme/ratio_3_2/img/default/&hellip;<br />
-&rarr;　<strong>../../theme/ratio_3_2/img/default/&hellip;</strong></p>
-
-<h2>バナーについて</h2>
-
-<p>サイドメニューの「べっしー」のバナーは、baserCMSをサーバーのルートディレクトリ以外に設置していると表示されません。<br />
-管理画面の「ウィジェット管理」で、バナーを差し替えるか、バナーのimg要素のsrc属性の「相対パス」を一階層深くなるよう変更してください。</p>
-
-<p>例：<br />
-/app/webroot/theme/ratio_3_2/&hellip;<br />
-&rarr;　<strong>/[baserCMSを設置した階層]/app/webroot/theme/ratio_3_2/&hellip;</strong></p>","3","1","/installation/installation01","","1","","","","","","","2015-12-03 03:09:29","2015-06-27 15:36:22"
+<p>例：サイト内の「abc」ディレクトリに設置した場合<br />
+/theme/ratio_3_2/img/default/&hellip;<br />
+&rarr;　<strong>/abc/theme/ratio_3_2/img/default/&hellip;</strong></p>","3","1","/installation/installation01","","1","","","","","","","2015-12-26 17:14:29","2015-06-27 15:36:22"
 "14","13","index","見出しの上を詰める・段落の下を空ける","","<p>このテーマは、「見出し」を利用すると、上に空白ができます。<br />
 このため、ページの先頭に見出しを作ると、大見出しとの間が空いてしまいます。</p>
 
@@ -346,14 +329,14 @@
 &lt;/div&gt;</code></pre>
 
 <div class=""alert alert-danger"">divタグはCKEditorでは見ることができないので、慎重に編集してください。<br />
-また、左右余白は、大きくしすぎるとスマートフォンで読みにくくなってしまいます。</div>","5","1","/customize/index","","1","","","","","","","2015-11-01 19:10:12","2015-06-27 15:36:53"
+また、左右余白は、大きくしすぎるとスマートフォンで読みにくくなってしまいます。</div>","5","1","/customize/index","","1","","","","","","","2015-12-26 19:03:34","2015-06-27 15:36:53"
 "16","15","installation02","2. サイト基本設定を入力する","","<p>続いて、管理画面の「システム設定 &gt; サイト基本設定」へ移動してください。<br />
 運用に必須の情報を、作成するサイトの内容に合わせていきます。</p>
 
 <div class=""alert alert-danger"">このページの情報の入力が終わるまでは、ウェブサイトを公開しないでください（URLをブログに掲載する、Twitterでつぶやくなど）。<br />
 「baserCMSの公式サイトと同じ内容を掲載している」と検索サイトに判断され、評価が下がってしまうかもしれません。</div>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" width=""760"" /></div>
 
 <h3>基本項目</h3>
 
@@ -389,7 +372,7 @@
 このテーマは、端末の画面サイズによって最適な表示を提供します（レスポンシブウェブデザイン）。このため、モバイル用のテンプレートは利用していません。</p>
 
 <p>すべて入力したら、画面下の「<strong>保存</strong>」ボタンを押してください。<br />
-なお、baserCMSは「保存」ボタンはすべて、画面の下にあります。押し忘れないようにしましょう。</p>","3","1","/installation/installation02","","1","","","","","","","2015-11-01 17:21:10","2015-10-17 15:55:41"
+なお、baserCMSは「保存」ボタンはすべて、画面の下にあります。押し忘れないようにしましょう。</p>","3","1","/installation/installation02","","1","","","","","","","2015-12-26 17:15:00","2015-10-17 15:55:41"
 "17","16","installation03","3. メールフォームの基本設定を入力する","","<p>メールフォームから問い合わせをすると、たいていは、返信メールにサイト名や連絡先が書かれています。この設定を行います。<br />
 メールフォームが不要な場合は、設定の必要はありません。</p>
 
@@ -398,15 +381,15 @@
 
 <p><strong>[baserCMSを設置したURL]admin/mail/mail_configs/form</strong></p>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" width=""760"" /></div>
 
 <p>メールの署名の設定画面になります。最低限「署名：WEBサイト名」「署名：WEBサイトURL」は入力してください。<br />
 その他の項目は、店舗があるか、電話の問い合わせを受け付けるかによって任意で入力してください。</p>
 
 <hr />
 <p>眠くなってきましたね&hellip;<br />
-起きてください！次はちょっと楽しいですよ！テーマカラーの設定です。</p>","3","1","/installation/installation03","","1","","","","","","","2015-11-01 14:33:52","2015-10-17 15:57:11"
-"18","17","installation04","4. テーマカラーを設定する","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" /></div>
+起きてください！次はちょっと楽しいですよ！テーマカラーの設定です。</p>","3","1","/installation/installation03","","1","","","","","","","2015-12-26 17:15:20","2015-10-17 15:57:11"
+"18","17","installation04","4. テーマカラーを設定する","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" width=""760"" /></div>
 
 <p>管理画面の「テーマ管理 &gt; テーマ設定」へ移動してください。<br />
 4色の「テーマカラー」を設定できます。ここを変更して保存すると、サイト全体のカラーリングを変えることができます。</p>
@@ -439,7 +422,7 @@
 
 <p>ヘッダとフッタの色は白に変更できますが、管理画面内ではできません。手順は「カスタマイズ」のページをごらんください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ヘッダ・フッタを白にする</a></p>","3","1","/installation/installation04","","1","","","","","","","2015-11-01 14:32:03","2015-10-17 15:58:08"
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ヘッダ・フッタを白にする</a></p>","3","1","/installation/installation04","","1","","","","","","","2015-12-26 17:17:38","2015-10-17 15:58:08"
 "19","18","installation05","5.メイン画像を差し替える","","<p>続いて、「テーマ管理 &gt; テーマ設定」画面のまま、ロゴとメイン画像を差し替えていきます。この内容はそのまま、トップページの内容として反映されます。</p>
 
 <h2>ロゴの設定</h2>
@@ -448,13 +431,13 @@
 
 <h3 class=""h4"">ロゴに文字が含まれているとき</h3>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" width=""760"" /></div>
 
 <p>「説明文」は空欄にしてください。</p>
 
 <h3 class=""h4"">ロゴに文字が含まれていないとき</h3>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" width=""760"" /></div>
 
 <p>「説明文」とロゴ画像&rsquo;の両方を設定してください。</p>
 
@@ -464,7 +447,7 @@
 
 <h2>メイン画像の設定</h2>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" width=""760"" /></div>
 
 <p>用意した写真素材をアップロードし、説明文に考えておいた見出しと説明文を入力してください。任意のページへ誘導したい場合は、リンク先URLを入力してください。</p>
 
@@ -482,7 +465,7 @@
 
 <p>一枚目の画像によっては、文字の配置がしっくりこないことがあります。修正手順は「カスタマイズ」のページをごらんください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">メイン画像1の文字体裁を変える</a></p>","3","1","/installation/installation05","","1","","","","","","","2015-11-01 18:23:05","2015-10-17 15:58:42"
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">メイン画像1の文字体裁を変える</a></p>","3","1","/installation/installation05","","1","","","","","","","2015-12-26 17:18:21","2015-10-17 15:58:42"
 "20","19","installation06","6. SNSアイコンを設定する","","<p>このテーマは、ヘッダに「お問い合わせアイコン」「SNSアイコン」を表示することができます。ここを作成するサイトに合わせて修正していきましょう。</p>
 
 <h2>ウィジェット編集画面へ移動する</h2>
@@ -490,7 +473,7 @@
 <p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。<br />
 一覧に「ヘッダ::サブメニュー」というエリアがあるので、クリックして編集画面へ移動してください。</p>
 
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" width=""760"" /></div>
 
 <h3>「アイコンメニュー」ウィジェットについて</h3>
 
@@ -531,12 +514,12 @@ Twitterの場合は、以下のとおりになります。</p>
 <pre>
 <code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">[TwitterのURL]</strong>&quot; class=&quot;btn btn-round btn-twitter&quot;&gt;
 &lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Twitter&lt;/span&gt;
-&lt;/a&gt;&lt;/li&gt;</code></pre>","3","1","/installation/installation06","","1","","","","","","","2015-11-01 17:50:39","2015-10-17 15:59:30"
+&lt;/a&gt;&lt;/li&gt;</code></pre>","3","1","/installation/installation06","","1","","","","","","","2015-12-26 17:18:43","2015-10-17 15:59:30"
 "21","20","installation07","7. ウィジェットとフィードを設定する","","<h2 class=""mt0"">ウィジェットの表示設定をする</h2>
 
 <div class=""row"">
 <div class=""col-sm-4"">
-<div class=""thumbnail""><img align="""" alt=""ratio_3_2_widget_01.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg"" /></div>
+<div class=""thumbnail""><img align="""" alt=""ratio_3_2_widget_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_widget_01__large.jpg"" width=""360"" /></div>
 </div>
 
 <div class=""col-sm-8"">
@@ -573,7 +556,7 @@ Twitterの場合は、以下のとおりになります。</p>
 
 <p>初期状態では、baserCMSとウェビングスタジオのアカウントが読み込まれています。変更する方法は「カスタマイズ」のページを参照ください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">フィードリーダーを利用する</a></p>","3","1","/installation/installation07","","1","","","","","","","2015-11-01 18:25:47","2015-10-17 16:00:26"
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">フィードリーダーを利用する</a></p>","3","1","/installation/installation07","","1","","","","","","","2015-12-26 17:19:51","2015-10-17 16:00:26"
 "22","21","installation08","8. 固定ページを追加して公開する","","<h2 class=""mt0"">サイトならではの情報を提供する</h2>
 
 <p>サイト公開に必要な設定は完了しました。お疲れさまでした！</p>
@@ -604,16 +587,15 @@ Twitterの場合は、以下のとおりになります。</p>
 <p>HTMLの編集が苦手な場合、きちんと情報を提供したい場合は、がんばって新しい固定ページを作りましょう。</p>
 
 <p class=""text-center"">&nbsp;</p>","3","1","/installation/installation08","","1","","","","","","","2015-11-01 19:44:38","2015-10-17 16:01:04"
-"24","23","bootstrap","bootstrapのサンプル","","<p>CSSフレームワーク「bootstrap3」の、このテーマのデザインに対応しているパーツのサンプルです。<br />
+"24","23","bootstrap","Bootstrapのサンプル","","<p>CSSフレームワーク「Bootstrap 3」の、このテーマのデザインに対応しているパーツのサンプルです。<br />
 詳しい利用方法は下記を参照ください。</p>
 
 <ul>
-<li><a href=""http://getbootstrap.com/css/"" target=""_blank"">http://getbootstrap.com/css/</a></li>
-<li><a href=""http://getbootstrap.com/components/"" target=""_blank"">http://getbootstrap.com/components/</a></li>
+	<li><a href=""http://getbootstrap.com/css/"" target=""_blank"">http://getbootstrap.com/css/</a></li>
+	<li><a href=""http://getbootstrap.com/components/"" target=""_blank"">http://getbootstrap.com/components/</a></li>
 </ul>
 
 <p class=""text-danger"">対応していないパーツのデザインを変更する場合は、テーマファイルの /css/style.css に追記してください。</p>
-
 
 <h2 class=""h3"">.page-header</h2>
 
@@ -623,91 +605,116 @@ Twitterの場合は、以下のとおりになります。</p>
 <h1>ページの見出しです<small>添え字です</small></h1>
 </div>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""page-header"">
-<h1>ページの見出しです<small>添え字です</small></h1>
-</div></textarea>
-
-
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;page-header&quot;&gt;
+&lt;h1&gt;ページの見出しです&lt;small&gt;添え字です&lt;/small&gt;&lt;/h1&gt;
+&lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.btn</h2>
 
 <p>default・primary・info・linkが対応しています。</p>
 
-<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br>
-<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br>
-<strong>info:</strong> 背景にテーマのメインカラーが反映されます。<br>
-<strong>link:</strong> フォームボタンなどに使用すると、通常のリンクと同じ見た目になります。
-</p>
+<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br />
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br />
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。<br />
+<strong>link:</strong> フォームボタンなどに使用すると、通常のリンクと同じ見た目になります。</p>
 
-<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button><button class=""btn btn-lg btn-primary"" type=""button"">Primary</button><button class=""btn btn-lg btn-success"" type=""button"">Success</button><button class=""btn btn-lg btn-info"" type=""button"">Info</button><button class=""btn btn-lg btn-warning"" type=""button"">Warning</button><button class=""btn btn-lg btn-danger"" type=""button"">Danger</button><button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button>
+　<button class=""btn btn-lg btn-primary"" type=""button"">Primary</button>
+　<button class=""btn btn-lg btn-success"" type=""button"">Success</button>
+　<button class=""btn btn-lg btn-info"" type=""button"">Info</button><br />
+<button class=""btn btn-lg btn-warning"" type=""button"">Warning</button>
+　<button class=""btn btn-lg btn-danger"" type=""button"">Danger</button>
+　<button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-default"" type=""button"">Default</button><button class=""btn btn-primary"" type=""button"">Primary</button><button class=""btn btn-success"" type=""button"">Success</button><button class=""btn btn-info"" type=""button"">Info</button><button class=""btn btn-warning"" type=""button"">Warning</button><button class=""btn btn-danger"" type=""button"">Danger</button><button class=""btn btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-default"" type=""button"">Default</button>
+　<button class=""btn btn-primary"" type=""button"">Primary</button>
+　<button class=""btn btn-success"" type=""button"">Success</button>
+　<button class=""btn btn-info"" type=""button"">Info</button>
+　<button class=""btn btn-warning"" type=""button"">Warning</button>
+　<button class=""btn btn-danger"" type=""button"">Danger</button>
+　<button class=""btn btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button><button class=""btn btn-sm btn-primary"" type=""button"">Primary</button><button class=""btn btn-sm btn-success"" type=""button"">Success</button><button class=""btn btn-sm btn-info"" type=""button"">Info</button><button class=""btn btn-sm btn-warning"" type=""button"">Warning</button><button class=""btn btn-sm btn-danger"" type=""button"">Danger</button><button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button>
+　<button class=""btn btn-sm btn-primary"" type=""button"">Primary</button>
+　<button class=""btn btn-sm btn-success"" type=""button"">Success</button>
+　<button class=""btn btn-sm btn-info"" type=""button"">Info</button>
+　<button class=""btn btn-sm btn-warning"" type=""button"">Warning</button>
+　<button class=""btn btn-sm btn-danger"" type=""button"">Danger</button>
+　<button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><p><button class=""btn btn-lg btn-default"" type=""button"">Default</button><button class=""btn btn-lg btn-primary"" type=""button"">Primary</button><button class=""btn btn-lg btn-success"" type=""button"">Success</button><button class=""btn btn-lg btn-info"" type=""button"">Info</button><button class=""btn btn-lg btn-warning"" type=""button"">Warning</button><button class=""btn btn-lg btn-danger"" type=""button"">Danger</button><button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;&lt;button class=&quot;btn btn-lg btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;&lt;br&gt;
+&lt;button class=&quot;btn btn-lg btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
-<p><button class=""btn btn-default"" type=""button"">Default</button><button class=""btn btn-primary"" type=""button"">Primary</button><button class=""btn btn-success"" type=""button"">Success</button><button class=""btn btn-info"" type=""button"">Info</button><button class=""btn btn-warning"" type=""button"">Warning</button><button class=""btn btn-danger"" type=""button"">Danger</button><button class=""btn btn-link"" type=""button"">Link</button></p>
+&lt;p&gt;&lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
+　&lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+　&lt;button class=&quot;btn btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+　&lt;button class=&quot;btn btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
-<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button><button class=""btn btn-sm btn-primary"" type=""button"">Primary</button><button class=""btn btn-sm btn-success"" type=""button"">Success</button><button class=""btn btn-sm btn-info"" type=""button"">Info</button><button class=""btn btn-sm btn-warning"" type=""button"">Warning</button><button class=""btn btn-sm btn-danger"" type=""button"">Danger</button><button class=""btn btn-sm btn-link"" type=""button"">Link</button></p></textarea>
-
-
+&lt;p&gt;&lt;button class=&quot;btn btn-sm btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.label</h2>
 
 <p>default・primary・infoが対応しています。</p>
 
-<p>
-<strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br>
-<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br>
-<strong>info:</strong> 背景にテーマのメインカラーが反映されます。
-</p>
+<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br />
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br />
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。</p>
 
-<p>
-<span class=""label label-default"">Default</span>
+<p><span class=""label label-default"">Default</span>
 　<span class=""label label-primary"">Prmary</span>
 　<span class=""label label-success"">Success</span>
 　<span class=""label label-info"">Info</span>
 　<span class=""label label-warning"">Warning</span>
-　<span class=""label label-danger"">Danger</span>
-</p>
+　<span class=""label label-danger"">Danger</span></p>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><p>
-<span class=""label label-default"">Default</span>
-　<span class=""label label-primary"">Prmary</span>
-　<span class=""label label-success"">Success</span>
-　<span class=""label label-info"">Info</span>
-　<span class=""label label-warning"">Warning</span>
-　<span class=""label label-danger"">Danger</span>
-</p></textarea>
-
-
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;
+&lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+　&lt;span class=&quot;label label-primary&quot;&gt;Prmary&lt;/span&gt;
+　&lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+　&lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+　&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+　&lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+&lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.thumbnail</h2>
 
-<div class=""row""><div class=""col-sm-6 col-sm-push-3"">
-<img class=""thumbnail img-responsive"" src=""../theme/ratio_3_2/img/main_image_3.jpg"" />
-</div></div>
+<div class=""row"">
+<div class=""col-sm-6 col-sm-push-3""><img class=""thumbnail img-responsive"" src=""/theme/ratio_3_2/img/main_image_3.jpg"" width=""360"" /></div>
+</div>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><img class=""thumbnail img-responsive"" src=""画像のURL"" /></textarea>
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;img class=&quot;thumbnail img-responsive&quot; src=&quot;画像のURL&quot; /&gt;</textarea></p>
 
-<div class=""row""><div class=""col-sm-6 col-sm-push-3"">
-<div class=""thumbnail"">
-<img class=""img-responsive"" src=""../theme/ratio_3_2/img/main_image_3.jpg"" />
+<div class=""row"">
+<div class=""col-sm-6 col-sm-push-3"">
+<div class=""thumbnail""><img class=""img-responsive"" src=""/theme/ratio_3_2/img/main_image_3.jpg"" width=""360"" />
 <div class=""caption"">
 <p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
 </div>
 </div>
-</div></div>
-
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""thumbnail"">
-<img class=""img-responsive"" src=""画像のURL"" />
-<div class=""caption"">
-<p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
 </div>
 </div>
-</textarea>
 
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;画像のURL&quot; /&gt;
+&lt;div class=&quot;caption&quot;&gt;
+&lt;p class=&quot;mb0&quot;&gt;説明文です説明文です説明文です説明文です説明文です説明文です&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</textarea></p>
 
 <h2 class=""h3"">.alert</h2>
 
@@ -721,15 +728,13 @@ Twitterの場合は、以下のとおりになります。</p>
 
 <div class=""alert alert-danger""><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""alert alert-success""><strong>Well done!</strong> You successfully read this important alert message.</div>
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;alert alert-success&quot;&gt;&lt;strong&gt;Well done!&lt;/strong&gt; You successfully read this important alert message.&lt;/div&gt;
 
-<div class=""alert alert-info""><strong>Heads up!</strong> This alert needs your attention, but it&#39;s not super important.</div>
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;strong&gt;Heads up!&lt;/strong&gt; This alert needs your attention, but it&#39;s not super important.&lt;/div&gt;
 
-<div class=""alert alert-warning""><strong>Warning!</strong> Best check yo self, you&#39;re not looking too good.</div>
+&lt;div class=&quot;alert alert-warning&quot;&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Best check yo self, you&#39;re not looking too good.&lt;/div&gt;
 
-<div class=""alert alert-danger""><strong>Oh snap!</strong> Change a few things up and try submitting again.</div></textarea>
-
-
+&lt;div class=&quot;alert alert-danger&quot;&gt;&lt;strong&gt;Oh snap!&lt;/strong&gt; Change a few things up and try submitting again.&lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.well</h2>
 
@@ -739,126 +744,125 @@ Twitterの場合は、以下のとおりになります。</p>
 <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。</p>
 </div>
 
-<textarea class=""form-control"" rows=""5"" cols=""100"" readonly=""readonly""><div class=""well"">
-<p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。</p>
-</div></textarea>
-
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;well&quot;&gt;
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。&lt;/p&gt;
+&lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.table</h2>
 
 <p>利用できますが、テーマのカラー設定は反映されません。別途スタイルを追加してください。</p>
 
 <table class=""table"">
-<caption>下線のみの表</caption>
-<thead>
-<tr>
-<th>thead/th</th>
-<th>thead/th</th>
-<th>thead/th</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-</tbody>
+	<caption>下線のみの表</caption>
+	<thead>
+		<tr>
+			<th>thead/th</th>
+			<th>thead/th</th>
+			<th>thead/th</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+	</tbody>
 </table>
 
 <table class=""table table-borderd"">
-<caption>全体に罫線がある表</caption>
-<thead>
-<tr>
-<th>thead/th</th>
-<th>thead/th</th>
-<th>thead/th</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-</tbody>
+	<caption>全体に罫線がある表</caption>
+	<thead>
+		<tr>
+			<th>thead/th</th>
+			<th>thead/th</th>
+			<th>thead/th</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+	</tbody>
 </table>
 
 <table class=""table table-condensed"">
-<caption>ちょっとスリムな表</caption>
-<thead>
-<tr>
-<th>thead/th</th>
-<th>thead/th</th>
-<th>thead/th</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-</tbody>
+	<caption>ちょっとスリムな表</caption>
+	<thead>
+		<tr>
+			<th>thead/th</th>
+			<th>thead/th</th>
+			<th>thead/th</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+	</tbody>
 </table>
 
 <table class=""table table-responsive"">
-<caption>レスポンシブ対応の表</caption>
-<thead>
-<tr>
-<th>thead/th</th>
-<th>thead/th</th>
-<th>thead/th</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-<tr>
-<th>tbody/th</th>
-<td>tbody/td</td>
-<td>tbody/td</td>
-</tr>
-</tbody>
-</table>","6","1","/sample/bootstrap","","1","","","","","","","2015-10-31 16:42:18","2015-10-25 17:16:29"
+	<caption>レスポンシブ対応の表</caption>
+	<thead>
+		<tr>
+			<th>thead/th</th>
+			<th>thead/th</th>
+			<th>thead/th</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+		<tr>
+			<th>tbody/th</th>
+			<td>tbody/td</td>
+			<td>tbody/td</td>
+		</tr>
+	</tbody>
+</table>","6","1","/sample/bootstrap","","1","","","","","","","2015-12-26 17:41:32","2015-10-25 17:16:29"
 "26","25","about02","不要な機能をカット","","<h2 class=""mt0"">スライドショー、最後まで見ますか？</h2>
 
 <p>ほとんどのCMS用テーマには「スライドショー」があります。<strong>かっこよくて人気があるから</strong>です。<br />
@@ -961,8 +965,8 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 
 <p>&#39;black&#39;を&#39;white&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ白に変わります。</p>
 
-<div class=""well"">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>","5","1","/customize/customize02","","1","","","","","","","2015-11-01 19:17:10","2015-11-01 19:16:52"
-"32","31","customize03","メイン画像1の文字体裁を変える","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""../theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" /></div>
+<div class=""well"">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>","5","1","/customize/customize02","","1","","","","","","","2015-12-26 19:03:34","2015-11-01 19:16:52"
+"32","31","customize03","メイン画像1の文字体裁を変える","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" width=""760"" /></div>
 
 <p>メイン画像によっては、上に乗っている文字の位置や色が合わないことがあります。<br />
 スタイルシートの知識があれば、管理画面から調整することができます。</p>
@@ -1007,7 +1011,7 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 .mainvisual .jumbotron:focus .jumbotron-caption,
 .mainvisual .jumbotron:active .jumbotron-caption {
 &nbsp;&nbsp; &nbsp;color: #333333;
-}</code></pre>","5","1","/customize/customize03","","1","","","","","","","2015-11-01 19:43:30","2015-11-01 19:18:18"
+}</code></pre>","5","1","/customize/customize03","","1","","","","","","","2015-12-26 19:03:34","2015-11-01 19:18:18"
 "33","32","customize04","フィードリーダーを利用する","","<p>このテーマでは、三種類の体裁のフィードを表示することができます。</p>
 
 <p class=""h4"">Twitter用</p>
@@ -1045,7 +1049,7 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 
 <p>管理画面の「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動し、表示したい箇所のフィードウィジェットの「利用する」にチェックを入れてください。</p>
 
-<div class=""alert alert-danger"">「Queryfeed」「RSS.Stagram!!!」は外部サービスです。予告なくサービスが終了する可能性があり、その場合はフィードが正常に表示されなくなりますので、事前にご了承ください。</div>","5","1","/customize/customize04","","1","","","","","","","2015-11-01 20:07:26","2015-11-01 20:04:37"
+<div class=""alert alert-danger"">「Queryfeed」「RSS.Stagram!!!」は外部サービスです。予告なくサービスが終了する可能性があり、その場合はフィードが正常に表示されなくなりますので、事前にご了承ください。</div>","5","1","/customize/customize04","","1","","","","","","","2015-12-26 19:03:35","2015-11-01 20:04:37"
 "34","33","customize05","画面幅いっぱいに内容を表示する","","<p>このテーマは、ページ本文に幅の上限を設けています。<br />
 帯状に背景色を変える、画像をいっぱいに表示する場合は、以下のようにカスタマイズすると制限を解除できます。</p>
 
@@ -1061,7 +1065,7 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 <h2>特定カテゴリーのみ解除する</h2>
 
 <p>カテゴリーの作成時に、読み込むテンプレートで「<strong>col1_full</strong>」を選択すると、そのカテゴリー内のみ制限が解除されます。<br />
-制限を設けたままで、サイドメニューがない「<strong>col1</strong>」というテンプレートも選択できます。</p>","5","1","/customize/customize05","","1","","","","","","","2015-11-01 20:17:03","2015-11-01 20:16:14"
+制限を設けたままで、サイドメニューがない「<strong>col1</strong>」というテンプレートも選択できます。</p>","5","1","/customize/customize05","","1","","","","","","","2015-12-26 19:03:35","2015-11-01 20:16:14"
 "35","34","about06","説明書の添付","","<p>この「default」データ内の解説を複製した、PDF版のマニュアルを同梱しています。</p>
 
 <p>テーマ内の下記の場所から、FTPソフトなどでダウンロードしてください。</p>
