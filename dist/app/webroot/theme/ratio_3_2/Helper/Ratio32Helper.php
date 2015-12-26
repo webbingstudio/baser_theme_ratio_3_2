@@ -7,6 +7,22 @@
 class Ratio32Helper extends BcBaserHelper {
 
 	/**
+	 * widget_edit_link
+	 * 
+	 * usage: $this->Ratio32->widget_edit_link( $id )
+	 */
+	public function widget_edit_link($id) {
+		$edit_link = '/admin/widget_areas/edit/' . $id;
+
+		if( $this->isAdminUser() ) {
+			echo $this->getLink('<i class="fa fa-pencil-square-o"></i> ウィジェット編集', $edit_link, array('class' => 'widget-edit-link', 'target' => '_blank'));
+		} else {
+			return false;
+		}
+	}
+
+
+	/**
 	 * get_mail_icon
 	 * 
 	 * usage: $this->Ratio32->get_mail_icon( $args )
