@@ -41,7 +41,7 @@
 .mainvisual .jumbotron h1 {
     font-size: 32px;
 }
-    
+
 }
 
 @media (min-width: 600px) {
@@ -54,7 +54,7 @@
 .mainvisual .jumbotron .jumbotron-caption {
     font-size: 14px;
 }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -76,7 +76,7 @@
 .mainvisual .jumbotron .jumbotron-caption {
     font-size: 18px;
 }
-    
+
 }
 
 </style>","","","2015-10-29 18:19:52","2015-06-26 20:34:06"
@@ -451,7 +451,7 @@
 
 <p>用意した写真素材をアップロードし、説明文に考えておいた見出しと説明文を入力してください。任意のページへ誘導したい場合は、リンク先URLを入力してください。</p>
 
-<p>このとき、<strong>「|」（半角パイプ）で区切ると、左側が見出し、右側が説明文となります。</strong><br />
+<p>このとき、<strong>「|」（半角パイプ）で区切ると、1番目が見出し、2番目が説明文、3番目が画像の代替テキスト（alt）となります。</strong><br />
 また、<strong>半角スペースをふたつ続けると、途中改行します。</strong></p>
 
 <p>※パイプ区切りがない場合は、見出しのみとなります。<br />
