@@ -8,7 +8,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 	/**
 	 * widget_edit_link
-	 * 
+	 *
 	 * usage: $this->Ratio32->widget_edit_link( $id )
 	 */
 	public function widget_edit_link($id) {
@@ -24,7 +24,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 	/**
 	 * get_mail_icon
-	 * 
+	 *
 	 * usage: $this->Ratio32->get_mail_icon( $args )
 	 */
 	public function get_mail_icon( $args = array() ) {
@@ -50,7 +50,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 	/**
 	 * get_sns_icon
-	 * 
+	 *
 	 * usage: $this->Ratio32->get_sns_icon( $args )
 	 */
 	public function get_sns_icon( $args = array() ) {
@@ -94,7 +94,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 	/**
 	 * get_global_menu
-	 * 
+	 *
 	 * usage: $this->Ratio32->get_global_menu( $args )
 	 */
 	public function get_global_menu( $args = array() ) {
@@ -158,7 +158,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 	/**
 	 * get_main_image
-	 * 
+	 *
 	 * usage: $this->Ratio32->get_main_image( $args )
 	 */
 	public function get_main_image( $args = array() ) {
@@ -166,7 +166,7 @@ class Ratio32Helper extends BcBaserHelper {
 			'num' => 1,
 			'type' => 'none',
 			'h' => 'h2',
-			'more' => false,
+			'more' => false
 		), $args);
 
 		$id = 'mainvisual-' . $args['num'];
@@ -195,7 +195,11 @@ class Ratio32Helper extends BcBaserHelper {
 				$output .= '<div id="' . $id . '" class="jumbotron">' . "\n";
 			}
 			if( $image_path ) {
-				$output .= '<img src="' . $image_path . '" class="jumbotron-object" />' . "\n";
+				$output .= '<img src="' . $image_path . '" class="jumbotron-object" alt="';
+				if( isset( $image_caption[2] ) ) {
+					$output .= htmlspecialchars( $image_caption[2] );
+				}
+				$output .= '" />' . "\n";
 			}
 			if( isset( $image_caption[1] ) ) {
 				$output .= '<' . $args['h'] . ' class="h1">' . $image_caption[0] . '</' . $args['h'] . '>' . "\n";
@@ -222,7 +226,11 @@ class Ratio32Helper extends BcBaserHelper {
 				$output .= '<div id="' . $id . '" class="' . $thumbmail_class . '">' . "\n";
 			}
 			if( $image_path ) {
-				$output .= '<img src="' . $image_path . '" class="img-responsive" />' . "\n";
+				$output .= '<img src="' . $image_path . '" class="img-responsive" alt="';
+				if( isset( $image_caption[2] ) ) {
+					$output .= htmlspecialchars( $image_caption[2] );
+				}
+				$output .= '" />' . "\n";
 			}
 			$output .= '<div class="caption">' . "\n";
 
@@ -250,7 +258,11 @@ class Ratio32Helper extends BcBaserHelper {
 			}
 			if( $image_path ) {
 				$output .= '<div class="media-left">' . "\n";
-				$output .= '<img src="' . $image_path . '" class="media-object" />' . "\n";
+				$output .= '<img src="' . $image_path . '" class="media-object" alt="';
+				if( isset( $image_caption[2] ) ) {
+					$output .= htmlspecialchars( $image_caption[2] );
+				}
+				$output .= '" />' . "\n";
 				$output .= '</div>' . "\n";
 			}
 			$output .= '<div class="media-body">' . "\n";
@@ -271,7 +283,9 @@ class Ratio32Helper extends BcBaserHelper {
 
 			if( $image_path ) {
 				$output .= '<img src="' . $image_path . '" class="img-responsive" alt="';
-				$output .= htmlspecialchars( $data['main_image_alt_' . $args['num']] );
+				if( isset( $image_caption[2] ) ) {
+					$output .= htmlspecialchars( $image_caption[2] );
+				}
 				$output .= '" />';
 			} else {
 				$output .= '<div class="text-danger">メイン画像を設定してください。</div>';
