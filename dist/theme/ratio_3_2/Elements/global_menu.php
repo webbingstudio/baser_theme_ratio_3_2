@@ -5,31 +5,42 @@
  * 
  * usage: $this->BcBaser->globalMenu()
  */
-if ( Configure::read('BcRequest.isMaintenance') ) {
-	return;
+
+if (!isset($level)) {
+	$level = 1;
 }
-if ( empty($menuType) ) {
-	$menuType = '';
+if(!isset($currentId)) {
+	$currentId = null;
 }
 ?>
-<?php if( $this->BcBaser->getMenus() ): ?>
-<nav class="global-nav collapse navbar-collapse" id="navbar-collapse">
-	<div class="container">
-		<div class="hidden-lg hidden-md hidden-sm">
-			<?php
-				// widget: header-top-right No.8
-				$this->BcBaser->widgetArea(8);
-			?>
-		</div>
 
-		<?php
-		$args = array(
-			'ul_class' => 'nav nav-pills nav-justified',
-			'li_class' => null,
-			'active_class' => 'active',
-		);
-		echo $this->Ratio32->get_global_menu( $args ); 
-		?>
-	<!-- /.container --></div>
-</nav>
-<?php endif; ?>
+<?php if (isset($tree)): ?>
+	<ul class="ul-level-<?php echo $level ?><?php echo ($level > 1) ? ' sub-nav-group': ' nav-menu'?>">
+		<?php if (isset($tree)): ?>
+			<?php foreach ($tree as $content): ?>
+				<?php if ($content['Content']['title']): ?>
+					<?php
+					if(!empty($content['Content']['exclude_menu'])) {
+						continue;
+					}
+					$liClass = 'menu-content li-level-' . $level;
+					if($content['Content']['id'] == $currentId || $this->BcBaser->isContentsParentId($currentId, $content['Content']['id'])) {
+						$liClass .= ' current';
+					}
+					$options = [];
+					if(!empty($content['Content']['blank_link'])) {
+						$options = ['target' => '_blank'];
+					}
+					?>
+					<li class="nav-item <?php echo $liClass ?>"><?php $this->BcBaser->link($content['Content']['title'], $this->BcBaser->getContentsUrl($content['Content']['url'], false, null, false), $options) ?>
+						<?php if (!empty($content['children'])): ?>
+							<div class="sub-nav">
+								<?php $this->BcBaser->element('contents_menu', array('tree' => $content['children'], 'level' => $level + 1, 'currentId' => $currentId)) ?>
+							</div>
+						<?php endif ?>
+					</li>
+				<?php endif ?>
+			<?php endforeach; ?>
+		<?php endif ?>
+	</ul>
+<?php endif ?>
