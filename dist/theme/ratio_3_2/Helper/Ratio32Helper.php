@@ -95,65 +95,75 @@ class Ratio32Helper extends BcBaserHelper {
 	/**
 	 * get_global_menu
 	 *
-	 * usage: $this->Ratio32->get_global_menu( $args )
+	 * usage: $this->Ratio32->get_global_menu( $tree, $currentId, $args = array() )
 	 */
-	public function get_global_menu( $args = array() ) {
-		$args = array_merge(array(
-			'ul_class' => 'global-menu',
-			'li_class' => 'global-menu-item',
-			'active_class' => 'current',
-		), $args);
+    public function get_global_menu( $tree, $currentId, $args = array() ) {
+        $args = array_merge(array(
+            'ul_class' => 'global-menu',
+            'li_class' => 'global-menu-item',
+            'active_class' => 'current',
+        ), $args);
 
-		$prefix = '';
-		if (Configure::read('BcRequest.agent')) {
-			$prefix = '/' . Configure::read('BcRequest.agentAlias');
-		}
+        $prefix = '';
+        $output = '';
 
-		$global_menus = $this->getMenus();
-		$output = '';
+        if (!isset($level)) {
+            $level = 1;
+        }
+        if(!isset($currentId)) {
+            $currentId = null;
+        }
 
-		if ( !empty($global_menus) ) {
-			$output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
-			$output .= "\n";
+        $output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
+        $output .= "\n";
 
-			foreach ($global_menus as $key => $global_menu) {
+        foreach ($tree as $key => $content) {
 
-				if ( $global_menu['Menu']['status'] ) {
-					$classies = array();
+            if ($content['Content']['title']) {
+                if(!$content['Content']['exclude_menu']) {
 
-					$no = sprintf( '%02d', $key + 1 );
-					$classies[] = $args['li_class'];
-					$classies[] = 'menu' . $no;
+                    $classies = array();
+                    $options = array();
 
-					if ( $this->BcArray->first($global_menus, $key) ) {
-						$classies[] = 'first';
-					} elseif ( $this->BcArray->last($global_menus, $key) ) {
-						$classies[] = 'last';
-					}
-					if ( $this->isCurrentUrl($global_menu['Menu']['link']) ) {
-						$classies[] = $args['active_class'];
-					}
-					$class = ' class="' . implode( ' ', $classies ) . '"';
+                    $no = sprintf( '%02d', $key + 1 );
+                    $classies[] = $args['li_class'];
+                    $classies[] = 'menu' . $no;
 
-					if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $global_menu['Menu']['link'] == '/') {
-						$output .= '<li' . $class . '>';
-						$output .= str_replace('/index.php', '', $this->getLink($global_menu['Menu']['name'], $global_menu['Menu']['link']));
-						$output .= '</li>' . "\n";
-					} else {
-						$output .= '<li' . $class . '>';
-						$output .= $this->getLink($global_menu['Menu']['name'], $prefix . $global_menu['Menu']['link']);
-						$output .= '</li>' . "\n";
-					}
+                    if ( $this->BcArray->first($content, $key) ) {
+                        $classies[] = 'first';
+                    } elseif ( $this->BcArray->last($content, $key) ) {
+                        $classies[] = 'last';
+                    }
 
-				}
+                    if($content['Content']['id'] == $currentId || $this->isContentsParentId($currentId, $content['Content']['id'])) {
+                      $classies[] = $args['active_class'];
+                    }
 
-			}
+                    if(!empty($content['Content']['blank_link'])) {
+                        $options = ['target' => '_blank'];
+                    }
 
-			$output .= '</ul>' . "\n";
+                    $class = ' class="' . implode( ' ', $classies ) . '"';
 
-		}
-		return $output;
-	}
+                    if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $content['url'] == '/') {
+                        $output .= '<li' . $class . '>';
+                        $output .= str_replace('/index.php', '', $this->getLink($content['Content']['title'], $content['Content']['url']));
+                        $output .= '</li>' . "\n";
+                    } else {
+                        $output .= '<li' . $class . '>';
+                        $output .= $this->getLink($content['Content']['title'], $prefix . $content['Content']['url'], $options);
+                        $output .= '</li>' . "\n";
+                    }
+
+                }
+
+            }
+
+        }
+        $output .= '</ul>' . "\n";
+
+        return $output;
+    }
 
 
 	/**
