@@ -22,11 +22,13 @@ if ($limit) {
 }
 if ($view_count) {
 	$actionUrl .= '/1';
+} else {
+	$actionUrl .= '/0';	
 }
-$data = $this->requestAction($actionUrl);
+$data = $this->requestAction($actionUrl, ['entityId' => $id]);
 $postedDates = $data['postedDates'];
-$blogContent = $data['blogContent'];
-$baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
+$blogcontent = $data['blogContent'];
+$baseCurrentUrl = $this->BcBaser->getBlogContentsUrl($id) . 'archives/date/';
 ?>
 <?php if( $name && $use_title ): ?>
 <div class="panel panel-default widget widget-blog-yearly-archives widget-blog-yearly-archives-<?php echo $id ?> blog-widget">
@@ -42,7 +44,7 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
 			<?php foreach ($postedDates as $postedDate): ?>
 				<?php if (isset($this->params['named']['year']) && $this->params['named']['year'] == $postedDate['year']): ?>
 					<?php $class = 'list-group-item active selected' ?>
-				<?php elseif ($this->request->url == $baseCurrentUrl . $postedDate['year']): ?>
+				<?php elseif ($this->request->here == $baseCurrentUrl . $postedDate['year']): ?>
 					<?php $class = 'list-group-item active' ?>
 				<?php else: ?>
 					<?php $class = 'list-group-item' ?>
@@ -54,13 +56,11 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
 					<?php $title = $date_format ?>
 				<?php endif ?>
 				<?php
-				$this->BcBaser->link($title, array(
-					'admin' => false,
-					'plugin' => '',
-					'controller' => $blogContent['BlogContent']['name'],
-					'action' => 'archives',
-					'date', $postedDate['year']
-				), array( 'class' => $class ) );
+				$this->BcBaser->link(
+					$title,
+					$this->BcBaser->getBlogContentsUrl($id) . 'archives/date/' . $postedDate['year'],
+					array( 'class' => $class )
+				)
 				?>
 			<?php endforeach; ?>
 		</div>
