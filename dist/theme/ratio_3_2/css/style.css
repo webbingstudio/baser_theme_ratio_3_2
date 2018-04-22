@@ -1825,6 +1825,14 @@ widget
   border-top: 1px solid #DDDDDD;
 }
 
+.widget-blog-categories-archives ul li.current a,
+.widget-blog-categories-archives ul li.current a:focus,
+.widget-blog-categories-archives ul li.current a:hover {
+  background-color: #EEEEEE;
+  border-color: #EEEEEE;
+  color: #333333;
+}
+
 .widget-blog-categories-archives ul ul li a {
   padding: .5em 30px;
 }
