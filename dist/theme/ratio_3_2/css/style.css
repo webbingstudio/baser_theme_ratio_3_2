@@ -1384,6 +1384,7 @@ arrow: common
 .topicpath .breadcrumb > li + li:before,
 .media a:after,
 a.list-group-item:after,
+.widget-local-navi ul.menu > li a:after,
 .widget-blog-categories-archives ul li a:after,
 .contents-nav li.next a:after,
 .serial-nav li a:after {
@@ -1404,6 +1405,7 @@ arrow: icon-right
 .topicpath .breadcrumb > li + li:before,
 .media a:after,
 a.list-group-item:after,
+.widget-local-navi ul.menu > li a:after,
 .widget-blog-categories-archives ul li a:after,
 .contents-nav li.next a:after,
 .serial-nav li a:after {
@@ -1426,6 +1428,7 @@ arrow: position-absolute
 */
 .media a:after,
 a.list-group-item:after,
+.widget-local-navi ul.menu > li a:after,
 .widget-blog-categories-archives ul li a:after,
 .contents-nav li.next a:after,
 .serial-nav li a:after {
@@ -1454,6 +1457,7 @@ arrow: color
 */
 .media a:after,
 a.list-group-item:after,
+.widget-local-navi ul.menu > li a:after,
 .widget-blog-categories-archives ul li a:after,
 .contents-nav li.previous a:after,
 .serial-nav li a:after {
@@ -1473,6 +1477,7 @@ a.list-group-item:after,
   /* 本文枠内ではアイコンが大きくなる */
   .col-main .media a:after,
   .col-main a.list-group-item:after,
+  .col-main .widget-local-navi ul.menu > li a:after,
   .col-main .widget-blog-categories-archives ul li a:after,
   .col-main .serial-nav li a:after {
     font-size: 20px;
@@ -1940,6 +1945,39 @@ widget
   position: relative;
   top: 2px;
   font-size: 20px;
+}
+.widget ul.menu {
+  border-bottom: 1px solid #DDDDDD;
+}
+.widget-local-navi ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.widget-local-navi ul.menu li {
+  margin: 0;
+  padding: 0;
+}
+.widget-local-navi ul.menu li a {
+  display: block;
+  position: relative;
+  padding: .7em 30px .7em 15px;
+  border-top: 1px solid #DDDDDD;
+}
+.widget-local-navi ul.menu li.current a,
+.widget-local-navi ul.menu li.current a:focus,
+.widget-local-navi ul.menu li.current a:hover {
+  background-color: #EEEEEE;
+  border-color: #EEEEEE;
+  color: #333333;
+}
+.widget-local-navi ul.menu ul li a {
+  padding: .5em 30px;
+}
+@media (min-width:992px) {
+  .col-main .widget-local-navi ul.menu li a {
+    padding-right: 45px;
+  }
 }
 .widget ul.bc-blog-tags {
     display: flex;

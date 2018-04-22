@@ -29,7 +29,7 @@ if($siteRoot) {
 <div class="widget widget-local-navi widget-local-navi-<?php echo $id ?>">
 <?php endif; ?>
 
-	<?php $this->BcBaser->contentsMenu($parentId, 1, $this->request->params['Content']['id']) ?>
+	<?php $this->BcBaser->contentsMenu($parentId, 2, $this->request->params['Content']['id']) ?>
 
 <?php if( $name && $use_title ): ?>
 <!-- /.panel widget --></div>
