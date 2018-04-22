@@ -1962,6 +1962,7 @@ widget
   display: block;
   position: relative;
   padding: .7em 30px .7em 15px;
+  color: #333333;
   border-top: 1px solid #DDDDDD;
 }
 .widget-local-navi ul.menu li.current a,
