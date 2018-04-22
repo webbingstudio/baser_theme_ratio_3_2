@@ -1,5 +1,5 @@
 <!-- BaserPageTagBegin -->
-<?php $this->BcBaser->setTitle('ヘッダ・フッタを白にする') ?>
+<?php $this->BcBaser->setTitle('ヘッダ・フッタを黒にする') ?>
 <?php $this->BcBaser->setDescription('') ?>
 <?php $this->BcBaser->setPageEditLink(31) ?>
 <!-- BaserPageTagEnd -->
@@ -12,9 +12,9 @@
 
 <pre>
 // カラー（白系:white 黒系:black）
-define(&#39;RATIO32_HEAD_COLOR&#39;, &#39;black&#39;);
-define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
+define(&#39;RATIO32_HEAD_COLOR&#39;, &#39;white&#39;);
+define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;white&#39;);</pre>
 
-<p>&#39;black&#39;を&#39;white&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ白に変わります。</p>
+<p>&#39;white&#39;を&#39;black&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ黒に変わります。</p>
 
 <div class="well">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>

@@ -6,8 +6,8 @@
  */
 
 // カラー（白系:white 黒系:black）
-define('RATIO32_HEAD_COLOR', 'black');
-define('RATIO32_FOOT_COLOR', 'black');
+define('RATIO32_HEAD_COLOR', 'white');
+define('RATIO32_FOOT_COLOR', 'white');
 
 // 日付フォーマット
 define('RATIO32_DATE_FORMAT', 'Y-m-d');
