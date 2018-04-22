@@ -3,17 +3,13 @@
  * フィード：その他のフィードテンプレート
  */
 
-$this->Feed->saveCachetime();
-
 if ( Configure::read('BcRequest.agent') == 'mobile' ) {
 	$charset = 'Shift-JIS';
 } else {
 	$charset = Configure::read('App.encoding');
 }
 ?>
-<!--nocache-->
-	<?php $this->Feed->cacheHeader() ?>
-<!--/nocache-->
+
 
 <?php if (!empty($items)): ?>
 	<?php foreach ($items as $key => $item): ?>

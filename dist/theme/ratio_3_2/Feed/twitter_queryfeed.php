@@ -2,12 +2,8 @@
 /**
  * フィード：Twitter Queryfeed対応テンプレート
  */
-
-$this->Feed->saveCachetime();
 ?>
-<!--nocache-->
-	<?php $this->Feed->cacheHeader() ?>
-<!--/nocache-->
+
 
 <?php if (!empty($items)): ?>
 	<?php foreach ($items as $key => $item): ?>

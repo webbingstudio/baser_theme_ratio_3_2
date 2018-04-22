@@ -97,63 +97,63 @@ class Ratio32Helper extends BcBaserHelper {
 	 *
 	 * usage: $this->Ratio32->get_global_menu( $args )
 	 */
-//	public function get_global_menu( $args = array() ) {
-//		$args = array_merge(array(
-//			'ul_class' => 'global-menu',
-//			'li_class' => 'global-menu-item',
-//			'active_class' => 'current',
-//		), $args);
-//
-//		$prefix = '';
-//		if (Configure::read('BcRequest.agent')) {
-//			$prefix = '/' . Configure::read('BcRequest.agentAlias');
-//		}
-//
-//		$global_menus = $this->getMenus();
-//		$output = '';
-//
-//		if ( !empty($global_menus) ) {
-//			$output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
-//			$output .= "\n";
-//
-//			foreach ($global_menus as $key => $global_menu) {
-//
-//				if ( $global_menu['Menu']['status'] ) {
-//					$classies = array();
-//
-//					$no = sprintf( '%02d', $key + 1 );
-//					$classies[] = $args['li_class'];
-//					$classies[] = 'menu' . $no;
-//
-//					if ( $this->BcArray->first($global_menus, $key) ) {
-//						$classies[] = 'first';
-//					} elseif ( $this->BcArray->last($global_menus, $key) ) {
-//						$classies[] = 'last';
-//					}
-//					if ( $this->isCurrentUrl($global_menu['Menu']['link']) ) {
-//						$classies[] = $args['active_class'];
-//					}
-//					$class = ' class="' . implode( ' ', $classies ) . '"';
-//
-//					if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $global_menu['Menu']['link'] == '/') {
-//						$output .= '<li' . $class . '>';
-//						$output .= str_replace('/index.php', '', $this->getLink($global_menu['Menu']['name'], $global_menu['Menu']['link']));
-//						$output .= '</li>' . "\n";
-//					} else {
-//						$output .= '<li' . $class . '>';
-//						$output .= $this->getLink($global_menu['Menu']['name'], $prefix . $global_menu['Menu']['link']);
-//						$output .= '</li>' . "\n";
-//					}
-//
-//				}
-//
-//			}
-//
-//			$output .= '</ul>' . "\n";
-//
-//		}
-//		return $output;
-//	}
+	public function get_global_menu( $args = array() ) {
+		$args = array_merge(array(
+			'ul_class' => 'global-menu',
+			'li_class' => 'global-menu-item',
+			'active_class' => 'current',
+		), $args);
+
+		$prefix = '';
+		if (Configure::read('BcRequest.agent')) {
+			$prefix = '/' . Configure::read('BcRequest.agentAlias');
+		}
+
+		$global_menus = $this->getMenus();
+		$output = '';
+
+		if ( !empty($global_menus) ) {
+			$output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
+			$output .= "\n";
+
+			foreach ($global_menus as $key => $global_menu) {
+
+				if ( $global_menu['Menu']['status'] ) {
+					$classies = array();
+
+					$no = sprintf( '%02d', $key + 1 );
+					$classies[] = $args['li_class'];
+					$classies[] = 'menu' . $no;
+
+					if ( $this->BcArray->first($global_menus, $key) ) {
+						$classies[] = 'first';
+					} elseif ( $this->BcArray->last($global_menus, $key) ) {
+						$classies[] = 'last';
+					}
+					if ( $this->isCurrentUrl($global_menu['Menu']['link']) ) {
+						$classies[] = $args['active_class'];
+					}
+					$class = ' class="' . implode( ' ', $classies ) . '"';
+
+					if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $global_menu['Menu']['link'] == '/') {
+						$output .= '<li' . $class . '>';
+						$output .= str_replace('/index.php', '', $this->getLink($global_menu['Menu']['name'], $global_menu['Menu']['link']));
+						$output .= '</li>' . "\n";
+					} else {
+						$output .= '<li' . $class . '>';
+						$output .= $this->getLink($global_menu['Menu']['name'], $prefix . $global_menu['Menu']['link']);
+						$output .= '</li>' . "\n";
+					}
+
+				}
+
+			}
+
+			$output .= '</ul>' . "\n";
+
+		}
+		return $output;
+	}
 
 
 	/**
@@ -294,6 +294,26 @@ class Ratio32Helper extends BcBaserHelper {
 		}
 
 		echo $output;
+	}
+
+/**
+ * ウィジェットが有効かどうか判定
+ * @param $id
+ * @return bool
+ */
+	function isWidgetAvailable($id) {
+		$WidgetArea = ClassRegistry::init('WidgetArea');
+		$widgetArea = $WidgetArea->find('first', ['conditions' => ['WidgetArea.id' => $id]]);
+		if (empty($widgetArea['WidgetArea']['widgets'])) {
+			return false;
+		}
+		$widgets = BcUtil::unserialize($widgetArea['WidgetArea']['widgets']);
+		foreach ($widgets as $widget) {
+			if( $widget[key($widget)]['status'] == 1 ){
+				return true;
+			}
+		}
+		return false;
 	}
 
 

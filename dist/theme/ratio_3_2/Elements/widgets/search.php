@@ -4,11 +4,19 @@
  * Elements/widgets/search.php
  */
 
-if (!empty($this->passedArgs['num'])) {
-	$url = array('plugin' => null, 'controller' => 'contents', 'num' => $this->passedArgs['num']);
-} else {
-	$url = array('plugin' => null, 'controller' => 'contents');
+if (Configure::read('BcRequest.isMaintenance')) {
+	return;
 }
+$siteId = 0;
+if(!empty($this->request->params['Site']['id'])) {
+	$siteId = $this->request->params['Site']['id'];
+}
+if (!empty($this->passedArgs['num'])) {
+	$url = ['plugin' => null, 'controller' => 'search_indices', 'action' => 'search', 'num' => $this->passedArgs['num']];
+} else {
+	$url = ['plugin' => null, 'controller' => 'search_indices', 'action' => 'search'];
+}
+$folders = $this->BcContents->getContentFolderList($siteId, ['excludeId' => $this->BcContents->getSiteRootId($siteId)]);
 ?>
 <?php if( $name && $use_title ): ?>
 <div class="panel panel-default widget widget-site-search widgetsite-search-<?php echo $id ?>">
@@ -19,10 +27,11 @@ if (!empty($this->passedArgs['num'])) {
 <?php else: ?>
 <div class="widget widget-site-search widgetsite-search-<?php echo $id ?>">
 <?php endif; ?>
-		<?php echo $this->BcForm->create('Content', array('type' => 'get', 'action' => 'search', 'url' => $url )); ?>
-		<?php if (BcUtil::unserialize($this->BcBaser->siteConfig['content_categories'])) : ?>
+		<?php echo $this->BcForm->create('SearchIndex', ['type' => 'get', 'url' => $url]) ?>
+		<?php if($folders): ?>
 		<div class="form-group form-group-sm">
-			<?php echo $this->BcForm->input('Content.c', array('type' => 'select', 'options' => BcUtil::unserialize($this->BcBaser->siteConfig['content_categories']), 'empty' => 'カテゴリー： 指定しない　', 'class' => 'form-control')); ?>
+			<?php echo $this->BcForm->label('SearchIndex.f', __d('baser', 'カテゴリ')) ?><br>
+			<?php echo $this->BcForm->input('SearchIndex.f', ['type' => 'select', 'options' => $folders, 'empty' => __d('baser', '指定しない'), 'escape' => false]) ?><br>
 		<!-- /.form-group --></div>
 		<?php endif; ?>
 		<div class="form-inline">

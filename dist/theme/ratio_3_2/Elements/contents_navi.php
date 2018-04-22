@@ -6,7 +6,7 @@
  * usage: $this->BcBaser->element('contents_navi')
  */
 
-if (!isset($this->BcPage) || !$this->BcPage->contentsNaviAvailable()) {
+if (!isset($this->BcPage)) {
 	return;
 }
 ?>

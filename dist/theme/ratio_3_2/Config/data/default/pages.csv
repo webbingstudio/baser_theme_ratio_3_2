@@ -1,5 +1,5 @@
-"id","sort","name","title","description","contents","page_category_id","status","url","draft","author_id","publish_begin","publish_end","exclude_search","code","unlinked_mobile","unlinked_smartphone","modified","created"
-"1","1","index","baserCMSƒe[ƒ} ratio_3_2","ratio_3_2ƒe[ƒ}‚ÍAŒÂlŽ–‹ÆŽåE¬‹K–Í“X•ÜŒü‚¯‚ÉA•s—v‚È‹@”\‚ðŽæ‚è•¥‚¢AƒRƒ“ƒeƒ“ƒc‚ÆXV‚Ì•‰‰×ŒyŒ¸‚ðl—¶‚µ‚½ƒe[ƒ}‚Å‚·Bƒe[ƒ}“à‚Ì‚·‚×‚Ä‚Ì‰æ‘œ‚ª3F2‚Å“ˆê‚³‚ê‚Ä‚¢‚Ü‚·B","<div class=""mainvisual"">
+"id","contents","draft","page_template","code","modified","created"
+"1","<div class=""mainvisual"">
 <div class=""container"">
 <div class=""pop"">
 <div class=""row"">
@@ -23,7 +23,7 @@
 <!-- /.row --></div>
 <!-- /.pop --></div>
 <!-- /.container --></div>
-<!-- /.pickup --></div>","","1","/index","","1","","","","<style>
+<!-- /.pickup --></div>","","","<style>
 .mainvisual .jumbotron .h1,
 .mainvisual .jumbotron h1 {
     top: 15%;
@@ -79,8 +79,8 @@
 
 }
 
-</style>","","","2015-10-29 18:19:52","2015-06-26 20:34:06"
-"2","2","index","ƒe[ƒ}uratio_3_2v‚Æ‚Í","baserCMSƒe[ƒ}uratio_3_2v‚Ì‰ðàƒy[ƒW‚Å‚·B","<h2 class=""mt0"">”ü‚µ‚¢‚¾‚¯‚Ìƒe[ƒ}‚ÉA‚³‚æ‚È‚ç‚ðB</h2>
+</style>","2018-04-22 17:41:17","2018-04-22 17:41:17"
+"2","<h2 class=""mt0"">”ü‚µ‚¢‚¾‚¯‚Ìƒe[ƒ}‚ÉA‚³‚æ‚È‚ç‚ðB</h2>
 
 <p>u<strong>ratio_3_2</strong>v‚ÍAŒÂlŽ–‹ÆŽåE¬‹K–Í“X•ÜŒü‚¯‚ÉA•s—v‚È‹@”\‚ðŽæ‚è•¥‚¢Ad—v‚È‹@”\‚ÌŽ©—R“x‚ð‹­‰»‚µ‚½ƒe[ƒ}‚Å‚·B<br />
 ƒRƒ“ƒeƒ“ƒcì¬EXV‚ÌA•‰‰×ŒyŒ¸‚ðl—¶‚µ‚Ä‚¢‚Ü‚·B</p>
@@ -125,8 +125,8 @@
 <p><a class=""btn btn-block btn-primary"" href=""../about/about06"">à–¾‘‚Ì“Y•t </a></p>
 </div>
 </div>
-</div>","4","1","/about/index","","1","","","","","","","2015-11-01 17:10:28","2015-06-26 20:34:06"
-"3","3","index","0. ‘fÞ‚ð—pˆÓ‚·‚é","ratio_3_2ƒe[ƒ}‚Ì“±“üŽè‡‚Å‚·B","<h2 class=""mt0"">uratio_3_2v‚Ì¢ŠE‚Ö‚æ‚¤‚±‚»I</h2>
+</div>","","","","2018-04-22 17:41:17","2018-04-22 17:41:17"
+"3","<h2 class=""mt0"">uratio_3_2v‚Ì¢ŠE‚Ö‚æ‚¤‚±‚»I</h2>
 
 <p>baserCMS‚ÍA–³Ž–ƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚Ü‚µ‚½‚©H<br />
 ‚³‚Á‚»‚­ƒEƒFƒuƒTƒCƒg‚ðì‚è‚Í‚¶‚ß‚Ü‚µ‚å‚¤A‚ÆŒ¾‚¢‚½‚¢‚Æ‚±‚ë‚Å‚·‚ª&hellip;<br />
@@ -186,8 +186,8 @@
 
 <hr />
 <p>‘fÞW‚ß‚Á‚ÄA‘å•Ï‚Å‚·‚ËB<br />
-‚¾‚¢‚½‚¢W‚Ü‚Á‚½‚çAuratio_3_2vƒe[ƒ}‚Ì‰ŠúÝ’è‚É“ü‚è‚Ü‚µ‚å‚¤B</p>","3","1","/installation/index","","1","","","","","","","2015-11-01 17:17:30","2015-06-26 20:34:06"
-"6","6","index","","","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+‚¾‚¢‚½‚¢W‚Ü‚Á‚½‚çAuratio_3_2vƒe[ƒ}‚Ì‰ŠúÝ’è‚É“ü‚è‚Ü‚µ‚å‚¤B</p>","","","","2018-04-22 17:41:18","2018-04-22 17:41:18"
+"4","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">ƒƒCƒ“ƒƒjƒ…[</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <span style=""color:#8ABE08"">¡</span>
@@ -202,8 +202,8 @@
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">baserCMS NEWS</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<?php $this->BcBaser->feed(1) ?>","1","1","/mobile/index","","1","","","","","","","","2015-06-26 20:34:06"
-"12","14","index","’Êí•¶‚ÌƒTƒ“ƒvƒ‹","","<p>ˆê”Ê“I‚ÈHTML‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
+<?php $this->BcBaser->feed(1) ?>","","","","2018-04-22 17:41:18","2018-04-22 17:41:18"
+"5","<p>ˆê”Ê“I‚ÈHTML‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
 ƒy[ƒW‚ÍŒ©o‚µ2AƒuƒƒO‚ÍŒ©o‚µ3‚©‚ç‘‚«‚Í‚¶‚ß‚Ä‚­‚¾‚³‚¢B</p>
 
 <p><strong>baserCMS‚ÌŽd—l‚ÅACKEditor‚ðƒIƒ“‚É‚·‚é‚ÆHTML‚ÌƒR[ƒh‚ª•ö‚ê‚Ä‚µ‚Ü‚¤‚±‚Æ‚ª‚ ‚è‚Ü‚·BHTML‚Ì’mŽ¯‚ª‚ ‚èAƒy[ƒW‚ð×‚©‚­•ÒW‚µ‚½‚¢ê‡‚ÍAƒIƒt‚É‚µ‚Ä‚¨‚­‚±‚Æ‚ð‚¨Š©‚ß‚µ‚Ü‚·B</strong></p>
@@ -255,8 +255,8 @@
 			<td>•\‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</td>
 		</tr>
 	</tbody>
-</table>","6","1","/sample/index","","1","","","","","","","2015-10-31 17:03:34","2015-06-27 12:40:09"
-"13","12","installation01","1. ƒe[ƒ}‚Ì‰Šúƒf[ƒ^‚ð“Ç‚Ýž‚Þ","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" width=""760"" /></div>
+</table>","","","","2018-04-22 17:41:20","2018-04-22 17:41:20"
+"6","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" width=""760"" /></div>
 
 <p>ŠÇ—‰æ–Ê‚Ìuƒe[ƒ}ŠÇ— &gt; ƒe[ƒ}ˆê——v‚ÖˆÚ“®‚µAuratio_3_2vƒe[ƒ}‚ð—LŒø‚É‚µ‚Ä‚­‚¾‚³‚¢B</p>
 
@@ -271,8 +271,8 @@
 
 <p>—áFƒTƒCƒg“à‚ÌuabcvƒfƒBƒŒƒNƒgƒŠ‚ÉÝ’u‚µ‚½ê‡<br />
 /theme/ratio_3_2/img/default/&hellip;<br />
-&rarr;@<strong>/abc/theme/ratio_3_2/img/default/&hellip;</strong></p>","3","1","/installation/installation01","","1","","","","","","","2015-12-26 17:14:29","2015-06-27 15:36:22"
-"14","13","index","Œ©o‚µ‚Ìã‚ð‹l‚ß‚éE’i—Ž‚Ì‰º‚ð‹ó‚¯‚é","","<p>‚±‚Ìƒe[ƒ}‚ÍAuŒ©o‚µv‚ð—˜—p‚·‚é‚ÆAã‚É‹ó”’‚ª‚Å‚«‚Ü‚·B<br />
+&rarr;@<strong>/abc/theme/ratio_3_2/img/default/&hellip;</strong></p>","","","","2018-04-22 17:41:21","2018-04-22 17:41:21"
+"7","<p>‚±‚Ìƒe[ƒ}‚ÍAuŒ©o‚µv‚ð—˜—p‚·‚é‚ÆAã‚É‹ó”’‚ª‚Å‚«‚Ü‚·B<br />
 ‚±‚Ì‚½‚ßAƒy[ƒW‚Ìæ“ª‚ÉŒ©o‚µ‚ðì‚é‚ÆA‘åŒ©o‚µ‚Æ‚ÌŠÔ‚ª‹ó‚¢‚Ä‚µ‚Ü‚¢‚Ü‚·B</p>
 
 <p>‚Ü‚½A‘‚¢‚Ä‚¢‚é•¶Í‚Ì“à—e‚É‚æ‚Á‚Ä‚ÍAŠÔ‚ð‘å‚«‚­ŠJ‚¯‚½‚èA¶‚ðˆê•¶Žš•ª‚¸‚ç‚µ‚½‚­‚È‚é‚±‚Æ‚à‚ ‚è‚Ü‚·B<br />
@@ -329,8 +329,8 @@
 &lt;/div&gt;</code></pre>
 
 <div class=""alert alert-danger"">divƒ^ƒO‚ÍCKEditor‚Å‚ÍŒ©‚é‚±‚Æ‚ª‚Å‚«‚È‚¢‚Ì‚ÅATd‚É•ÒW‚µ‚Ä‚­‚¾‚³‚¢B<br />
-‚Ü‚½A¶‰E—]”’‚ÍA‘å‚«‚­‚µ‚·‚¬‚é‚ÆƒXƒ}[ƒgƒtƒHƒ“‚Å“Ç‚Ý‚É‚­‚­‚È‚Á‚Ä‚µ‚Ü‚¢‚Ü‚·B</div>","5","1","/customize/index","","1","","","","","","","2015-12-26 19:03:34","2015-06-27 15:36:53"
-"16","15","installation02","2. ƒTƒCƒgŠî–{Ý’è‚ð“ü—Í‚·‚é","","<p>‘±‚¢‚ÄAŠÇ—‰æ–Ê‚ÌuƒVƒXƒeƒ€Ý’è &gt; ƒTƒCƒgŠî–{Ý’èv‚ÖˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B<br />
+‚Ü‚½A¶‰E—]”’‚ÍA‘å‚«‚­‚µ‚·‚¬‚é‚ÆƒXƒ}[ƒgƒtƒHƒ“‚Å“Ç‚Ý‚É‚­‚­‚È‚Á‚Ä‚µ‚Ü‚¢‚Ü‚·B</div>","","","","2018-04-22 17:41:21","2018-04-22 17:41:21"
+"8","<p>‘±‚¢‚ÄAŠÇ—‰æ–Ê‚ÌuƒVƒXƒeƒ€Ý’è &gt; ƒTƒCƒgŠî–{Ý’èv‚ÖˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B<br />
 ‰^—p‚É•K{‚Ìî•ñ‚ðAì¬‚·‚éƒTƒCƒg‚Ì“à—e‚É‡‚í‚¹‚Ä‚¢‚«‚Ü‚·B</p>
 
 <div class=""alert alert-danger"">‚±‚Ìƒy[ƒW‚Ìî•ñ‚Ì“ü—Í‚ªI‚í‚é‚Ü‚Å‚ÍAƒEƒFƒuƒTƒCƒg‚ðŒöŠJ‚µ‚È‚¢‚Å‚­‚¾‚³‚¢iURL‚ðƒuƒƒO‚ÉŒfÚ‚·‚éATwitter‚Å‚Â‚Ô‚â‚­‚È‚ÇjB<br />
@@ -372,8 +372,8 @@
 ‚±‚Ìƒe[ƒ}‚ÍA’[––‚Ì‰æ–ÊƒTƒCƒY‚É‚æ‚Á‚ÄÅ“K‚È•\Ž¦‚ð’ñ‹Ÿ‚µ‚Ü‚·iƒŒƒXƒ|ƒ“ƒVƒuƒEƒFƒuƒfƒUƒCƒ“jB‚±‚Ì‚½‚ßAƒ‚ƒoƒCƒ‹—p‚Ìƒeƒ“ƒvƒŒ[ƒg‚Í—˜—p‚µ‚Ä‚¢‚Ü‚¹‚ñB</p>
 
 <p>‚·‚×‚Ä“ü—Í‚µ‚½‚çA‰æ–Ê‰º‚Ìu<strong>•Û‘¶</strong>vƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢B<br />
-‚È‚¨AbaserCMS‚Íu•Û‘¶vƒ{ƒ^ƒ“‚Í‚·‚×‚ÄA‰æ–Ê‚Ì‰º‚É‚ ‚è‚Ü‚·B‰Ÿ‚µ–Y‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚µ‚å‚¤B</p>","3","1","/installation/installation02","","1","","","","","","","2015-12-26 17:15:00","2015-10-17 15:55:41"
-"17","16","installation03","3. ƒ[ƒ‹ƒtƒH[ƒ€‚ÌŠî–{Ý’è‚ð“ü—Í‚·‚é","","<p>ƒ[ƒ‹ƒtƒH[ƒ€‚©‚ç–â‚¢‡‚í‚¹‚ð‚·‚é‚ÆA‚½‚¢‚Ä‚¢‚ÍA•ÔMƒ[ƒ‹‚ÉƒTƒCƒg–¼‚â˜A—æ‚ª‘‚©‚ê‚Ä‚¢‚Ü‚·B‚±‚ÌÝ’è‚ðs‚¢‚Ü‚·B<br />
+‚È‚¨AbaserCMS‚Íu•Û‘¶vƒ{ƒ^ƒ“‚Í‚·‚×‚ÄA‰æ–Ê‚Ì‰º‚É‚ ‚è‚Ü‚·B‰Ÿ‚µ–Y‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚µ‚å‚¤B</p>","","","","2018-04-22 17:41:22","2018-04-22 17:41:22"
+"9","<p>ƒ[ƒ‹ƒtƒH[ƒ€‚©‚ç–â‚¢‡‚í‚¹‚ð‚·‚é‚ÆA‚½‚¢‚Ä‚¢‚ÍA•ÔMƒ[ƒ‹‚ÉƒTƒCƒg–¼‚â˜A—æ‚ª‘‚©‚ê‚Ä‚¢‚Ü‚·B‚±‚ÌÝ’è‚ðs‚¢‚Ü‚·B<br />
 ƒ[ƒ‹ƒtƒH[ƒ€‚ª•s—v‚Èê‡‚ÍAÝ’è‚Ì•K—v‚Í‚ ‚è‚Ü‚¹‚ñB</p>
 
 <p>ŠÇ—‰æ–Ê‚Ìuƒ[ƒ‹ƒtƒH[ƒ€ŠÇ— &gt; ƒ[ƒ‹ƒvƒ‰ƒOƒCƒ“Šî–{Ý’èv‚ÖˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B<br />
@@ -388,8 +388,8 @@
 
 <hr />
 <p>–°‚­‚È‚Á‚Ä‚«‚Ü‚µ‚½‚Ë&hellip;<br />
-‹N‚«‚Ä‚­‚¾‚³‚¢IŽŸ‚Í‚¿‚å‚Á‚ÆŠy‚µ‚¢‚Å‚·‚æIƒe[ƒ}ƒJƒ‰[‚ÌÝ’è‚Å‚·B</p>","3","1","/installation/installation03","","1","","","","","","","2015-12-26 17:15:20","2015-10-17 15:57:11"
-"18","17","installation04","4. ƒe[ƒ}ƒJƒ‰[‚ðÝ’è‚·‚é","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" width=""760"" /></div>
+‹N‚«‚Ä‚­‚¾‚³‚¢IŽŸ‚Í‚¿‚å‚Á‚ÆŠy‚µ‚¢‚Å‚·‚æIƒe[ƒ}ƒJƒ‰[‚ÌÝ’è‚Å‚·B</p>","","","","2018-04-22 17:41:22","2018-04-22 17:41:22"
+"10","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" width=""760"" /></div>
 
 <p>ŠÇ—‰æ–Ê‚Ìuƒe[ƒ}ŠÇ— &gt; ƒe[ƒ}Ý’èv‚ÖˆÚ“®‚µ‚Ä‚­‚¾‚³‚¢B<br />
 4F‚Ìuƒe[ƒ}ƒJƒ‰[v‚ðÝ’è‚Å‚«‚Ü‚·B‚±‚±‚ð•ÏX‚µ‚Ä•Û‘¶‚·‚é‚ÆAƒTƒCƒg‘S‘Ì‚ÌƒJƒ‰[ƒŠƒ“ƒO‚ð•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</p>
@@ -422,8 +422,8 @@
 
 <p>ƒwƒbƒ_‚Æƒtƒbƒ^‚ÌF‚Í”’‚É•ÏX‚Å‚«‚Ü‚·‚ªAŠÇ—‰æ–Ê“à‚Å‚Í‚Å‚«‚Ü‚¹‚ñBŽè‡‚ÍuƒJƒXƒ^ƒ}ƒCƒYv‚Ìƒy[ƒW‚ð‚²‚ç‚ñ‚­‚¾‚³‚¢B</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ƒwƒbƒ_Eƒtƒbƒ^‚ð”’‚É‚·‚é</a></p>","3","1","/installation/installation04","","1","","","","","","","2015-12-26 17:17:38","2015-10-17 15:58:08"
-"19","18","installation05","5.ƒƒCƒ“‰æ‘œ‚ð·‚µ‘Ö‚¦‚é","","<p>‘±‚¢‚ÄAuƒe[ƒ}ŠÇ— &gt; ƒe[ƒ}Ý’èv‰æ–Ê‚Ì‚Ü‚ÜAƒƒS‚ÆƒƒCƒ“‰æ‘œ‚ð·‚µ‘Ö‚¦‚Ä‚¢‚«‚Ü‚·B‚±‚Ì“à—e‚Í‚»‚Ì‚Ü‚ÜAƒgƒbƒvƒy[ƒW‚Ì“à—e‚Æ‚µ‚Ä”½‰f‚³‚ê‚Ü‚·B</p>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ƒwƒbƒ_Eƒtƒbƒ^‚ð”’‚É‚·‚é</a></p>","","","","2018-04-22 17:41:23","2018-04-22 17:41:23"
+"11","<p>‘±‚¢‚ÄAuƒe[ƒ}ŠÇ— &gt; ƒe[ƒ}Ý’èv‰æ–Ê‚Ì‚Ü‚ÜAƒƒS‚ÆƒƒCƒ“‰æ‘œ‚ð·‚µ‘Ö‚¦‚Ä‚¢‚«‚Ü‚·B‚±‚Ì“à—e‚Í‚»‚Ì‚Ü‚ÜAƒgƒbƒvƒy[ƒW‚Ì“à—e‚Æ‚µ‚Ä”½‰f‚³‚ê‚Ü‚·B</p>
 
 <h2>ƒƒS‚ÌÝ’è</h2>
 
@@ -465,8 +465,8 @@
 
 <p>ˆê–‡–Ú‚Ì‰æ‘œ‚É‚æ‚Á‚Ä‚ÍA•¶Žš‚Ì”z’u‚ª‚µ‚Á‚­‚è‚±‚È‚¢‚±‚Æ‚ª‚ ‚è‚Ü‚·BC³Žè‡‚ÍuƒJƒXƒ^ƒ}ƒCƒYv‚Ìƒy[ƒW‚ð‚²‚ç‚ñ‚­‚¾‚³‚¢B</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">ƒƒCƒ“‰æ‘œ1‚Ì•¶Žš‘ÌÙ‚ð•Ï‚¦‚é</a></p>","3","1","/installation/installation05","","1","","","","","","","2015-12-26 17:18:21","2015-10-17 15:58:42"
-"20","19","installation06","6. SNSƒAƒCƒRƒ“‚ðÝ’è‚·‚é","","<p>‚±‚Ìƒe[ƒ}‚ÍAƒwƒbƒ_‚Éu‚¨–â‚¢‡‚í‚¹ƒAƒCƒRƒ“vuSNSƒAƒCƒRƒ“v‚ð•\Ž¦‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚±‚±‚ðì¬‚·‚éƒTƒCƒg‚É‡‚í‚¹‚ÄC³‚µ‚Ä‚¢‚«‚Ü‚µ‚å‚¤B</p>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">ƒƒCƒ“‰æ‘œ1‚Ì•¶Žš‘ÌÙ‚ð•Ï‚¦‚é</a></p>","","","","2018-04-22 17:41:23","2018-04-22 17:41:23"
+"12","<p>‚±‚Ìƒe[ƒ}‚ÍAƒwƒbƒ_‚Éu‚¨–â‚¢‡‚í‚¹ƒAƒCƒRƒ“vuSNSƒAƒCƒRƒ“v‚ð•\Ž¦‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B‚±‚±‚ðì¬‚·‚éƒTƒCƒg‚É‡‚í‚¹‚ÄC³‚µ‚Ä‚¢‚«‚Ü‚µ‚å‚¤B</p>
 
 <h2>ƒEƒBƒWƒFƒbƒg•ÒW‰æ–Ê‚ÖˆÚ“®‚·‚é</h2>
 
@@ -514,8 +514,8 @@ Twitter‚Ìê‡‚ÍAˆÈ‰º‚Ì‚Æ‚¨‚è‚É‚È‚è‚Ü‚·B</p>
 <pre>
 <code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">[Twitter‚ÌURL]</strong>&quot; class=&quot;btn btn-round btn-twitter&quot;&gt;
 &lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Twitter&lt;/span&gt;
-&lt;/a&gt;&lt;/li&gt;</code></pre>","3","1","/installation/installation06","","1","","","","","","","2015-12-26 17:18:43","2015-10-17 15:59:30"
-"21","20","installation07","7. ƒEƒBƒWƒFƒbƒg‚ÆƒtƒB[ƒh‚ðÝ’è‚·‚é","","<h2 class=""mt0"">ƒEƒBƒWƒFƒbƒg‚Ì•\Ž¦Ý’è‚ð‚·‚é</h2>
+&lt;/a&gt;&lt;/li&gt;</code></pre>","","","","2018-04-22 17:41:24","2018-04-22 17:41:24"
+"13","<h2 class=""mt0"">ƒEƒBƒWƒFƒbƒg‚Ì•\Ž¦Ý’è‚ð‚·‚é</h2>
 
 <div class=""row"">
 <div class=""col-sm-4"">
@@ -556,8 +556,8 @@ Twitter‚Ìê‡‚ÍAˆÈ‰º‚Ì‚Æ‚¨‚è‚É‚È‚è‚Ü‚·B</p>
 
 <p>‰Šúó‘Ô‚Å‚ÍAbaserCMS‚ÆƒEƒFƒrƒ“ƒOƒXƒ^ƒWƒI‚ÌƒAƒJƒEƒ“ƒg‚ª“Ç‚Ýž‚Ü‚ê‚Ä‚¢‚Ü‚·B•ÏX‚·‚é•û–@‚ÍuƒJƒXƒ^ƒ}ƒCƒYv‚Ìƒy[ƒW‚ðŽQÆ‚­‚¾‚³‚¢B</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">ƒtƒB[ƒhƒŠ[ƒ_[‚ð—˜—p‚·‚é</a></p>","3","1","/installation/installation07","","1","","","","","","","2015-12-26 17:19:51","2015-10-17 16:00:26"
-"22","21","installation08","8. ŒÅ’èƒy[ƒW‚ð’Ç‰Á‚µ‚ÄŒöŠJ‚·‚é","","<h2 class=""mt0"">ƒTƒCƒg‚È‚ç‚Å‚Í‚Ìî•ñ‚ð’ñ‹Ÿ‚·‚é</h2>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">ƒtƒB[ƒhƒŠ[ƒ_[‚ð—˜—p‚·‚é</a></p>","","","","2018-04-22 17:41:24","2018-04-22 17:41:24"
+"14","<h2 class=""mt0"">ƒTƒCƒg‚È‚ç‚Å‚Í‚Ìî•ñ‚ð’ñ‹Ÿ‚·‚é</h2>
 
 <p>ƒTƒCƒgŒöŠJ‚É•K—v‚ÈÝ’è‚ÍŠ®—¹‚µ‚Ü‚µ‚½B‚¨”æ‚ê‚³‚Ü‚Å‚µ‚½I</p>
 
@@ -586,8 +586,8 @@ Twitter‚Ìê‡‚ÍAˆÈ‰º‚Ì‚Æ‚¨‚è‚É‚È‚è‚Ü‚·B</p>
 
 <p>HTML‚Ì•ÒW‚ª‹êŽè‚Èê‡A‚«‚¿‚ñ‚Æî•ñ‚ð’ñ‹Ÿ‚µ‚½‚¢ê‡‚ÍA‚ª‚ñ‚Î‚Á‚ÄV‚µ‚¢ŒÅ’èƒy[ƒW‚ðì‚è‚Ü‚µ‚å‚¤B</p>
 
-<p class=""text-center"">&nbsp;</p>","3","1","/installation/installation08","","1","","","","","","","2015-11-01 19:44:38","2015-10-17 16:01:04"
-"24","23","bootstrap","Bootstrap‚ÌƒTƒ“ƒvƒ‹","","<p>CSSƒtƒŒ[ƒ€ƒ[ƒNuBootstrap 3v‚ÌA‚±‚Ìƒe[ƒ}‚ÌƒfƒUƒCƒ“‚É‘Î‰ž‚µ‚Ä‚¢‚éƒp[ƒc‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
+<p class=""text-center"">&nbsp;</p>","","","","2018-04-22 17:41:25","2018-04-22 17:41:25"
+"15","<p>CSSƒtƒŒ[ƒ€ƒ[ƒNuBootstrap 3v‚ÌA‚±‚Ìƒe[ƒ}‚ÌƒfƒUƒCƒ“‚É‘Î‰ž‚µ‚Ä‚¢‚éƒp[ƒc‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
 Ú‚µ‚¢—˜—p•û–@‚Í‰º‹L‚ðŽQÆ‚­‚¾‚³‚¢B</p>
 
 <ul>
@@ -862,8 +862,8 @@ Twitter‚Ìê‡‚ÍAˆÈ‰º‚Ì‚Æ‚¨‚è‚É‚È‚è‚Ü‚·B</p>
 			<td>tbody/td</td>
 		</tr>
 	</tbody>
-</table>","6","1","/sample/bootstrap","","1","","","","","","","2015-12-26 17:41:32","2015-10-25 17:16:29"
-"26","25","about02","•s—v‚È‹@”\‚ðƒJƒbƒg","","<h2 class=""mt0"">ƒXƒ‰ƒCƒhƒVƒ‡[AÅŒã‚Ü‚ÅŒ©‚Ü‚·‚©H</h2>
+</table>","","","","2018-04-22 17:41:25","2018-04-22 17:41:25"
+"16","<h2 class=""mt0"">ƒXƒ‰ƒCƒhƒVƒ‡[AÅŒã‚Ü‚ÅŒ©‚Ü‚·‚©H</h2>
 
 <p>‚Ù‚Æ‚ñ‚Ç‚ÌCMS—pƒe[ƒ}‚É‚ÍuƒXƒ‰ƒCƒhƒVƒ‡[v‚ª‚ ‚è‚Ü‚·B<strong>‚©‚Á‚±‚æ‚­‚Äl‹C‚ª‚ ‚é‚©‚ç</strong>‚Å‚·B<br />
 ‚Å‚·‚ªAƒXƒ}[ƒgƒtƒHƒ“‚Ì¬‚³‚È‰æ–Ê‚Å‚Ì–K–â‚ª‘½‚­‚È‚Á‚½¡A‚æ‚Ù‚Ç–£—Í“I‚ÈŽÊ^‚ðŽg—p‚µ‚È‚¢ŒÀ‚èAƒXƒ‰ƒCƒhƒVƒ‡[‚Ì“ñ–‡–ÚˆÈ~‚Í‚Ù‚Æ‚ñ‚ÇˆÓ–¡‚ð¬‚³‚È‚­‚È‚Á‚Ä‚¢‚Ü‚·B</p>
@@ -892,8 +892,8 @@ SNS‚ª•‹y‚µAŠe‹LŽ–‚ÉƒRƒƒ“ƒg‚ª“Še‚³‚ê‚é‚Ì‚ÍA—L–¼lƒuƒƒO‚­‚ç‚¢‚Å‚·B‚Ü‚½AƒRƒ
 	<li>OGPETwitterƒJ[ƒh‚Ö‚Ì‘Î‰ž</li>
 	<li>“ü—Í‚µ‚â‚·‚¢ƒ[ƒ‹ƒtƒH[ƒ€‰æ–Ê</li>
 	<li>ƒ[ƒ‹ƒtƒH[ƒ€‚Ì‘—Mƒ[ƒ‹A’ˆÓ•¶‚Ì•¶Œ¾‚ðÄl</li>
-</ul>","4","1","/about/about02","","1","","","","","","","2015-10-31 18:22:25","2015-10-31 17:50:44"
-"27","26","about03","‰æ‘œ‘fÞ‚Ì”ä—¦‚ð“ˆê","","<h2 class=""mt0"">ŽÊ^‚ÌØ‚è”²‚«A‚¢‚è‚Ü‚¹‚ñB</h2>
+</ul>","","","","2018-04-22 17:41:26","2018-04-22 17:41:26"
+"17","<h2 class=""mt0"">ŽÊ^‚ÌØ‚è”²‚«A‚¢‚è‚Ü‚¹‚ñB</h2>
 
 <p>ƒfƒUƒCƒ“«‚Ì‚‚¢ƒe[ƒ}‚Ì‚Ù‚Æ‚ñ‚Ç‚ÍAuêŠ‚²‚Æ‚ÉŽÊ^‚ªŽ©“®‚ÅØ‚è”²‚©‚ê‚év‚±‚Æ‚ª‘½‚¢‚Å‚·B<br />
 ‚Å‚·‚ªA”ä—¦‚É‚æ‚Á‚Ä‚ÍŠç‚ªØ‚ê‚Ä‚µ‚Ü‚Á‚½‚èAŒš•¨‚ª‘S•”“ü‚è‚«‚ç‚È‚©‚Á‚½‚è&hellip;<br />
@@ -905,8 +905,8 @@ SNS‚ª•‹y‚µAŠe‹LŽ–‚ÉƒRƒƒ“ƒg‚ª“Še‚³‚ê‚é‚Ì‚ÍA—L–¼lƒuƒƒO‚­‚ç‚¢‚Å‚·B‚Ü‚½AƒRƒ
 —pˆÓ‚µ‚½‰æ‘œ‚ðƒAƒbƒvƒ[ƒh‚·‚é‚¾‚¯‚ÅAƒCƒ[ƒW’Ê‚è‚ÌƒEƒFƒuƒTƒCƒg‚ðì‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</p>
 
 <p>&hellip;‚à‚¿‚ë‚ñA–¾‚ç‚©‚ÈŽ¸”sŽÊ^‚ð’¼‚·‚±‚Æ‚Í‚Å‚«‚Ü‚¹‚ñiG&omega;GM ÌÞÜ¯<br />
-ŽB‚è’¼‚·‚©AƒIƒ“ƒ‰ƒCƒ“‚ÌŽÊ^‰ÁHƒc[ƒ‹‚ðŽg‚Á‚Ä‚Ý‚Ü‚µ‚å‚¤B</p>","4","1","/about/about03","","1","","","","","","","2015-10-31 18:44:16","2015-10-31 18:03:20"
-"29","28","about04","‘½”‚ÌƒEƒBƒWƒFƒbƒgƒGƒŠƒA","","<h2 class=""mt0"">ƒEƒBƒWƒFƒbƒg‚ð‘g‚Ý‡‚í‚¹‚ÄAŠÈ’PƒJƒXƒ^ƒ}ƒCƒYB</h2>
+ŽB‚è’¼‚·‚©AƒIƒ“ƒ‰ƒCƒ“‚ÌŽÊ^‰ÁHƒc[ƒ‹‚ðŽg‚Á‚Ä‚Ý‚Ü‚µ‚å‚¤B</p>","","","","2018-04-22 17:41:27","2018-04-22 17:41:27"
+"18","<h2 class=""mt0"">ƒEƒBƒWƒFƒbƒg‚ð‘g‚Ý‡‚í‚¹‚ÄAŠÈ’PƒJƒXƒ^ƒ}ƒCƒYB</h2>
 
 <p>baserCMS‚É‚ÍAƒuƒƒO‚ÌV’…î•ñ‚âALƒoƒi[‚È‚Ç‚Ìƒp[ƒc‚ðŠÈ’P‚ÉŒfÚ‚Å‚«‚éu<strong>ƒEƒBƒWƒFƒbƒg</strong>v‚Æ‚¢‚¤‹@”\‚ª‚ ‚è‚Ü‚·B</p>
 
@@ -929,8 +929,8 @@ SNS‚ª•‹y‚µAŠe‹LŽ–‚ÉƒRƒƒ“ƒg‚ª“Še‚³‚ê‚é‚Ì‚ÍA—L–¼lƒuƒƒO‚­‚ç‚¢‚Å‚·B‚Ü‚½AƒRƒ
 ‚±‚ê‚ÍA“ú–{‚Å—˜—p‚Å‚«‚é‘½‚­‚ÌŽ©“®Lƒoƒi[‚ªA•‚ðLk‚³‚¹‚é‚±‚Æ‚ª‚Å‚«‚È‚¢‚½‚ß‚Å‚·B</p>
 
 <p>uratio_3_2v‚ÌƒTƒCƒhƒƒjƒ…[‚ÍA‚Ç‚ñ‚È‰æ–Ê•‚Å‚àA300ƒsƒNƒZƒ‹ˆÈ‰º‚É‚È‚é‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñB<br />
-•300ƒsƒNƒZƒ‹‚ÌuƒŒƒNƒ^ƒ“ƒOƒ‹Lv‚ª‚Ò‚Á‚½‚èŽû‚Ü‚è‚Ü‚·B</p>","4","1","/about/about04","","1","","","","","","","2015-11-01 17:06:15","2015-10-31 18:18:39"
-"30","29","about05","ƒtƒŒ[ƒ€ƒ[ƒN‚ÌÌ—p","","<h2 class=""mt0"">‚à‚¿‚ë‚ñAƒvƒ‚ÌWeb§ìŽÒ‚É‚àB</h2>
+•300ƒsƒNƒZƒ‹‚ÌuƒŒƒNƒ^ƒ“ƒOƒ‹Lv‚ª‚Ò‚Á‚½‚èŽû‚Ü‚è‚Ü‚·B</p>","","","","2018-04-22 17:41:27","2018-04-22 17:41:27"
+"19","<h2 class=""mt0"">‚à‚¿‚ë‚ñAƒvƒ‚ÌWeb§ìŽÒ‚É‚àB</h2>
 
 <p>ìŽÒ‚ÌƒEƒFƒrƒ“ƒOƒXƒ^ƒWƒI‚ÍACMS‚ð‘g‚Ýž‚ñ‚¾ƒEƒFƒuƒTƒCƒg‚Ì§ìEƒJƒXƒ^ƒ}ƒCƒY‚ð¿‚¯•‰‚Á‚Ä‚¢‚Ü‚·B</p>
 
@@ -951,8 +951,8 @@ SNS‚ª•‹y‚µAŠe‹LŽ–‚ÉƒRƒƒ“ƒg‚ª“Še‚³‚ê‚é‚Ì‚ÍA—L–¼lƒuƒƒO‚­‚ç‚¢‚Å‚·B‚Ü‚½AƒRƒ
 <h2>‰B‚µ‹@”\A‚ ‚è‚Ü‚·B</h2>
 
 <p>‚±‚Ìƒe[ƒ}‚Å‚ÍAbootstrap3ˆÈŠO‚É‚àA‚³‚Ü‚´‚Ü‚ÈCSS‚Ì•â•ƒNƒ‰ƒX‚âAPHP‚Ì•â•ŠÖ”‚ð’Ç‰Á‚µ‚Ä‚¢‚Ü‚·B<br />
-uƒJƒXƒ^ƒ}ƒCƒYv‚Ìƒy[ƒW‚ÅA‚æ‚­Žg‚¤‹@”\‚Ìˆê•”‚ð‚²Ð‰î‚µ‚Ä‚¢‚Ü‚·BŽQÆ‚­‚¾‚³‚¢B</p>","4","1","/about/about05","","1","","","","","","","2015-11-01 17:07:17","2015-10-31 18:33:22"
-"31","30","customize02","ƒwƒbƒ_Eƒtƒbƒ^‚ð”’‚É‚·‚é","","<p>‚±‚Ìƒe[ƒ}‚ÍAƒwƒbƒ_Eƒtƒbƒ^‚ÌF‚ð‚»‚ê‚¼‚êu”’vu•v‚É•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B<br />
+uƒJƒXƒ^ƒ}ƒCƒYv‚Ìƒy[ƒW‚ÅA‚æ‚­Žg‚¤‹@”\‚Ìˆê•”‚ð‚²Ð‰î‚µ‚Ä‚¢‚Ü‚·BŽQÆ‚­‚¾‚³‚¢B</p>","","","","2018-04-22 17:41:28","2018-04-22 17:41:28"
+"20","<p>‚±‚Ìƒe[ƒ}‚ÍAƒwƒbƒ_Eƒtƒbƒ^‚ÌF‚ð‚»‚ê‚¼‚êu”’vu•v‚É•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B<br />
 ƒe[ƒ}ƒtƒ@ƒCƒ‹‚Ì’¼Ú•ÒW‚ª•K—v‚Æ‚È‚è‚Ü‚·BS”z‚Èê‡‚Í•K‚¸ƒRƒs[‚ðì¬‚µ‚Ä‚­‚¾‚³‚¢B</p>
 
 <p>ƒe[ƒ}ƒtƒ@ƒCƒ‹“à‚ÌConfig/bootstrap.php‚ðƒeƒLƒXƒgƒGƒfƒBƒ^‚ÅŠJ‚¢‚Ä‚­‚¾‚³‚¢B<br />
@@ -965,8 +965,8 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 
 <p>&#39;black&#39;‚ð&#39;white&#39;‚É‘‚«Š·‚¦‚Ä•Û‘¶‚·‚é‚ÆAƒwƒbƒ_Eƒtƒbƒ^‚ª‚»‚ê‚¼‚ê”’‚É•Ï‚í‚è‚Ü‚·B</p>
 
-<div class=""well"">bootstrap.php‚É‚ÍAV’…î•ñ‚Ì“ú•tƒtƒH[ƒ}ƒbƒg‚àÝ’è‚³‚ê‚Ä‚¢‚Ü‚·BPHP‚ÌdateŠÖ”‚Æ“¯—l‚Ì‹Lq‚ÅA•\‹L‚ð•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</div>","5","1","/customize/customize02","","1","","","","","","","2015-12-26 19:03:34","2015-11-01 19:16:52"
-"32","31","customize03","ƒƒCƒ“‰æ‘œ1‚Ì•¶Žš‘ÌÙ‚ð•Ï‚¦‚é","","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" width=""760"" /></div>
+<div class=""well"">bootstrap.php‚É‚ÍAV’…î•ñ‚Ì“ú•tƒtƒH[ƒ}ƒbƒg‚àÝ’è‚³‚ê‚Ä‚¢‚Ü‚·BPHP‚ÌdateŠÖ”‚Æ“¯—l‚Ì‹Lq‚ÅA•\‹L‚ð•Ï‚¦‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</div>","","","","2018-04-22 17:41:28","2018-04-22 17:41:28"
+"21","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" width=""760"" /></div>
 
 <p>ƒƒCƒ“‰æ‘œ‚É‚æ‚Á‚Ä‚ÍAã‚Éæ‚Á‚Ä‚¢‚é•¶Žš‚ÌˆÊ’u‚âF‚ª‡‚í‚È‚¢‚±‚Æ‚ª‚ ‚è‚Ü‚·B<br />
 ƒXƒ^ƒCƒ‹ƒV[ƒg‚Ì’mŽ¯‚ª‚ ‚ê‚ÎAŠÇ—‰æ–Ê‚©‚ç’²®‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</p>
@@ -1011,8 +1011,8 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 .mainvisual .jumbotron:focus .jumbotron-caption,
 .mainvisual .jumbotron:active .jumbotron-caption {
 &nbsp;&nbsp; &nbsp;color: #333333;
-}</code></pre>","5","1","/customize/customize03","","1","","","","","","","2015-12-26 19:03:34","2015-11-01 19:18:18"
-"33","32","customize04","ƒtƒB[ƒhƒŠ[ƒ_[‚ð—˜—p‚·‚é","","<p>‚±‚Ìƒe[ƒ}‚Å‚ÍAŽOŽí—Þ‚Ì‘ÌÙ‚ÌƒtƒB[ƒh‚ð•\Ž¦‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</p>
+}</code></pre>","","","","2018-04-22 17:41:29","2018-04-22 17:41:29"
+"22","<p>‚±‚Ìƒe[ƒ}‚Å‚ÍAŽOŽí—Þ‚Ì‘ÌÙ‚ÌƒtƒB[ƒh‚ð•\Ž¦‚·‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B</p>
 
 <p class=""h4"">Twitter—p</p>
 
@@ -1049,8 +1049,8 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 
 <p>ŠÇ—‰æ–Ê‚ÌuƒEƒBƒWƒFƒbƒgƒGƒŠƒAŠÇ— &gt; ƒEƒBƒWƒFƒbƒgƒGƒŠƒAˆê——v‚ÖˆÚ“®‚µA•\Ž¦‚µ‚½‚¢‰ÓŠ‚ÌƒtƒB[ƒhƒEƒBƒWƒFƒbƒg‚Ìu—˜—p‚·‚év‚Éƒ`ƒFƒbƒN‚ð“ü‚ê‚Ä‚­‚¾‚³‚¢B</p>
 
-<div class=""alert alert-danger"">uQueryfeedvuRSS.Stagram!!!v‚ÍŠO•”ƒT[ƒrƒX‚Å‚·B—\‚È‚­ƒT[ƒrƒX‚ªI—¹‚·‚é‰Â”\«‚ª‚ ‚èA‚»‚Ìê‡‚ÍƒtƒB[ƒh‚ª³í‚É•\Ž¦‚³‚ê‚È‚­‚È‚è‚Ü‚·‚Ì‚ÅAŽ–‘O‚É‚²—¹³‚­‚¾‚³‚¢B</div>","5","1","/customize/customize04","","1","","","","","","","2015-12-26 19:03:35","2015-11-01 20:04:37"
-"34","33","customize05","‰æ–Ê•‚¢‚Á‚Ï‚¢‚É“à—e‚ð•\Ž¦‚·‚é","","<p>‚±‚Ìƒe[ƒ}‚ÍAƒy[ƒW–{•¶‚É•‚ÌãŒÀ‚ðÝ‚¯‚Ä‚¢‚Ü‚·B<br />
+<div class=""alert alert-danger"">uQueryfeedvuRSS.Stagram!!!v‚ÍŠO•”ƒT[ƒrƒX‚Å‚·B—\‚È‚­ƒT[ƒrƒX‚ªI—¹‚·‚é‰Â”\«‚ª‚ ‚èA‚»‚Ìê‡‚ÍƒtƒB[ƒh‚ª³í‚É•\Ž¦‚³‚ê‚È‚­‚È‚è‚Ü‚·‚Ì‚ÅAŽ–‘O‚É‚²—¹³‚­‚¾‚³‚¢B</div>","","","","2018-04-22 17:41:30","2018-04-22 17:41:30"
+"23","<p>‚±‚Ìƒe[ƒ}‚ÍAƒy[ƒW–{•¶‚É•‚ÌãŒÀ‚ðÝ‚¯‚Ä‚¢‚Ü‚·B<br />
 ‘Ñó‚É”wŒiF‚ð•Ï‚¦‚éA‰æ‘œ‚ð‚¢‚Á‚Ï‚¢‚É•\Ž¦‚·‚éê‡‚ÍAˆÈ‰º‚Ì‚æ‚¤‚ÉƒJƒXƒ^ƒ}ƒCƒY‚·‚é‚Æ§ŒÀ‚ð‰ðœ‚Å‚«‚Ü‚·B</p>
 
 <div class=""alert alert-danger"">HTMLECSS‚ÆAbaserCMS‚Ìƒe[ƒ}•ÒW‚Ì’mŽ¯‚ª•K—v‚Æ‚È‚è‚Ü‚·B</div>
@@ -1065,9 +1065,9 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;black&#39;);</pre>
 <h2>“Á’èƒJƒeƒSƒŠ[‚Ì‚Ý‰ðœ‚·‚é</h2>
 
 <p>ƒJƒeƒSƒŠ[‚Ìì¬Žž‚ÉA“Ç‚Ýž‚Þƒeƒ“ƒvƒŒ[ƒg‚Åu<strong>col1_full</strong>v‚ð‘I‘ð‚·‚é‚ÆA‚»‚ÌƒJƒeƒSƒŠ[“à‚Ì‚Ý§ŒÀ‚ª‰ðœ‚³‚ê‚Ü‚·B<br />
-§ŒÀ‚ðÝ‚¯‚½‚Ü‚Ü‚ÅAƒTƒCƒhƒƒjƒ…[‚ª‚È‚¢u<strong>col1</strong>v‚Æ‚¢‚¤ƒeƒ“ƒvƒŒ[ƒg‚à‘I‘ð‚Å‚«‚Ü‚·B</p>","5","1","/customize/customize05","","1","","","","","","","2015-12-26 19:03:35","2015-11-01 20:16:14"
-"35","34","about06","à–¾‘‚Ì“Y•t","","<p>‚±‚Ìudefaultvƒf[ƒ^“à‚Ì‰ðà‚ð•¡»‚µ‚½APDF”Å‚Ìƒ}ƒjƒ…ƒAƒ‹‚ð“¯«‚µ‚Ä‚¢‚Ü‚·B</p>
+§ŒÀ‚ðÝ‚¯‚½‚Ü‚Ü‚ÅAƒTƒCƒhƒƒjƒ…[‚ª‚È‚¢u<strong>col1</strong>v‚Æ‚¢‚¤ƒeƒ“ƒvƒŒ[ƒg‚à‘I‘ð‚Å‚«‚Ü‚·B</p>","","","","2018-04-22 17:41:30","2018-04-22 17:41:30"
+"24","<p>‚±‚Ìudefaultvƒf[ƒ^“à‚Ì‰ðà‚ð•¡»‚µ‚½APDF”Å‚Ìƒ}ƒjƒ…ƒAƒ‹‚ð“¯«‚µ‚Ä‚¢‚Ü‚·B</p>
 
 <p>ƒe[ƒ}“à‚Ì‰º‹L‚ÌêŠ‚©‚çAFTPƒ\ƒtƒg‚È‚Ç‚Åƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä‚­‚¾‚³‚¢B</p>
 
-<p><strong>[baserCMS‚ðÝ’u‚µ‚½ƒfƒBƒŒƒNƒgƒŠ]app/webroot/theme/ratio_3_2/ratio_3_2_manual.pdf</strong></p>","4","1","/about/about06","","1","","","","","","","2015-11-01 20:39:36","2015-11-01 20:39:36"
+<p><strong>[baserCMS‚ðÝ’u‚µ‚½ƒfƒBƒŒƒNƒgƒŠ]app/webroot/theme/ratio_3_2/ratio_3_2_manual.pdf</strong></p>","","","","2018-04-22 17:41:31","2018-04-22 17:41:31"

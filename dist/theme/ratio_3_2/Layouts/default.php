@@ -86,17 +86,8 @@ if ( $this->BcBaser->isHome() ):
 	<?php
 		// widget: home bottom No.5
 		// 有効なウィジェットがひとつもなければ、このセクションは表示されません
-		$show_section = false;
-		$widget_data_array = $this->requestAction('/widget_areas/get_widgets/' . 5);
-		foreach ( $widget_data_array as $widget_data ) {
-			foreach ( $widget_data as $widget ) {
-				if( $widget['status'] == 1 ){
-					$show_section = true;
-				}
-			}
-		}
 	?>
-	<?php if( $show_section ) : ?>
+	<?php if( $this->Ratio32->isWidgetAvailable(5) ) : ?>
 		<div class="section section-02">
 			<div class="container">
 
@@ -176,17 +167,8 @@ if ( $this->BcBaser->isHome() ):
 	<?php
 		// widget: common bottom No.7
 		// 有効なウィジェットがひとつもなければ、このセクションは表示されません
-		$show_section = false;
-		$widget_data_array = $this->requestAction('/widget_areas/get_widgets/' . 7);
-		foreach ( $widget_data_array as $widget_data ) {
-			foreach ( $widget_data as $widget ) {
-				if( $widget['status'] == 1 ){
-					$show_section = true;
-				}
-			}
-		}
 	?>
-	<?php if( $show_section ) : ?>
+	<?php if( $this->Ratio32->isWidgetAvailable(7) ) : ?>
 		<div class="section section-02">
 			<div class="container">
 
