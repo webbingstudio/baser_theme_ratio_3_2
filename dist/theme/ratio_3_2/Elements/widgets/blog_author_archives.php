@@ -11,10 +11,10 @@ if (isset($blogContent)) {
 } else {
 	$id = $blog_content_id;
 }
-$data = $this->requestAction('/blog/blog/get_authors/' . $id . '/' . $view_count);
+$data = $this->requestAction('/blog/blog/get_authors/' . $id . '/' . $view_count, ['entityId' => $id]);
 $authors = $data['authors'];
 $blogContent = $data['blogContent'];
-$baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/';
+$baseCurrentUrl = $this->BcBaser->getBlogContentsUrl($id) . 'archives/author/';
 ?>
 <?php if( $name && $use_title ): ?>
 <div class="panel panel-default widget widget-blog-authors widget-blog-authors-<?php echo $id ?> blog-widget">
@@ -29,24 +29,21 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/';
 	<div class="list-group">
 	<?php foreach ($authors as $author): ?>
 		<?php
-		if ($this->request->url == $baseCurrentUrl . $author['User']['name']) {
+		if ('/' . $this->request->url == $baseCurrentUrl . $author['User']['name']) {
 			$class = 'list-group-item active';
 		} else {
 			$class = 'list-group-item';
 		}
 		if ($view_count) {
-			$title = $this->BcBaser->getUserName($author['User']) . ' (' . $author['count'] . ')';
+			$title = $this->BcBaser->getUserName($author['User']) . ' <span class="label label-default">' . $author['count'] . '</span>';
 		} else {
 			$title = $this->BcBaser->getUserName($author['User']);
 		}
-
-		$this->BcBaser->link($title, array(
-			'admin' => false, 'plugin' => '',
-			'controller' => $blogContent['BlogContent']['name'],
-			'action' => 'archives',
-			'author',
-			$author['User']['name'],
-		), array( 'class' => $class ) );
+		$this->BcBaser->link(
+			$title,
+			$baseCurrentUrl . $author['User']['name'],
+			array( 'class' => $class )
+		)
 		?>
 	<?php endforeach; ?>
 	</div>
