@@ -23,6 +23,7 @@
 .media a:after,
 a.list-group-item:after,
 .widget-blog-categories-archives ul li a:after,
+.widget-local-navi ul.menu > li a:after,
 .contents-nav li.previous a:after,
 .serial-nav li a:after {
 	color: MAIN;
@@ -234,6 +235,16 @@ a.list-group-item.active:hover {
 	background-color: SUB;
 	border-color: SUB;
 	color: LINK;
+}
+
+
+/* localnav */
+
+.widget-local-navi ul.menu li.current a,
+.widget-local-navi ul.menu li.current a:focus,
+.widget-local-navi ul.menu li.current a:hover {
+	background-color: SUB;
+	border-color: SUB;
 }
 
 
