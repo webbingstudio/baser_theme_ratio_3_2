@@ -18,10 +18,10 @@ $actionUrl = '/blog/blog/get_posted_months/' . $id . '/' . $limit;
 if ($view_count) {
 	$actionUrl .= '/1';
 }
-$data = $this->requestAction($actionUrl);
+$data = $this->requestAction($actionUrl, ['entityId' => $id]);
 $postedDates = $data['postedDates'];
 $blogContent = $data['blogContent'];
-$baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
+$baseCurrentUrl = $this->BcBaser->getBlogContentsUrl($id) . 'archives/date/';
 ?>
 <?php if( $name && $use_title ): ?>
 <div class="panel panel-default widget widget-blog-monthly-archives widget-blog-monthly-archives-<?php echo $id ?> blog-widget">
@@ -37,7 +37,7 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
 			<?php foreach ($postedDates as $postedDate): ?>
 				<?php if (isset($this->params['named']['year']) && isset($this->params['named']['month']) && $this->params['named']['year'] == $postedDate['year'] && $this->params['named']['month'] == $postedDate['month']): ?>
 					<?php $class = 'list-group-item active selected' ?>
-				<?php elseif ($this->request->url == $baseCurrentUrl . $postedDate['year'] . '/' . $postedDate['month']): ?>
+				<?php elseif ($this->request->here == $baseCurrentUrl . $postedDate['year'] . '/' . $postedDate['month']): ?>
 					<?php $class = 'list-group-item active' ?>
 				<?php else: ?>
 					<?php $class = 'list-group-item' ?>
@@ -49,13 +49,11 @@ $baseCurrentUrl = $blogContent['BlogContent']['name'] . '/archives/date/';
 					<?php $title = $date_format ?>
 				<?php endif ?>
 				<?php
-				$this->BcBaser->link($title, array(
-					'admin' => false,
-					'plugin' => '',
-					'controller' => $blogContent['BlogContent']['name'],
-					'action' => 'archives',
-					'date', $postedDate['year'], $postedDate['month']
-				), array( 'class' => $class ) );
+				$this->BcBaser->link(
+					$title,
+					$this->BcBaser->getBlogContentsUrl($id) . 'archives/date/' . $postedDate['year'] . '/' . $postedDate['month'],
+					array( 'class' => $class )
+				)
 				?>
 			<?php endforeach; ?>
 		</div>
