@@ -330,4 +330,9 @@ a.list-group-item.active:hover {
 }
 
 
+/* tags */
+
+.widget ul.bc-blog-tags li a {
+	border-color: MAIN;
+}
 
