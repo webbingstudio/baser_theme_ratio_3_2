@@ -113,6 +113,8 @@ widget
 .widget-site-search input.form-control[type="text"] {
   width: 200px;
   height: 2.4em;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .widget-site-search .btn[type="submit"] {

@@ -1768,6 +1768,14 @@ baser-form
   border-bottom: 1px solid #DDDDDD;
 }
 
+.baser-form .checkbox input[type=checkbox],
+.baser-form .checkbox-inline input[type=checkbox],
+.baser-form .radio input[type=radio],
+.baser-form .radio-inline input[type=radio] {
+  top: .65em;
+  margin-left: 0;
+}
+
 .baser-form .alert {
   padding: .3em 15px;
   margin: .5em 0 0;
@@ -1790,6 +1798,8 @@ baser-form
 .baser-form .form-control {
   display: inline;
   margin-bottom: 5px;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .baser-form-confirm .control-label {
@@ -1906,6 +1916,8 @@ widget
 .widget-site-search input.form-control[type="text"] {
   width: 200px;
   height: 2.4em;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .widget-site-search .btn[type="submit"] {
