@@ -7,11 +7,6 @@
 
 // ブラウザのヒストリーバック（戻るボタン）対応
 $this->Mail->token();
-
-$prefix = '';
-if (Configure::read('BcRequest.agent')) {
-	$prefix = '/' . Configure::read('BcRequest.agentAlias');
-}
 ?>
 
 <script type="text/javascript">
@@ -25,9 +20,9 @@ $(function(){
 </script>
 
 <?php if (!$freezed): ?>
-	<?php echo $this->Mailform->create('MailMessage', array('class' => 'form-horizontal'), array('url' => $this->BcBaser->getContentsUrl(null, false, null, false) . 'confirm', 'type' => 'file')) ?>
+	<?php echo $this->Mailform->create('MailMessage', array('class' => 'form-horizontal', 'url' => $this->BcBaser->getContentsUrl(null, false, null, false) . 'confirm', 'type' => 'file')) ?>
 <?php else: ?>
-	<?php echo $this->Mailform->create('MailMessage', array('class' => 'form-horizontal'), array('url' => $this->BcBaser->getContentsUrl(null, false, null, false)  . 'submit')) ?>
+	<?php echo $this->Mailform->create('MailMessage', array('class' => 'form-horizontal', 'url' => $this->BcBaser->getContentsUrl(null, false, null, false)  . 'submit')) ?>
 <?php endif; ?>
 
 <?php $this->Mailform->unlockField('MailMessage.mode') ?>
