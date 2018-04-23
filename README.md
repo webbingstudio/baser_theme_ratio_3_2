@@ -5,12 +5,7 @@
 
 ## 対応バージョン
 
-baserCMS 3.0.7以降
-
-バージョン3.0.9以降で、ロリポップなどの一部サーバーでは下記の不具合が生じます。詳しくはリンク先を参照ください。
-
-- [baserCMSバージョン 3.0.9にしたら、固定ページの保存ができなくなりました。｜フォーラム｜baserCMSユーザーズ](http://forum.basercms.net/modules/newbb/viewtopic.php?viewmode=thread&topic_id=2041&forum=5)
-- [baserCMSバージョン 3.0.9＋ロリポップで、固定ページを保存すると403エラーになる｜フォーラム｜baserCMSユーザーズ](http://forum.basercms.net/modules/newbb/viewtopic.php?topic_id=2046&forum=8)
+baserCMS 4.1.0.1以降
 
 ## デモサイト
 
@@ -23,10 +18,6 @@ baserCMS 3.0.7以降
 ### 初期データについて
 
 このテーマは、テーマの特徴・カスタマイズ解説などが書かれた「default」データと、ページやナビゲーションが空となっている「blank」データがあります。
-
-バージョン3.0.9で、「blank」データを読み込めない不具合が発生しています。「blank」データを読み込む方法は下記リンク先を参照ください。
-
-[baserCMSバージョン3.0.9で、複数の初期データがあると「default」しか読み込めない｜フォーラム｜baserCMSユーザーズ](http://forum.basercms.net/modules/newbb/viewtopic.php?viewmode=flat&topic_id=2053&forum=8)
 
 ### マニュアル
 
