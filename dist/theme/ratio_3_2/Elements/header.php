@@ -13,7 +13,7 @@ $WS_navbar_class = RATIO32_HEAD_COLOR == 'black' ? ' navbar-inverse' : ' navbar-
 
 		<div class="navbar-header">
 
-			<?php if( $this->BcBaser->getMenus() ): ?>
+			<?php if(!empty( $this->BcBaser->getGlobalMenu() )): ?>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 				<i class="fa fa-bars"></i><span class="navbar-toggle-text">メニュー</span>
 			</button>
@@ -38,10 +38,7 @@ $WS_navbar_class = RATIO32_HEAD_COLOR == 'black' ? ' navbar-inverse' : ' navbar-
 		</div>
 
 		<div class="navbar-sub navbar-right visible-lg visible-md visible-sm">
-			<?php
-				// widget: header-top-right No.8
-				$this->BcBaser->widgetArea(8);
-			?>
+			<?php $this->BcBaser->element('header_icons'); ?>
 		</div>
 
 	<!-- /.container --></div>

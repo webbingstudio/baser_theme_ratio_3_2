@@ -10,10 +10,7 @@
 <nav class="global-nav collapse navbar-collapse" id="navbar-collapse">
 	<div class="container">
 		<div class="hidden-lg hidden-md hidden-sm">
-			<?php
-				// widget: header-top-right No.8
-				$this->BcBaser->widgetArea(8);
-			?>
+			<?php $this->BcBaser->element('header_icons'); ?>
 		</div>
 
 		<?php
