@@ -953,16 +953,17 @@ navbar
   font-size: 18px;
   line-height: 38px;
 }
-
-@media (min-width: 768px) {
+.navbar img.navbar-brand {
+  max-width: 200px;
+  height: auto;
+}
+@media (min-width:768px) {
   .navbar .navbar-brand {
     padding-right: 15px;
   }
-}
-@media (min-width: 992px) {
-  .navbar .navbar-brand {
-    font-size: 24px;
-    line-height: 34px;
+  .navbar img.navbar-brand {
+    max-width: 270px;
+    height: auto;
   }
 }
 .navbar .navbar-brand,
@@ -2570,7 +2571,22 @@ header-nav
 */
 .header-nav {
   margin: 0;
-  padding: 7px 15px 0 0;
+  padding: 7px 0 0;
+}
+
+@media (min-width:768px) {
+  .header-nav {
+    padding-right: 15px;
+  }
+}
+
+.global-nav .header-nav {
+  text-align: center;
+  padding-top: 0;
+}
+
+.global-nav .header-nav li {
+  padding-top: 7px;
 }
 
 /*
@@ -2638,6 +2654,11 @@ global-nav
 }
 
 @media (max-width: 767px) {
+  .global-nav .nav-pills {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .global-nav .nav-pills {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
   }

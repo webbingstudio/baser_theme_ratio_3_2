@@ -26,5 +26,20 @@ header-nav
 */
 .header-nav {
   margin: 0;
-  padding: 7px 15px 0 0;
+  padding: 7px 0 0;
+}
+
+@media (min-width:768px) {
+  .header-nav {
+    padding-right: 15px;
+  }
+}
+
+.global-nav .header-nav {
+	text-align: center;
+	padding-top: 0;
+}
+
+.global-nav .header-nav li {
+	padding-top: 7px;
 }

@@ -52,6 +52,11 @@ global-nav
 @media (max-width:767px) {
 
   .global-nav .nav-pills {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .global-nav .nav-pills {
     border-top: 1px solid $globalnav-border-color;
   }
 
