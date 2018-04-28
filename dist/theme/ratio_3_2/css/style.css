@@ -3028,6 +3028,17 @@ googlemaps
 .googlemaps {
   border: 1px solid #DDDDDD;
 }
+/*
+-------------------------
+
+
+SearchIndices
+-------------------------
+*/
+
+body.SearchIndices .media strong {
+  background-color: #ff0;
+}
 
 /*
 -------------------------
