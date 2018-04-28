@@ -15,7 +15,7 @@
 			?>
 		</div>
 
-		<?php $this->BcBaser->globalMenu(); ?>
+		<?php $this->BcBaser->globalMenu(1, ['cache' => false]); ?>
 
 	<!-- /.container --></div>
 </nav>
