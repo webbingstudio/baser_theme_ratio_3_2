@@ -858,6 +858,10 @@ page-header
 navbar
 -------------------------
 */
+.navbar {
+  min-height: auto;
+}
+
 .navbar-default {
   margin: 0;
   background-color: #FFFFFF;
@@ -2606,7 +2610,7 @@ footer
 -------------------------
 
 
-global-nav
+global-nav(1.3.0 earlier)
 -------------------------
 */
 .global-nav {
@@ -2654,6 +2658,12 @@ global-nav
 }
 
 @media (max-width: 767px) {
+
+  .global-nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .global-nav .nav-pills {
     padding-left: 0;
     padding-right: 0;
@@ -2678,6 +2688,98 @@ global-nav
   .global-nav .nav-pills > li > a {
     font-size: 14px;
   }
+}
+/*
+-------------------------
+
+
+global-menu(1.4.0 lator)
+-------------------------
+*/
+.global-nav .global-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 7px 0;
+  padding: 0;
+}
+
+.global-nav .global-menu>li {
+    flex: 1 0 auto;
+}
+
+.global-nav .global-menu a,
+.global-nav .global-menu span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.global-nav .global-menu a {
+    text-decoration: none;
+}
+
+.global-nav .global-menu > li > a,
+.global-nav .global-menu > li > span {
+  font-size: 12px;
+  color: #fff;
+}
+
+.global-nav .global-menu > li > a {
+  padding: .8em 0 .7em;
+}
+
+.global-nav .global-menu > li > a,
+.global-nav .global-menu > li > a:visited {
+  color: #fff;
+  background-color: transparent;
+}
+
+.global-nav .global-menu > li > a:focus,
+.global-nav .global-menu > li > a:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.global-nav .global-menu > li.current > a,
+.global-nav .global-menu > li.current > a:focus,
+.global-nav .global-menu > li.current > a:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:767px) {
+
+  .global-nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .global-nav .global-menu {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    flex-wrap: wrap;
+  }
+
+  .global-nav .global-menu > li {
+    width: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .global-nav .global-menu {
+    margin: 0;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .global-nav .global-menu > li > a {
+    font-size: 14px;
+  }
+
 }
 /*
 -------------------------

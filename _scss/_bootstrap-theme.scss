@@ -982,6 +982,10 @@ page-header
 navbar
 -------------------------
 */
+.navbar {
+  min-height: auto;
+}
+
 .navbar-default {
   margin: 0;
   background-color: $bg-default-color;
