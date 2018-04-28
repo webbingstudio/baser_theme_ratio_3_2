@@ -10,13 +10,13 @@ $this->Mail->token();
 ?>
 
 <script type="text/javascript">
-$(function(){
-  $(".form-submit").click(function(){
-    var mode = $(this).attr('id').replace('BtnMessage', '');
-    $("#MessageMode").val(mode);
-    return true;
-  });
-});
+	$(function(){
+		$(".form-submit").click(function(){
+			var mode = $(this).attr('id').replace('BtnMessage', '');
+			$("#MailMessageMode").val(mode);
+			return true;
+		});
+	});
 </script>
 
 <?php if (!$freezed): ?>
@@ -46,6 +46,13 @@ $(function(){
 
 <div class="submit">
 
+	<?php if ($freezed): ?>
+		<?php echo $this->Mailform->submit(__('書き直す'), array('div' => false, 'class' => 'btn btn-default form-submit', 'id' => 'BtnMessageBack')) ?>
+		<?php echo $this->Mailform->submit(__('送信する'), array('div' => false, 'class' => 'btn btn-lg btn-primary form-submit', 'id' => 'BtnMessageSubmit')) ?> 
+	<?php else: ?>
+		<?php echo $this->Mailform->submit(__('入力内容を確認'), array('div' => false, 'class' => 'btn btn-lg btn-primary form-submit', 'id' => 'BtnMessageConfirm')) ?>
+	<?php endif; ?>
+
 	<?php
 		// リセットボタンは誤操作の原因となるため表示していません
 		$WS_form_void = false;
@@ -60,14 +67,6 @@ $(function(){
 		// リセットボタンは誤操作の原因となるため表示していません
 		endif;
 	?>
-
-
-	<?php if ($freezed): ?>
-		<?php echo $this->Mailform->submit('書き直す', array('div' => false, 'class' => 'btn btn-default form-submit', 'id' => 'BtnMessageBack')) ?>
-		<?php echo $this->Mailform->submit('送信する', array('div' => false, 'class' => 'btn btn-lg btn-primary form-submit', 'id' => 'BtnMessageSubmit')) ?> 
-	<?php else: ?>
-		<?php echo $this->Mailform->submit('入力内容を確認', array('div' => false, 'class' => 'btn btn-lg btn-primary form-submit', 'id' => 'BtnMessageConfirm')) ?>
-	<?php endif; ?>
 <!-- /.submit --></div>
 
 <?php echo $this->Mailform->end() ?>

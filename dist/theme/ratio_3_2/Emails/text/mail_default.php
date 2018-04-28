@@ -43,12 +43,14 @@
 <?php endif; ?>
 
 <?php echo $mailConfig['site_name']; ?>
- 
+
 <?php echo $mailConfig['site_url'] ?>
+
 <?php echo $mailConfig['site_email']; ?>
 
 <?php if ($mailConfig['site_tel']): ?>
 Tel: <?php echo $mailConfig['site_tel']; ?><?php endif; ?>
+
 <?php if ($mailConfig['site_fax']): ?>
 FAX: <?php echo $mailConfig['site_fax']; ?>
 
