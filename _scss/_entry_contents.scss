@@ -22,6 +22,7 @@ entry-contents
 */
 .entry-contents {
   line-height: 1.75;
+  word-break: break-all;
 }
 
 @media (min-width:600px) {
