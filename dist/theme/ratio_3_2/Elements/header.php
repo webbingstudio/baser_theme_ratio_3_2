@@ -38,7 +38,10 @@ $WS_navbar_class = RATIO32_HEAD_COLOR == 'black' ? ' navbar-inverse' : ' navbar-
 		</div>
 
 		<div class="navbar-sub navbar-right visible-lg visible-md visible-sm">
-			<?php $this->BcBaser->element('header_icons'); ?>
+			<?php
+				// widget: header-top-right No.8
+				$this->BcBaser->widgetArea(8);
+			?>
 		</div>
 
 	<!-- /.container --></div>

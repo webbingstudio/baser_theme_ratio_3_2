@@ -39,7 +39,7 @@
 <body class="layout-col1 <?php $this->BcBaser->contentsName() ?>">
 
 <?php $this->BcBaser->header() ?>
-<?php $this->BcBaser->globalMenu() ?>
+<?php $this->BcBaser->element('navbar'); ?>
 <div class="contents">
 
 	<div class="section section-01">
