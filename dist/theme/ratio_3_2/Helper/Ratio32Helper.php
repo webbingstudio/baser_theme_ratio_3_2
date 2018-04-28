@@ -97,73 +97,73 @@ class Ratio32Helper extends BcBaserHelper {
 	 *
 	 * usage: $this->Ratio32->get_global_menu( $tree, $currentId, $args = array() )
 	 */
-    public function get_global_menu( $tree, $currentId, $args = array() ) {
-        $args = array_merge(array(
-            'ul_class' => 'global-menu',
-            'li_class' => 'global-menu-item',
-            'active_class' => 'current',
-        ), $args);
-
-        $prefix = '';
-        $output = '';
-
-        if (!isset($level)) {
-            $level = 1;
-        }
-        if(!isset($currentId)) {
-            $currentId = null;
-        }
-
-        $output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
-        $output .= "\n";
-
-        foreach ($tree as $key => $content) {
-
-            if ($content['Content']['title']) {
-                if(!$content['Content']['exclude_menu']) {
-
-                    $classies = array();
-                    $options = array();
-
-                    $no = sprintf( '%02d', $key + 1 );
-                    $classies[] = $args['li_class'];
-                    $classies[] = 'menu' . $no;
-
-                    if ( $this->BcArray->first($content, $key) ) {
-                        $classies[] = 'first';
-                    } elseif ( $this->BcArray->last($content, $key) ) {
-                        $classies[] = 'last';
-                    }
-
-                    if($content['Content']['id'] == $currentId || $this->isContentsParentId($currentId, $content['Content']['id'])) {
-                      $classies[] = $args['active_class'];
-                    }
-
-                    if(!empty($content['Content']['blank_link'])) {
-                        $options = ['target' => '_blank'];
-                    }
-
-                    $class = ' class="' . implode( ' ', $classies ) . '"';
-
-                    if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $content['url'] == '/') {
-                        $output .= '<li' . $class . '>';
-                        $output .= str_replace('/index.php', '', $this->getLink($content['Content']['title'], $content['Content']['url']));
-                        $output .= '</li>' . "\n";
-                    } else {
-                        $output .= '<li' . $class . '>';
-                        $output .= $this->getLink($content['Content']['title'], $prefix . $content['Content']['url'], $options);
-                        $output .= '</li>' . "\n";
-                    }
-
-                }
-
-            }
-
-        }
-        $output .= '</ul>' . "\n";
-
-        return $output;
-    }
+//    public function get_global_menu( $tree, $currentId, $args = array() ) {
+//        $args = array_merge(array(
+//            'ul_class' => 'global-menu',
+//            'li_class' => 'global-menu-item',
+//            'active_class' => 'current',
+//        ), $args);
+//
+//        $prefix = '';
+//        $output = '';
+//
+//        if (!isset($level)) {
+//            $level = 1;
+//        }
+//        if(!isset($currentId)) {
+//            $currentId = null;
+//        }
+//
+//        $output .= empty( $args['ul_class'] ) ? '<ul>' : '<ul class="' . $args['ul_class'] . '">';
+//        $output .= "\n";
+//
+//        foreach ($tree as $key => $content) {
+//
+//            if ($content['Content']['title']) {
+//                if(!$content['Content']['exclude_menu']) {
+//
+//                    $classies = array();
+//                    $options = array();
+//
+//                    $no = sprintf( '%02d', $key + 1 );
+//                    $classies[] = $args['li_class'];
+//                    $classies[] = 'menu' . $no;
+//
+//                    if ( $this->BcArray->first($content, $key) ) {
+//                        $classies[] = 'first';
+//                    } elseif ( $this->BcArray->last($content, $key) ) {
+//                        $classies[] = 'last';
+//                    }
+//
+//                    if($content['Content']['id'] == $currentId || $this->isContentsParentId($currentId, $content['Content']['id'])) {
+//                      $classies[] = $args['active_class'];
+//                    }
+//
+//                    if(!empty($content['Content']['blank_link'])) {
+//                        $options = ['target' => '_blank'];
+//                    }
+//
+//                    $class = ' class="' . implode( ' ', $classies ) . '"';
+//
+//                    if (!Configure::read('BcRequest.agent') && $this->base == '/index.php' && $content['url'] == '/') {
+//                        $output .= '<li' . $class . '>';
+//                        $output .= str_replace('/index.php', '', $this->getLink($content['Content']['title'], $content['Content']['url']));
+//                        $output .= '</li>' . "\n";
+//                    } else {
+//                        $output .= '<li' . $class . '>';
+//                        $output .= $this->getLink($content['Content']['title'], $prefix . $content['Content']['url'], $options);
+//                        $output .= '</li>' . "\n";
+//                    }
+//
+//                }
+//
+//            }
+//
+//        }
+//        $output .= '</ul>' . "\n";
+//
+//        return $output;
+//    }
 
 
 	/**
