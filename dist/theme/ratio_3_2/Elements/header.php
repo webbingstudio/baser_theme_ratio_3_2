@@ -13,11 +13,9 @@ $WS_navbar_class = RATIO32_HEAD_COLOR == 'black' ? ' navbar-inverse' : ' navbar-
 
 		<div class="navbar-header">
 
-			<?php if(!empty( $this->BcBaser->getGlobalMenu() )): ?>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 				<i class="fa fa-bars"></i><span class="navbar-toggle-text">メニュー</span>
 			</button>
-			<?php endif; ?>
 
 			<?php if ( $this->BcBaser->isHome() ){ echo '<h1>'; } ?>
 
