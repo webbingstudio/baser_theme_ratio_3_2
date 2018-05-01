@@ -7,6 +7,19 @@
 
 baserCMS 4.1.0.1以降
 
+## 2018-05-01baserCMSコアパッケージの先行対応に関して
+
+当テーマは、baserCMSコアパッケージに2018年5月中旬実装予定の、以下の機能に先行対応しております。このため、修正パッチを発行しております。
+
+- コンテンツメニューの現在判定が正しく行われない不具合への対応
+- ウィジェットのキャッシュ無効化
+- Google Maps APIの仕様変更に伴う地図表示の不具合対応
+
+実装前に当テーマを使用される場合は、下記デモサイト内の特設ページを必ずご一読ください。
+
+2018年5月導入専用の先行対応パッチについて  
+[http://ratio32-baser.cms-skill.net/installation/patch201805](http://ratio32-baser.cms-skill.net/patch201805)
+
 ## デモサイト
 
 [http://ratio32-baser.cms-skill.net/](http://ratio32-baser.cms-skill.net/)
