@@ -18,11 +18,11 @@ baserCMS 4.1.0.1以降
 実装前に当テーマを使用される場合は、下記デモサイト内の特設ページを必ずご一読ください。
 
 2018年5月導入専用の先行対応パッチについて  
-[http://ratio32-baser.cms-skill.net/installation/patch201805](http://ratio32-baser.cms-skill.net/patch201805)
+[https://ratio32-baser.cms-skill.net/installation/patch201805](https://ratio32-baser.cms-skill.net/installation/patch201805)
 
 ## デモサイト
 
-[http://ratio32-baser.cms-skill.net/](http://ratio32-baser.cms-skill.net/)
+[https://ratio32-baser.cms-skill.net/](https://ratio32-baser.cms-skill.net/)
 
 ## 利用方法
 
