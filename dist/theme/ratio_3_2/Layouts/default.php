@@ -42,70 +42,6 @@
 <?php $this->BcBaser->element('navbar'); ?>
 <div class="contents">
 
-<?php
-if ( $this->BcBaser->isHome() ):
-	// Home ============================
-?>
-
-	<div class="section section-02">
-		<?php
-			// page content
-			$this->BcBaser->content();
-		?>
-	<!-- /.section section-02 --></div>
-
-	<div class="section section-01 pt0 pb0">
-		<div class="container">
-			<div class="row-2col">
-				<div class="col-main">
-
-					<div class="widget-area-wrapper">
-					<?php
-						// widget: home middle-left No.3
-						$this->Ratio32->widget_edit_link(3);
-						$this->BcBaser->widgetArea(3);
-					?>
-					<!-- /.widget-area-wrapper --></div>
-
-				<!-- /.col-main --></div>
-				<div class="col-sub">
-
-					<div class="widget-area-wrapper">
-					<?php
-						// widget: home middle-right No.4
-						$this->Ratio32->widget_edit_link(4);
-						$this->BcBaser->widgetArea(4);
-					?>
-					<!-- /.widget-area-wrapper --></div>
-
-				<!-- /.col-sub --></div>
-			<!-- /.row-2col --></div>
-		<!-- /.container --></div>
-	<!-- /.section section-01 --></div>
-
-	<?php
-		// widget: home bottom No.5
-		// 有効なウィジェットがひとつもなければ、このセクションは表示されません
-	?>
-	<?php if( $this->Ratio32->isWidgetAvailable(5) ) : ?>
-		<div class="section section-02">
-			<div class="container">
-
-				<div class="widget-area-wrapper">
-				<?php
-					$this->Ratio32->widget_edit_link(5);
-					$this->BcBaser->widgetArea(5);
-				?>
-				<!-- /.widget-area-wrapper --></div>
-
-			<!-- /.container --></div>
-		<!-- /.section section-02 --></div>
-	<?php endif; ?>
-
-<?php else:
-	// Contents 2col ==========================
-?>
-
 	<div class="section section-01 pt0 pb0">
 		<div class="container">
 
@@ -183,7 +119,6 @@ if ( $this->BcBaser->isHome() ):
 		<!-- /.section section-02 --></div>
 	<?php endif; ?>
 
-<?php endif; ?>
 <!-- /.contents --></div>
 
 <?php $this->BcBaser->footer() ?>
