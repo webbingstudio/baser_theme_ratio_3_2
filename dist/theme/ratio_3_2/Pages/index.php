@@ -63,28 +63,6 @@
 </style>
 <!-- BaserPageTagEnd -->
 
-<div class="mainvisual">
-<div class="container">
-<div class="pop">
-<div class="row">
-<div class="mainvisual-col-01"><?php $this->Ratio32->get_main_image( array( 'num' => 1, 'type' => 'jumbotron', 'h' => 'h1' ) ); ?></div>
-
-<div class="mainvisual-col-02"><?php $this->Ratio32->get_main_image( array( 'num' => 2, 'type' => 'thumbnail' ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.mainvisual --></div>
-
-<div class="pickup">
-<div class="container">
-<div class="pop">
-<div class="row">
-<div class="col-md-4"><?php $this->Ratio32->get_main_image( array( 'num' => 3, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class="col-md-4"><?php $this->Ratio32->get_main_image( array( 'num' => 4, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class="col-md-4"><?php $this->Ratio32->get_main_image( array( 'num' => 5, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.pickup --></div>
+<p style="padding: 2rem 0; background-color: #45a4ab; color: #fff; text-align: center;">これはコンテンツ「ホーム」の本文です。<br />
+メインビジュアルと新着情報の間に、任意のHTMLを追加できます。<br />
+必要ない場合は本文を空にしてください。</p>
