@@ -1,29 +1,7 @@
-"id","contents","draft","page_template","code","modified","created"
-"1","<div class=""mainvisual"">
-<div class=""container"">
-<div class=""pop"">
-<div class=""row"">
-<div class=""mainvisual-col-01""><?php $this->Ratio32->get_main_image( array( 'num' => 1, 'type' => 'jumbotron', 'h' => 'h1' ) ); ?></div>
-
-<div class=""mainvisual-col-02""><?php $this->Ratio32->get_main_image( array( 'num' => 2, 'type' => 'thumbnail' ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.mainvisual --></div>
-
-<div class=""pickup"">
-<div class=""container"">
-<div class=""pop"">
-<div class=""row"">
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 3, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 4, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 5, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.pickup --></div>","","","<style>
+﻿"id","contents","draft","page_template","code","modified","created"
+"1","<p style=""padding: 2rem 0; background-color: #45a4ab; color: #fff; text-align: center;"">これはコンテンツ「ホーム」の本文です。<br />
+メインビジュアルと新着情報の間に、任意のHTMLを追加できます。<br />
+必要ない場合は本文を空にしてください。</p>","","","<style>
 .mainvisual .jumbotron .h1,
 .mainvisual .jumbotron h1 {
     top: 7%;
@@ -79,126 +57,126 @@
 
 }
 
-</style>","2018-04-23 12:41:16","2018-04-22 17:41:17"
-"2","<h2 class=""mt0"">�����������̃e�[�}�ɁA����Ȃ���B</h2>
+</style>","2021-05-29 18:09:56","2018-04-22 17:41:17"
+"2","<h2 class=""mt0"">美しいだけのテーマに、さよならを。</h2>
 
-<p>�u<strong>ratio_3_2</strong>�v�́A�l���Ǝ�E���K�͓X�܌����ɁA�s�v�ȋ@�\����蕥���A�d�v�ȋ@�\�̎��R�x�����������e�[�}�ł��B<br />
-�R���e���c�쐬�E�X�V�́A���׌y�����l�����Ă��܂��B</p>
+<p>「<strong>ratio_3_2</strong>」は、個人事業主・小規模店舗向けに、不要な機能を取り払い、重要な機能の自由度を強化したテーマです。<br />
+コンテンツ作成・更新の、負荷軽減を考慮しています。</p>
 
-<p>�撣����CMS��ݒu���A�������f�U�C���̃e�[�}�𓱓����Ă��A�E�F�u�T�C�g�����J�ł��Ȃ��l�����₿�܂���B���̌����́A���C�����ł͂���܂���B</p>
+<p>頑張ってCMSを設置し、美しいデザインのテーマを導入しても、ウェブサイトを公開できない人が後を絶ちません。その原因は、やる気だけではありません。</p>
 
-<p>�z�z����Ă���e�[�}�𗘗p���邾���ł�&hellip;</p>
+<p>配布されているテーマを利用するだけでは&hellip;</p>
 
 <div class=""well"">
 <ul>
-	<li><span class=""text-danger"">�ǂ�Ȏʐ^�f�ނ�z�u������悢��</span>���킩��Ȃ�</li>
-	<li><span class=""text-danger"">�K�v�ȍ��ڂ�ǉ�������@</span>���킩��Ȃ�</li>
-	<li><span class=""text-danger"">�s�v�ȃp�[�c����菜�����@</span>���킩��Ȃ�</li>
-	<li><span class=""text-danger"">��낤�Ƃ��Ă���T�C�g�ɓK�����z�F�����߂���@</span>���킩��Ȃ�</li>
-	<li><span class=""text-danger"">���e�ɍ��킹�ăJ�X�^�}�C�Y������@</span>���킩��Ȃ�</li>
+	<li><span class=""text-danger"">どんな写真素材を配置したらよいか</span>がわからない</li>
+	<li><span class=""text-danger"">必要な項目を追加する方法</span>がわからない</li>
+	<li><span class=""text-danger"">不要なパーツを取り除く方法</span>がわからない</li>
+	<li><span class=""text-danger"">作ろうとしているサイトに適した配色を決める方法</span>がわからない</li>
+	<li><span class=""text-danger"">内容に合わせてカスタマイズする方法</span>がわからない</li>
 </ul>
 </div>
 
-<p>&hellip;�̂ł��B</p>
+<p>&hellip;のです。</p>
 
-<p>�u<strong>ratio_3_2</strong>�v�́A���������������ł������������邽�߁A���܂��܂ȍH�v���s���Ă��܂��B</p>
+<p>「<strong>ratio_3_2</strong>」は、そういった問題をできる限り解消するため、さまざまな工夫を行っています。</p>
 
 <div class=""pt2"">
 <div class=""row"">
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-info"" href=""../about/basercms4"">baserCMS4�Ή���</a></p>
+<p><a class=""btn btn-block btn-info"" href=""../about/basercms4"">baserCMS4対応版</a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""../about/about02"">�s�v�ȋ@�\���J�b�g</a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about02"">不要な機能をカット</a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""../about/about03"">�摜�f�ނ̔䗦�𓝈�</a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about03"">画像素材の比率を統一</a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""../about/about04"">�����̃E�B�W�F�b�g�G���A</a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about04"">多数のウィジェットエリア</a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""../about/about05"">�t���[�����[�N�̗̍p</a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about05"">フレームワークの採用</a></p>
 </div>
 
 <div class=""col-sm-6 col-md-6 col-lg-4"">
-<p><a class=""btn btn-block btn-primary"" href=""../about/about06"">�������̓Y�t</a></p>
+<p><a class=""btn btn-block btn-primary"" href=""../about/about06"">説明書の添付</a></p>
 </div>
 </div>
 </div>","","","","2018-04-29 02:21:54","2018-04-22 17:41:17"
-"3","<h2 class=""mt0"">�uratio_3_2�v�̐��E�ւ悤�����I</h2>
+"3","<h2 class=""mt0"">「ratio_3_2」の世界へようこそ！</h2>
 
-<p>baserCMS�́A�����C���X�g�[���ł��܂������H<br />
-���������E�F�u�T�C�g�����͂��߂܂��傤�A�ƌ��������Ƃ���ł���&hellip;<br />
-<strong>�E�F�u�T�C�g�ɂ͍Œ���A�ǂ�ȏ�񂪕K�v���A�킩���Ă��܂����H</strong></p>
+<p>baserCMSは、無事インストールできましたか？<br />
+さっそくウェブサイトを作りはじめましょう、と言いたいところですが&hellip;<br />
+<strong>ウェブサイトには最低限、どんな情報が必要か、わかっていますか？</strong></p>
 
-<p>�܂��̓u���E�U����āA�ȉ��̑f�ނ̒��B���͂��߂܂��傤�B</p>
+<p>まずはブラウザを閉じて、以下の素材の調達をはじめましょう。</p>
 
-<h3>�E�F�u�T�C�g�̊�{���</h3>
+<h3>ウェブサイトの基本情報</h3>
 
-<h4>�E�F�u�T�C�g�̖��O</h4>
+<h4>ウェブサイトの名前</h4>
 
-<p>��Ɩ��E�X�ܖ��E�c�̖��ȂǁB</p>
+<p>企業名・店舗名・団体名など。</p>
 
-<h4>�E�F�u�T�C�g�̃��S</h4>
+<h4>ウェブサイトのロゴ</h4>
 
-<p>���̃e�[�}�͕�������E�}�[�N�����E���S�Ȃ��A�ǂ�ł��\���܂���B<strong>����70�s�N�Z���ʂ̉摜</strong>��p�ӂ��Ă��������B</p>
+<p>このテーマは文字あり・マークだけ・ロゴなし、どれでも構いません。<strong>高さ70ピクセル位の画像</strong>を用意してください。</p>
 
-<h4>���[���A�h���X�E�Z���E�d�b�ԍ�</h4>
+<h4>メールアドレス・住所・電話番号</h4>
 
-<p><strong>�E�F�u�T�C�g�ɘA����͕K�{�ł��B</strong>�X�܂Ȃ�A�n�}��\�����邽�߂̐��m�ȏZ�����K�v�ł��B</p>
+<p><strong>ウェブサイトに連絡先は必須です。</strong>店舗なら、地図を表示するための正確な住所も必要です。</p>
 
-<h3>�����T�C�g�Ɋւ�����</h3>
+<h3>検索サイトに関する情報</h3>
 
-<h4>�E�F�u�T�C�g�̐����Ȗ��O</h4>
+<h4>ウェブサイトの正式な名前</h4>
 
-<p>�E�F�u�T�C�g���̑O�ɁA�悭��������錾�t��2�E3�A���p�X�y�[�X�łȂ��܂��B<br />
-���Ƃ��΍�҂̃E�F�r���O�X�^�W�I�̃T�C�g�ł́A�uCMS�̃E�F�r���O�X�^�W�I | �D�y �k�C�� CMS�J�X�^�}�C�Y �E�F�u���� �Z�p�T�|�[�g�v�ƂȂ��Ă��܂��i2018�N5�����݁j�B</p>
+<p>ウェブサイト名の前に、よく検索される言葉を2・3個、半角スペースでつなげます。<br />
+たとえば作者のウェビングスタジオのサイトでは、「CMSのウェビングスタジオ | 札幌 北海道 CMSカスタマイズ ウェブ制作 技術サポート」となっています（2018年5月現在）。</p>
 
-<h4>�E�F�u�T�C�g�̐�����</h4>
+<h4>ウェブサイトの説明文</h4>
 
-<p>�E�F�u�T�C�g���Ō��������Ƃ��ɁA�\�����������������߂܂��B������ɂ��悭�������ꂻ���Ȍ��t���܂߂Ă��������B<br />
-��ʂɁA120�����O�オ�ǂ��ƌ����Ă��܂��B</p>
+<p>ウェブサイト名で検索したときに、表示される説明文を決めます。こちらにもよく検索されそうな言葉を含めてください。<br />
+一般に、120文字前後が良いと言われています。</p>
 
-<p>�Ȃ��AbaserCMS�ɂ́u�L�[���[�h�v��ݒ肷�鍀�ڂ�����܂����A���݂͂قƂ�ǌ����T�C�g�ł͎Q�Ƃ���Ă��Ȃ����߁A�󗓂ō\���܂���B</p>
+<p>なお、baserCMSには「キーワード」を設定する項目がありますが、現在はほとんど検索サイトでは参照されていないため、空欄で構いません。</p>
 
-<h3>SNS�̃A�J�E���g���</h3>
+<h3>SNSのアカウント情報</h3>
 
-<p>SNS�i�\�[�V�����l�b�g���[�L���O�T�[�r�X�j�̃A�J�E���g�͂���܂����H</p>
+<p>SNS（ソーシャルネットワーキングサービス）のアカウントはありますか？</p>
 
-<p><span class=""text-danger"">�ЂƂ��Ȃ��I�H</span><br />
-<strong>Twitter�EInstagram�ELINE@�EYouTube�`�����l��</strong>�̂ǂꂩ���A�������p�ӂ��܂��傤�I</p>
+<p><span class=""text-danger"">ひとつもない！？</span><br />
+<strong>Twitter・Instagram・LINE@・YouTubeチャンネル</strong>のどれかを、今すぐ用意しましょう！</p>
 
-<p>���E�Ȃ�Twitter�A�Ⴂ�l�Ƃ̌𗬂������Ȃ�LINE@�A���ꂢ�Ȏʐ^�⓮�����������z�M�ł���Ȃ�AInstagram��YouTube���������߂ł��B<br />
-�A�J�E���g���擾������A<strong>���C���y�[�W��URL</strong>���R�s�[���āA�T���Ă��������B</p>
+<p>専門職ならTwitter、若い人との交流が多いならLINE@、きれいな写真や動画をたくさん配信できるなら、InstagramやYouTubeがおすすめです。<br />
+アカウントを取得したら、<strong>メインページのURL</strong>をコピーして、控えてください。</p>
 
-<h3>�L���b�`�R�s�[</h3>
+<h3>キャッチコピー</h3>
 
-<h4>�E�F�u�T�C�g�̍ł��d�v�Ȏʐ^</h4>
+<h4>ウェブサイトの最も重要な写真</h4>
 
-<p>�Œ�A2�������ł��p�ӂ��܂��傤�B<br />
-���ꂩ�璲�B����ꍇ�́A�ǂ�Ȏʐ^�ɂ��邩�����ł��l���܂��傤�B�L���i�����厖�j�̎ʐ^�f�ށA�X�܂̊O�ρE�����A�Ŕ��j���[�̃A�b�v�A�X�e�[�W�̎ʐ^�A�X�^�b�t�̏Ί�ȂǁB</p>
+<p>最低、2枚だけでも用意しましょう。<br />
+これから調達する場合は、どんな写真にするかだけでも考えましょう。有料（ここ大事）の写真素材、店舗の外観・内装、看板メニューのアップ、ステージの写真、スタッフの笑顔など。</p>
 
-<h4>�ʐ^�̌��o���E�Y���������</h4>
+<h4>写真の見出し・添える説明文</h4>
 
-<p>���̃e�[�}�́A���ꂼ��̎ʐ^�Ɂu���o���v�Ɓu�������v���K�v�ł��B����̃y�[�W�ֈړ������邱�Ƃ��ł��܂��B<br />
-�����̓X�܁E�c�̂́u���݁v��\���u���߃[���t�v���l���Ă����܂��傤�B</p>
+<p>このテーマは、それぞれの写真に「見出し」と「説明文」が必要です。特定のページへ移動させることもできます。<br />
+自分の店舗・団体の「強み」を表す「決めゼリフ」を考えておきましょう。</p>
 
 <hr />
-<p>�f�ޏW�߂��āA��ςł��ˁB<br />
-���������W�܂�����A�uratio_3_2�v�e�[�}�̏����ݒ�ɓ���܂��傤�B</p>","","","","2018-04-29 01:16:10","2018-04-22 17:41:18"
+<p>素材集めって、大変ですね。<br />
+だいたい集まったら、「ratio_3_2」テーマの初期設定に入りましょう。</p>","","","","2018-04-29 01:16:10","2018-04-22 17:41:18"
 "4","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">���C�����j���[</span> </div>
+<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">メインメニュー</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<span style=""color:#8ABE08"">��</span>
-<?php $this->BcBaser->link(""�j���[�X�����[�X"",array(""controller""=>""news"",""action""=>""index"")) ?>
+<span style=""color:#8ABE08"">■</span>
+<?php $this->BcBaser->link(""ニュースリリース"",array(""controller""=>""news"",""action""=>""index"")) ?>
 <br />
-<span style=""color:#8ABE08"">��</span>
-<?php $this->BcBaser->link(""���₢���킹"",array(""controller""=>""contact"",""action""=>""index"")) ?>
+<span style=""color:#8ABE08"">■</span>
+<?php $this->BcBaser->link(""お問い合わせ"",array(""controller""=>""contact"",""action""=>""index"")) ?>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">NEWS RELEASE</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
@@ -207,339 +185,339 @@
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">baserCMS NEWS</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <?php $this->BcBaser->feed(1) ?>","","","","2018-04-23 12:41:15","2018-04-22 17:41:18"
-"5","<p>��ʓI��HTML�̃T���v���ł��B<br />
-�y�[�W�͌��o��2�A�u���O�͌��o��3���珑���͂��߂Ă��������B</p>
+"5","<p>一般的なHTMLのサンプルです。<br />
+ページは見出し2、ブログは見出し3から書きはじめてください。</p>
 
-<p><strong>baserCMS�̎d�l�ŁACKEditor���I���ɂ����HTML�̃R�[�h������Ă��܂����Ƃ�����܂��BHTML�̒m��������A�y�[�W���ׂ����ҏW�������ꍇ�́A�I�t�ɂ��Ă������Ƃ������߂��܂��B</strong></p>
+<p><strong>baserCMSの仕様で、CKEditorをオンにするとHTMLのコードが崩れてしまうことがあります。HTMLの知識があり、ページを細かく編集したい場合は、オフにしておくことをお勧めします。</strong></p>
 
-<p>�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B�i���̕��͂�����܂��B</p>
+<p>段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。段落の文章が入ります。</p>
 
-<h2>���o���Q</h2>
+<h2>見出し２</h2>
 
 <ul>
-	<li>���X�g�P</li>
-	<li>���X�g�Q</li>
-	<li>���X�g�R</li>
+	<li>リスト１</li>
+	<li>リスト２</li>
+	<li>リスト３</li>
 </ul>
 
-<h3>���o���R</h3>
+<h3>見出し３</h3>
 
 <ol>
-	<li>�A�ԃ��X�g�P</li>
-	<li>�A�ԃ��X�g�Q</li>
-	<li>�A�ԃ��X�g�R</li>
+	<li>連番リスト１</li>
+	<li>連番リスト２</li>
+	<li>連番リスト３</li>
 </ol>
 
-<h4>���o���S</h4>
+<h4>見出し４</h4>
 
-<p><strong>�������͂�����܂��B�������͂�����܂��B�������͂�����܂��B�������͂�����܂��B</strong></p>
+<p><strong>太字文章が入ります。太字文章が入ります。太字文章が入ります。太字文章が入ります。</strong></p>
 
-<h5>���o���T</h5>
+<h5>見出し５</h5>
 
-<p><em>�Α̕��͂�����܂��B�Α̕��͂�����܂��B�Α̕��͂�����܂��B�Α̕��͂�����܂��B</em></p>
+<p><em>斜体文章が入ります。斜体文章が入ります。斜体文章が入ります。斜体文章が入ります。</em></p>
 
-<h6>���o���U</h6>
+<h6>見出し６</h6>
 
-<p><u>�����t���͂�����܂��B�����t���͂�����܂��B�����t���͂�����܂��B�����t���͂�����܂��B</u></p>
+<p><u>下線付文章が入ります。下線付文章が入ります。下線付文章が入ります。下線付文章が入ります。</u></p>
 
 <table>
 	<thead>
 		<tr>
-			<th scope=""col"">�\���o��</th>
-			<th scope=""col"">�\���o��</th>
+			<th scope=""col"">表見出し</th>
+			<th scope=""col"">表見出し</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>�\�̕��͂�����܂��B</td>
-			<td>�\�̕��͂�����܂��B</td>
+			<td>表の文章が入ります。</td>
+			<td>表の文章が入ります。</td>
 		</tr>
 		<tr>
-			<td>�\�̕��͂�����܂��B</td>
-			<td>�\�̕��͂�����܂��B</td>
+			<td>表の文章が入ります。</td>
+			<td>表の文章が入ります。</td>
 		</tr>
 	</tbody>
 </table>","","","","2018-04-23 12:41:17","2018-04-22 17:41:20"
-"6","<h2 class=""mt0"">�����f�[�^�Ŏg�p����Ă���摜���A�b�v���[�h����</h2>
+"6","<h2 class=""mt0"">初期データで使用されている画像をアップロードする</h2>
 
-<h3>�y�[�W���̉摜�E�u���O�̃T���l�C��</h3>
+<h3>ページ内の画像・ブログのサムネイル</h3>
 
-<p>�����f�[�^��ǂݍ��񂾂����ł͔��f����܂���B�ȉ��̎菇�ŁA���O�ɃA�b�v���[�h���Ă��������B<br />
-�����f�[�^�̉摜���\������Ȃ��Ă��悢�ꍇ�́A���̍�Ƃ͕K�v����܂���B</p>
+<p>初期データを読み込んだだけでは反映されません。以下の手順で、事前にアップロードしてください。<br />
+初期データの画像が表示されなくてもよい場合は、この作業は必要ありません。</p>
 
 <ol>
-	<li>�e�[�}�p�b�P�[�W���́ufiles�v�f�B���N�g����T��</li>
-	<li>�u<strong>files/blog/1</strong>�v�f�B���N�g�����AbaserCMS�������́u<strong>files/blog/1</strong>�v�Ɠ���ւ���<br />
-	�i���Ɋ����u���O������ꍇ�́A����ւ��ł͂Ȃ��������Ă��������j</li>
-	<li>�u<strong>files/theme_configs</strong>�v�f�B���N�g�����AbaserCMS�������́u<strong>files/theme_configs</strong>�v�Ɠ���ւ���</li>
+	<li>テーマパッケージ内の「files」ディレクトリを探す</li>
+	<li>「<strong>files/blog/1</strong>」ディレクトリを、baserCMS内直下の「<strong>files/blog/1</strong>」と入れ替える<br />
+	（既に既存ブログがある場合は、入れ替えではなく統合してください）</li>
+	<li>「<strong>files/theme_configs</strong>」ディレクトリを、baserCMS内直下の「<strong>files/theme_configs</strong>」と入れ替える</li>
 </ol>
 
-<h3>�T�C�h���j���[�́u�ׂ����[�̃o�i�[�v</h3>
+<h3>サイドメニューの「べっしーのバナー」</h3>
 
-<p>baserCMS���h���C���̃��[�g�f�B���N�g���ȊO�ɐݒu���Ă���ƕ\������܂���B<br />
-�Ǘ���ʂ́u�Œ�y�[�W�Ǘ��v�u�E�B�W�F�b�g�Ǘ��v�ŁA�摜���\������Ă��Ȃ�img�v�f��src�����́u�T�[�o�[�p�X�v���A�ݒu�����T�C�g�Ń����N���Ȃ���悤�ύX���Ă��������B</p>
+<p>baserCMSがドメインのルートディレクトリ以外に設置していると表示されません。<br />
+管理画面の「固定ページ管理」「ウィジェット管理」で、画像が表示されていないimg要素のsrc属性の「サーバーパス」を、設置したサイトでリンクがつながるよう変更してください。</p>
 
-<p>��F�T�C�g���́uabc�v�f�B���N�g���ɐݒu�����ꍇ<br />
+<p>例：サイト内の「abc」ディレクトリに設置した場合<br />
 /theme/ratio_3_2/img/&hellip;<br />
-&rarr;�@<strong>/abc/theme/ratio_3_2/img/&hellip;</strong></p>
+&rarr;　<strong>/abc/theme/ratio_3_2/img/&hellip;</strong></p>
 
-<h2>�����f�[�^��ǂݍ���</h2>
+<h2>初期データを読み込む</h2>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_install__large.jpg"" width=""760"" /></div>
 
-<p>�Ǘ���ʂ́u�e�[�}�Ǘ� &gt; �e�[�}�ꗗ�v�ֈړ����A�uratio_3_2�v�e�[�}��L���ɂ��Ă��������B</p>
+<p>管理画面の「テーマ管理 &gt; テーマ一覧」へ移動し、「ratio_3_2」テーマを有効にしてください。</p>
 
-<p>���̃e�[�}�́A�ӂ��̏����f�[�^�������Ă��܂��B<br />
-�udefault�v�ɂ́A�e�[�}�̏Љ�₱�̓����菇��������Ă��܂��B�e�[�}�����낢��Ǝ����Ă݂����Ƃ��ɓǂݍ���ł��������B<br />
-�����쐬����T�C�g�����܂��Ă���ꍇ�́A�]���ȃf�[�^�������Ă��Ȃ�<strong>�ublank�v</strong>��ǂݍ���ł��������B</p>
+<p>このテーマは、ふたつの初期データを持っています。<br />
+「default」には、テーマの紹介やこの導入手順が書かれています。テーマをいろいろと試してみたいときに読み込んでください。<br />
+もう作成するサイトが決まっている場合は、余分なデータが入っていない<strong>「blank」</strong>を読み込んでください。</p>
 
-<p>�f�[�^�̓ǂݍ��݊����ɂ́A���΂炭���Ԃ�������܂��B<br />
-������A�u�e�[�}�Ǘ� &gt; �e�[�}�ݒ�v�ֈړ����A�����ύX�����ɓ��e��ۑ����Ă��������B</p>
+<p>データの読み込み完了には、しばらく時間がかかります。<br />
+完了後、「テーマ管理 &gt; テーマ設定」へ移動し、何も変更せずに内容を保存してください。</p>
 
-<p>���J�y�[�W�ֈړ����A���x���ēǍ������āA�e�[�}�����f���ꂽ���Ƃ��m�F���Ă��������B</p>","","","","2018-04-29 01:21:09","2018-04-22 17:41:21"
-"7","<p>���̃e�[�}�́A�u���o���v�𗘗p����ƁA��ɋ󔒂��ł��܂��B<br />
-���̂��߁A�y�[�W�̐擪�Ɍ��o�������ƁA�匩�o���Ƃ̊Ԃ��󂢂Ă��܂��܂��B</p>
+<p>公開ページへ移動し、何度か再読込をして、テーマが反映されたことを確認してください。</p>","","","","2018-04-29 01:21:09","2018-04-22 17:41:21"
+"7","<p>このテーマは、「見出し」を利用すると、上に空白ができます。<br />
+このため、ページの先頭に見出しを作ると、大見出しとの間が空いてしまいます。</p>
 
-<p>�܂��A�����Ă��镶�͂̓��e�ɂ���ẮA�Ԃ�傫���J������A�����ꕶ�������炵�����Ȃ邱�Ƃ�����܂��B<br />
-���̃e�[�}�́A�]���𒲐�����CSS�N���X��݂��Ă��܂��B</p>
+<p>また、書いている文章の内容によっては、間を大きく開けたり、左を一文字分ずらしたくなることもあります。<br />
+このテーマは、余白を調整するCSSクラスを設けています。</p>
 
-<h2>���o���̏���l�߂�</h2>
+<h2>見出しの上を詰める</h2>
 
-<p>CKEditor�𗘗p���Ă���ꍇ�́A�u�\�[�X�v�{�^����������HTML�\�[�X�R�[�h��\�����Ă��������B<br />
-���o��2�ł���΁A�ȉ��̂悤�ɂȂ��Ă���͂��ł��B</p>
-
-<pre>
-<code>&lt;h2&gt;���̌��o���̏���l�߂���&lt;/h2&gt;</code></pre>
-
-<p>����ɁA�ȉ��̂Ƃ���N���X��ǉ����Ă��������B�����I�ɏ�̗]�����[���ɂ��܂��B</p>
+<p>CKEditorを利用している場合は、「ソース」ボタンを押してHTMLソースコードを表示してください。<br />
+見出し2であれば、以下のようになっているはずです。</p>
 
 <pre>
-<code>&lt;h2<strong class=""text-danger""> class=&quot;mt0&quot;</strong>&gt;���̌��o���̏���l�߂���&lt;/h2&gt;</code></pre>
+<code>&lt;h2&gt;この見出しの上を詰めたい&lt;/h2&gt;</code></pre>
 
-<h2>����傫���J����</h2>
-
-<p>����傫���J�������i����T���Ă��������B</p>
+<p>これに、以下のとおりクラスを追加してください。強制的に上の余白をゼロにします。</p>
 
 <pre>
-<code>&lt;p&gt;���̒i���̉����󂯂���&lt;/p&gt;</code></pre>
+<code>&lt;h2<strong class=""text-danger""> class=&quot;mt0&quot;</strong>&gt;この見出しの上を詰めたい&lt;/h2&gt;</code></pre>
 
-<p>����ɁA�ȉ��̂Ƃ���N���X��ǉ����Ă��������B���̗�ł́A��3�s���̋󔒂��ł��܂��B</p>
+<h2>下を大きく開ける</h2>
 
-<pre>
-<code>&lt;p<strong class=""text-danger""> class=&quot;mt3&quot;</strong>&gt;���̒i���̉����󂯂���&lt;/p&gt;</code></pre>
-
-<p>�����́A05 / 1 / 15 / 2 / 25 / 3 ... �ƕύX����ƁA0.5�����`6�����܂Œ����ł��܂��B</p>
+<p>下を大きく開けたい段落を探してください。</p>
 
 <pre>
-<code>&lt;p<strong class=""text-danger""> class=&quot;mt45&quot;</strong>&gt;����4.5�s���󂯂���&lt;/p&gt;</code></pre>
+<code>&lt;p&gt;この段落の下を空けたい&lt;/p&gt;</code></pre>
 
-<h2>�����ꕶ�������炷</h2>
+<p>これに、以下のとおりクラスを追加してください。この例では、約3行分の空白ができます。</p>
 
-<p>�������炵�����͈͂��A&lt;div&gt;�`&lt;/div&gt;�ň͂�ł��������B</p>
+<pre>
+<code>&lt;p<strong class=""text-danger""> class=&quot;mt3&quot;</strong>&gt;この段落の下を空けたい&lt;/p&gt;</code></pre>
+
+<p>数字は、05 / 1 / 15 / 2 / 25 / 3 ... と変更すると、0.5文字～6文字まで調整できます。</p>
+
+<pre>
+<code>&lt;p<strong class=""text-danger""> class=&quot;mt45&quot;</strong>&gt;下を4.5行分空けたい&lt;/p&gt;</code></pre>
+
+<h2>左を一文字分ずらす</h2>
+
+<p>左をずらしたい範囲を、&lt;div&gt;～&lt;/div&gt;で囲んでください。</p>
 
 <pre>
 <code>&lt;div&gt;
-&lt;p&gt;������������&lt;/p&gt;
-&lt;p&gt;������������&lt;/p&gt;
-&lt;p&gt;������������&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
 &lt;/div&gt;</code></pre>
 
-<p>����ɁA�ȉ��̂Ƃ���N���X��ǉ����Ă��������B</p>
+<p>これに、以下のとおりクラスを追加してください。</p>
 
 <pre>
 <code>&lt;div<strong class=""text-danger""> class=&quot;pl1&quot;</strong>&gt;
-&lt;p&gt;������������&lt;/p&gt;
-&lt;p&gt;������������&lt;/p&gt;
-&lt;p&gt;������������&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
+&lt;p&gt;字下げしたい&lt;/p&gt;
 &lt;/div&gt;</code></pre>
 
-<div class=""alert alert-danger"">div�^�O��CKEditor�ł͌��邱�Ƃ��ł��Ȃ��̂ŁA�T�d�ɕҏW���Ă��������B<br />
-�܂��A���E�]���́A�傫����������ƃX�}�[�g�t�H���œǂ݂ɂ����Ȃ��Ă��܂��܂��B</div>","","","","2018-04-23 12:41:17","2018-04-22 17:41:21"
-"8","<p>�����āA�Ǘ���ʂ́u�V�X�e���ݒ� &gt; �T�C�g��{�ݒ�v�ֈړ����Ă��������B<br />
-�^�p�ɕK�{�̏����A�쐬����T�C�g�̓��e�ɍ��킹�Ă����܂��B</p>
+<div class=""alert alert-danger"">divタグはCKEditorでは見ることができないので、慎重に編集してください。<br />
+また、左右余白は、大きくしすぎるとスマートフォンで読みにくくなってしまいます。</div>","","","","2018-04-23 12:41:17","2018-04-22 17:41:21"
+"8","<p>続いて、管理画面の「システム設定 &gt; サイト基本設定」へ移動してください。<br />
+運用に必須の情報を、作成するサイトの内容に合わせていきます。</p>
 
-<div class=""alert alert-danger"">���̃y�[�W�̏��̓��͂��I���܂ł́A�E�F�u�T�C�g�����J���Ȃ��ł��������iURL���u���O�Ɍf�ڂ���ATwitter�łԂ₭�Ȃǁj�B<br />
-�ubaserCMS�̌����T�C�g�Ɠ������e���f�ڂ��Ă���v�ƌ����T�C�g�ɔ��f����A�]�����������Ă��܂���������܂���B</div>
+<div class=""alert alert-danger"">このページの情報の入力が終わるまでは、ウェブサイトを公開しないでください（URLをブログに掲載する、Twitterでつぶやくなど）。<br />
+「baserCMSの公式サイトと同じ内容を掲載している」と検索サイトに判断され、評価が下がってしまうかもしれません。</div>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_siteconfig_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_siteconfig_01__large.jpg"" width=""760"" /></div>
 
-<h3>��{����</h3>
+<h3>基本項目</h3>
 
-<p>��{���ڂ̓��e�́AbaserCMS�̓��e�ɂȂ��Ă��܂��B�����̃E�F�u�T�C�g�ɂ��������e�ɏ��������Ă��������B</p>
+<p>基本項目の内容は、baserCMSの内容になっています。自分のウェブサイトにあった内容に書き換えてください。</p>
 
-<h4>WEB�T�C�g��</h4>
+<h4>WEBサイト名</h4>
 
-<p>��قǌ��߂��u�����ȃE�F�u�T�C�g���v����͂��Ă��������B</p>
+<p>先ほど決めた「正式なウェブサイト名」を入力してください。</p>
 
-<h4>WEB�T�C�g�^�C�g��</h4>
+<h4>WEBサイトタイトル</h4>
 
-<p>��قǌ��߂��u�E�F�u�T�C�g���v����͂��Ă��������B����́A�g�b�v�y�[�W�ȊO�̃^�C�g���̍Ō�ɂ��\������܂��B</p>
+<p>先ほど決めた「ウェブサイト名」を入力してください。これは、トップページ以外のタイトルの最後にも表示されます。</p>
 
-<h4>�T�C�g��{�L�[���[�h</h4>
+<h4>サイト基本キーワード</h4>
 
-<p>�󗓂ō\���܂���B</p>
+<p>空欄で構いません。</p>
 
-<h4>�T�C�g��{������</h4>
+<h4>サイト基本説明文</h4>
 
-<p>��قǌ��߂��A�E�F�u�T�C�g�̐���������͂��Ă��������B</p>
+<p>先ほど決めた、ウェブサイトの説明文を入力してください。</p>
 
-<h3>�I�v�V����</h3>
+<h3>オプション</h3>
 
-<p>�u�I�v�V�����v�{�^�����N���b�N���čׂ����ݒ���J���A�ȉ��̍��ڂ�ҏW���Ă��������B</p>
+<p>「オプション」ボタンをクリックして細かい設定を開き、以下の項目を編集してください。</p>
 
-<h4>GoogleMaps�Z��</h4>
+<h4>GoogleMaps住所</h4>
 
-<p>GoogleMaps�̒n�}���o�����Ƃ��ł��܂��B�X�܂�����ꍇ�́A�ł��邾�����m�ȏZ���������Ă��������B�X�֔ԍ��͕s�v�ł��B</p>
+<p>GoogleMapsの地図を出すことができます。店舗がある場合は、できるだけ正確な住所を書いてください。郵便番号は不要です。</p>
 
-<h4>���ׂē��͂�����A��ʉ��́u<strong>�ۑ�</strong>�v�{�^���������Ă��������B<br />
-�Ȃ��AbaserCMS�́u�ۑ��v�{�^���͂��ׂāA��ʂ̉��ɂ���܂��B�����Y��Ȃ��悤�ɂ��܂��傤�B</h4>
+<h4>すべて入力したら、画面下の「<strong>保存</strong>」ボタンを押してください。<br />
+なお、baserCMSは「保存」ボタンはすべて、画面の下にあります。押し忘れないようにしましょう。</h4>
 
-<h4>�T�u�T�C�g�̐ݒ�ɂ���</h4>
+<h4>サブサイトの設定について</h4>
 
-<p>���̃e�[�}�́A�[���̉�ʃT�C�Y�ɂ���čœK�ȕ\����񋟂��܂��i���X�|���V�u�E�F�u�f�U�C���j�B���̂��߁A���o�C���p�̃T�u�T�C�g�̍쐬�͑z�肵�Ă��܂���B</p>","","","","2018-04-29 01:29:57","2018-04-22 17:41:22"
-"9","<p>���[���t�H�[������₢���킹������ƁA�����Ă��́A�ԐM���[���ɃT�C�g����A���悪������Ă��܂��B���̐ݒ���s���܂��B<br />
-���[���t�H�[�����s�v�ȏꍇ�́A�ݒ�̕K�v�͂���܂���B</p>
+<p>このテーマは、端末の画面サイズによって最適な表示を提供します（レスポンシブウェブデザイン）。このため、モバイル用のサブサイトの作成は想定していません。</p>","","","","2018-04-29 01:29:57","2018-04-22 17:41:22"
+"9","<p>メールフォームから問い合わせをすると、たいていは、返信メールにサイト名や連絡先が書かれています。この設定を行います。<br />
+メールフォームが不要な場合は、設定の必要はありません。</p>
 
-<p>�Ǘ���ʂ́u���[���t�H�[���Ǘ� &gt; ���[���v���O�C����{�ݒ�v�ֈړ����Ă��������B<br />
-���̃y�[�W�́A�ƂĂ��킩��ɂ����ꏊ�ɂ���܂��B�ȉ���URL�ɁA���ڃA�N�Z�X���Ă��������B</p>
+<p>管理画面の「メールフォーム管理 &gt; メールプラグイン基本設定」へ移動してください。<br />
+このページは、とてもわかりにくい場所にあります。以下のURLに、直接アクセスしてください。</p>
 
-<p><strong>[baserCMS��ݒu����URL]admin/mail/mail_configs/form</strong></p>
+<p><strong>[baserCMSを設置したURL]admin/mail/mail_configs/form</strong></p>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_form_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_form_01__large.jpg"" width=""760"" /></div>
 
-<p>���[���̏����̐ݒ��ʂɂȂ�܂��B�Œ���u�����FWEB�T�C�g���v�u�����FWEB�T�C�gURL�v�͓��͂��Ă��������B<br />
-���̑��̍��ڂ́A�X�܂����邩�A�d�b�̖₢���킹���󂯕t���邩�ɂ���ĔC�ӂœ��͂��Ă��������B</p>
+<p>メールの署名の設定画面になります。最低限「署名：WEBサイト名」「署名：WEBサイトURL」は入力してください。<br />
+その他の項目は、店舗があるか、電話の問い合わせを受け付けるかによって任意で入力してください。</p>
 
 <hr />
-<p>�����Ȃ��Ă��܂�����&hellip;<br />
-�N���Ă��������I���͂�����Ɗy�����ł���I�e�[�}�J���[�̐ݒ�ł��B</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:22"
+<p>眠くなってきましたね&hellip;<br />
+起きてください！次はちょっと楽しいですよ！テーマカラーの設定です。</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:22"
 "10","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_color.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_color__large.jpg"" width=""760"" /></div>
 
-<p>�Ǘ���ʂ́u�e�[�}�Ǘ� &gt; �e�[�}�ݒ�v�ֈړ����Ă��������B<br />
-4�F�́u�e�[�}�J���[�v��ݒ�ł��܂��B������ύX���ĕۑ�����ƁA�T�C�g�S�̂̃J���[�����O��ς��邱�Ƃ��ł��܂��B</p>
+<p>管理画面の「テーマ管理 &gt; テーマ設定」へ移動してください。<br />
+4色の「テーマカラー」を設定できます。ここを変更して保存すると、サイト全体のカラーリングを変えることができます。</p>
 
-<h2>�e�F�̐���</h2>
+<h2>各色の説明</h2>
 
-<h3>���C��</h3>
+<h3>メイン</h3>
 
-<p>�y�[�W�㕔�̃��C�����j���[�A�匩�o���̉����A�e�y�[�W�́u���̃y�[�W�ցv�{�^���ȂǁA�T�C�g���ōł��悭�g���Ă���F�ł��B���S������ꍇ�́A���S�F���������߂ɂ���Ƃ��傤�Ǘǂ��ł��B<br />
-���S���Ȃ��ꍇ�́A�T�C�g�̕��͋C�ɍ��킹�܂��傤�B<span style=""color:#0066cc;"">�����ȕ��͋C�Ȃ�n</span>�A<span style=""color:#A52A2A;"">�J�t�F�Ȃ璃�n</span>�A<span style=""color:#339933;"">��Ìn�Ȃ�Όn</span>���悭���p����܂��B</p>
+<p>ページ上部のメインメニュー、大見出しの下線、各ページの「次のページへ」ボタンなど、サイト内で最もよく使われている色です。ロゴがある場合は、ロゴ色を少し薄めにするとちょうど良いです。<br />
+ロゴがない場合は、サイトの雰囲気に合わせましょう。<span style=""color:#0066cc;"">清潔な雰囲気なら青系</span>、<span style=""color:#A52A2A;"">カフェなら茶系</span>、<span style=""color:#339933;"">医療系なら緑系</span>がよく利用されます。</p>
 
-<h3>�T�u</h3>
+<h3>サブ</h3>
 
-<p>�T�C�g���łƂĂ��傫�Ȕ͈͂��߂�A�w�i�F�ł��B<strong>�ł��邾�������F�ɂ��Ă��������B</strong>���C���J���[������ɔ��������F�ł��ǂ��ł����A�v�����Ȃ��Ƃ���<span style=""background-color:#eeeeee;"">�O���[�ieeeeee�j</span>�A<span style=""background-color:#ece9e3;"">���C�g�x�[�W���iece9e3�j</span>������ł��B</p>
+<p>サイト内でとても大きな範囲を占める、背景色です。<strong>できるだけ薄い色にしてください。</strong>メインカラーをさらに薄くした色でも良いですが、思いつかないときは<span style=""background-color:#eeeeee;"">グレー（eeeeee）</span>、<span style=""background-color:#ece9e3;"">ライトベージュ（ece9e3）</span>が無難です。</p>
 
-<h3>�e�L�X�g�����N</h3>
+<h3>テキストリンク</h3>
 
-<p>�����N�̐F�ł��B�V����񃊃X�g�̌��o���A<strong>���₢���킹�t�H�[���̑��M�{�^��</strong>�ɂ����p����Ă��܂��B���炩�Ƀ����N�Ƃ킩��Z���ڂ̐F���悢�ł����A<span style=""color:#FF0000;"">�^����</span>�̂悤�ȋ�������F�A�����F�Ɠ����F�͔����܂��傤�B�ǂ�����������ړ��ł��邩�킩��Ȃ��Ȃ�܂��B<br />
-�v�����Ȃ��Ƃ��̓��S�J���[��<span style=""color:#0044cc;"">Google�����̃����N�F�i0044CC�j</span>�ł��ǂ��ł����A���C���J���[���n�ł����<span style=""color:#008000;"">�O���[��</span>��<span style=""color:#FF8C00;"">�I�����W</span>�A���n�Ȃ�<span style=""color:#cc3333;"">�Â���</span>���o�����X���ǂ��ł��B</p>
+<p>リンクの色です。新着情報リストの見出し、<strong>お問い合わせフォームの送信ボタン</strong>にも利用されています。明らかにリンクとわかる濃い目の色がよいですが、<span style=""color:#FF0000;"">真っ赤</span>のような強すぎる色、文字色と同じ色は避けましょう。どこを押したら移動できるかわからなくなります。<br />
+思いつかないときはロゴカラーや<span style=""color:#0044cc;"">Google検索のリンク色（0044CC）</span>でも良いですが、メインカラーが青系であれば<span style=""color:#008000;"">グリーン</span>や<span style=""color:#FF8C00;"">オレンジ</span>、茶系なら<span style=""color:#cc3333;"">暗い赤</span>もバランスが良いです。</p>
 
-<h3>�e�L�X�g�z�o�[</h3>
+<h3>テキストホバー</h3>
 
-<p>�����N�ɃJ�[�\����u�����Ƃ������Ɏg���Ă��܂��B�e�L�X�g�����N�Ɠ������A��▾�邭�����F�ɂ��Ă��������B</p>
+<p>リンクにカーソルを置いたときだけに使われています。テキストリンクと同じか、やや明るくした色にしてください。</p>
 
 <hr />
-<p>�ݒ肵����u�ۑ��v�{�^���������āA���J�y�[�W���m�F���Ă��������B�F���ς���Ă���͂��ł��B<br />
-���͋C������Ȃ��ꍇ�͏������������Ă����܂��傤�B</p>
+<p>設定したら「保存」ボタンを押して、公開ページを確認してください。色が変わっているはずです。<br />
+雰囲気が合わない場合は少しずつ調整していきましょう。</p>
 
-<h2>�w�b�_�E�t�b�^�̐F�ɂ���</h2>
+<h2>ヘッダ・フッタの色について</h2>
 
-<p>�w�b�_�ƃt�b�^�̐F�͍��ɕύX�ł��܂����A�Ǘ���ʓ��ł͂ł��܂���B�菇�́u�J�X�^�}�C�Y�v�̃y�[�W������񂭂������B</p>
+<p>ヘッダとフッタの色は黒に変更できますが、管理画面内ではできません。手順は「カスタマイズ」のページをごらんください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">�w�b�_�E�t�b�^�����ɂ���</a></p>","","","","2018-04-29 01:38:25","2018-04-22 17:41:23"
-"11","<p>�����āA�u�e�[�}�Ǘ� &gt; �e�[�}�ݒ�v��ʂ̂܂܁A���S�ƃ��C���摜�������ւ��Ă����܂��B���̓��e�͂��̂܂܁A�g�b�v�y�[�W�̓��e�Ƃ��Ĕ��f����܂��B</p>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize02"">ヘッダ・フッタを黒にする</a></p>","","","","2018-04-29 01:38:25","2018-04-22 17:41:23"
+"11","<p>続いて、「テーマ管理 &gt; テーマ設定」画面のまま、ロゴとメイン画像を差し替えていきます。この内容はそのまま、トップページの内容として反映されます。</p>
 
-<h2>���S�̐ݒ�</h2>
+<h2>ロゴの設定</h2>
 
-<p>�p�ӂ������S���A�b�v���[�h���Ă��������B�N���b�N�����Ƃ��Ƀg�b�v�y�[�W�ɖ߂�悤�ɂ������ꍇ�́A�u�����N��URL�v�ɁA�E�F�u�T�C�g�̃g�b�v�y�[�W��URL����͂��Ă��������B</p>
+<p>用意したロゴをアップロードしてください。クリックしたときにトップページに戻るようにしたい場合は、「リンク先URL」に、ウェブサイトのトップページのURLを入力してください。</p>
 
-<h3 class=""h4"">���S�ɕ������܂܂�Ă���Ƃ�</h3>
+<h3 class=""h4"">ロゴに文字が含まれているとき</h3>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_logo_01__large.jpg"" width=""760"" /></div>
 
-<p>�u�������v�͋󗓂ɂ��Ă��������B</p>
+<p>「説明文」は空欄にしてください。</p>
 
-<h3 class=""h4"">���S�ɕ������܂܂�Ă��Ȃ��Ƃ�</h3>
+<h3 class=""h4"">ロゴに文字が含まれていないとき</h3>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_logo_02.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_logo_02__large.jpg"" width=""760"" /></div>
 
-<p>�u�������v�ƃ��S�摜�̗�����ݒ肵�Ă��������B</p>
+<p>「説明文」とロゴ画像の両方を設定してください。</p>
 
-<h3 class=""h4"">���S���Ȃ��Ƃ�</h3>
+<h3 class=""h4"">ロゴがないとき</h3>
 
-<p>�����̃��S�摜���폜���A�u�������v�̂ݓ��͂��Ă��������B</p>
+<p>既存のロゴ画像を削除し、「説明文」のみ入力してください。</p>
 
-<h2>���C���摜�̐ݒ�</h2>
+<h2>メイン画像の設定</h2>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_main_image_01.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_main_image_01__large.jpg"" width=""760"" /></div>
 
-<p>�p�ӂ����ʐ^�f�ނ��A�b�v���[�h���A�������ɍl���Ă��������o���Ɛ���������͂��Ă��������B�C�ӂ̃y�[�W�֗U���������ꍇ�́A�����N��URL����͂��Ă��������B</p>
+<p>用意した写真素材をアップロードし、説明文に考えておいた見出しと説明文を入力してください。任意のページへ誘導したい場合は、リンク先URLを入力してください。</p>
 
-<p>���̂Ƃ��A<strong>�u|�v�i���p�p�C�v�j�ŋ�؂�ƁA1�Ԗڂ����o���A2�Ԗڂ��������A3�Ԗڂ��摜�̑�փe�L�X�g�ialt�j�ƂȂ�܂��B</strong><br />
-�܂��A<strong>���p�X�y�[�X���ӂ�������ƁA�r�����s���܂��B</strong></p>
+<p>このとき、<strong>「|」（半角パイプ）で区切ると、1番目が見出し、2番目が説明文、3番目が画像の代替テキスト（alt）となります。</strong><br />
+また、<strong>半角スペースをふたつ続けると、途中改行します。</strong></p>
 
-<p>���p�C�v��؂肪�Ȃ��ꍇ�́A���o���݂̂ƂȂ�܂��B<br />
-�����o����10�������x�܂ŕ\���ł��܂��B</p>
+<p>※パイプ区切りがない場合は、見出しのみとなります。<br />
+※見出しは10文字程度まで表示できます。</p>
 
-<h3>�ʐ^�f�ނ�����Ȃ��ꍇ</h3>
+<h3>写真素材が足りない場合</h3>
 
-<p>���C���摜3�E���C���摜4�E���C���摜5�́A���o���Ɛ����������ł��\���ł��܂��B�����摜���폜���Ă��������B</p>
+<p>メイン画像3・メイン画像4・メイン画像5は、見出しと説明文だけでも表示できます。既存画像を削除してください。</p>
 
-<h3>���C���摜�̕����ʒu�A�����F��ς������ꍇ</h3>
+<h3>メイン画像の文字位置、文字色を変えたい場合</h3>
 
-<p>�ꖇ�ڂ̉摜�ɂ���ẮA�����̔z�u���������肱�Ȃ����Ƃ�����܂��B�C���菇�́u�J�X�^�}�C�Y�v�̃y�[�W������񂭂������B</p>
+<p>一枚目の画像によっては、文字の配置がしっくりこないことがあります。修正手順は「カスタマイズ」のページをごらんください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">���C���摜1�̕����̍ق�ς���</a></p>","","","","2018-04-29 02:15:31","2018-04-22 17:41:23"
-"12","<p>���̃e�[�}�́A�w�b�_�Ɂu���₢���킹�A�C�R���v�uSNS�A�C�R���v��\�����邱�Ƃ��ł��܂��B�������쐬����T�C�g�ɍ��킹�ďC�����Ă����܂��傤�B</p>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize03"">メイン画像1の文字体裁を変える</a></p>","","","","2018-04-29 02:15:31","2018-04-22 17:41:23"
+"12","<p>このテーマは、ヘッダに「お問い合わせアイコン」「SNSアイコン」を表示することができます。ここを作成するサイトに合わせて修正していきましょう。</p>
 
-<h2>�E�B�W�F�b�g�ҏW��ʂֈړ�����</h2>
+<h2>ウィジェット編集画面へ移動する</h2>
 
-<p>�Ǘ���ʁu�E�B�W�F�b�g�G���A�Ǘ� &gt; �E�B�W�F�b�g�G���A�ꗗ�v�ֈړ����Ă��������B<br />
-�ꗗ�Ɂu�w�b�_::�T�u���j���[�v�Ƃ����G���A������̂ŁA�N���b�N���ĕҏW��ʂֈړ����Ă��������B</p>
+<p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。<br />
+一覧に「ヘッダ::サブメニュー」というエリアがあるので、クリックして編集画面へ移動してください。</p>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_sns.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_sns__large.jpg"" width=""760"" /></div>
 
-<h3>�u�A�C�R�����j���[�v�E�B�W�F�b�g�ɂ���</h3>
+<h3>「アイコンメニュー」ウィジェットについて</h3>
 
-<p>�u�w�b�_::�T�u���j���[�v�́A�A�C�R���̕ҏW��p�̃G���A�ł��B�ȉ���3�̃E�B�W�F�b�g���o�^����Ă��܂��B</p>
+<p>「ヘッダ::サブメニュー」は、アイコンの編集専用のエリアです。以下の3つのウィジェットが登録されています。</p>
 
-<h4>�A�C�R�����j���[</h4>
+<h4>アイコンメニュー</h4>
 
-<p>�Ή����Ă��邷�ׂĂ�SNS�A�C�R���������Ă��܂��B�ʏ�͂�����𗘗p���܂��B�udefault�v�f�[�^�ł́A���̃E�B�W�F�b�g�́u���p����v�Ƀ`�F�b�N�������Ă��܂��B</p>
+<p>対応しているすべてのSNSアイコンが入っています。通常はこちらを利用します。「default」データでは、このウィジェットの「利用する」にチェックが入っています。</p>
 
-<h4>�A�C�R�����j���[�i���[���̂݁j</h4>
+<h4>アイコンメニュー（メールのみ）</h4>
 
-<p>SNS�𗘗p����\�肪�Ȃ��ꍇ�́A������𗘗p���܂��B�ublank�v�f�[�^�ł́A���̃E�B�W�F�b�g�́u���p����v�Ƀ`�F�b�N�������Ă��܂��B</p>
+<p>SNSを利用する予定がない場合は、こちらを利用します。「blank」データでは、このウィジェットの「利用する」にチェックが入っています。</p>
 
-<h4>�A�C�R�����j���[�i�o�b�N�A�b�v�j</h4>
+<h4>アイコンメニュー（バックアップ）</h4>
 
-<p>���J���SNS�A�C�R����ǉ�����Ƃ��̂��߂ɁA�A�C�R�����j���[�̏�����Ԃ𕡐����c���Ă��܂��B<strong>�ʏ�́u���p����v�̃`�F�b�N�͊O�����܂܂ɂ��Ă����A�폜�͂��Ȃ��ł��������B</strong></p>
+<p>公開後にSNSアイコンを追加するときのために、アイコンメニューの初期状態を複製を残しています。<strong>通常は「利用する」のチェックは外したままにしておき、削除はしないでください。</strong></p>
 
-<h3>�A�C�R�����j���[��ҏW����</h3>
+<h3>アイコンメニューを編集する</h3>
 
-<p>���p����A�C�R�����j���[�̓��e���A�ȉ��̂Ƃ���ҏW���Ă��������B</p>
+<p>利用するアイコンメニューの内容を、以下のとおり編集してください。</p>
 
-<h4>���[��</h4>
+<h4>メール</h4>
 
-<p>�擪�ɏ�����Ă��܂��B���₢���킹�t�H�[�����ucontact�v�ł͂Ȃ��Ƃ��̂݁A�����N��i�ԑ����j���C�����Ă��������B</p>
+<p>先頭に書かれています。お問い合わせフォームが「contact」ではないときのみ、リンク先（赤太字）を修正してください。</p>
 
 <pre>
 <code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">/contact/</strong>&quot; class=&quot;btn btn-round btn-mail&quot;&gt;
-&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;���₢���킹&lt;/span&gt;
+&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;お問い合わせ&lt;/span&gt;
 &lt;/a&gt;&lt;/li&gt;</code></pre>
 
-<p>���ЂƂ��̃t�H���_��baserCMS��ݒu�����Ƃ����A�����̃����N���Ȃ����Ă��܂���B���S��URL�ɏC�����Ă��������B</p>
+<p>※ひとつ下のフォルダにbaserCMSを設置したときも、ここのリンクがつながっていません。完全なURLに修正してください。</p>
 
-<h4>���[���ȊO</h4>
+<h4>メール以外</h4>
 
-<p>1�Z�b�g���A���s�ŋ�؂��ď�����Ă��܂��B���p���Ă��Ȃ��T�[�r�X�́A<strong>&lt;li&gt;�`&lt;/li&gt;���폜���Ă��������B</strong>���p���Ă���ꍇ�́A�e�T�[�r�X�̃����N��i�ԑ����j���A�U���������A�J�E���g�̃g�b�v�y�[�WURL�ɏC�����Ă��������B<br />
-Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
+<p>1セットずつ、改行で区切って書かれています。利用していないサービスは、<strong>&lt;li&gt;～&lt;/li&gt;を削除してください。</strong>利用している場合は、各サービスのリンク先（赤太字）を、誘導したいアカウントのトップページURLに修正してください。<br />
+Twitterの場合は、以下のとおりになります。</p>
 
 <pre>
-<code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">[Twitter��URL]</strong>&quot; class=&quot;btn btn-round btn-twitter&quot;&gt;
+<code>&lt;li&gt;&lt;a href=&quot;<strong class=""text-danger"">[TwitterのURL]</strong>&quot; class=&quot;btn btn-round btn-twitter&quot;&gt;
 &lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Twitter&lt;/span&gt;
 &lt;/a&gt;&lt;/li&gt;</code></pre>","","","","2018-04-29 02:19:05","2018-04-22 17:41:24"
-"13","<h2 class=""mt0"">�E�B�W�F�b�g�̕\���ݒ������</h2>
+"13","<h2 class=""mt0"">ウィジェットの表示設定をする</h2>
 
 <div class=""row"">
 <div class=""col-sm-4"">
@@ -547,151 +525,151 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 </div>
 
 <div class=""col-sm-8"">
-<p>�Ǘ���ʁu�E�B�W�F�b�g�G���A�Ǘ� &gt; �E�B�W�F�b�g�G���A�ꗗ�v�ֈړ����Ă��������B</p>
+<p>管理画面「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動してください。</p>
 
-<p>���̃e�[�}�ɂ́A�����̃E�B�W�F�b�g�G���A������܂��B�N���b�N���Ă��ꂼ��̕ҏW��ʂֈړ����A�o�i�[�L���E�R�[���g�D�A�N�V�����ȂǁA�ҏW���K�v�ȃE�B�W�F�b�g�͓��e��ύX���Ă��������B</p>
+<p>このテーマには、多数のウィジェットエリアがあります。クリックしてそれぞれの編集画面へ移動し、バナー広告・コールトゥアクションなど、編集が必要なウィジェットは内容を変更してください。</p>
 
-<p>�܂��A�K�v�Ȃ��p�[�c������΁u���p����v�̃`�F�b�N���O���Ă��������B</p>
+<p>また、必要ないパーツがあれば「利用する」のチェックを外してください。</p>
 </div>
 </div>
 
-<div class=""alert alert-danger"">�E�B�W�F�b�g�i���Ƀe�L�X�g�EPHP�e���v���[�g�j�̍폜�͂��Ȃ��ł��������B���ɖ߂��܂���B</div>
+<div class=""alert alert-danger"">ウィジェット（特にテキスト・PHPテンプレート）の削除はしないでください。元に戻せません。</div>
 
-<h3>�C�ӂ̃E�B�W�F�b�g</h3>
+<h3>任意のウィジェット</h3>
 
-<p>�ȉ��̃E�B�W�F�b�g�G���A�́A���p���Ȃ��Ă���肠��܂���B�ublank�v�f�[�^�ł͂��ׂẴE�B�W�F�b�g����\���ƂȂ��Ă��܂��B</p>
+<p>以下のウィジェットエリアは、利用しなくても問題ありません。「blank」データではすべてのウィジェットが非表示となっています。</p>
 
-<h4>�z�[��::���i</h4>
+<h4>ホーム::下段</h4>
 
-<h4>�z�[���ȊO::���i</h4>
+<h4>ホーム以外::下段</h4>
 
-<p>���i�ł́A�w�i�ɐF���t���APC�ł͕��L���\������܂��B�n�}�Ȃǂ������������Ƃ��ɂ������߂ł����A�X�}�[�g�t�H���ł͂��Ȃ艺�̕��ɕ\������܂��B</p>
+<p>下段では、背景に色が付き、PCでは幅広く表示されます。地図などを強調したいときにおすすめですが、スマートフォンではかなり下の方に表示されます。</p>
 
-<h4>�z�[���ȊO::�{����</h4>
+<h4>ホーム以外::本文上</h4>
 
-<p>�d�v�Ȃ��m�点������Ƃ��ɁA�����Ƀe�L�X�g�E�B�W�F�b�g��ǉ�����̂��������߂ł��B</p>
+<p>重要なお知らせがあるときに、ここにテキストウィジェットを追加するのがおすすめです。</p>
 
-<h3>�t�B�[�h���[�_�[�E�B�W�F�b�g�ɂ���</h3>
+<h3>フィードリーダーウィジェットについて</h3>
 
-<div class=""alert alert-danger"">�o�[�W����1.4.0�ȍ~�ibaserCMS4�Ή��Łj�ł́AInstagram�t�B�[�h���[�_�[�E�B�W�F�b�g���g�p�ł��Ȃ��Ȃ�܂����B</div>
+<div class=""alert alert-danger"">バージョン1.4.0以降（baserCMS4対応版）では、Instagramフィードリーダーウィジェットが使用できなくなりました。</div>
 
-<p>���̃e�[�}�ł́A�u�t�B�[�h���[�_�[�v�v���O�C���ɑΉ������E�B�W�F�b�g���o�^����Ă��܂��B</p>
+<p>このテーマでは、「フィードリーダー」プラグインに対応したウィジェットが登録されています。</p>
 
-<p>3�́u�t�B�[�h�ݒ�v���o�^����Ă���A<strong>�u1�v��Twitter�A<del>�u2�v��Instagram�A</del>�u3�v�͊O���t�B�[�h</strong>��ǂݍ��ޑO��ƂȂ��Ă��܂��B<br />
-���p����ꍇ�́A�\���������G���A�̊Y���E�B�W�F�b�g�́u���p����v�̃`�F�b�N���O���Ă��������B</p>
+<p>3つの「フィード設定」が登録されており、<strong>「1」はTwitter、<del>「2」はInstagram、</del>「3」は外部フィード</strong>を読み込む前提となっています。<br />
+利用する場合は、表示したいエリアの該当ウィジェットの「利用する」のチェックを外してください。</p>
 
-<p>������Ԃł́AbaserCMS�ƃE�F�r���O�X�^�W�I�̃A�J�E���g���ǂݍ��܂�Ă��܂��B�ύX������@�́u�J�X�^�}�C�Y�v�̃y�[�W���Q�Ƃ��������B</p>
+<p>初期状態では、baserCMSとウェビングスタジオのアカウントが読み込まれています。変更する方法は「カスタマイズ」のページを参照ください。</p>
 
-<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">�t�B�[�h���[�_�[�𗘗p����</a></p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:24"
-"14","<h2 class=""mt0"">�T�C�g�Ȃ�ł͂̏���񋟂���</h2>
+<p class=""text-center""><a class=""btn btn-lg btn-primary"" href=""../customize/customize04"">フィードリーダーを利用する</a></p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:24"
+"14","<h2 class=""mt0"">サイトならではの情報を提供する</h2>
 
-<p>�T�C�g���J�ɕK�v�Ȑݒ�͊������܂����B����ꂳ�܂ł����I</p>
+<p>サイト公開に必要な設定は完了しました。お疲れさまでした！</p>
 
-<p>&hellip;�������A���̂܂܂ł́A<strong>���̃E�F�u�T�C�g�Ȃ�ł͂̏�񂪉�������܂���B</strong></p>
+<p>&hellip;しかし、今のままでは、<strong>このウェブサイトならではの情報が何もありません。</strong></p>
 
 <div class=""well"">
 <ul>
-	<li>�����̂��X�A���i���ǂ��Љ�܂����H</li>
-	<li>�f�@���Ԃ́A�������牽���܂łł����H�x�f���͂��ł����H</li>
-	<li>���Ȃ��̂���܂ł̍�i�̎ʐ^�A������̃X�L�����A�����̃X�e�[�W�X�i�b�v�͂���܂����H</li>
-	<li>���̋��������A���Ȃ��̉�Ђɖ₢���킹��Ƃ悢�u���R�v�͂Ȃ�ł����H</li>
-	<li>�c�͉̂���ړI�Ƃ��Ă��āA�ǂ̂悤�Ȋ��������Ă����̂ł����H</li>
+	<li>自慢のお店、商品をどう紹介しますか？</li>
+	<li>診察時間は、何時から何時までですか？休診日はいつですか？</li>
+	<li>あなたのこれまでの作品の写真、印刷物のスキャン、当日のステージスナップはありますか？</li>
+	<li>他の競合よりも、あなたの会社に問い合わせるとよい「理由」はなんですか？</li>
+	<li>団体は何を目的としていて、どのような活動をしてきたのですか？</li>
 </ul>
 </div>
 
-<p>�����ŏ������Ƃ��v�������A���̂܂ܗ͐s���Ă��܂��l�������̂ł���ߥ(ɄD`)�ߥ�B</p>
+<p>ここで書くことが思いつかず、そのまま力尽きてしまう人が多いのです｡･ﾟ･(ﾉД`)･ﾟ･。</p>
 
-<p>�����Ǝ�̃T�C�g��K�₵�āA�f�ڂ��ׂ����e�𒲂ׂ܂��傤�I<br />
-�ߋ��̎��т𐮗����܂��傤�I<br />
-�X�܁E�X�^�b�t�E�����̎ʐ^���W�߂܂��傤�I</p>
+<p>同じ業種のサイトを訪問して、掲載すべき内容を調べましょう！<br />
+過去の実績を整理しましょう！<br />
+店舗・スタッフ・料理の写真を集めましょう！</p>
 
-<h2>�y�[�W�����̂����������ȂƂ���&hellip;</h2>
+<h2>ページを作るのが無理そうなときは&hellip;</h2>
 
-<p>�ŋ߂̓X�}�[�g�t�H���̕��y������A�g�b�v�y�[�W�����ł��ׂĂ̓��e���Љ��E�F�u�T�C�g�������܂����B<br />
-���̃e�[�}�́A<strong>HTML�ҏW�̒m��������A�ǂ����Ă���񂪏��Ȃ��ꍇ�́A�g�b�v�y�[�W�����ł����J�ł��܂��B</strong>�J�e�S���[�Ȃ��́uindex�v�̃y�[�W�����M�E�ҏW���Ă��������B</p>
+<p>最近はスマートフォンの普及もあり、トップページだけですべての内容を紹介するウェブサイトも増えました。<br />
+このテーマは、<strong>HTML編集の知識があり、どうしても情報が少ない場合は、トップページだけでも公開できます。</strong>カテゴリーなしの「index」のページを加筆・編集してください。</p>
 
-<p>HTML�̕ҏW�����ȏꍇ�A������Ə���񋟂������ꍇ�́A����΂��ĐV�����Œ�y�[�W�����܂��傤�B</p>
+<p>HTMLの編集が苦手な場合、きちんと情報を提供したい場合は、がんばって新しい固定ページを作りましょう。</p>
 
 <p class=""text-center"">&nbsp;</p>","","","","2018-04-23 12:41:17","2018-04-22 17:41:25"
-"15","<p>CSS�t���[�����[�N�uBootstrap 3�v�́A���̃e�[�}�̃f�U�C���ɑΉ����Ă���p�[�c�̃T���v���ł��B<br />
-�ڂ������p���@�͉��L���Q�Ƃ��������B</p>
+"15","<p>CSSフレームワーク「Bootstrap 3」の、このテーマのデザインに対応しているパーツのサンプルです。<br />
+詳しい利用方法は下記を参照ください。</p>
 
 <ul>
 	<li><a href=""http://getbootstrap.com/css/"" target=""_blank"">http://getbootstrap.com/css/</a></li>
 	<li><a href=""http://getbootstrap.com/components/"" target=""_blank"">http://getbootstrap.com/components/</a></li>
 </ul>
 
-<p class=""text-danger"">�Ή����Ă��Ȃ��p�[�c�̃f�U�C����ύX����ꍇ�́A�e�[�}�t�@�C���� /css/style.css �ɒǋL���Ă��������B</p>
+<p class=""text-danger"">対応していないパーツのデザインを変更する場合は、テーマファイルの /css/style.css に追記してください。</p>
 
 <h2 class=""h3"">.page-header</h2>
 
-<p>�R���e���c�w�b�_�ɗ��p����Ă��܂��B���̃��C���Ƀe�[�}�̃��C���J���[�����f����܂��B</p>
+<p>コンテンツヘッダに利用されています。下のラインにテーマのメインカラーが反映されます。</p>
 
 <div class=""page-header"">
-<h1>�y�[�W�̌��o���ł�<small>�Y�����ł�</small></h1>
+<h1>ページの見出しです<small>添え字です</small></h1>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;page-header&quot;&gt;
-&lt;h1&gt;�y�[�W�̌��o���ł�&lt;small&gt;�Y�����ł�&lt;/small&gt;&lt;/h1&gt;
+&lt;h1&gt;ページの見出しです&lt;small&gt;添え字です&lt;/small&gt;&lt;/h1&gt;
 &lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.btn</h2>
 
-<p>default�Eprimary�Einfo�Elink���Ή����Ă��܂��B</p>
+<p>default・primary・info・linkが対応しています。</p>
 
-<p><strong>default:</strong> �{�[�_�[�Ƀe�[�}�̃����N�J���[�����f����܂��B<br />
-<strong>primary:</strong> �w�i�Ƀe�[�}�̃����N�J���[�����f����܂��B<br />
-<strong>info:</strong> �w�i�Ƀe�[�}�̃��C���J���[�����f����܂��B<br />
-<strong>link:</strong> �t�H�[���{�^���ȂǂɎg�p����ƁA�ʏ�̃����N�Ɠ��������ڂɂȂ�܂��B</p>
+<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br />
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br />
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。<br />
+<strong>link:</strong> フォームボタンなどに使用すると、通常のリンクと同じ見た目になります。</p>
 
-<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button>�@<button class=""btn btn-lg btn-primary"" type=""button"">Primary</button> �@<button class=""btn btn-lg btn-success"" type=""button"">Success</button> �@<button class=""btn btn-lg btn-info"" type=""button"">Info</button><br />
-<button class=""btn btn-lg btn-warning"" type=""button"">Warning</button> �@<button class=""btn btn-lg btn-danger"" type=""button"">Danger</button> �@<button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button>　<button class=""btn btn-lg btn-primary"" type=""button"">Primary</button> 　<button class=""btn btn-lg btn-success"" type=""button"">Success</button> 　<button class=""btn btn-lg btn-info"" type=""button"">Info</button><br />
+<button class=""btn btn-lg btn-warning"" type=""button"">Warning</button> 　<button class=""btn btn-lg btn-danger"" type=""button"">Danger</button> 　<button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-default"" type=""button"">Default</button>�@<button class=""btn btn-primary"" type=""button"">Primary</button> �@<button class=""btn btn-success"" type=""button"">Success</button> �@<button class=""btn btn-info"" type=""button"">Info</button> �@<button class=""btn btn-warning"" type=""button"">Warning</button> �@<button class=""btn btn-danger"" type=""button"">Danger</button> �@<button class=""btn btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-default"" type=""button"">Default</button>　<button class=""btn btn-primary"" type=""button"">Primary</button> 　<button class=""btn btn-success"" type=""button"">Success</button> 　<button class=""btn btn-info"" type=""button"">Info</button> 　<button class=""btn btn-warning"" type=""button"">Warning</button> 　<button class=""btn btn-danger"" type=""button"">Danger</button> 　<button class=""btn btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button>�@<button class=""btn btn-sm btn-primary"" type=""button"">Primary</button> �@<button class=""btn btn-sm btn-success"" type=""button"">Success</button> �@<button class=""btn btn-sm btn-info"" type=""button"">Info</button> �@<button class=""btn btn-sm btn-warning"" type=""button"">Warning</button> �@<button class=""btn btn-sm btn-danger"" type=""button"">Danger</button> �@<button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button>　<button class=""btn btn-sm btn-primary"" type=""button"">Primary</button> 　<button class=""btn btn-sm btn-success"" type=""button"">Success</button> 　<button class=""btn btn-sm btn-info"" type=""button"">Info</button> 　<button class=""btn btn-sm btn-warning"" type=""button"">Warning</button> 　<button class=""btn btn-sm btn-danger"" type=""button"">Danger</button> 　<button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;&lt;button class=&quot;btn btn-lg btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-lg btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-lg btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-lg btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;&lt;br&gt;
+　&lt;button class=&quot;btn btn-lg btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;&lt;br&gt;
 &lt;button class=&quot;btn btn-lg btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-lg btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-lg btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
+　&lt;button class=&quot;btn btn-lg btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-lg btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
+　&lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+　&lt;button class=&quot;btn btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+　&lt;button class=&quot;btn btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;btn btn-sm btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-�@&lt;button class=&quot;btn btn-sm btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;</textarea></p>
+　&lt;button class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+　&lt;button class=&quot;btn btn-sm btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.label</h2>
 
-<p>default�Eprimary�Einfo���Ή����Ă��܂��B</p>
+<p>default・primary・infoが対応しています。</p>
 
-<p><strong>default:</strong> �{�[�_�[�Ƀe�[�}�̃����N�J���[�����f����܂��B<br />
-<strong>primary:</strong> �w�i�Ƀe�[�}�̃����N�J���[�����f����܂��B<br />
-<strong>info:</strong> �w�i�Ƀe�[�}�̃��C���J���[�����f����܂��B</p>
+<p><strong>default:</strong> ボーダーにテーマのリンクカラーが反映されます。<br />
+<strong>primary:</strong> 背景にテーマのリンクカラーが反映されます。<br />
+<strong>info:</strong> 背景にテーマのメインカラーが反映されます。</p>
 
-<p><span class=""label label-default"">Default</span> �@<span class=""label label-primary"">Prmary</span> �@<span class=""label label-success"">Success</span> �@<span class=""label label-info"">Info</span> �@<span class=""label label-warning"">Warning</span> �@<span class=""label label-danger"">Danger</span></p>
+<p><span class=""label label-default"">Default</span> 　<span class=""label label-primary"">Prmary</span> 　<span class=""label label-success"">Success</span> 　<span class=""label label-info"">Info</span> 　<span class=""label label-warning"">Warning</span> 　<span class=""label label-danger"">Danger</span></p>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;
 &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
-�@&lt;span class=&quot;label label-primary&quot;&gt;Prmary&lt;/span&gt;
-�@&lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
-�@&lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
-�@&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
-�@&lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+　&lt;span class=&quot;label label-primary&quot;&gt;Prmary&lt;/span&gt;
+　&lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+　&lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+　&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+　&lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
 &lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.thumbnail</h2>
@@ -700,29 +678,29 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 <div class=""col-sm-6 col-sm-push-3""><img class=""thumbnail img-responsive"" src=""/theme/ratio_3_2/files/theme_configs/main_image_3.jpg"" width=""360"" /></div>
 </div>
 
-<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;img class=&quot;thumbnail img-responsive&quot; src=&quot;�摜��URL&quot; /&gt;</textarea></p>
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;img class=&quot;thumbnail img-responsive&quot; src=&quot;画像のURL&quot; /&gt;</textarea></p>
 
 <div class=""row"">
 <div class=""col-sm-6 col-sm-push-3"">
 <div class=""thumbnail""><img class=""img-responsive"" src=""/theme/ratio_3_2/files/theme_configs/main_image_3.jpg"" width=""360"" />
 <div class=""caption"">
-<p class=""mb0"">�������ł��������ł��������ł��������ł��������ł��������ł�</p>
+<p class=""mb0"">説明文です説明文です説明文です説明文です説明文です説明文です</p>
 </div>
 </div>
 </div>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;�摜��URL&quot; /&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;画像のURL&quot; /&gt;
 &lt;div class=&quot;caption&quot;&gt;
-&lt;p class=&quot;mb0&quot;&gt;�������ł��������ł��������ł��������ł��������ł��������ł�&lt;/p&gt;
+&lt;p class=&quot;mb0&quot;&gt;説明文です説明文です説明文です説明文です説明文です説明文です&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </textarea></p>
 
 <h2 class=""h3"">.alert</h2>
 
-<p>�t�H�[���ɗ��p����Ă��܂��B�e�[�}�̃J���[�ݒ�͔��f����܂���B�ʓr�X�^�C����ǉ����Ă��������B</p>
+<p>フォームに利用されています。テーマのカラー設定は反映されません。別途スタイルを追加してください。</p>
 
 <div class=""alert alert-success""><strong>Well done!</strong> You successfully read this important alert message.</div>
 
@@ -742,22 +720,22 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 
 <h2 class=""h3"">.well</h2>
 
-<p>�w�i�F�Ƀe�[�}�̃T�u�J���[�����f����܂��B</p>
+<p>背景色にテーマのサブカラーが反映されます。</p>
 
 <div class=""well"">
-<p>��y�͔L�ł���B���O�͂܂������B�ǂ��Ő��ꂽ���Ƃ�ƌ��������ʁB���ł����Â����߂��߂������Ńj���[�j���[�����Ă����������͋L�����Ă���B��y�͂����Ŏn�߂Đl�ԂƂ������̂������B���������Ƃŕ����Ƃ���͏����Ƃ����l�Ԓ��ň���ֈ��Ȏ푰�ł������������B</p>
+<p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。</p>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;well&quot;&gt;
-&lt;p&gt;��y�͔L�ł���B���O�͂܂������B�ǂ��Ő��ꂽ���Ƃ�ƌ��������ʁB���ł����Â����߂��߂������Ńj���[�j���[�����Ă����������͋L�����Ă���B��y�͂����Ŏn�߂Đl�ԂƂ������̂������B���������Ƃŕ����Ƃ���͏����Ƃ����l�Ԓ��ň���ֈ��Ȏ푰�ł������������B&lt;/p&gt;
+&lt;p&gt;吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪な種族であったそうだ。&lt;/p&gt;
 &lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.table</h2>
 
-<p>���p�ł��܂����A�e�[�}�̃J���[�ݒ�͔��f����܂���B�ʓr�X�^�C����ǉ����Ă��������B</p>
+<p>利用できますが、テーマのカラー設定は反映されません。別途スタイルを追加してください。</p>
 
 <table class=""table"">
-	<caption>�����݂̂̕\</caption>
+	<caption>下線のみの表</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -785,7 +763,7 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 </table>
 
 <table class=""table table-borderd"">
-	<caption>�S�̂Ɍr��������\</caption>
+	<caption>全体に罫線がある表</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -813,7 +791,7 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 </table>
 
 <table class=""table table-condensed"">
-	<caption>������ƃX�����ȕ\</caption>
+	<caption>ちょっとスリムな表</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -841,7 +819,7 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 </table>
 
 <table class=""table table-responsive"">
-	<caption>���X�|���V�u�Ή��̕\</caption>
+	<caption>レスポンシブ対応の表</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -867,127 +845,127 @@ Twitter�̏ꍇ�́A�ȉ��̂Ƃ���ɂȂ�܂��B</p>
 		</tr>
 	</tbody>
 </table>","","","","2018-04-29 02:32:10","2018-04-22 17:41:25"
-"16","<h2 class=""mt0"">�X���C�h�V���[�A�Ō�܂Ō��܂����H</h2>
+"16","<h2 class=""mt0"">スライドショー、最後まで見ますか？</h2>
 
-<p>�قƂ�ǂ�CMS�p�e�[�}�ɂ́u�X���C�h�V���[�v������܂��B<strong>�������悭�Đl�C�����邩��</strong>�ł��B<br />
-�ł����A�X�}�[�g�t�H���̏����ȉ�ʂł̖K�₪�����Ȃ������A��قǖ��͓I�Ȏʐ^���g�p���Ȃ�����A�X���C�h�V���[�̓񖇖ڈȍ~�͂قƂ�ǈӖ��𐬂��Ȃ��Ȃ��Ă��܂��B</p>
+<p>ほとんどのCMS用テーマには「スライドショー」があります。<strong>かっこよくて人気があるから</strong>です。<br />
+ですが、スマートフォンの小さな画面での訪問が多くなった今、よほど魅力的な写真を使用しない限り、スライドショーの二枚目以降はほとんど意味を成さなくなっています。</p>
 
-<p>���̃e�[�}�ł́A�e�[�}�ݒ�́u���C���摜�v�́A�^�C����ɕ\������܂��B<br />
-1���ڂ��ł��傫���A2���ځ`5���ڂ́A�����߂ɕ\������܂��B</p>
+<p>このテーマでは、テーマ設定の「メイン画像」は、タイル状に表示されます。<br />
+1枚目が最も大きく、2枚目～5枚目は、小さめに表示されます。</p>
 
-<p>�ǂ��ʐ^��p�ӂł��Ȃ��Ƃ��́A�Œ��1�E2���ڂ����ł����J�ł��܂��B�����Ƒ�؂ȁA<strong>���g���R���e���c�̍쐬</strong>�ɏW�����܂��傤�B</p>
+<p>良い写真を用意できないときは、最低限1・2枚目だけでも公開できます。もっと大切な、<strong>中身＝コンテンツの作成</strong>に集中しましょう。</p>
 
-<p>���g�b�v�y�[�W�̏C�����K�v�ł�</p>
+<p>※トップページの修正が必要です</p>
 
-<h2>�u���O�R�����g�A�����ƊǗ��ł��܂����H</h2>
+<h2>ブログコメント、ちゃんと管理できますか？</h2>
 
-<p><strong>���̃e�[�}�́A�u���O�R�����g�ɑΉ����Ă��܂���B</strong><br />
-SNS�����y���A�e�L���ɃR�����g�����e�����̂́A�L���l�u���O���炢�ł��B�܂��A�R�����g�@�\�͕s���ȃX�p����t�B�b�V���O�T�C�g�ւ̗U���ɗ��p�����댯���̕��������A��ʂ̐l�ɂ͊Ǘ�������܂���B</p>
+<p><strong>このテーマは、ブログコメントに対応していません。</strong><br />
+SNSが普及し、各記事にコメントが投稿されるのは、有名人ブログくらいです。また、コメント機能は不快なスパムやフィッシングサイトへの誘導に利用される危険性の方が高く、一般の人には管理しきれません。</p>
 
-<p>���K�͂̃E�F�u�T�C�g�ł͂ނ���A�s�v�ȋ@�\�ƌ����܂��B�𗬂�SNS��ϋɓI�Ɏg���Ă����܂��傤�B</p>
+<p>小規模のウェブサイトではむしろ、不要な機能と言えます。交流はSNSを積極的に使っていきましょう。</p>
 
-<h2>�d�v�ȗv�f�͂�������ƁB</h2>
+<h2>重要な要素はしっかりと。</h2>
 
-<p>�uratio_3_2�v�ł́A����ɍ���Ȃ��@�\��p�������ɁA�E�F�u�T�C�g�̌��ʓI�ȉ^�p�ɕK�v�ȗv�f���[�������Ă��܂��B</p>
+<p>「ratio_3_2」では、時代に合わない機能を廃する代わりに、ウェブサイトの効果的な運用に必要な要素を充実させています。</p>
 
 <ul>
-	<li>�y�[�W�ƃu���O�́u�O��y�[�W�v�f�U�C���̍��ʉ�</li>
-	<li>�e��SNS�A�C�R���E�u���O�L���̃V�F�A�{�^���ǉ�</li>
-	<li>OGP�ETwitter�J�[�h�ւ̑Ή�</li>
-	<li>���͂��₷�����[���t�H�[�����</li>
-	<li>���[���t�H�[���̑��M���[���A���ӕ��̕������čl</li>
+	<li>ページとブログの「前後ページ」デザインの差別化</li>
+	<li>各種SNSアイコン・ブログ記事のシェアボタン追加</li>
+	<li>OGP・Twitterカードへの対応</li>
+	<li>入力しやすいメールフォーム画面</li>
+	<li>メールフォームの送信メール、注意文の文言を再考</li>
 </ul>","","","","2018-04-23 12:41:16","2018-04-22 17:41:26"
-"17","<h2 class=""mt0"">�ʐ^�̐؂蔲���A����܂���B</h2>
+"17","<h2 class=""mt0"">写真の切り抜き、いりません。</h2>
 
-<p>�f�U�C�����̍����e�[�}�̂قƂ�ǂ́A�u�ꏊ���ƂɎʐ^�������Ő؂蔲�����v���Ƃ������ł��B<br />
-�ł����A�䗦�ɂ���Ă͊炪�؂�Ă��܂�����A�������S�����肫��Ȃ�������&hellip;<br />
-�ʐ^�����ӂȐl�łȂ�����A�؂蔲���ꂽ���Ƃ��z�肵���f�ނ�p�ӂ���̂́A������̂ł��B</p>
+<p>デザイン性の高いテーマのほとんどは、「場所ごとに写真が自動で切り抜かれる」ことが多いです。<br />
+ですが、比率によっては顔が切れてしまったり、建物が全部入りきらなかったり&hellip;<br />
+写真が得意な人でない限り、切り抜かれたあとも想定した素材を用意するのは、難しいものです。</p>
 
-<p>�uratio_3_2�v�́A�e�[�}���̂��ׂẲ摜�i���C���摜�E�u���O�L���̃A�C�L���b�`�摜�j�̎ʐ^�䗦���u3�F2�v�ł��邱�Ƃ�O��Ƃ��Ă��܂��B</p>
+<p>「ratio_3_2」は、テーマ内のすべての画像（メイン画像・ブログ記事のアイキャッチ画像）の写真比率が「3：2」であることを前提としています。</p>
 
-<p>3�F2�́A�f�W�^����჌�t�J�����ŎB�e�����摜�̌����䗦�ł��B�z�z�E�̔�����Ă���摜�f�ނ��A�قƂ�ǂ�3�F2�ƂȂ��Ă��܂��B<br />
-�p�ӂ����摜���A�b�v���[�h���邾���ŁA�C���[�W�ʂ�̃E�F�u�T�C�g����邱�Ƃ��ł��܂��B</p>
+<p>3：2は、デジタル一眼レフカメラで撮影した画像の原寸比率です。配布・販売されている画像素材も、ほとんどが3：2となっています。<br />
+用意した画像をアップロードするだけで、イメージ通りのウェブサイトを作ることができます。</p>
 
-<p>&hellip;�������A���炩�Ȏ��s�ʐ^�𒼂����Ƃ͂ł��܂���i�G&omega;�G�M ��ܯ<br />
-�B�蒼�����A�I�����C���̎ʐ^���H�c�[�����g���Ă݂܂��傤�B</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:27"
-"18","<h2 class=""mt0"">�E�B�W�F�b�g��g�ݍ��킹�āA�ȒP�J�X�^�}�C�Y�B</h2>
+<p>&hellip;もちろん、明らかな失敗写真を直すことはできません（；&omega;；｀ ﾌﾞﾜｯ<br />
+撮り直すか、オンラインの写真加工ツールを使ってみましょう。</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:27"
+"18","<h2 class=""mt0"">ウィジェットを組み合わせて、簡単カスタマイズ。</h2>
 
-<p>baserCMS�ɂ́A�u���O�̐V������A�L���o�i�[�Ȃǂ̃p�[�c���ȒP�Ɍf�ڂł���u<strong>�E�B�W�F�b�g</strong>�v�Ƃ����@�\������܂��B</p>
+<p>baserCMSには、ブログの新着情報や、広告バナーなどのパーツを簡単に掲載できる「<strong>ウィジェット</strong>」という機能があります。</p>
 
-<p>�ʏ�́A�T�C�h���j���[�����Ɏg�p����Ă���E�B�W�F�b�g�ł����A���́uratio_3_2�v�ł̓��C�����j���[��{���̏㉺�ɂ��g�����Ƃ��ł��܂��B<br />
-<strong>�g�b�v�y�[�W�㔼�́A���ׂăE�B�W�F�b�g�G���A�ɂȂ��Ă���</strong>���߁A�u���O�̐V����O���t�B�[�h�Ȃǂ̃p�[�c���D���ȏꏊ�Ɉړ��ł��܂��B<br />
-�܂��A���̏��s�v�ȃp�[�c�́u��\���v�ɂ��āA���e���������ɔ�\���ɂ��Ă������Ƃ��ȒP�ɂł��܂��B</p>
+<p>通常は、サイドメニューだけに使用されているウィジェットですが、この「ratio_3_2」ではメインメニューや本文の上下にも使うことができます。<br />
+<strong>トップページ後半は、すべてウィジェットエリアになっている</strong>ため、ブログの新着や外部フィードなどのパーツを好きな場所に移動できます。<br />
+また、今の所不要なパーツは「非表示」にして、内容を消さずに非表示にしておくことも簡単にできます。</p>
 
-<p>�g�����ɂ���ẮA�ŋ߂悭����E�F�u�T�C�g�̂悤�ɁA�y�[�W�擪�Ɉꎞ�I�Ȃ��m�点���f�ڂ�����A�y�[�W�����ɑ傫�Ȓn�}��u���₢���킹�͂�����v���f�ڂ��邱�Ƃ��ł��܂��B</p>
+<p>使い方によっては、最近よく見るウェブサイトのように、ページ先頭に一時的なお知らせを掲載したり、ページ下部に大きな地図や「お問い合わせはこちら」を掲載することもできます。</p>
 
-<h2>2��ނ̃t�B�[�h</h2>
+<h2>2種類のフィード</h2>
 
-<p>baserCMS�̃t�B�[�h�͈��ނ݂̂ł����A���̃e�[�}��Twitter�ł͓Ǝ��̃��C�A�E�g�ŕ\�����邱�Ƃ��ł��܂��B</p>
+<p>baserCMSのフィードは一種類のみですが、このテーマはTwitterでは独自のレイアウトで表示することができます。</p>
 
-<p>�����p�ɂ́A�O���T�[�r�X�Ƃ̘A�g���K�v�ł��B�ڂ����́u�J�X�^�}�C�Y�v�̃y�[�W���Q�Ƃ��������B</p>
+<p>※利用には、外部サービスとの連携が必要です。詳しくは「カスタマイズ」のページを参照ください。</p>
 
-<h2>Google Adsence�̍L����OK�I</h2>
+<h2>Google Adsenceの広告もOK！</h2>
 
-<p>�[���̉�ʃT�C�Y�ɂ���ă��C�A�E�g���ς��u���X�|���V�u�f�U�C���v�e�[�}�̑����ɂ́A�傫�Ȍ��_������܂��B<br />
-�T�C�h���j���[�̕����L�яk�݂���̂ŁA<strong>�^�u���b�g�⏬�^�̃l�b�g�u�b�N�ł́AGoogle Adsense�Ȃǂ̎����L�����͂ݏo���Ă��܂�</strong>�̂ł��B<br />
-����́A���{�ŗ��p�ł��鑽���̎����L���o�i�[���A����L�k�����邱�Ƃ��ł��Ȃ����߂ł��B</p>
+<p>端末の画面サイズによってレイアウトが変わる「レスポンシブデザイン」テーマの多くには、大きな欠点があります。<br />
+サイドメニューの幅も伸び縮みするので、<strong>タブレットや小型のネットブックでは、Google Adsenseなどの自動広告がはみ出してしまう</strong>のです。<br />
+これは、日本で利用できる多くの自動広告バナーが、幅を伸縮させることができないためです。</p>
 
-<p>�uratio_3_2�v�̃T�C�h���j���[�́A�ǂ�ȉ�ʕ��ł��A300�s�N�Z���ȉ��ɂȂ邱�Ƃ͂���܂���B<br />
-��300�s�N�Z���́u���N�^���O���L���v���҂�������܂�܂��B</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:27"
-"19","<h2 class=""mt0"">�������A�v����Web����҂ɂ��B</h2>
+<p>「ratio_3_2」のサイドメニューは、どんな画面幅でも、300ピクセル以下になることはありません。<br />
+幅300ピクセルの「レクタングル広告」がぴったり収まります。</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:27"
+"19","<h2 class=""mt0"">もちろん、プロのWeb制作者にも。</h2>
 
-<p>��҂̃E�F�r���O�X�^�W�I�́ACMS��g�ݍ��񂾃E�F�u�T�C�g�̐���E�J�X�^�}�C�Y�𐿂������Ă��܂��B</p>
+<p>作者のウェビングスタジオは、CMSを組み込んだウェブサイトの制作・カスタマイズを請け負っています。</p>
 
 <p><a href=""https://webbingstudio.com/"">https://webbingstudio.com/</a></p>
 
-<p>���́uratio_3_2�v�e�[�}�����ۂ̐���Ɠ��l�̃N�H���e�B�Ő��삵�A���E�W����Web����t���[�����[�N�ubootstrap3�v�ƁA�g���₷���A�C�R���Z�b�g�ufont awesome�v��g�ݍ���ł��܂��B</p>
+<p>この「ratio_3_2」テーマも実際の制作と同様のクォリティで制作し、世界標準のWeb制作フレームワーク「bootstrap3」と、使いやすいアイコンセット「font awesome」を組み込んでいます。</p>
 
-<p>�[�����琧�삵�����ꍇ�́A�e�[�}���́ustyle.css�v�uconfig.css�v����ɂ���ƁAbootstrap�̏�����Ԃɖ߂����Ƃ��ł��܂��B</p>
+<p>ゼロから制作したい場合は、テーマ内の「style.css」「config.css」を空にすると、bootstrapの初期状態に戻すことができます。</p>
 
-<p>�X���C�h�V���[�E�^�u�E�A�C�R���ȂǁA�e�[�}�ɂ͂Ȃ��p�[�c��ǉ��������ꍇ�́A�����T�C�g�̃h�L�������g���Q�Ƃ��������B</p>
+<p>スライドショー・タブ・アイコンなど、テーマにはないパーツを追加したい場合は、公式サイトのドキュメントを参照ください。</p>
 
-<p>bootstrap 3�����T�C�g<br />
+<p>bootstrap 3公式サイト<br />
 <a href=""http://getbootstrap.com/"">http://getbootstrap.com/</a></p>
 
-<p>Font Awesome�����T�C�g<br />
+<p>Font Awesome公式サイト<br />
 <a href=""http://fortawesome.github.io/Font-Awesome/"">http://fortawesome.github.io/Font-Awesome/</a></p>
 
-<h2>�B���@�\�A����܂��B</h2>
+<h2>隠し機能、あります。</h2>
 
-<p>���̃e�[�}�ł́Abootstrap3�ȊO�ɂ��A���܂��܂�CSS�̕⏕�N���X��APHP�̕⏕�֐���ǉ����Ă��܂��B<br />
-�u�J�X�^�}�C�Y�v�̃y�[�W�ŁA�悭�g���@�\�̈ꕔ�����Љ�Ă��܂��B�Q�Ƃ��������B</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:28"
-"20","<p>���̃e�[�}�́A�w�b�_�E�t�b�^�̐F�����ꂼ��u���v�u���v�ɕς��邱�Ƃ��ł��܂��B<br />
-�e�[�}�t�@�C���̒��ڕҏW���K�v�ƂȂ�܂��B�S�z�ȏꍇ�͕K���R�s�[���쐬���Ă��������B</p>
+<p>このテーマでは、bootstrap3以外にも、さまざまなCSSの補助クラスや、PHPの補助関数を追加しています。<br />
+「カスタマイズ」のページで、よく使う機能の一部をご紹介しています。参照ください。</p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:28"
+"20","<p>このテーマは、ヘッダ・フッタの色をそれぞれ「白」「黒」に変えることができます。<br />
+テーマファイルの直接編集が必要となります。心配な場合は必ずコピーを作成してください。</p>
 
-<div class=""alert alert-danger"">�o�[�W����1.4.0�ȍ~�ibaserCMS4�Ή��Łj�ł́A�w�b�_�E�t�b�^�̐F�́u���v���f�t�H���g�ɂȂ�܂����B</div>
+<div class=""alert alert-danger"">バージョン1.4.0以降（baserCMS4対応版）では、ヘッダ・フッタの色は「白」がデフォルトになりました。</div>
 
-<p>�e�[�}�t�@�C������Config/bootstrap.php���e�L�X�g�G�f�B�^�ŊJ���Ă��������B<br />
-�擪�Ɉȉ��̂悤�ɏ�����Ă��܂��B</p>
+<p>テーマファイル内のConfig/bootstrap.phpをテキストエディタで開いてください。<br />
+先頭に以下のように書かれています。</p>
 
 <pre>
-// �J���[�i���n:white ���n:black�j
+// カラー（白系:white 黒系:black）
 define(&#39;RATIO32_HEAD_COLOR&#39;, &#39;white&#39;);
 define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;white&#39;);</pre>
 
-<p>&#39;white&#39;��&#39;black&#39;�ɏ��������ĕۑ�����ƁA�w�b�_�E�t�b�^�����ꂼ�ꍕ�ɕς��܂��B</p>
+<p>&#39;white&#39;を&#39;black&#39;に書き換えて保存すると、ヘッダ・フッタがそれぞれ黒に変わります。</p>
 
-<div class=""well"">bootstrap.php�ɂ́A�V�����̓��t�t�H�[�}�b�g���ݒ肳��Ă��܂��BPHP��date�֐��Ɠ��l�̋L�q�ŁA�\�L��ς��邱�Ƃ��ł��܂��B</div>","","","","2018-04-29 01:39:20","2018-04-22 17:41:28"
+<div class=""well"">bootstrap.phpには、新着情報の日付フォーマットも設定されています。PHPのdate関数と同様の記述で、表記を変えることができます。</div>","","","","2018-04-29 01:39:20","2018-04-22 17:41:28"
 "21","<div class=""thumbnail""><img align="""" alt=""ratio_3_2_mainimg.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_mainimg__large.jpg"" width=""760"" /></div>
 
-<p>���C���摜�ɂ���ẮA��ɏ���Ă��镶���̈ʒu��F������Ȃ����Ƃ�����܂��B<br />
-�X�^�C���V�[�g�̒m��������΁A�Ǘ���ʂ��璲�����邱�Ƃ��ł��܂��B</p>
+<p>メイン画像によっては、上に乗っている文字の位置や色が合わないことがあります。<br />
+スタイルシートの知識があれば、管理画面から調整することができます。</p>
 
-<h2>�ʒu��ς���</h2>
+<h2>位置を変える</h2>
 
-<p>�Ǘ���ʂ̌Œ�y�[�W�ꗗ����A�g�b�v�y�[�W�i�J�e�S���[�Ȃ��́uindex�v�y�[�W�j�̕ҏW��ʂֈړ����Ă��������B<br />
-�y�[�W�����́u�I�v�V�����v���N���b�N����ƁA�u�R�[�h�v���ɕ����ʒu�̃X�^�C���V�[�g��`��������Ă��܂��B</p>
+<p>管理画面の固定ページ一覧から、トップページ（カテゴリーなしの「index」ページ）の編集画面へ移動してください。<br />
+ページ下部の「オプション」をクリックすると、「コード」欄に文字位置のスタイルシート定義が書かれています。</p>
 
-<p>�����T�C�Y��ς���ꍇ�́ufont-size�v���A�����ʒu��ς���ꍇ�́utop�v�ubottom�v�̐�����ύX���Ă��������B�uwidth�v��uleft�v��ǉ�����ƍ��E���󂯂邱�Ƃ��ł��܂��B<br />
-�Ȃ��A�utop�v�ubottom�v�uwidth�v�͕K���A<strong>�p�[�Z���g�P��</strong>�Ƃ��Ă��������B��ʂ��L�k�����Ƃ��ɂ���Ă��܂��܂��B</p>
+<p>文字サイズを変える場合は「font-size」を、文字位置を変える場合は「top」「bottom」の数字を変更してください。「width」や「left」を追加すると左右を空けることもできます。<br />
+なお、「top」「bottom」「width」は必ず、<strong>パーセント単位</strong>としてください。画面が伸縮したときにずれてしまいます。</p>
 
-<h2>�F��ς���</h2>
+<h2>色を変える</h2>
 
-<p>�u�R�[�h�v���Ɉȉ��̂悤�ɒǋL����ƁA�������������]���܂��B</p>
+<p>「コード」欄に以下のように追記すると、文字が白黒反転します。</p>
 
 <pre>
 <code>.mainvisual .jumbotron .h1,
@@ -1018,148 +996,148 @@ define(&#39;RATIO32_FOOT_COLOR&#39;, &#39;white&#39;);</pre>
 .mainvisual .jumbotron:active .jumbotron-caption {
 &nbsp;&nbsp; &nbsp;color: #333333;
 }</code></pre>","","","","2018-04-23 12:41:17","2018-04-22 17:41:29"
-"22","<p>���̃e�[�}�ł́A�Q��ނ̑̍ق̃t�B�[�h��\�����邱�Ƃ��ł��܂��B</p>
+"22","<p>このテーマでは、２種類の体裁のフィードを表示することができます。</p>
 
-<p class=""h4"">Twitter�p</p>
+<p class=""h4"">Twitter用</p>
 
-<p>�Ԃ₫�E�Ԃ₢���A�J�E���gID�E���e�������\������܂��B</p>
+<p>つぶやき・つぶやいたアカウントID・投稿日時が表示されます。</p>
 
-<h2 class=""h4"">���̑��̃t�B�[�h�p</h2>
+<h2 class=""h4"">その他のフィード用</h2>
 
-<p>�^�C�g���E�T�v�E���e�����\������܂��B</p>
+<p>タイトル・概要・投稿日が表示されます。</p>
 
-<h2>Twitter�̃t�B�[�hURL���擾����</h2>
+<h2>TwitterのフィードURLを取得する</h2>
 
-<p>Twitter��RSS�t�B�[�h���擾����ɂ́A�O���T�[�r�X�𗘗p����K�v������܂��B</p>
+<p>TwitterのRSSフィードを取得するには、外部サービスを利用する必要があります。</p>
 
-<p>���L�̃T�[�r�X�ŁA�A�J�E���g�p��RSS�t�B�[�h���쐬���AURL���T���Ă��������B</p>
+<p>下記のサービスで、アカウント用のRSSフィードを作成し、URLを控えてください。</p>
 
 <p>Queryfeed<br />
 <a href=""https://queryfeed.net/"">https://queryfeed.net/</a></p>
 
-<h2>�t�B�[�hURL��o�^����</h2>
+<h2>フィードURLを登録する</h2>
 
-<p>�Ǘ���ʂ́u�t�B�[�h�Ǘ� &gt; �t�B�[�h�ݒ�ꗗ�v����A�e�T�[�r�X�̃t�B�[�h�ݒ��I�����Ă��������B</p>
+<p>管理画面の「フィード管理 &gt; フィード設定一覧」から、各サービスのフィード設定を選択してください。</p>
 
-<p>Twitter�ɂ�baserCMS�̃t�B�[�h���o�^����Ă��܂��B<br />
-������A�����p�̃t�B�[�hURL�ɏ��������Ă��������B</p>
+<p>TwitterにはbaserCMSのフィードが登録されています。<br />
+これを、ご利用のフィードURLに書き換えてください。</p>
 
-<h2>�t�B�[�h�E�B�W�F�b�g��\������</h2>
+<h2>フィードウィジェットを表示する</h2>
 
-<p>�Ǘ���ʂ́u�E�B�W�F�b�g�G���A�Ǘ� &gt; �E�B�W�F�b�g�G���A�ꗗ�v�ֈړ����A�\���������ӏ��̃t�B�[�h�E�B�W�F�b�g�́u���p����v�Ƀ`�F�b�N�����Ă��������B</p>
+<p>管理画面の「ウィジェットエリア管理 &gt; ウィジェットエリア一覧」へ移動し、表示したい箇所のフィードウィジェットの「利用する」にチェックを入れてください。</p>
 
-<div class=""alert alert-danger"">�uQueryfeed�v�͊O���T�[�r�X�ł��B�\���Ȃ��T�[�r�X���I������\��������A���̏ꍇ�̓t�B�[�h������ɕ\������Ȃ��Ȃ�܂��̂ŁA���O�ɂ��������������B</div>","","","","2018-04-23 12:41:17","2018-04-22 17:41:30"
-"23","<p>���̃e�[�}�́A�y�[�W�{���ɕ��̏����݂��Ă��܂��B<br />
-�я�ɔw�i�F��ς���A�摜�������ς��ɕ\������ꍇ�́A�ȉ��̂悤�ɃJ�X�^�}�C�Y����Ɛ����������ł��܂��B</p>
+<div class=""alert alert-danger"">「Queryfeed」は外部サービスです。予告なくサービスが終了する可能性があり、その場合はフィードが正常に表示されなくなりますので、事前にご了承ください。</div>","","","","2018-04-23 12:41:17","2018-04-22 17:41:30"
+"23","<p>このテーマは、ページ本文に幅の上限を設けています。<br />
+帯状に背景色を変える、画像をいっぱいに表示する場合は、以下のようにカスタマイズすると制限を解除できます。</p>
 
-<div class=""alert alert-danger"">HTML�ECSS�ƁAbaserCMS�̃e�[�}�ҏW�̒m�����K�v�ƂȂ�܂��B</div>
+<div class=""alert alert-danger"">HTML・CSSと、baserCMSのテーマ編集の知識が必要となります。</div>
 
-<h2>���ׂẴy�[�W�ŉ�������</h2>
+<h2>すべてのページで解除する</h2>
 
-<p>�ʏ�́A�e�[�}�t�@�C�����́u<strong>Layout/default.php</strong>�v���A��{���C�A�E�g�Ƃ��ēǂݍ��܂�Ă��܂��B<br />
-���̃t�@�C�������u<strong>Layout/col1_full.php</strong>�v�Ɠ���ւ���ƁA���ׂẴy�[�W�̐�������������܂��B</p>
+<p>通常は、テーマファイル内の「<strong>Layout/default.php</strong>」が、基本レイアウトとして読み込まれています。<br />
+このファイル名を「<strong>Layout/col1_full.php</strong>」と入れ替えると、すべてのページの制限が解除されます。</p>
 
-<p>���𐧌����ׂ��ӏ��́A�s�x&lt;div class=&quot;container&quot;&gt;�`&lt;/div&gt;��{���ɋL�q���Ă��������B</p>
+<p>幅を制限すべき箇所は、都度&lt;div class=&quot;container&quot;&gt;～&lt;/div&gt;を本文に記述してください。</p>
 
-<h2>����J�e�S���[�̂݉�������</h2>
+<h2>特定カテゴリーのみ解除する</h2>
 
-<p>�J�e�S���[�̍쐬���ɁA�ǂݍ��ރe���v���[�g�Łu<strong>col1_full</strong>�v��I������ƁA���̃J�e�S���[���̂ݐ�������������܂��B<br />
-������݂����܂܂ŁA�T�C�h���j���[���Ȃ��u<strong>col1</strong>�v�Ƃ����e���v���[�g���I���ł��܂��B</p>","","","","2018-04-23 12:41:17","2018-04-22 17:41:30"
-"24","<p>���́udefault�v�f�[�^���̉���𕡐������APDF�ł̃}�j���A���𓯍����Ă��܂��B</p>
+<p>カテゴリーの作成時に、読み込むテンプレートで「<strong>col1_full</strong>」を選択すると、そのカテゴリー内のみ制限が解除されます。<br />
+制限を設けたままで、サイドメニューがない「<strong>col1</strong>」というテンプレートも選択できます。</p>","","","","2018-04-23 12:41:17","2018-04-22 17:41:30"
+"24","<p>この「default」データ内の解説を複製した、PDF版のマニュアルを同梱しています。</p>
 
-<p>�e�[�}���̉��L�̏ꏊ����AFTP�\�t�g�ȂǂŃ_�E�����[�h���Ă��������B</p>
+<p>テーマ内の下記の場所から、FTPソフトなどでダウンロードしてください。</p>
 
-<p><strong>[baserCMS��ݒu�����f�B���N�g��]app/webroot/theme/ratio_3_2/ratio_3_2_manual.pdf</strong></p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:31"
-"25","<p>�u<strong>ratio_3_2</strong>�v�́AbaserCMS4�Ή��ł������[�X�������܂����B<br />
-�o�[�W����1.4.0�ȍ~�́AbaserCMS3�ɂ͔�Ή��ƂȂ�܂��B�������������������B</p>
+<p><strong>[baserCMSを設置したディレクトリ]app/webroot/theme/ratio_3_2/ratio_3_2_manual.pdf</strong></p>","","","","2018-04-23 12:41:16","2018-04-22 17:41:31"
+"25","<p>「<strong>ratio_3_2</strong>」の、baserCMS4対応版をリリースいたしました。<br />
+バージョン1.4.0以降は、baserCMS3には非対応となります。何卒ご了承ください。</p>
 
-<h2>1.4.0���_�̎�ȕύX�_</h2>
-
-<ul>
-	<li>�w�b�_�E�t�b�^�̐F���u���v���f�t�H���g�ɕύX</li>
-	<li>�u�R���e���c�Ǘ��v�̃y�[�W��K�w�ڂ��O���[�o���i�r�Q�[�V�����ɘA������悤���C</li>
-	<li>���[�J���i�r�Q�[�V�����̊K�w�\���ɑΉ�</li>
-	<li>���C���r�W���A���̉摜�ύX�ƕ����z�u�̒���</li>
-	<li>�u���O�̃^�O���j���[�ɑΉ�</li>
-	<li>�������ʂ̃L�[���[�h�̔w�i�ɉ��F�n�C���C�g��ǉ�</li>
-</ul>
-
-<h2>1.4.0���_�̊��m�̕s�</h2>
+<h2>1.4.0時点の主な変更点</h2>
 
 <ul>
-	<li>Instagram�E�B�W�F�b�g��P���i�t�B�[�h�z�M�T�[�r�X�̏I���ɂ��g�p�s�\�ƂȂ������߁j</li>
+	<li>ヘッダ・フッタの色を「白」をデフォルトに変更</li>
+	<li>「コンテンツ管理」のページ一階層目がグローバルナビゲーションに連動するよう改修</li>
+	<li>ローカルナビゲーションの階層表示に対応</li>
+	<li>メインビジュアルの画像変更と文字配置の調整</li>
+	<li>ブログのタグメニューに対応</li>
+	<li>検索結果のキーワードの背景に黄色ハイライトを追加</li>
 </ul>
 
-<h2>�ӎ�</h2>
+<h2>1.4.0時点の既知の不具合</h2>
 
-<p>baserCMS4�ւ̑Ή��ɂ�����A�J���҂̍]������A���[�U�[��̊F�l�ɁA�C������ȉӏ����T�|�[�g���Ă����������܂����B<br />
-�u<a href=""https://ratio32.msstyle.jp/"" target=""_blank"">�J�X�^���X�^�C��</a>�v������͂��߂Ƃ���A���e�[�}�̃J�X�^�}�C�Y�������M���Ă������������X�A���������N�G�X�g���Ă��������������̊F�l�ɁA���̏���؂�Ă���\���グ�܂��B</p>","","","","2018-04-28 23:56:40","2018-04-23 05:32:44"
-"26","<p>���̃y�[�W�́A���łɁuratio_3_2�v��baserCMS3�ł����p���������Ă���������̈ڍs�K�C�h�ł��B<br />
-�V�K�C���X�g�[���̕��́A<a href=""/installation/installation00"">���̂܂܎��y�[�W�֐i��ł��������B</a></p>
+<ul>
+	<li>Instagramウィジェットを撤去（フィード配信サービスの終了により使用不可能となったため）</li>
+</ul>
 
-<h2>�͂��߂�</h2>
+<h2>謝辞</h2>
 
-<p>baserCMS4�́A�e�[�}�̃t�@�C���\���A�֐������ɑ傫�ȉ��肪�s���A�{�e�[�}��1.3�`1.4�Ԃł́A�傫���e�[�}���e���قȂ��Ă��܂��B<br />
-���̂��߁Aratio_3_2�����Ƀe�[�}��Ǝ���HTML�ɕύX���Ă���悤�ȃT�C�g�ł́A�ڍs������ƂȂ�\��������܂��B</p>
+<p>baserCMS4への対応にあたり、開発者の江頭さん、ユーザー会の皆様に、修正困難な箇所をサポートしていただきしました。<br />
+「<a href=""https://ratio32.msstyle.jp/"" target=""_blank"">カスタムスタイル</a>」さんをはじめとする、当テーマのカスタマイズ情報を執筆してくださった方々、復活をリクエストしてくださった多くの皆様に、この場を借りてお礼申し上げます。</p>","","","","2018-04-28 23:56:40","2018-04-23 05:32:44"
+"26","<p>このページは、すでに「ratio_3_2」をbaserCMS3でご利用いただいている方向けの移行ガイドです。<br />
+新規インストールの方は、<a href=""/installation/installation00"">そのまま次ページへ進んでください。</a></p>
 
-<p>GitHub�̌��J���|�W�g���ɂāA�X�V���������J���Ă��܂��̂ŁA��������Q�l�ɏC�������������������܂��悤���肢�������܂��B</p>
+<h2>はじめに</h2>
+
+<p>baserCMS4は、テーマのファイル構造、関数名等に大きな改定が行われ、本テーマも1.3～1.4間では、大きくテーマ内容が異なっています。<br />
+このため、ratio_3_2を元にテーマを独自のHTMLに変更しているようなサイトでは、移行が困難となる可能性があります。</p>
+
+<p>GitHubの公開リポジトリにて、更新履歴を公開していますので、こちらを参考に修正をお試しいただけますようお願いいたします。</p>
 
 <p><a href=""https://github.com/webbingstudio/baser_theme_ratio_3_2/commits/master"">https://github.com/webbingstudio/baser_theme_ratio_3_2/commits/master</a></p>
 
-<p>�L���ł̏C���������Ă���܂��i�X�P�W���[���ɂ���Ă͑Ή��ł��Ȃ����Ƃ�����܂��j�B���L��育���k���������B</p>
+<p>有償での修正も承っております（スケジュールによっては対応できないこともあります）。下記よりご相談ください。</p>
 
 <ul>
-	<li><a href=""https://www.facebook.com/webbingstudio/"">Facebook�y�[�W</a></li>
+	<li><a href=""https://www.facebook.com/webbingstudio/"">Facebookページ</a></li>
 	<li><a href=""https://twitter.com/webbingstudio"">Twitter</a></li>
 </ul>
 
-<h2>�ڍs��ƑO��</h2>
+<h2>移行作業前に</h2>
 
-<p>�f�[�^�x�[�X�E�T�[�o�[�̂��ׂẴA�b�v���[�h�t�@�C���̃o�b�N�A�b�v������Ă��������B</p>
+<p>データベース・サーバーのすべてのアップロードファイルのバックアップを取ってください。</p>
 
-<p><strong>baserCMS3�́u�e�[�}�p�����f�[�^�_�E�����[�h�v�ł̃o�b�N�A�b�v�́AbaserCMS4�Ŏg�p�ł��܂���B</strong>�K���A�f�[�^�x�[�X�̃o�b�N�A�b�v�����A���K�̃A�b�v�f�[�g���s���Ă��������B</p>
+<p><strong>baserCMS3の「テーマ用初期データダウンロード」でのバックアップは、baserCMS4で使用できません。</strong>必ず、データベースのバックアップを取り、正規のアップデートを行ってください。</p>
 
-<h2>�e�[�}�t�H���_�̓���ւ�</h2>
+<h2>テーマフォルダの入れ替え</h2>
 
-<p>baserCMS4�ł́A�o�[�W����1.3.0�ȑO�̃e�[�}�͓��삵�܂���B<br />
-�o�[�W�����A�b�v��A<strong>�y�[�W��E�B�W�F�b�g���̕ύX�͈�؍s�킸��</strong>�A�uratio_3_2�v�e�[�}��؂��o�[�W����1.4.0�ȍ~�Ɠ���ւ��Ă��������B<br />
-�O�̃e�[�}�t�H���_��K���ɖ��̕ύX&rarr;1.4.0���A�b�v���[�h����菇���������߂ł��B</p>
+<p>baserCMS4では、バージョン1.3.0以前のテーマは動作しません。<br />
+バージョンアップ後、<strong>ページやウィジェット等の変更は一切行わずに</strong>、「ratio_3_2」テーマ一切をバージョン1.4.0以降と入れ替えてください。<br />
+前のテーマフォルダを適当に名称変更&rarr;1.4.0をアップロードする手順がおすすめです。</p>
 
-<h2>�V�X�e���ύX�ɔ����C�����K�v�ȉӏ�</h2>
+<h2>システム変更に伴う修正が必要な箇所</h2>
 
-<p>�R���e���c���͈ȑO�̂܂܈ڍs�\�Ǝv���܂����A�ȉ��Q�_�̏C�����K�v�ƂȂ�܂��B�K�����J�O�ɍ�Ƃ��s���Ă��������B</p>
+<p>コンテンツ等は以前のまま移行可能と思われますが、以下２点の修正が必要となります。必ず公開前に作業を行ってください。</p>
 
-<h3>�O���[�o�����j���[�Ɂu���₢���킹�v��������</h3>
+<h3>グローバルメニューに「お問い合わせ」が増える</h3>
 
-<p>baserCMS4����́u�R���e���c�Ǘ��v�̍\�����A���̂܂܃O���[�o�����j���[�ɔ��f�����悤�ɂȂ�܂����B<br />
-���₢���킹�y�[�W�̂悤�ȁA<strong>�y�[�W�͌��J�����������j���[�ɂ͕\���������Ȃ�</strong>�R���e���c�́A�ȉ��̎菇�Őݒ��ύX���Ă��������B</p>
+<p>baserCMS4からは「コンテンツ管理」の構造が、そのままグローバルメニューに反映されるようになりました。<br />
+お問い合わせページのような、<strong>ページは公開したいがメニューには表示したくない</strong>コンテンツは、以下の手順で設定を変更してください。</p>
 
 <ol>
-	<li>�ΏۂƂȂ�y�[�W�i����͂��₢���킹�j�̕ҏW��ʂֈړ�����</li>
-	<li>�^�u���j���[�́u�I�v�V�����v���N���b�N���Đ؂�ւ���</li>
-	<li>�u���̑��ݒ�v�́u���J�y�[�W�̃��j���[��菜�O����v�Ƀ`�F�b�N�����A�y�[�W��ۑ�����</li>
+	<li>対象となるページ（今回はお問い合わせ）の編集画面へ移動する</li>
+	<li>タブメニューの「オプション」をクリックして切り替える</li>
+	<li>「その他設定」の「公開ページのメニューより除外する」にチェックを入れ、ページを保存する</li>
 </ol>
 
-<h3>Google Maps�E�B�W�F�b�g���\������Ȃ�</h3>
+<h3>Google Mapsウィジェットが表示されない</h3>
 
-<p>baserCMS 4.1.0.1���_�ŁA�u�z�[��::���i�v�́uGoogleMaps�v�E�B�W�F�b�g���\������Ȃ������m�F���Ă��܂��B<br />
-�����Google Maps API�̎d�l�ύX�ɔ������m�̕s��ŁA�J���łł͉�������Ă��܂����A���J�o�[�W�����ɂ͂܂����f����Ă��܂���B<br />
-�������GitHub�̍����L�^���Q�l�ɁAbaserCMS�̃R�A�t�@�C����ҏW���Ă��������B</p>
+<p>baserCMS 4.1.0.1時点で、「ホーム::下段」の「GoogleMaps」ウィジェットが表示されない問題を確認しています。<br />
+これはGoogle Maps APIの仕様変更に伴う既知の不具合で、開発版では解消されていますが、公開バージョンにはまだ反映されていません。<br />
+こちらのGitHubの差分記録を参考に、baserCMSのコアファイルを編集してください。</p>
 
 <p><a href=""https://github.com/baserproject/basercms/commit/556d67c4d90a374c3372e302dfe666aaccedf68b"">https://github.com/baserproject/basercms/commit/556d67c4d90a374c3372e302dfe666aaccedf68b</a></p>
 
-<h3>���₢���킹�t�H�[���́u���₢���킹���ځv�Ƀ`�F�b�N�����Ă��u���͕͂K�{�ł��v�ƕ\������G���[�ƂȂ�</h3>
+<h3>お問い合わせフォームの「お問い合わせ項目」にチェックを入れても「入力は必須です」と表示されエラーとなる</h3>
 
-<p>�u�R���e���c�ꗗ &gt; ���₢���킹 �ݒ�v�ֈړ����A���͍��ڂ���ucategory�@���₢���킹���ځv��T���A�ҏW��ʂֈړ����Ă��������B<br />
-������Ԃ̂܂܂̏ꍇ�AURL�͉��L�ƂȂ�܂��B</p>
+<p>「コンテンツ一覧 &gt; お問い合わせ 設定」へ移動し、入力項目から「category　お問い合わせ項目」を探し、編集画面へ移動してください。<br />
+初期状態のままの場合、URLは下記となります。</p>
 
-<p><a href=""/admin/mail/mail_fields/edit/1/15"">(baserCMS���C���X�g�[������URL)/admin/mail/mail_fields/edit/1/15</a></p>
+<p><a href=""/admin/mail/mail_fields/edit/1/15"">(baserCMSをインストールしたURL)/admin/mail/mail_fields/edit/1/15</a></p>
 
-<p>�u���̓`�F�b�N�v�����u���͕K�{�v�ƂȂ��Ă����ꍇ�A�u�Ȃ��v�ɕύX���Ă��������B</p>
+<p>「入力チェック」欄が「入力必須」となっていた場合、「なし」に変更してください。</p>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_baser3_form_01.jpg"" width=""760"" /></div>
 
-<p>��ʉE���́u�I�v�V�����v�{�^�����N���b�N���ďڍאݒ���J���Ă��������B<br />
-�u�g�����̓`�F�b�N�v���́u�`�F�b�N�{�b�N�X�����̓`�F�b�N�v�Ƀ`�F�b�N�������Ă��邱�Ƃ��m�F���āA�ݒ��ۑ����Ă��������B</p>
+<p>画面右下の「オプション」ボタンをクリックして詳細設定を開いてください。<br />
+「拡張入力チェック」欄の「チェックボックス未入力チェック」にチェックが入っていることを確認して、設定を保存してください。</p>
 
 <div class=""thumbnail""><img align="""" alt=""ratio_3_2_install.jpg"" class=""img-responsive"" src=""/theme/ratio_3_2/img/default/ratio_3_2_baser3_form_02.jpg"" width=""760"" /></div>","","","","2018-04-29 01:09:46","2018-04-28 23:57:39"
