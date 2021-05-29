@@ -7,18 +7,42 @@
 class Ratio32Helper extends BcBaserHelper {
 
 	/**
-	 * widget_edit_link
+	 * get_current_widget_area
 	 *
-	 * usage: $this->Ratio32->widget_edit_link( $id )
+	 * usage: $this->Ratio32->get_current_widget_area()
 	 */
-	public function widget_edit_link($id) {
-		$edit_link = '/admin/widget_areas/edit/' . $id;
-
-		if( $this->isAdminUser() ) {
-			echo $this->getLink('<i class="fa fa-pencil-square-o"></i> ウィジェット編集', $edit_link, array('class' => 'widget-edit-link', 'target' => '_blank'));
+	private function get_current_widget_area(){
+		if ( isset( $this->_View->viewVars['widgetArea'] ) ) {
+			return $this->_View->viewVars['widgetArea'];
 		} else {
 			return false;
 		}
+	}
+
+
+	/**
+	 * widget_edit_link
+	 *
+	 * usage: $this->Ratio32->widget_edit_link( $area_id )
+	 */
+	public function widget_edit_link( $area_id = null ) {
+		if( !$this->isAdminUser() ) {
+			return;
+		}
+		if( !$area_id && empty( $this->_View->viewVars['widgetArea'] ) ) {
+			return;
+		}
+		echo $this->getLink(
+			'<i class="fa fa-pencil-square-o"></i> ウィジェット編集',
+			sprintf(
+				'/admin/widget_areas/edit/%s',
+				$area_id ?: $this->_View->viewVars['widgetArea']
+			),
+			[
+				'class'  => 'widget-edit-link',
+				'target' => '_blank'
+			]
+		);
 	}
 
 

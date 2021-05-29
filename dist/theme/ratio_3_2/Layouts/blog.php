@@ -72,9 +72,9 @@
 
 					<div class="widget-area-wrapper">
 					<?php
-						// widget: blog sidebar No.2
-						$this->Ratio32->widget_edit_link(2);
-						$this->BcBaser->widgetArea(2);
+						// widget: current blog sidebar
+						$this->Ratio32->widget_edit_link();
+						$this->BcBaser->widgetArea();
 					?>
 					<!-- /.widget-area-wrapper --></div>
 
