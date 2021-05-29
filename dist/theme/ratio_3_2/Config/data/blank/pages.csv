@@ -1,29 +1,7 @@
-"id","contents","draft","page_template","code","modified","created"
-"1","<div class=""mainvisual"">
-<div class=""container"">
-<div class=""pop"">
-<div class=""row"">
-<div class=""mainvisual-col-01""><?php $this->Ratio32->get_main_image( array( 'num' => 1, 'type' => 'jumbotron', 'h' => 'h1' ) ); ?></div>
-
-<div class=""mainvisual-col-02""><?php $this->Ratio32->get_main_image( array( 'num' => 2, 'type' => 'thumbnail' ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.mainvisual --></div>
-
-<div class=""pickup"">
-<div class=""container"">
-<div class=""pop"">
-<div class=""row"">
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 3, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 4, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-
-<div class=""col-md-4""><?php $this->Ratio32->get_main_image( array( 'num' => 5, 'type' => 'thumbnail', 'more' => true ) ); ?></div>
-<!-- /.row --></div>
-<!-- /.pop --></div>
-<!-- /.container --></div>
-<!-- /.pickup --></div>","","","<style>
+id,contents,draft,page_template,code,modified,created
+1,"<p style=""padding: 2rem 0; background-color: #45a4ab; color: #fff; text-align: center;"">ã“ã‚Œã¯ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã€Œãƒ›ãƒ¼ãƒ ã€ã®æœ¬æ–‡ã§ã™ã€‚<br />
+ãƒ¡ã‚¤ãƒ³ãƒ“ã‚¸ãƒ¥ã‚¢ãƒ«ã¨æ–°ç€æƒ…å ±ã®é–“ã«ã€ä»»æ„ã®HTMLã‚’è¿½åŠ ã§ãã¾ã™ã€‚<br />
+å¿…è¦ãªã„å ´åˆã¯æœ¬æ–‡ã‚’ç©ºã«ã—ã¦ãã ã•ã„ã€‚</p>",,,"<style>
 .mainvisual .jumbotron .h1,
 .mainvisual .jumbotron h1 {
     top: 7%;
@@ -79,15 +57,15 @@
 
 }
 
-</style>","2018-04-23 12:41:16","2018-04-22 17:41:17"
-"4","<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">ƒƒCƒ“ƒƒjƒ…[</span> </div>
+</style>",2018-04-23 12:41:16,2018-04-22 17:41:17
+4,"<hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
+<div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">ãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<span style=""color:#8ABE08"">¡</span>
-<?php $this->BcBaser->link(""ƒjƒ…[ƒXƒŠƒŠ[ƒX"",array(""controller""=>""news"",""action""=>""index"")) ?>
+<span style=""color:#8ABE08"">â– </span>
+<?php $this->BcBaser->link(""ãƒ‹ãƒ¥ãƒ¼ã‚¹ãƒªãƒªãƒ¼ã‚¹"",array(""controller""=>""news"",""action""=>""index"")) ?>
 <br />
-<span style=""color:#8ABE08"">¡</span>
-<?php $this->BcBaser->link(""‚¨–â‚¢‡‚í‚¹"",array(""controller""=>""contact"",""action""=>""index"")) ?>
+<span style=""color:#8ABE08"">â– </span>
+<?php $this->BcBaser->link(""ãŠå•ã„åˆã‚ã›"",array(""controller""=>""contact"",""action""=>""index"")) ?>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">NEWS RELEASE</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
@@ -95,139 +73,139 @@
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
 <div style=""text-align:center;background-color:#8ABE08;""> <span style=""color:white;"">baserCMS NEWS</span> </div>
 <hr size=""1"" style=""width:100%;height:1px;margin:2px 0;padding:0;color:#CCCCCC;background:#CCCCCC;border:1px solid #CCCCCC;"" />
-<?php $this->BcBaser->feed(1) ?>","","","","2018-04-23 12:41:15","2018-04-22 17:41:18"
-"5","<p>ˆê”Ê“I‚ÈHTML‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
-ƒy[ƒW‚ÍŒ©o‚µ2AƒuƒƒO‚ÍŒ©o‚µ3‚©‚ç‘‚«‚Í‚¶‚ß‚Ä‚­‚¾‚³‚¢B</p>
+<?php $this->BcBaser->feed(1) ?>",,,,2018-04-23 12:41:15,2018-04-22 17:41:18
+5,"<p>ä¸€èˆ¬çš„ãªHTMLã®ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚<br />
+ãƒšãƒ¼ã‚¸ã¯è¦‹å‡ºã—2ã€ãƒ–ãƒ­ã‚°ã¯è¦‹å‡ºã—3ã‹ã‚‰æ›¸ãã¯ã˜ã‚ã¦ãã ã•ã„ã€‚</p>
 
-<p><strong>baserCMS‚Ìd—l‚ÅACKEditor‚ğƒIƒ“‚É‚·‚é‚ÆHTML‚ÌƒR[ƒh‚ª•ö‚ê‚Ä‚µ‚Ü‚¤‚±‚Æ‚ª‚ ‚è‚Ü‚·BHTML‚Ì’m¯‚ª‚ ‚èAƒy[ƒW‚ğ×‚©‚­•ÒW‚µ‚½‚¢ê‡‚ÍAƒIƒt‚É‚µ‚Ä‚¨‚­‚±‚Æ‚ğ‚¨Š©‚ß‚µ‚Ü‚·B</strong></p>
+<p><strong>baserCMSã®ä»•æ§˜ã§ã€CKEditorã‚’ã‚ªãƒ³ã«ã™ã‚‹ã¨HTMLã®ã‚³ãƒ¼ãƒ‰ãŒå´©ã‚Œã¦ã—ã¾ã†ã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚HTMLã®çŸ¥è­˜ãŒã‚ã‚Šã€ãƒšãƒ¼ã‚¸ã‚’ç´°ã‹ãç·¨é›†ã—ãŸã„å ´åˆã¯ã€ã‚ªãƒ•ã«ã—ã¦ãŠãã“ã¨ã‚’ãŠå‹§ã‚ã—ã¾ã™ã€‚</strong></p>
 
-<p>’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B’i—‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</p>
+<p>æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ®µè½ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</p>
 
-<h2>Œ©o‚µ‚Q</h2>
+<h2>è¦‹å‡ºã—ï¼’</h2>
 
 <ul>
-	<li>ƒŠƒXƒg‚P</li>
-	<li>ƒŠƒXƒg‚Q</li>
-	<li>ƒŠƒXƒg‚R</li>
+	<li>ãƒªã‚¹ãƒˆï¼‘</li>
+	<li>ãƒªã‚¹ãƒˆï¼’</li>
+	<li>ãƒªã‚¹ãƒˆï¼“</li>
 </ul>
 
-<h3>Œ©o‚µ‚R</h3>
+<h3>è¦‹å‡ºã—ï¼“</h3>
 
 <ol>
-	<li>˜A”ÔƒŠƒXƒg‚P</li>
-	<li>˜A”ÔƒŠƒXƒg‚Q</li>
-	<li>˜A”ÔƒŠƒXƒg‚R</li>
+	<li>é€£ç•ªãƒªã‚¹ãƒˆï¼‘</li>
+	<li>é€£ç•ªãƒªã‚¹ãƒˆï¼’</li>
+	<li>é€£ç•ªãƒªã‚¹ãƒˆï¼“</li>
 </ol>
 
-<h4>Œ©o‚µ‚S</h4>
+<h4>è¦‹å‡ºã—ï¼”</h4>
 
-<p><strong>‘¾š•¶Í‚ª“ü‚è‚Ü‚·B‘¾š•¶Í‚ª“ü‚è‚Ü‚·B‘¾š•¶Í‚ª“ü‚è‚Ü‚·B‘¾š•¶Í‚ª“ü‚è‚Ü‚·B</strong></p>
+<p><strong>å¤ªå­—æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚å¤ªå­—æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚å¤ªå­—æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚å¤ªå­—æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</strong></p>
 
-<h5>Œ©o‚µ‚T</h5>
+<h5>è¦‹å‡ºã—ï¼•</h5>
 
-<p><em>Î‘Ì•¶Í‚ª“ü‚è‚Ü‚·BÎ‘Ì•¶Í‚ª“ü‚è‚Ü‚·BÎ‘Ì•¶Í‚ª“ü‚è‚Ü‚·BÎ‘Ì•¶Í‚ª“ü‚è‚Ü‚·B</em></p>
+<p><em>æ–œä½“æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ–œä½“æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ–œä½“æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚æ–œä½“æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</em></p>
 
-<h6>Œ©o‚µ‚U</h6>
+<h6>è¦‹å‡ºã—ï¼–</h6>
 
-<p><u>‰ºü•t•¶Í‚ª“ü‚è‚Ü‚·B‰ºü•t•¶Í‚ª“ü‚è‚Ü‚·B‰ºü•t•¶Í‚ª“ü‚è‚Ü‚·B‰ºü•t•¶Í‚ª“ü‚è‚Ü‚·B</u></p>
+<p><u>ä¸‹ç·šä»˜æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚ä¸‹ç·šä»˜æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚ä¸‹ç·šä»˜æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚ä¸‹ç·šä»˜æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</u></p>
 
 <table>
 	<thead>
 		<tr>
-			<th scope=""col"">•\Œ©o‚µ</th>
-			<th scope=""col"">•\Œ©o‚µ</th>
+			<th scope=""col"">è¡¨è¦‹å‡ºã—</th>
+			<th scope=""col"">è¡¨è¦‹å‡ºã—</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>•\‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</td>
-			<td>•\‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</td>
+			<td>è¡¨ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</td>
+			<td>è¡¨ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</td>
 		</tr>
 		<tr>
-			<td>•\‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</td>
-			<td>•\‚Ì•¶Í‚ª“ü‚è‚Ü‚·B</td>
+			<td>è¡¨ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</td>
+			<td>è¡¨ã®æ–‡ç« ãŒå…¥ã‚Šã¾ã™ã€‚</td>
 		</tr>
 	</tbody>
-</table>","","","","2018-04-23 12:41:17","2018-04-22 17:41:20"
-"15","<p>CSSƒtƒŒ[ƒ€ƒ[ƒNuBootstrap 3v‚ÌA‚±‚Ìƒe[ƒ}‚ÌƒfƒUƒCƒ“‚É‘Î‰‚µ‚Ä‚¢‚éƒp[ƒc‚ÌƒTƒ“ƒvƒ‹‚Å‚·B<br />
-Ú‚µ‚¢—˜—p•û–@‚Í‰º‹L‚ğQÆ‚­‚¾‚³‚¢B</p>
+</table>",,,,2018-04-23 12:41:17,2018-04-22 17:41:20
+15,"<p>CSSãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã€ŒBootstrap 3ã€ã®ã€ã“ã®ãƒ†ãƒ¼ãƒã®ãƒ‡ã‚¶ã‚¤ãƒ³ã«å¯¾å¿œã—ã¦ã„ã‚‹ãƒ‘ãƒ¼ãƒ„ã®ã‚µãƒ³ãƒ—ãƒ«ã§ã™ã€‚<br />
+è©³ã—ã„åˆ©ç”¨æ–¹æ³•ã¯ä¸‹è¨˜ã‚’å‚ç…§ãã ã•ã„ã€‚</p>
 
 <ul>
 	<li><a href=""http://getbootstrap.com/css/"" target=""_blank"">http://getbootstrap.com/css/</a></li>
 	<li><a href=""http://getbootstrap.com/components/"" target=""_blank"">http://getbootstrap.com/components/</a></li>
 </ul>
 
-<p class=""text-danger"">‘Î‰‚µ‚Ä‚¢‚È‚¢ƒp[ƒc‚ÌƒfƒUƒCƒ“‚ğ•ÏX‚·‚éê‡‚ÍAƒe[ƒ}ƒtƒ@ƒCƒ‹‚Ì /css/style.css ‚É’Ç‹L‚µ‚Ä‚­‚¾‚³‚¢B</p>
+<p class=""text-danger"">å¯¾å¿œã—ã¦ã„ãªã„ãƒ‘ãƒ¼ãƒ„ã®ãƒ‡ã‚¶ã‚¤ãƒ³ã‚’å¤‰æ›´ã™ã‚‹å ´åˆã¯ã€ãƒ†ãƒ¼ãƒãƒ•ã‚¡ã‚¤ãƒ«ã® /css/style.css ã«è¿½è¨˜ã—ã¦ãã ã•ã„ã€‚</p>
 
 <h2 class=""h3"">.page-header</h2>
 
-<p>ƒRƒ“ƒeƒ“ƒcƒwƒbƒ_‚É—˜—p‚³‚ê‚Ä‚¢‚Ü‚·B‰º‚Ìƒ‰ƒCƒ“‚Éƒe[ƒ}‚ÌƒƒCƒ“ƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B</p>
+<p>ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ãƒ˜ãƒƒãƒ€ã«åˆ©ç”¨ã•ã‚Œã¦ã„ã¾ã™ã€‚ä¸‹ã®ãƒ©ã‚¤ãƒ³ã«ãƒ†ãƒ¼ãƒã®ãƒ¡ã‚¤ãƒ³ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚</p>
 
 <div class=""page-header"">
-<h1>ƒy[ƒW‚ÌŒ©o‚µ‚Å‚·<small>“Y‚¦š‚Å‚·</small></h1>
+<h1>ãƒšãƒ¼ã‚¸ã®è¦‹å‡ºã—ã§ã™<small>æ·»ãˆå­—ã§ã™</small></h1>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;page-header&quot;&gt;
-&lt;h1&gt;ƒy[ƒW‚ÌŒ©o‚µ‚Å‚·&lt;small&gt;“Y‚¦š‚Å‚·&lt;/small&gt;&lt;/h1&gt;
+&lt;h1&gt;ãƒšãƒ¼ã‚¸ã®è¦‹å‡ºã—ã§ã™&lt;small&gt;æ·»ãˆå­—ã§ã™&lt;/small&gt;&lt;/h1&gt;
 &lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.btn</h2>
 
-<p>defaultEprimaryEinfoElink‚ª‘Î‰‚µ‚Ä‚¢‚Ü‚·B</p>
+<p>defaultãƒ»primaryãƒ»infoãƒ»linkãŒå¯¾å¿œã—ã¦ã„ã¾ã™ã€‚</p>
 
-<p><strong>default:</strong> ƒ{[ƒ_[‚Éƒe[ƒ}‚ÌƒŠƒ“ƒNƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B<br />
-<strong>primary:</strong> ”wŒi‚Éƒe[ƒ}‚ÌƒŠƒ“ƒNƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B<br />
-<strong>info:</strong> ”wŒi‚Éƒe[ƒ}‚ÌƒƒCƒ“ƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B<br />
-<strong>link:</strong> ƒtƒH[ƒ€ƒ{ƒ^ƒ“‚È‚Ç‚Ég—p‚·‚é‚ÆA’Êí‚ÌƒŠƒ“ƒN‚Æ“¯‚¶Œ©‚½–Ú‚É‚È‚è‚Ü‚·B</p>
+<p><strong>default:</strong> ãƒœãƒ¼ãƒ€ãƒ¼ã«ãƒ†ãƒ¼ãƒã®ãƒªãƒ³ã‚¯ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚<br />
+<strong>primary:</strong> èƒŒæ™¯ã«ãƒ†ãƒ¼ãƒã®ãƒªãƒ³ã‚¯ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚<br />
+<strong>info:</strong> èƒŒæ™¯ã«ãƒ†ãƒ¼ãƒã®ãƒ¡ã‚¤ãƒ³ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚<br />
+<strong>link:</strong> ãƒ•ã‚©ãƒ¼ãƒ ãƒœã‚¿ãƒ³ãªã©ã«ä½¿ç”¨ã™ã‚‹ã¨ã€é€šå¸¸ã®ãƒªãƒ³ã‚¯ã¨åŒã˜è¦‹ãŸç›®ã«ãªã‚Šã¾ã™ã€‚</p>
 
-<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button>@<button class=""btn btn-lg btn-primary"" type=""button"">Primary</button> @<button class=""btn btn-lg btn-success"" type=""button"">Success</button> @<button class=""btn btn-lg btn-info"" type=""button"">Info</button><br />
-<button class=""btn btn-lg btn-warning"" type=""button"">Warning</button> @<button class=""btn btn-lg btn-danger"" type=""button"">Danger</button> @<button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-lg btn-default"" type=""button"">Default</button>ã€€<button class=""btn btn-lg btn-primary"" type=""button"">Primary</button> ã€€<button class=""btn btn-lg btn-success"" type=""button"">Success</button> ã€€<button class=""btn btn-lg btn-info"" type=""button"">Info</button><br />
+<button class=""btn btn-lg btn-warning"" type=""button"">Warning</button> ã€€<button class=""btn btn-lg btn-danger"" type=""button"">Danger</button> ã€€<button class=""btn btn-lg btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-default"" type=""button"">Default</button>@<button class=""btn btn-primary"" type=""button"">Primary</button> @<button class=""btn btn-success"" type=""button"">Success</button> @<button class=""btn btn-info"" type=""button"">Info</button> @<button class=""btn btn-warning"" type=""button"">Warning</button> @<button class=""btn btn-danger"" type=""button"">Danger</button> @<button class=""btn btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-default"" type=""button"">Default</button>ã€€<button class=""btn btn-primary"" type=""button"">Primary</button> ã€€<button class=""btn btn-success"" type=""button"">Success</button> ã€€<button class=""btn btn-info"" type=""button"">Info</button> ã€€<button class=""btn btn-warning"" type=""button"">Warning</button> ã€€<button class=""btn btn-danger"" type=""button"">Danger</button> ã€€<button class=""btn btn-link"" type=""button"">Link</button></p>
 
-<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button>@<button class=""btn btn-sm btn-primary"" type=""button"">Primary</button> @<button class=""btn btn-sm btn-success"" type=""button"">Success</button> @<button class=""btn btn-sm btn-info"" type=""button"">Info</button> @<button class=""btn btn-sm btn-warning"" type=""button"">Warning</button> @<button class=""btn btn-sm btn-danger"" type=""button"">Danger</button> @<button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
+<p><button class=""btn btn-sm btn-default"" type=""button"">Default</button>ã€€<button class=""btn btn-sm btn-primary"" type=""button"">Primary</button> ã€€<button class=""btn btn-sm btn-success"" type=""button"">Success</button> ã€€<button class=""btn btn-sm btn-info"" type=""button"">Info</button> ã€€<button class=""btn btn-sm btn-warning"" type=""button"">Warning</button> ã€€<button class=""btn btn-sm btn-danger"" type=""button"">Danger</button> ã€€<button class=""btn btn-sm btn-link"" type=""button"">Link</button></p>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;&lt;button class=&quot;btn btn-lg btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-@&lt;button class=&quot;btn btn-lg btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-@&lt;button class=&quot;btn btn-lg btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-@&lt;button class=&quot;btn btn-lg btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;&lt;br&gt;
+ã€€&lt;button class=&quot;btn btn-lg btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-lg btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-lg btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;&lt;br&gt;
 &lt;button class=&quot;btn btn-lg btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-@&lt;button class=&quot;btn btn-lg btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-@&lt;button class=&quot;btn btn-lg btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
+ã€€&lt;button class=&quot;btn btn-lg btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-lg btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;btn btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-@&lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-@&lt;button class=&quot;btn btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-@&lt;button class=&quot;btn btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
-@&lt;button class=&quot;btn btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-@&lt;button class=&quot;btn btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-@&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
+ã€€&lt;button class=&quot;btn btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;btn btn-sm btn-default&quot; type=&quot;button&quot;&gt;Default&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
-@&lt;button class=&quot;btn btn-sm btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;</textarea></p>
+ã€€&lt;button class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;&gt;Primary&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-sm btn-success&quot; type=&quot;button&quot;&gt;Success&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-sm btn-info&quot; type=&quot;button&quot;&gt;Info&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-sm btn-warning&quot; type=&quot;button&quot;&gt;Warning&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-sm btn-danger&quot; type=&quot;button&quot;&gt;Danger&lt;/button&gt;
+ã€€&lt;button class=&quot;btn btn-sm btn-link&quot; type=&quot;button&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.label</h2>
 
-<p>defaultEprimaryEinfo‚ª‘Î‰‚µ‚Ä‚¢‚Ü‚·B</p>
+<p>defaultãƒ»primaryãƒ»infoãŒå¯¾å¿œã—ã¦ã„ã¾ã™ã€‚</p>
 
-<p><strong>default:</strong> ƒ{[ƒ_[‚Éƒe[ƒ}‚ÌƒŠƒ“ƒNƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B<br />
-<strong>primary:</strong> ”wŒi‚Éƒe[ƒ}‚ÌƒŠƒ“ƒNƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B<br />
-<strong>info:</strong> ”wŒi‚Éƒe[ƒ}‚ÌƒƒCƒ“ƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B</p>
+<p><strong>default:</strong> ãƒœãƒ¼ãƒ€ãƒ¼ã«ãƒ†ãƒ¼ãƒã®ãƒªãƒ³ã‚¯ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚<br />
+<strong>primary:</strong> èƒŒæ™¯ã«ãƒ†ãƒ¼ãƒã®ãƒªãƒ³ã‚¯ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚<br />
+<strong>info:</strong> èƒŒæ™¯ã«ãƒ†ãƒ¼ãƒã®ãƒ¡ã‚¤ãƒ³ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚</p>
 
-<p><span class=""label label-default"">Default</span> @<span class=""label label-primary"">Prmary</span> @<span class=""label label-success"">Success</span> @<span class=""label label-info"">Info</span> @<span class=""label label-warning"">Warning</span> @<span class=""label label-danger"">Danger</span></p>
+<p><span class=""label label-default"">Default</span> ã€€<span class=""label label-primary"">Prmary</span> ã€€<span class=""label label-success"">Success</span> ã€€<span class=""label label-info"">Info</span> ã€€<span class=""label label-warning"">Warning</span> ã€€<span class=""label label-danger"">Danger</span></p>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;p&gt;
 &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
-@&lt;span class=&quot;label label-primary&quot;&gt;Prmary&lt;/span&gt;
-@&lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
-@&lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
-@&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
-@&lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+ã€€&lt;span class=&quot;label label-primary&quot;&gt;Prmary&lt;/span&gt;
+ã€€&lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+ã€€&lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+ã€€&lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+ã€€&lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
 &lt;/p&gt;</textarea></p>
 
 <h2 class=""h3"">.thumbnail</h2>
@@ -236,29 +214,29 @@
 <div class=""col-sm-6 col-sm-push-3""><img class=""thumbnail img-responsive"" src=""/theme/ratio_3_2/files/theme_configs/main_image_3.jpg"" width=""360"" /></div>
 </div>
 
-<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;img class=&quot;thumbnail img-responsive&quot; src=&quot;‰æ‘œ‚ÌURL&quot; /&gt;</textarea></p>
+<p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;img class=&quot;thumbnail img-responsive&quot; src=&quot;ç”»åƒã®URL&quot; /&gt;</textarea></p>
 
 <div class=""row"">
 <div class=""col-sm-6 col-sm-push-3"">
 <div class=""thumbnail""><img class=""img-responsive"" src=""/theme/ratio_3_2/files/theme_configs/main_image_3.jpg"" width=""360"" />
 <div class=""caption"">
-<p class=""mb0"">à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·</p>
+<p class=""mb0"">èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™</p>
 </div>
 </div>
 </div>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;‰æ‘œ‚ÌURL&quot; /&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;ç”»åƒã®URL&quot; /&gt;
 &lt;div class=&quot;caption&quot;&gt;
-&lt;p class=&quot;mb0&quot;&gt;à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·à–¾•¶‚Å‚·&lt;/p&gt;
+&lt;p class=&quot;mb0&quot;&gt;èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™èª¬æ˜æ–‡ã§ã™&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </textarea></p>
 
 <h2 class=""h3"">.alert</h2>
 
-<p>ƒtƒH[ƒ€‚É—˜—p‚³‚ê‚Ä‚¢‚Ü‚·Bƒe[ƒ}‚ÌƒJƒ‰[İ’è‚Í”½‰f‚³‚ê‚Ü‚¹‚ñB•Ê“rƒXƒ^ƒCƒ‹‚ğ’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B</p>
+<p>ãƒ•ã‚©ãƒ¼ãƒ ã«åˆ©ç”¨ã•ã‚Œã¦ã„ã¾ã™ã€‚ãƒ†ãƒ¼ãƒã®ã‚«ãƒ©ãƒ¼è¨­å®šã¯åæ˜ ã•ã‚Œã¾ã›ã‚“ã€‚åˆ¥é€”ã‚¹ã‚¿ã‚¤ãƒ«ã‚’è¿½åŠ ã—ã¦ãã ã•ã„ã€‚</p>
 
 <div class=""alert alert-success""><strong>Well done!</strong> You successfully read this important alert message.</div>
 
@@ -278,22 +256,22 @@
 
 <h2 class=""h3"">.well</h2>
 
-<p>”wŒiF‚Éƒe[ƒ}‚ÌƒTƒuƒJƒ‰[‚ª”½‰f‚³‚ê‚Ü‚·B</p>
+<p>èƒŒæ™¯è‰²ã«ãƒ†ãƒ¼ãƒã®ã‚µãƒ–ã‚«ãƒ©ãƒ¼ãŒåæ˜ ã•ã‚Œã¾ã™ã€‚</p>
 
 <div class=""well"">
-<p>Œá”y‚Í”L‚Å‚ ‚éB–¼‘O‚Í‚Ü‚¾–³‚¢B‚Ç‚±‚Å¶‚ê‚½‚©‚Æ‚ñ‚ÆŒ©“–‚ª‚Â‚©‚ÊB‰½‚Å‚à”–ˆÃ‚¢‚¶‚ß‚¶‚ß‚µ‚½Š‚Åƒjƒƒ[ƒjƒƒ[‹ƒ‚¢‚Ä‚¢‚½–‚¾‚¯‚Í‹L‰¯‚µ‚Ä‚¢‚éBŒá”y‚Í‚±‚±‚Ån‚ß‚ÄlŠÔ‚Æ‚¢‚¤‚à‚Ì‚ğŒ©‚½B‚µ‚©‚à‚ ‚Æ‚Å•·‚­‚Æ‚»‚ê‚Í‘¶‚Æ‚¢‚¤lŠÔ’†‚Åˆê”ÔàÖˆ«‚Èí‘°‚Å‚ ‚Á‚½‚»‚¤‚¾B</p>
+<p>å¾è¼©ã¯çŒ«ã§ã‚ã‚‹ã€‚åå‰ã¯ã¾ã ç„¡ã„ã€‚ã©ã“ã§ç”Ÿã‚ŒãŸã‹ã¨ã‚“ã¨è¦‹å½“ãŒã¤ã‹ã¬ã€‚ä½•ã§ã‚‚è–„æš—ã„ã˜ã‚ã˜ã‚ã—ãŸæ‰€ã§ãƒ‹ãƒ£ãƒ¼ãƒ‹ãƒ£ãƒ¼æ³£ã„ã¦ã„ãŸäº‹ã ã‘ã¯è¨˜æ†¶ã—ã¦ã„ã‚‹ã€‚å¾è¼©ã¯ã“ã“ã§å§‹ã‚ã¦äººé–“ã¨ã„ã†ã‚‚ã®ã‚’è¦‹ãŸã€‚ã—ã‹ã‚‚ã‚ã¨ã§èãã¨ãã‚Œã¯æ›¸ç”Ÿã¨ã„ã†äººé–“ä¸­ã§ä¸€ç•ªç°æ‚ªãªç¨®æ—ã§ã‚ã£ãŸãã†ã ã€‚</p>
 </div>
 
 <p><textarea class=""form-control"" cols=""100"" readonly=""readonly"" rows=""5"">&lt;div class=&quot;well&quot;&gt;
-&lt;p&gt;Œá”y‚Í”L‚Å‚ ‚éB–¼‘O‚Í‚Ü‚¾–³‚¢B‚Ç‚±‚Å¶‚ê‚½‚©‚Æ‚ñ‚ÆŒ©“–‚ª‚Â‚©‚ÊB‰½‚Å‚à”–ˆÃ‚¢‚¶‚ß‚¶‚ß‚µ‚½Š‚Åƒjƒƒ[ƒjƒƒ[‹ƒ‚¢‚Ä‚¢‚½–‚¾‚¯‚Í‹L‰¯‚µ‚Ä‚¢‚éBŒá”y‚Í‚±‚±‚Ån‚ß‚ÄlŠÔ‚Æ‚¢‚¤‚à‚Ì‚ğŒ©‚½B‚µ‚©‚à‚ ‚Æ‚Å•·‚­‚Æ‚»‚ê‚Í‘¶‚Æ‚¢‚¤lŠÔ’†‚Åˆê”ÔàÖˆ«‚Èí‘°‚Å‚ ‚Á‚½‚»‚¤‚¾B&lt;/p&gt;
+&lt;p&gt;å¾è¼©ã¯çŒ«ã§ã‚ã‚‹ã€‚åå‰ã¯ã¾ã ç„¡ã„ã€‚ã©ã“ã§ç”Ÿã‚ŒãŸã‹ã¨ã‚“ã¨è¦‹å½“ãŒã¤ã‹ã¬ã€‚ä½•ã§ã‚‚è–„æš—ã„ã˜ã‚ã˜ã‚ã—ãŸæ‰€ã§ãƒ‹ãƒ£ãƒ¼ãƒ‹ãƒ£ãƒ¼æ³£ã„ã¦ã„ãŸäº‹ã ã‘ã¯è¨˜æ†¶ã—ã¦ã„ã‚‹ã€‚å¾è¼©ã¯ã“ã“ã§å§‹ã‚ã¦äººé–“ã¨ã„ã†ã‚‚ã®ã‚’è¦‹ãŸã€‚ã—ã‹ã‚‚ã‚ã¨ã§èãã¨ãã‚Œã¯æ›¸ç”Ÿã¨ã„ã†äººé–“ä¸­ã§ä¸€ç•ªç°æ‚ªãªç¨®æ—ã§ã‚ã£ãŸãã†ã ã€‚&lt;/p&gt;
 &lt;/div&gt;</textarea></p>
 
 <h2 class=""h3"">.table</h2>
 
-<p>—˜—p‚Å‚«‚Ü‚·‚ªAƒe[ƒ}‚ÌƒJƒ‰[İ’è‚Í”½‰f‚³‚ê‚Ü‚¹‚ñB•Ê“rƒXƒ^ƒCƒ‹‚ğ’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B</p>
+<p>åˆ©ç”¨ã§ãã¾ã™ãŒã€ãƒ†ãƒ¼ãƒã®ã‚«ãƒ©ãƒ¼è¨­å®šã¯åæ˜ ã•ã‚Œã¾ã›ã‚“ã€‚åˆ¥é€”ã‚¹ã‚¿ã‚¤ãƒ«ã‚’è¿½åŠ ã—ã¦ãã ã•ã„ã€‚</p>
 
 <table class=""table"">
-	<caption>‰ºü‚Ì‚İ‚Ì•\</caption>
+	<caption>ä¸‹ç·šã®ã¿ã®è¡¨</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -321,7 +299,7 @@
 </table>
 
 <table class=""table table-borderd"">
-	<caption>‘S‘Ì‚ÉŒrü‚ª‚ ‚é•\</caption>
+	<caption>å…¨ä½“ã«ç½«ç·šãŒã‚ã‚‹è¡¨</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -349,7 +327,7 @@
 </table>
 
 <table class=""table table-condensed"">
-	<caption>‚¿‚å‚Á‚ÆƒXƒŠƒ€‚È•\</caption>
+	<caption>ã¡ã‚‡ã£ã¨ã‚¹ãƒªãƒ ãªè¡¨</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -377,7 +355,7 @@
 </table>
 
 <table class=""table table-responsive"">
-	<caption>ƒŒƒXƒ|ƒ“ƒVƒu‘Î‰‚Ì•\</caption>
+	<caption>ãƒ¬ã‚¹ãƒãƒ³ã‚·ãƒ–å¯¾å¿œã®è¡¨</caption>
 	<thead>
 		<tr>
 			<th>thead/th</th>
@@ -402,4 +380,4 @@
 			<td>tbody/td</td>
 		</tr>
 	</tbody>
-</table>","","","","2018-04-29 02:32:10","2018-04-22 17:41:25"
+</table>",,,,2018-04-29 02:32:10,2018-04-22 17:41:25
