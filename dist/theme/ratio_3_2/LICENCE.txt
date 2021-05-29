@@ -1,5 +1,5 @@
 ratio_3_2 : baserCMS Theme
-Copyright 2015, WebbingStudio. <http://webbingstudio.com/>
+Copyright 2015 - 2021, WebbingStudio. <https://webbingstudio.com/>
 
 About License
 Licensed under the baserマーケット標準販売ライセンス
