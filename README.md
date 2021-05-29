@@ -21,6 +21,8 @@ Burger Editorが本文中のPHPをエスケープ（無効化）することに�
 #### 変更したファイル
 
 - dist/theme/ratio_3_2/Layouts/home.php
+- dist/theme/ratio_3_2/Layouts/default.php
+- 初期データ(default, blank)の関連する箇所
 
 #### ratio_3_2で運用している既存サイトに最新バージョンを反映する場合
 
