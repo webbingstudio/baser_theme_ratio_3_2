@@ -215,7 +215,7 @@ class Ratio32Helper extends BcBaserHelper {
 
 		$image_link = $data['main_image_link_' . $args['num']];
 		if ( $data['main_image_' . $args['num']] ) {
-			$image_path = '/files/theme_configs/' . $data['main_image_' . $args['num']];
+			$image_path = 'theme/ratio_3_2/files/theme_configs/' . $data['main_image_' . $args['num']];
 		} else {
 			// load theme images
 			$image_path = $this->getThemeUrl() . 'img/main_image_' . $args['num'] . '.jpg';
