@@ -214,8 +214,9 @@ class Ratio32Helper extends BcBaserHelper {
 		$image_caption = explode( '|', $image_caption );
 
 		$image_link = $data['main_image_link_' . $args['num']];
-		if ( $data['main_image_' . $args['num']] ) {
-			$image_path = '/files/theme_configs/' . $data['main_image_' . $args['num']];
+		$user_path = 'files/theme_configs/' . $data['main_image_' . $args['num']];
+		if ( ( $data['main_image_' . $args['num']] )&&( file_exists( WWW_ROOT . $user_path ) ) ) {
+			$image_path = $this->getUrl() . $user_path;
 		} else {
 			// load theme images
 			$image_path = $this->getThemeUrl() . 'files/theme_configs/main_image_' . $args['num'] . '.jpg';
