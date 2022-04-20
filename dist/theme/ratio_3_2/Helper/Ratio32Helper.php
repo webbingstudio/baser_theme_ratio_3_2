@@ -218,7 +218,7 @@ class Ratio32Helper extends BcBaserHelper {
 			$image_path = '/files/theme_configs/' . $data['main_image_' . $args['num']];
 		} else {
 			// load theme images
-			$image_path = $this->getThemeUrl() . 'img/main_image_' . $args['num'] . '.jpg';
+			$image_path = $this->getThemeUrl() . 'files/theme_configs/main_image_' . $args['num'] . '.jpg';
 		}
 
 		if ( $args['type'] === 'jumbotron' ) {
